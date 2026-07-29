@@ -2,6 +2,15 @@
   "repos": [
     {
       "repo": "netascode/nac-branch"
+    },
+    {
+      "repo": "netascode/terraform-aci-nac-aci"
+    },
+    {
+      "repo": "netascode/terraform-fmc-nac-fmc"
+    },
+    {
+      "repo": "netascode/terraform-meraki-nac-meraki"
     }
   ]
 }
