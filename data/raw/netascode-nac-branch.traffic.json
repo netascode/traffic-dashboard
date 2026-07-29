@@ -156,5 +156,94 @@
     "firstDay": "2026-07-15T00:00:00Z",
     "lastDay": "2026-07-28T00:00:00Z"
   },
-  "lastUpdated": "2026-07-29T10:36:21.509Z"
+  "lastUpdated": "2026-07-29T11:38:18.459Z",
+  "popularPaths": [
+    {
+      "path": "/netascode/nac-branch",
+      "title": "Overview",
+      "count": 21,
+      "uniques": 16
+    },
+    {
+      "path": "/netascode/nac-branch/pulse",
+      "title": "/pulse",
+      "count": 10,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-branch/blob/main/tests/templates/config/networks_list.robot",
+      "title": "/blob/main/tests/templates/config/networks_list.robot",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-branch/fork",
+      "title": "/fork",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-branch/forks",
+      "title": "/forks",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-branch/actions/metrics/usage",
+      "title": "/actions/metrics/usage",
+      "count": 5,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-branch/graphs/contributors",
+      "title": "/graphs/contributors",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-branch/security",
+      "title": "/security",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-branch/tree/main/tests/templates",
+      "title": "/tree/main/tests/templates",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-branch/blob/main/tests/templates/meraki_request.py",
+      "title": "/blob/main/tests/templates/meraki_request.py",
+      "count": 2,
+      "uniques": 2
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "cisco.com",
+      "count": 10,
+      "uniques": 1
+    },
+    {
+      "referrer": "github.com",
+      "count": 4,
+      "uniques": 2
+    },
+    {
+      "referrer": "teams.public.onecdn.static.microsoft",
+      "count": 4,
+      "uniques": 2
+    },
+    {
+      "referrer": "Google",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 2,
+      "uniques": 2
+    }
+  ]
 }

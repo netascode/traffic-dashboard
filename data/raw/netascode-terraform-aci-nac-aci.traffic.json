@@ -156,5 +156,119 @@
     "firstDay": "2026-07-14T00:00:00Z",
     "lastDay": "2026-07-27T00:00:00Z"
   },
-  "lastUpdated": "2026-07-29T11:16:43.617Z"
+  "lastUpdated": "2026-07-29T11:38:18.782Z",
+  "popularPaths": [
+    {
+      "path": "/netascode/terraform-aci-nac-aci",
+      "title": "Overview",
+      "count": 127,
+      "uniques": 79
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/issues",
+      "title": "/issues",
+      "count": 28,
+      "uniques": 11
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/pulls",
+      "title": "/pulls",
+      "count": 23,
+      "uniques": 7
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/tree/main",
+      "title": "/tree/main",
+      "count": 17,
+      "uniques": 14
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/tree/main/modules",
+      "title": "/tree/main/modules",
+      "count": 15,
+      "uniques": 12
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/blob/main/defaults/defaults.yaml",
+      "title": "/blob/main/defaults/defaults.yaml",
+      "count": 13,
+      "uniques": 11
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/tree/main/examples",
+      "title": "/tree/main/examples",
+      "count": 12,
+      "uniques": 12
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/tags",
+      "title": "/tags",
+      "count": 12,
+      "uniques": 9
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/issues/409",
+      "title": "/issues/409",
+      "count": 12,
+      "uniques": 7
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/blob/main/versions.tf",
+      "title": "/blob/main/versions.tf",
+      "count": 7,
+      "uniques": 7
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "count": 103,
+      "uniques": 34
+    },
+    {
+      "referrer": "Google",
+      "count": 54,
+      "uniques": 11
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 41,
+      "uniques": 12
+    },
+    {
+      "referrer": "statics.teams.cdn.office.net",
+      "count": 7,
+      "uniques": 1
+    },
+    {
+      "referrer": "wwwin-github.cisco.com",
+      "count": 6,
+      "uniques": 3
+    },
+    {
+      "referrer": "Bing",
+      "count": 5,
+      "uniques": 2
+    },
+    {
+      "referrer": "blackbelt.ciscoctf.io",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "referrer": "statics.dod.teams.microsoft.us",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "referrer": "teams.public.onecdn.static.microsoft",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "referrer": "registry.terraform.io",
+      "count": 2,
+      "uniques": 2
+    }
+  ]
 }

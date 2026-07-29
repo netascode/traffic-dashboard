@@ -156,5 +156,79 @@
     "firstDay": "2026-07-15T00:00:00Z",
     "lastDay": "2026-07-28T00:00:00Z"
   },
-  "lastUpdated": "2026-07-29T11:16:44.205Z"
+  "lastUpdated": "2026-07-29T11:38:19.182Z",
+  "popularPaths": [
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc",
+      "title": "Overview",
+      "count": 26,
+      "uniques": 16
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_devices.tf",
+      "title": "/blob/main/fmc_devices.tf",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/issues",
+      "title": "/issues",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/commits/main",
+      "title": "/commits/main",
+      "count": 3,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/commit/359df8da9a2ba7ebf5c3deb535b09ddbd6221012",
+      "title": "/commit/359df8da9a2ba7ebf5c3deb535b09ddbd6221012",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/commit/ee61d2e4676622baf3df78b518f70ef1ae15edb3",
+      "title": "/commit/ee61d2e4676622baf3df78b518f70ef1ae15edb3",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/issues/21",
+      "title": "/issues/21",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_existing.tf",
+      "title": "/blob/main/fmc_existing.tf",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_integrations_maps.tf",
+      "title": "/blob/main/fmc_integrations_maps.tf",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_locals.tf",
+      "title": "/blob/main/fmc_locals.tf",
+      "count": 1,
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "Google",
+      "count": 16,
+      "uniques": 5
+    },
+    {
+      "referrer": "github.com",
+      "count": 3,
+      "uniques": 2
+    }
+  ]
 }
