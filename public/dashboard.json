@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-07-29T10:49:54.087Z",
+  "repos": [
+    {
+      "repo": "netascode/nac-branch",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-07-29T10:36:21.509Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-15T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-07-16T00:00:00Z",
+          "count": 8,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-07-17T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-18T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-19T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-20T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-07-21T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-22T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-07-23T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-24T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-07-25T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-26T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-27T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-15T00:00:00Z",
+          "count": 3,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-07-16T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-17T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-18T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-07-19T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-07-20T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-21T00:00:00Z",
+          "count": 10,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-07-22T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-07-23T00:00:00Z",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-07-24T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-07-25T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-07-26T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-27T00:00:00Z",
+          "count": 30,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 38,
+          "uniques": 5
+        }
+      ],
+      "totals": {
+        "clones": 14,
+        "uniqueClonerDays": 8,
+        "peakDailyClones": 8,
+        "peakDailyUniqueCloners": 2,
+        "views": 92,
+        "uniqueVisitorDays": 25,
+        "peakDailyViews": 38,
+        "peakDailyUniqueVisitors": 5,
+        "daysTracked": 14,
+        "firstDay": "2026-07-15T00:00:00Z",
+        "lastDay": "2026-07-28T00:00:00Z"
+      }
+    }
+  ]
+}
