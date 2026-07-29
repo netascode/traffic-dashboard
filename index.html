@@ -52,13 +52,38 @@
             <button id="clearDrill" class="mt-1 w-full rounded-md border border-slate-300 px-2 py-1.5 text-left hover:bg-slate-50">Clear day focus</button>
           </div>
         </div>
-        <div id="repoFilters" class="mt-4 flex flex-wrap gap-2"></div>
+        <div class="mt-4 flex items-center gap-2">
+          <button id="selectAllRepos" class="rounded-md border border-slate-300 px-3 py-1.5 text-sm hover:bg-slate-50">Select all</button>
+          <button id="clearRepos" class="rounded-md border border-slate-300 px-3 py-1.5 text-sm hover:bg-slate-50">Clear</button>
+          <button id="downloadJson" class="rounded-md border border-slate-300 px-3 py-1.5 text-sm hover:bg-slate-50">Download JSON</button>
+          <button id="downloadCsv" class="rounded-md border border-slate-300 px-3 py-1.5 text-sm hover:bg-slate-50">Download CSV</button>
+        </div>
+        <div id="repoFilters" class="mt-3 flex flex-wrap gap-2"></div>
       </section>
 
       <section id="kpis" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4"></section>
 
       <section class="rounded-xl border border-slate-200 bg-white p-4">
         <div class="h-80"><canvas id="trendChart"></canvas></div>
+      </section>
+
+      <section class="rounded-xl border border-slate-200 bg-white p-4">
+        <h2 class="font-semibold">Repo comparison (selected repositories)</h2>
+        <div class="mt-3 h-72"><canvas id="compareChart"></canvas></div>
+        <div class="mt-4 max-h-72 overflow-auto">
+          <table class="min-w-full text-sm">
+            <thead class="sticky top-0 bg-slate-100">
+              <tr>
+                <th class="px-3 py-2 text-left">Repository</th>
+                <th class="px-3 py-2 text-right">Views</th>
+                <th class="px-3 py-2 text-right">Unique visitors</th>
+                <th class="px-3 py-2 text-right">Clones</th>
+                <th class="px-3 py-2 text-right">Unique cloners</th>
+              </tr>
+            </thead>
+            <tbody id="compareTableBody"></tbody>
+          </table>
+        </div>
       </section>
 
       <section class="rounded-xl border border-slate-200 bg-white p-4">
@@ -78,6 +103,42 @@
           </table>
         </div>
       </section>
+
+      <section class="grid gap-5 lg:grid-cols-2">
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Popular content</h2>
+          <p class="mt-1 text-xs text-slate-500">Combined top content from selected repositories.</p>
+          <div class="mt-3 max-h-80 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Content</th>
+                  <th class="px-3 py-2 text-right">Views</th>
+                  <th class="px-3 py-2 text-right">Unique visitors</th>
+                </tr>
+              </thead>
+              <tbody id="popularContentBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Top sources (referrers)</h2>
+          <p class="mt-1 text-xs text-slate-500">Combined top traffic sources from selected repositories.</p>
+          <div class="mt-3 max-h-80 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Source</th>
+                  <th class="px-3 py-2 text-right">Views</th>
+                  <th class="px-3 py-2 text-right">Unique visitors</th>
+                </tr>
+              </thead>
+              <tbody id="referrersBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
     </main>
 
     <script>
@@ -91,6 +152,7 @@
         metric: 'views',
         focusedBucket: null,
         chart: null,
+        compareChart: null,
       };
 
       const metricMap = {
@@ -133,8 +195,9 @@
 
       function aggregateRows() {
         const daily = new Map();
+        if (!state.selectedRepos.size) return [];
         for (const repo of state.raw.repos) {
-          if (state.selectedRepos.size && !state.selectedRepos.has(repo.repo)) continue;
+          if (!state.selectedRepos.has(repo.repo)) continue;
           const index = (type, field) => {
             for (const point of repo[type] || []) {
               const day = point.timestamp.slice(0, 10);
@@ -187,6 +250,60 @@
           arr = arr.filter((r) => r.bucket === state.focusedBucket);
         }
         return arr;
+      }
+
+      function aggregateRepoComparison() {
+        if (!state.selectedRepos.size) return [];
+        const repos = [];
+        for (const repo of state.raw.repos) {
+          if (!state.selectedRepos.has(repo.repo)) continue;
+
+          const daily = new Map();
+          const index = (type, field) => {
+            for (const point of repo[type] || []) {
+              const day = point.timestamp.slice(0, 10);
+              if (!daily.has(day)) daily.set(day, { day, views: 0, visitors: 0, clones: 0, cloners: 0 });
+              const row = daily.get(day);
+              if (type === 'views' && field === 'count') row.views += point.count || 0;
+              if (type === 'views' && field === 'uniques') row.visitors += point.uniques || 0;
+              if (type === 'clones' && field === 'count') row.clones += point.count || 0;
+              if (type === 'clones' && field === 'uniques') row.cloners += point.uniques || 0;
+            }
+          };
+          index('views', 'count');
+          index('views', 'uniques');
+          index('clones', 'count');
+          index('clones', 'uniques');
+
+          let filteredDaily = [...daily.values()].sort((a, b) => a.day.localeCompare(b.day));
+          if (state.range === 'current_month') {
+            state.startDate = startOfMonth();
+            state.endDate = endOfToday();
+          } else if (state.range === 'custom') {
+          } else if (state.range !== 'all') {
+            const days = Number(state.range);
+            if (Number.isFinite(days) && filteredDaily.length > days) filteredDaily = filteredDaily.slice(-days);
+          }
+          if (state.range === 'custom' || state.range === 'current_month') {
+            filteredDaily = filteredDaily.filter((row) => inRange(row.day));
+          }
+
+          if (state.focusedBucket) {
+            filteredDaily = filteredDaily.filter((row) => getBucket(row.day, state.groupBy) === state.focusedBucket);
+          }
+
+          const totals = filteredDaily.reduce((acc, row) => {
+            acc.views += row.views;
+            acc.visitors += row.visitors;
+            acc.clones += row.clones;
+            acc.cloners += row.cloners;
+            return acc;
+          }, { views: 0, visitors: 0, clones: 0, cloners: 0 });
+
+          repos.push({ repo: repo.repo, ...totals });
+        }
+
+        return repos.sort((a, b) => (b[state.metric] || 0) - (a[state.metric] || 0));
       }
 
       function renderRepoFilters() {
@@ -265,12 +382,201 @@
         });
       }
 
+      function renderRepoComparison(rows) {
+        const labels = rows.map((row) => row.repo);
+        const values = rows.map((row) => row[state.metric]);
+        const ctx = document.getElementById('compareChart');
+        if (state.compareChart) state.compareChart.destroy();
+        state.compareChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels,
+            datasets: [{
+              label: `${state.metric} by repo`,
+              data: values,
+              backgroundColor: 'rgba(37,99,235,0.7)',
+              borderColor: '#2563eb',
+              borderWidth: 1,
+            }],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: { y: { beginAtZero: true } },
+          },
+        });
+
+        const tb = document.getElementById('compareTableBody');
+        tb.innerHTML = '';
+        rows.forEach((r) => {
+          const tr = document.createElement('tr');
+          tr.className = 'border-t border-slate-100';
+          tr.innerHTML = `<td class="px-3 py-2">${r.repo}</td><td class="px-3 py-2 text-right">${fmt(r.views)}</td><td class="px-3 py-2 text-right">${fmt(r.visitors)}</td><td class="px-3 py-2 text-right">${fmt(r.clones)}</td><td class="px-3 py-2 text-right">${fmt(r.cloners)}</td>`;
+          tb.appendChild(tr);
+        });
+      }
+
+      function aggregatePopularContent() {
+        const merged = new Map();
+        for (const repo of state.raw.repos) {
+          if (!state.selectedRepos.has(repo.repo)) continue;
+          for (const item of repo.popularPaths || []) {
+            const key = item.path || `${repo.repo}:${item.title || ''}`;
+            if (!merged.has(key)) {
+              merged.set(key, {
+                path: item.path || '',
+                title: item.title || item.path || 'Unknown',
+                count: 0,
+                uniques: 0,
+              });
+            }
+            const row = merged.get(key);
+            row.count += item.count || 0;
+            row.uniques += item.uniques || 0;
+          }
+        }
+        return [...merged.values()].sort((a, b) => b.count - a.count).slice(0, 15);
+      }
+
+      function aggregateReferrers() {
+        const merged = new Map();
+        for (const repo of state.raw.repos) {
+          if (!state.selectedRepos.has(repo.repo)) continue;
+          for (const item of repo.referrers || []) {
+            const key = (item.referrer || '').toLowerCase();
+            if (!merged.has(key)) {
+              merged.set(key, {
+                referrer: item.referrer || 'Unknown',
+                count: 0,
+                uniques: 0,
+              });
+            }
+            const row = merged.get(key);
+            row.count += item.count || 0;
+            row.uniques += item.uniques || 0;
+          }
+        }
+        return [...merged.values()].sort((a, b) => b.count - a.count).slice(0, 15);
+      }
+
+      function toGithubPathUrl(path) {
+        if (!path) return '#';
+        if (path.startsWith('http://') || path.startsWith('https://')) return path;
+        if (path.startsWith('/')) return `https://github.com${path}`;
+        return `https://github.com/${path}`;
+      }
+
+      function toReferrerUrl(referrer) {
+        if (!referrer) return '#';
+        if (referrer.startsWith('http://') || referrer.startsWith('https://')) return referrer;
+        return `https://${referrer}`;
+      }
+
+      function renderSourcesAndContent() {
+        const popular = aggregatePopularContent();
+        const referrers = aggregateReferrers();
+
+        const popularBody = document.getElementById('popularContentBody');
+        popularBody.innerHTML = '';
+        if (!popular.length) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td class="px-3 py-3 text-slate-500" colspan="3">No popular content data for selected repositories.</td>';
+          popularBody.appendChild(tr);
+        } else {
+          popular.forEach((item) => {
+            const tr = document.createElement('tr');
+            tr.className = 'border-t border-slate-100';
+            const url = toGithubPathUrl(item.path);
+            tr.innerHTML = `<td class="px-3 py-2"><a class="text-blue-700 hover:underline" href="${url}" target="_blank" rel="noopener noreferrer">${item.title}</a></td><td class="px-3 py-2 text-right">${fmt(item.count)}</td><td class="px-3 py-2 text-right">${fmt(item.uniques)}</td>`;
+            popularBody.appendChild(tr);
+          });
+        }
+
+        const refBody = document.getElementById('referrersBody');
+        refBody.innerHTML = '';
+        if (!referrers.length) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td class="px-3 py-3 text-slate-500" colspan="3">No referrer data for selected repositories.</td>';
+          refBody.appendChild(tr);
+        } else {
+          referrers.forEach((item) => {
+            const tr = document.createElement('tr');
+            tr.className = 'border-t border-slate-100';
+            const url = toReferrerUrl(item.referrer);
+            tr.innerHTML = `<td class="px-3 py-2"><a class="text-blue-700 hover:underline" href="${url}" target="_blank" rel="noopener noreferrer">${item.referrer}</a></td><td class="px-3 py-2 text-right">${fmt(item.count)}</td><td class="px-3 py-2 text-right">${fmt(item.uniques)}</td>`;
+            refBody.appendChild(tr);
+          });
+        }
+      }
+
+      function downloadText(filename, content, mimeType) {
+        const blob = new Blob([content], { type: mimeType });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+      }
+
+      function buildDownloadPayload() {
+        return {
+          exportedAt: new Date().toISOString(),
+          filters: {
+            selectedRepos: [...state.selectedRepos],
+            range: state.range,
+            groupBy: state.groupBy,
+            startDate: state.startDate,
+            endDate: state.endDate,
+            metric: state.metric,
+            focusedBucket: state.focusedBucket,
+          },
+          breakdown: aggregateRows(),
+          comparison: aggregateRepoComparison(),
+          popularContent: aggregatePopularContent(),
+          referrers: aggregateReferrers(),
+        };
+      }
+
+      function exportJson() {
+        const payload = buildDownloadPayload();
+        downloadText('traffic-dashboard-export.json', `${JSON.stringify(payload, null, 2)}\n`, 'application/json;charset=utf-8');
+      }
+
+      function toCsv(rows, columns) {
+        const esc = (value) => {
+          const text = String(value ?? '');
+          if (/[",\n]/.test(text)) return `"${text.replace(/"/g, '""')}"`;
+          return text;
+        };
+        const header = columns.map((c) => esc(c.label)).join(',');
+        const body = rows.map((row) => columns.map((c) => esc(c.value(row))).join(',')).join('\n');
+        return `${header}\n${body}\n`;
+      }
+
+      function exportCsv() {
+        const rows = aggregateRows();
+        const csv = toCsv(rows, [
+          { label: 'period', value: (r) => r.bucket },
+          { label: 'views', value: (r) => r.views },
+          { label: 'unique_visitors', value: (r) => r.visitors },
+          { label: 'clones', value: (r) => r.clones },
+          { label: 'unique_cloners', value: (r) => r.cloners },
+        ]);
+        downloadText('traffic-dashboard-breakdown.csv', csv, 'text/csv;charset=utf-8');
+      }
+
       function redraw() {
         const rows = aggregateRows();
+        const compareRows = aggregateRepoComparison();
         renderRepoFilters();
         renderKPIs(rows);
         renderTable(rows);
         renderChart(rows);
+        renderRepoComparison(compareRows);
+        renderSourcesAndContent();
       }
 
       document.getElementById('range').addEventListener('change', (e) => {
@@ -301,6 +607,18 @@
       });
       document.getElementById('metric').addEventListener('change', (e) => { state.metric = e.target.value; redraw(); });
       document.getElementById('clearDrill').addEventListener('click', () => { state.focusedBucket = null; redraw(); });
+      document.getElementById('selectAllRepos').addEventListener('click', () => {
+        state.selectedRepos = new Set(state.raw.repos.map((r) => r.repo));
+        state.focusedBucket = null;
+        redraw();
+      });
+      document.getElementById('clearRepos').addEventListener('click', () => {
+        state.selectedRepos.clear();
+        state.focusedBucket = null;
+        redraw();
+      });
+      document.getElementById('downloadJson').addEventListener('click', exportJson);
+      document.getElementById('downloadCsv').addEventListener('click', exportCsv);
 
       (async () => {
         state.raw = await loadData();

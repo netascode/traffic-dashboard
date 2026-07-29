@@ -10,6 +10,8 @@ Interactive dashboard for GitHub traffic with:
 - day/month/year aggregation
 - current month and custom date range filters
 - click-to-drill chart and period table
+- popular content and top referrer sections (GitHub traffic style)
+- download current filtered view as JSON/CSV
 
 ## Files
 

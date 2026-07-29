@@ -77,19 +77,47 @@ async function syncRepo(item) {
   const [owner, name] = repo.split('/');
   const historyPath = item.trafficPath || item.historyPath || defaultHistoryPath(repo);
 
-  const clonesRes = await apiGet(`https://api.github.com/repos/${owner}/${name}/traffic/clones`);
-  const viewsRes = await apiGet(`https://api.github.com/repos/${owner}/${name}/traffic/views`);
+  const [clonesRes, viewsRes, popularPathsRes, referrersRes] = await Promise.all([
+    apiGet(`https://api.github.com/repos/${owner}/${name}/traffic/clones`),
+    apiGet(`https://api.github.com/repos/${owner}/${name}/traffic/views`),
+    apiGet(`https://api.github.com/repos/${owner}/${name}/traffic/popular/paths`),
+    apiGet(`https://api.github.com/repos/${owner}/${name}/traffic/popular/referrers`),
+  ]);
 
-  let history = { clones: [], views: [], totals: {}, lastUpdated: null };
+  let history = { clones: [], views: [], popularPaths: [], referrers: [], totals: {}, lastUpdated: null };
   if (fs.existsSync(historyPath)) {
     history = JSON.parse(fs.readFileSync(historyPath, 'utf8'));
     if (!history.totals) history.totals = {};
+    if (!history.popularPaths) history.popularPaths = [];
+    if (!history.referrers) history.referrers = [];
   }
 
-  const before = JSON.stringify({ clones: history.clones, views: history.views });
+  const before = JSON.stringify({
+    clones: history.clones,
+    views: history.views,
+    popularPaths: history.popularPaths,
+    referrers: history.referrers,
+  });
   history.clones = merge(history.clones || [], clonesRes.clones || []);
   history.views = merge(history.views || [], viewsRes.views || []);
-  const after = JSON.stringify({ clones: history.clones, views: history.views });
+  history.popularPaths = (popularPathsRes || []).map((entry) => ({
+    path: entry.path,
+    title: entry.title,
+    count: entry.count || 0,
+    uniques: entry.uniques || 0,
+  }));
+  history.referrers = (referrersRes || []).map((entry) => ({
+    referrer: entry.referrer,
+    count: entry.count || 0,
+    uniques: entry.uniques || 0,
+  }));
+
+  const after = JSON.stringify({
+    clones: history.clones,
+    views: history.views,
+    popularPaths: history.popularPaths,
+    referrers: history.referrers,
+  });
 
   if (before === after) {
     return { repo, changed: false, historyPath };

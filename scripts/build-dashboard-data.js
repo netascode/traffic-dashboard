@@ -40,6 +40,8 @@ for (const item of config.repos || []) {
     lastUpdated: data.lastUpdated || null,
     clones: data.clones || [],
     views: data.views || [],
+    popularPaths: data.popularPaths || [],
+    referrers: data.referrers || [],
     totals: data.totals || null,
   });
 }
