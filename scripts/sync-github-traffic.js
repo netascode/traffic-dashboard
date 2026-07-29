@@ -85,9 +85,13 @@ async function syncRepo(item) {
   ]);
 
   let history = { clones: [], views: [], popularPaths: [], referrers: [], totals: {}, lastUpdated: null };
+  let hadPopularPaths = true;
+  let hadReferrers = true;
   if (fs.existsSync(historyPath)) {
     history = JSON.parse(fs.readFileSync(historyPath, 'utf8'));
     if (!history.totals) history.totals = {};
+    hadPopularPaths = Array.isArray(history.popularPaths);
+    hadReferrers = Array.isArray(history.referrers);
     if (!history.popularPaths) history.popularPaths = [];
     if (!history.referrers) history.referrers = [];
   }
@@ -112,6 +116,8 @@ async function syncRepo(item) {
     uniques: entry.uniques || 0,
   }));
 
+  console.log(`Fetched ${repo}: popularPaths=${history.popularPaths.length}, referrers=${history.referrers.length}`);
+
   const after = JSON.stringify({
     clones: history.clones,
     views: history.views,
@@ -119,7 +125,8 @@ async function syncRepo(item) {
     referrers: history.referrers,
   });
 
-  if (before === after) {
+  const schemaBackfillNeeded = !hadPopularPaths || !hadReferrers;
+  if (before === after && !schemaBackfillNeeded) {
     return { repo, changed: false, historyPath };
   }
 
