@@ -9,7 +9,7 @@ const getArg = (name, fallback = null) => {
 };
 
 const configPath = getArg('--config', 'repos.json');
-const historyDir = getArg('--historyDir', '.metrics/repos');
+const historyDir = getArg('--historyDir', 'data/raw');
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 
 if (!token) {
@@ -59,7 +59,8 @@ const merge = (existing, fresh) => {
 const sumBy = (arr, key) => arr.reduce((acc, entry) => acc + (entry[key] || 0), 0);
 const maxBy = (arr, key) => arr.reduce((acc, entry) => Math.max(acc, entry[key] || 0), 0);
 
-const defaultHistoryPath = (repo) => `${historyDir}/${repo.replace('/', '--')}.traffic.json`;
+const repoToFileSlug = (repo) => repo.toLowerCase().replace(/[^a-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '');
+const defaultHistoryPath = (repo) => `${historyDir}/${repoToFileSlug(repo)}.traffic.json`;
 
 const ensureDir = (filePath) => {
   const dir = filePath.split('/').slice(0, -1).join('/');

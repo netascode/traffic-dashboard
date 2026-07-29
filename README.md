@@ -17,7 +17,6 @@ Interactive dashboard for GitHub traffic with:
 - `scripts/merge-traffic-history.js`: per-repo history merge (adapted from your snippet).
 - `scripts/sync-github-traffic.js`: pulls real traffic data from GitHub API for all configured repositories.
 - `scripts/build-dashboard-data.js`: combines many repos into one dashboard dataset.
-- `data/dashboard.sample.json`: demo data for quick testing.
 - `repos.json`: repository list used by the sync workflow.
 - `.github/workflows/sync-traffic-dashboard.yml`: scheduled/manual central sync and aggregation workflow.
 - `.github/workflows/deploy-pages.yml`: publishes dashboard to GitHub Pages.
@@ -51,10 +50,11 @@ Run locally (optional):
 GITHUB_TOKEN=YOUR_TOKEN \
 node scripts/sync-github-traffic.js \
   --config=repos.json \
-  --historyDir=.metrics/repos
+  --historyDir=data/raw
 ```
 
-This writes one history file per repo under `.metrics/repos/`.
+This writes one history file per repo under `data/raw/`.
+File naming is repo-based for clarity, for example `netascode/nac-branch` becomes `data/raw/netascode-nac-branch.traffic.json`.
 
 Because sync runs on a schedule and merges daily windows into local history, you keep data far beyond GitHub's native 14-day traffic API limit.
 
@@ -65,7 +65,7 @@ Current schedule is daily (02:23 UTC) plus manual trigger.
 ```bash
 node scripts/build-dashboard-data.js \
   --config=repos.json \
-  --historyDir=.metrics/repos \
+  --historyDir=data/raw \
   --out=public/dashboard.json
 ```
 
@@ -75,7 +75,7 @@ Use VS Code Simple Browser or any static server and open:
 
 - `traffic-dashboard/index.html`
 
-The page first tries `public/dashboard.json`, then falls back to sample data.
+The page reads `public/dashboard.json`.
 
 ## 6) Publish on GitHub Pages
 

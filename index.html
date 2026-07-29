@@ -121,15 +121,13 @@
       };
 
       async function loadData() {
-        const candidates = ['./public/dashboard.json', './data/dashboard.sample.json'];
-        for (const url of candidates) {
-          try {
-            const res = await fetch(url, { cache: 'no-store' });
-            if (!res.ok) continue;
+        try {
+          const res = await fetch('./public/dashboard.json', { cache: 'no-store' });
+          if (res.ok) {
             const data = await res.json();
             if (Array.isArray(data.repos)) return data;
-          } catch (_) {}
-        }
+          }
+        } catch (_) {}
         return { repos: [] };
       }
 

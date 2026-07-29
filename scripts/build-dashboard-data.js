@@ -9,11 +9,12 @@ const getArg = (name, fallback = null) => {
 
 const configPath = getArg('--config', 'repos.json');
 const outPath = getArg('--out', 'public/dashboard.json');
-const historyDir = getArg('--historyDir', '.metrics/repos');
+const historyDir = getArg('--historyDir', 'data/raw');
 
+const repoToFileSlug = (repo) => repo.toLowerCase().replace(/[^a-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '');
 const defaultHistoryPath = (repo) => {
   if (!repo || !repo.includes('/')) return null;
-  return `${historyDir}/${repo.replace('/', '--')}.traffic.json`;
+  return `${historyDir}/${repoToFileSlug(repo)}.traffic.json`;
 };
 
 if (!fs.existsSync(configPath)) {
