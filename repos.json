@@ -11,6 +11,12 @@
     },
     {
       "repo": "netascode/terraform-meraki-nac-meraki"
+    },
+    {
+      "repo": "netascode/terraform-iosxe-nac-iosxe"
+    },
+    {
+      "repo": "netascode/terraform-catalystcenter-nac-catalystcenter"
     }
   ]
 }
