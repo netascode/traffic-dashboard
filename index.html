@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub Multi-Repo Traffic Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-900">
+    <main class="mx-auto max-w-7xl space-y-5 p-5 lg:p-8">
+      <section class="rounded-xl border border-slate-200 bg-white p-5">
+        <h1 class="text-2xl font-semibold">GitHub Traffic Dashboard</h1>
+        <p class="mt-2 text-sm text-slate-600">Track clones, unique visitors, and trend metrics across multiple repositories with clickable filters and chart drill-down.</p>
+      </section>
+
+      <section class="rounded-xl border border-slate-200 bg-white p-4">
+        <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-6">
+          <label class="text-sm">Date range
+            <select id="range" class="mt-1 w-full rounded-md border border-slate-300 px-2 py-1.5">
+              <option value="14">Last 14 days</option>
+              <option value="30" selected>Last 30 days</option>
+              <option value="90">Last 90 days</option>
+              <option value="current_month">Current month</option>
+              <option value="custom">Custom range</option>
+              <option value="all">All</option>
+            </select>
+          </label>
+          <label class="text-sm">Group by
+            <select id="groupBy" class="mt-1 w-full rounded-md border border-slate-300 px-2 py-1.5">
+              <option value="day" selected>Day</option>
+              <option value="month">Month</option>
+              <option value="year">Year</option>
+            </select>
+          </label>
+          <label class="text-sm">Start date
+            <input id="startDate" type="date" class="mt-1 w-full rounded-md border border-slate-300 px-2 py-1.5" />
+          </label>
+          <label class="text-sm">End date
+            <input id="endDate" type="date" class="mt-1 w-full rounded-md border border-slate-300 px-2 py-1.5" />
+          </label>
+          <label class="text-sm">Chart metric
+            <select id="metric" class="mt-1 w-full rounded-md border border-slate-300 px-2 py-1.5">
+              <option value="views">Views</option>
+              <option value="visitors">Unique visitors</option>
+              <option value="clones">Clones</option>
+              <option value="cloners">Unique cloners</option>
+            </select>
+          </label>
+          <div class="text-sm">
+            Drill-down
+            <button id="clearDrill" class="mt-1 w-full rounded-md border border-slate-300 px-2 py-1.5 text-left hover:bg-slate-50">Clear day focus</button>
+          </div>
+        </div>
+        <div id="repoFilters" class="mt-4 flex flex-wrap gap-2"></div>
+      </section>
+
+      <section id="kpis" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4"></section>
+
+      <section class="rounded-xl border border-slate-200 bg-white p-4">
+        <div class="h-80"><canvas id="trendChart"></canvas></div>
+      </section>
+
+      <section class="rounded-xl border border-slate-200 bg-white p-4">
+        <h2 class="font-semibold">Breakdown (click a row to focus a period)</h2>
+        <div class="mt-3 max-h-96 overflow-auto">
+          <table class="min-w-full text-sm">
+            <thead class="sticky top-0 bg-slate-100">
+              <tr>
+                <th class="px-3 py-2 text-left">Period</th>
+                <th class="px-3 py-2 text-right">Views</th>
+                <th class="px-3 py-2 text-right">Unique visitors</th>
+                <th class="px-3 py-2 text-right">Clones</th>
+                <th class="px-3 py-2 text-right">Unique cloners</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        raw: null,
+        selectedRepos: new Set(),
+        range: '30',
+        groupBy: 'day',
+        startDate: null,
+        endDate: null,
+        metric: 'views',
+        focusedBucket: null,
+        chart: null,
+      };
+
+      const metricMap = {
+        views: { key: 'views', field: 'count' },
+        visitors: { key: 'views', field: 'uniques' },
+        clones: { key: 'clones', field: 'count' },
+        cloners: { key: 'clones', field: 'uniques' },
+      };
+
+      const fmt = (n) => new Intl.NumberFormat().format(n || 0);
+      const startOfMonth = () => {
+        const now = new Date();
+        const dt = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1));
+        return dt.toISOString().slice(0, 10);
+      };
+      const endOfToday = () => new Date().toISOString().slice(0, 10);
+
+      const getBucket = (day, groupBy) => {
+        if (groupBy === 'year') return day.slice(0, 4);
+        if (groupBy === 'month') return day.slice(0, 7);
+        return day;
+      };
+
+      const inRange = (day) => {
+        if (state.startDate && day < state.startDate) return false;
+        if (state.endDate && day > state.endDate) return false;
+        return true;
+      };
+
+      async function loadData() {
+        const candidates = ['./public/dashboard.json', './data/dashboard.sample.json'];
+        for (const url of candidates) {
+          try {
+            const res = await fetch(url, { cache: 'no-store' });
+            if (!res.ok) continue;
+            const data = await res.json();
+            if (Array.isArray(data.repos)) return data;
+          } catch (_) {}
+        }
+        return { repos: [] };
+      }
+
+      function aggregateRows() {
+        const daily = new Map();
+        for (const repo of state.raw.repos) {
+          if (state.selectedRepos.size && !state.selectedRepos.has(repo.repo)) continue;
+          const index = (type, field) => {
+            for (const point of repo[type] || []) {
+              const day = point.timestamp.slice(0, 10);
+              if (!daily.has(day)) daily.set(day, { day, views: 0, visitors: 0, clones: 0, cloners: 0 });
+              const row = daily.get(day);
+              if (type === 'views' && field === 'count') row.views += point.count || 0;
+              if (type === 'views' && field === 'uniques') row.visitors += point.uniques || 0;
+              if (type === 'clones' && field === 'count') row.clones += point.count || 0;
+              if (type === 'clones' && field === 'uniques') row.cloners += point.uniques || 0;
+            }
+          };
+          index('views', 'count');
+          index('views', 'uniques');
+          index('clones', 'count');
+          index('clones', 'uniques');
+        }
+
+        let filteredDaily = [...daily.values()].sort((a, b) => a.day.localeCompare(b.day));
+        if (state.range === 'current_month') {
+          state.startDate = startOfMonth();
+          state.endDate = endOfToday();
+        } else if (state.range === 'custom') {
+        } else if (state.range !== 'all') {
+          state.startDate = null;
+          state.endDate = null;
+          const days = Number(state.range);
+          if (Number.isFinite(days) && filteredDaily.length > days) filteredDaily = filteredDaily.slice(-days);
+        } else {
+          state.startDate = null;
+          state.endDate = null;
+        }
+
+        if (state.range === 'custom' || state.range === 'current_month') {
+          filteredDaily = filteredDaily.filter((row) => inRange(row.day));
+        }
+
+        const grouped = new Map();
+        for (const row of filteredDaily) {
+          const bucket = getBucket(row.day, state.groupBy);
+          if (!grouped.has(bucket)) grouped.set(bucket, { bucket, views: 0, visitors: 0, clones: 0, cloners: 0 });
+          const agg = grouped.get(bucket);
+          agg.views += row.views;
+          agg.visitors += row.visitors;
+          agg.clones += row.clones;
+          agg.cloners += row.cloners;
+        }
+
+        let arr = [...grouped.values()].sort((a, b) => a.bucket.localeCompare(b.bucket));
+        if (state.focusedBucket) {
+          arr = arr.filter((r) => r.bucket === state.focusedBucket);
+        }
+        return arr;
+      }
+
+      function renderRepoFilters() {
+        const wrap = document.getElementById('repoFilters');
+        wrap.innerHTML = '';
+        for (const repo of state.raw.repos.map((r) => r.repo)) {
+          const active = state.selectedRepos.has(repo);
+          const b = document.createElement('button');
+          b.className = `rounded-full border px-3 py-1 text-sm ${active ? 'border-blue-600 bg-blue-50 text-blue-700' : 'border-slate-300 hover:bg-slate-50'}`;
+          b.textContent = repo;
+          b.onclick = () => {
+            if (state.selectedRepos.has(repo)) state.selectedRepos.delete(repo); else state.selectedRepos.add(repo);
+            redraw();
+          };
+          wrap.appendChild(b);
+        }
+      }
+
+      function renderKPIs(rows) {
+        const total = (key) => rows.reduce((a, r) => a + (r[key] || 0), 0);
+        const avgViews = rows.length ? Math.round(total('views') / rows.length) : 0;
+        const peak = rows.reduce((best, row) => (row.views > (best?.views || -1) ? row : best), null);
+        const cards = [
+          ['Views', total('views')],
+          ['Unique visitors', total('visitors')],
+          ['Clones', total('clones')],
+          ['Unique cloners', total('cloners')],
+          ['Avg period views', avgViews],
+          ['Peak period views', peak ? `${peak.bucket} (${fmt(peak.views)})` : 'n/a'],
+        ];
+        const kpis = document.getElementById('kpis');
+        kpis.innerHTML = '';
+        cards.forEach(([label, value]) => {
+          const el = document.createElement('div');
+          el.className = 'rounded-xl border border-slate-200 bg-white p-4';
+          el.innerHTML = `<p class="text-sm text-slate-600">${label}</p><p class="mt-1 text-2xl font-semibold">${value}</p>`;
+          kpis.appendChild(el);
+        });
+      }
+
+      function renderTable(rows) {
+        const tb = document.getElementById('tableBody');
+        tb.innerHTML = '';
+        [...rows].reverse().forEach((r) => {
+          const tr = document.createElement('tr');
+          tr.className = 'cursor-pointer border-t border-slate-100 hover:bg-slate-50';
+          tr.onclick = () => {
+            state.focusedBucket = state.focusedBucket === r.bucket ? null : r.bucket;
+            redraw();
+          };
+          tr.innerHTML = `<td class="px-3 py-2">${r.bucket}</td><td class="px-3 py-2 text-right">${fmt(r.views)}</td><td class="px-3 py-2 text-right">${fmt(r.visitors)}</td><td class="px-3 py-2 text-right">${fmt(r.clones)}</td><td class="px-3 py-2 text-right">${fmt(r.cloners)}</td>`;
+          tb.appendChild(tr);
+        });
+      }
+
+      function renderChart(rows) {
+        const cfg = metricMap[state.metric];
+        const values = rows.map((r) => r[state.metric]);
+        const labels = rows.map((r) => r.bucket);
+        const ctx = document.getElementById('trendChart');
+        if (state.chart) state.chart.destroy();
+        state.chart = new Chart(ctx, {
+          type: 'line',
+          data: { labels, datasets: [{ label: `${cfg.key}.${cfg.field}`, data: values, borderColor: '#2563eb', backgroundColor: 'rgba(37,99,235,0.15)', fill: true, tension: 0.25 }] },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            onClick(_, elems) {
+              if (!elems.length) return;
+              const idx = elems[0].index;
+              state.focusedBucket = rows[idx]?.bucket || null;
+              redraw();
+            },
+            scales: { y: { beginAtZero: true } },
+          },
+        });
+      }
+
+      function redraw() {
+        const rows = aggregateRows();
+        renderRepoFilters();
+        renderKPIs(rows);
+        renderTable(rows);
+        renderChart(rows);
+      }
+
+      document.getElementById('range').addEventListener('change', (e) => {
+        state.range = e.target.value;
+        if (state.range !== 'custom') {
+          document.getElementById('startDate').value = '';
+          document.getElementById('endDate').value = '';
+          state.startDate = null;
+          state.endDate = null;
+        }
+        state.focusedBucket = null;
+        redraw();
+      });
+      document.getElementById('groupBy').addEventListener('change', (e) => { state.groupBy = e.target.value; state.focusedBucket = null; redraw(); });
+      document.getElementById('startDate').addEventListener('change', (e) => {
+        state.range = 'custom';
+        document.getElementById('range').value = 'custom';
+        state.startDate = e.target.value || null;
+        state.focusedBucket = null;
+        redraw();
+      });
+      document.getElementById('endDate').addEventListener('change', (e) => {
+        state.range = 'custom';
+        document.getElementById('range').value = 'custom';
+        state.endDate = e.target.value || null;
+        state.focusedBucket = null;
+        redraw();
+      });
+      document.getElementById('metric').addEventListener('change', (e) => { state.metric = e.target.value; redraw(); });
+      document.getElementById('clearDrill').addEventListener('click', () => { state.focusedBucket = null; redraw(); });
+
+      (async () => {
+        state.raw = await loadData();
+        state.raw.repos.forEach((r) => state.selectedRepos.add(r.repo));
+        redraw();
+      })();
+    </script>
+  </body>
+</html>

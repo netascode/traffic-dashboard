@@ -1,0 +1,11 @@
+{
+  "repos": [
+    {
+      "repo": "netascode/nac-branch"
+    },
+    {
+      "repo": "your-org/repo-2",
+      "trafficPath": ".metrics/repos/your-org--repo-2.traffic.json"
+    }
+  ]
+}

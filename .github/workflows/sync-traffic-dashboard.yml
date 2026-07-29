@@ -1,0 +1,48 @@
+name: Sync GitHub Traffic Dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync traffic from configured repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.TRAFFIC_PAT }}
+        run: |
+          node scripts/sync-github-traffic.js \
+            --config=repos.json \
+            --historyDir=.metrics/repos
+
+      - name: Build aggregated dashboard dataset
+        run: |
+          node scripts/build-dashboard-data.js \
+            --config=repos.json \
+            --historyDir=.metrics/repos \
+            --out=public/dashboard.json
+
+      - name: Commit updated dashboard data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .metrics public/dashboard.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update github traffic dashboard data"
+          git push
