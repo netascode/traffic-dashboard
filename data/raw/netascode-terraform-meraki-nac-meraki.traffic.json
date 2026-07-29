@@ -156,5 +156,84 @@
     "firstDay": "2026-07-15T00:00:00Z",
     "lastDay": "2026-07-28T00:00:00Z"
   },
-  "lastUpdated": "2026-07-29T10:58:17.697Z"
+  "lastUpdated": "2026-07-29T11:38:19.416Z",
+  "popularPaths": [
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki",
+      "title": "Overview",
+      "count": 41,
+      "uniques": 19
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/176",
+      "title": "/pull/176",
+      "count": 20,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pulls",
+      "title": "/pulls",
+      "count": 19,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/176/changes",
+      "title": "/pull/176/changes",
+      "count": 12,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/176/commits",
+      "title": "/pull/176/commits",
+      "count": 12,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/187",
+      "title": "/pull/187",
+      "count": 9,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/tree/main",
+      "title": "/tree/main",
+      "count": 5,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/tree/main/modules/model",
+      "title": "/tree/main/modules/model",
+      "count": 4,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/issues",
+      "title": "/issues",
+      "count": 4,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/actions/runs/30108018745/job/89532262841",
+      "title": "/actions/runs/30108018745/job/89532262841",
+      "count": 3,
+      "uniques": 2
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "count": 37,
+      "uniques": 10
+    },
+    {
+      "referrer": "Google",
+      "count": 11,
+      "uniques": 4
+    },
+    {
+      "referrer": "wwwin-github.cisco.com",
+      "count": 4,
+      "uniques": 1
+    }
+  ]
 }
