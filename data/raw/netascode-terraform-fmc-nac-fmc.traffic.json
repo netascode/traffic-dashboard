@@ -166,11 +166,7 @@
     "firstDay": "2026-07-15T00:00:00Z",
     "lastDay": "2026-07-29T00:00:00Z"
   },
-<<<<<<< HEAD
-  "lastUpdated": "2026-07-30T13:05:24.653Z",
-=======
-  "lastUpdated": "2026-07-30T11:38:19.765Z",
->>>>>>> origin/main
+  "lastUpdated": "2026-07-30T16:45:45.149Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
@@ -244,5 +240,6 @@
       "count": 7,
       "uniques": 4
     }
-  ]
+  ],
+  "repo": "netascode/terraform-fmc-nac-fmc"
 }
