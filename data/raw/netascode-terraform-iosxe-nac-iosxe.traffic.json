@@ -69,6 +69,11 @@
       "timestamp": "2026-07-28T00:00:00Z",
       "count": 54,
       "uniques": 14
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 46,
+      "uniques": 13
     }
   ],
   "views": [
@@ -141,13 +146,18 @@
       "timestamp": "2026-07-28T00:00:00Z",
       "count": 13,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 12,
+      "uniques": 8
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe",
       "title": "Overview",
-      "count": 77,
+      "count": 73,
       "uniques": 37
     },
     {
@@ -159,20 +169,20 @@
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main",
       "title": "/tree/main",
-      "count": 14,
+      "count": 13,
       "uniques": 4
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
-      "title": "/blob/main/main.tf",
-      "count": 10,
-      "uniques": 6
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/issues",
       "title": "/issues",
       "count": 9,
       "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 8,
+      "uniques": 5
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main/examples/system",
@@ -208,17 +218,17 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 77,
+      "count": 67,
       "uniques": 12
     },
     {
       "referrer": "Google",
       "count": 39,
-      "uniques": 9
+      "uniques": 10
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 10,
+      "count": 11,
       "uniques": 3
     },
     {
@@ -238,17 +248,17 @@
     }
   ],
   "totals": {
-    "clones": 1000,
-    "uniqueClonerDays": 247,
+    "clones": 1046,
+    "uniqueClonerDays": 260,
     "peakDailyClones": 149,
     "peakDailyUniqueCloners": 59,
-    "views": 320,
-    "uniqueVisitorDays": 72,
+    "views": 332,
+    "uniqueVisitorDays": 80,
     "peakDailyViews": 85,
-    "peakDailyUniqueVisitors": 7,
-    "daysTracked": 14,
+    "peakDailyUniqueVisitors": 8,
+    "daysTracked": 15,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-28T00:00:00Z"
+    "lastDay": "2026-07-29T00:00:00Z"
   },
-  "lastUpdated": "2026-07-29T11:47:36.638Z"
+  "lastUpdated": "2026-07-30T13:05:25.045Z"
 }

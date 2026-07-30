@@ -69,6 +69,11 @@
       "timestamp": "2026-07-28T00:00:00Z",
       "count": 24,
       "uniques": 21
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 22,
+      "uniques": 19
     }
   ],
   "views": [
@@ -141,40 +146,45 @@
       "timestamp": "2026-07-28T00:00:00Z",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 14,
+      "uniques": 6
     }
   ],
   "totals": {
-    "clones": 675,
-    "uniqueClonerDays": 450,
+    "clones": 697,
+    "uniqueClonerDays": 469,
     "peakDailyClones": 116,
     "peakDailyUniqueCloners": 81,
-    "views": 215,
-    "uniqueVisitorDays": 43,
+    "views": 229,
+    "uniqueVisitorDays": 49,
     "peakDailyViews": 105,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-28T00:00:00Z"
+    "lastDay": "2026-07-29T00:00:00Z"
   },
-  "lastUpdated": "2026-07-29T11:38:19.416Z",
+  "lastUpdated": "2026-07-30T13:05:24.850Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-meraki-nac-meraki",
       "title": "Overview",
-      "count": 41,
-      "uniques": 19
+      "count": 38,
+      "uniques": 22
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pulls",
+      "title": "/pulls",
+      "count": 20,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-meraki-nac-meraki/pull/176",
       "title": "/pull/176",
       "count": 20,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-meraki-nac-meraki/pulls",
-      "title": "/pulls",
-      "count": 19,
-      "uniques": 3
     },
     {
       "path": "/netascode/terraform-meraki-nac-meraki/pull/176/changes",
@@ -197,43 +207,43 @@
     {
       "path": "/netascode/terraform-meraki-nac-meraki/tree/main",
       "title": "/tree/main",
-      "count": 5,
-      "uniques": 5
-    },
-    {
-      "path": "/netascode/terraform-meraki-nac-meraki/tree/main/modules/model",
-      "title": "/tree/main/modules/model",
       "count": 4,
       "uniques": 4
     },
     {
-      "path": "/netascode/terraform-meraki-nac-meraki/issues",
-      "title": "/issues",
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/186",
+      "title": "/pull/186",
       "count": 4,
-      "uniques": 2
+      "uniques": 3
     },
     {
-      "path": "/netascode/terraform-meraki-nac-meraki/actions/runs/30108018745/job/89532262841",
-      "title": "/actions/runs/30108018745/job/89532262841",
+      "path": "/netascode/terraform-meraki-nac-meraki/pulse",
+      "title": "/pulse",
       "count": 3,
-      "uniques": 2
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/releases/tag/v0.10.0",
+      "title": "/releases/tag/v0.10.0",
+      "count": 3,
+      "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 37,
-      "uniques": 10
-    },
-    {
-      "referrer": "Google",
-      "count": 11,
-      "uniques": 4
+      "count": 42,
+      "uniques": 12
     },
     {
       "referrer": "wwwin-github.cisco.com",
       "count": 4,
       "uniques": 1
+    },
+    {
+      "referrer": "Google",
+      "count": 3,
+      "uniques": 3
     }
   ]
 }

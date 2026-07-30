@@ -69,6 +69,11 @@
       "timestamp": "2026-07-28T00:00:00Z",
       "count": 117,
       "uniques": 29
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 167,
+      "uniques": 24
     }
   ],
   "views": [
@@ -141,19 +146,24 @@
       "timestamp": "2026-07-28T00:00:00Z",
       "count": 34,
       "uniques": 11
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 48,
+      "uniques": 11
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter",
       "title": "Overview",
-      "count": 125,
-      "uniques": 46
+      "count": 123,
+      "uniques": 45
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pulls",
       "title": "/pulls",
-      "count": 51,
+      "count": 47,
       "uniques": 8
     },
     {
@@ -163,15 +173,15 @@
       "uniques": 5
     },
     {
+      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/tags",
+      "title": "/tags",
+      "count": 18,
+      "uniques": 5
+    },
+    {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/148/changes",
       "title": "/pull/148/changes",
       "count": 17,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/tags",
-      "title": "/tags",
-      "count": 16,
       "uniques": 4
     },
     {
@@ -184,7 +194,7 @@
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/issues",
       "title": "/issues",
       "count": 15,
-      "uniques": 9
+      "uniques": 10
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/blob/main/CHANGELOG.md",
@@ -208,12 +218,12 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 96,
-      "uniques": 24
+      "count": 92,
+      "uniques": 22
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 20,
+      "count": 26,
       "uniques": 4
     },
     {
@@ -223,27 +233,32 @@
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 10,
+      "count": 5,
       "uniques": 3
     },
     {
       "referrer": "cxpp-external-proxy-alln.cisco.com",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "referrer": "search.brave.com",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 1412,
-    "uniqueClonerDays": 243,
+    "clones": 1579,
+    "uniqueClonerDays": 267,
     "peakDailyClones": 250,
     "peakDailyUniqueCloners": 31,
-    "views": 497,
-    "uniqueVisitorDays": 93,
+    "views": 545,
+    "uniqueVisitorDays": 104,
     "peakDailyViews": 127,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-28T00:00:00Z"
+    "lastDay": "2026-07-29T00:00:00Z"
   },
-  "lastUpdated": "2026-07-29T11:47:36.804Z"
+  "lastUpdated": "2026-07-30T13:05:25.274Z"
 }
