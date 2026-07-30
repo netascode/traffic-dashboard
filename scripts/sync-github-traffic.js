@@ -56,6 +56,56 @@ const merge = (existing, fresh) => {
   return [...map.values()].sort((a, b) => a.timestamp.localeCompare(b.timestamp));
 };
 
+const resolveGitConflictMarkers = (text) => {
+  if (!text.includes('<<<<<<<') || !text.includes('>>>>>>>')) return text;
+  const lines = text.split('\n');
+  const resolved = [];
+  let idx = 0;
+
+  while (idx < lines.length) {
+    const line = lines[idx];
+    if (!line.startsWith('<<<<<<< ')) {
+      resolved.push(line);
+      idx += 1;
+      continue;
+    }
+
+    idx += 1;
+    const headChunk = [];
+    while (idx < lines.length && !lines[idx].startsWith('=======')) {
+      headChunk.push(lines[idx]);
+      idx += 1;
+    }
+
+    if (idx < lines.length && lines[idx].startsWith('=======')) idx += 1;
+    while (idx < lines.length && !lines[idx].startsWith('>>>>>>> ')) {
+      idx += 1;
+    }
+    if (idx < lines.length && lines[idx].startsWith('>>>>>>> ')) idx += 1;
+
+    resolved.push(...headChunk);
+  }
+
+  return resolved.join('\n');
+};
+
+const readHistoryJson = (historyPath) => {
+  const raw = fs.readFileSync(historyPath, 'utf8');
+  try {
+    return { parsed: JSON.parse(raw), recovered: false };
+  } catch (err) {
+    if (raw.includes('<<<<<<< ') && raw.includes('=======') && raw.includes('>>>>>>> ')) {
+      const resolved = resolveGitConflictMarkers(raw);
+      try {
+        return { parsed: JSON.parse(resolved), recovered: true };
+      } catch (recoveryErr) {
+        throw new Error(`Failed to recover conflicted JSON ${historyPath}: ${recoveryErr.message}`);
+      }
+    }
+    throw err;
+  }
+};
+
 const normalizeSeries = (series) => (Array.isArray(series)
   ? series.filter((entry) => entry && typeof entry.timestamp === 'string')
   : []);
@@ -123,8 +173,14 @@ async function syncRepo(item) {
   let history = { repo, clones: [], views: [], popularPaths: [], referrers: [], totals: {}, lastUpdated: null };
   let hadPopularPaths = true;
   let hadReferrers = true;
+  let recoveredConflictedHistory = false;
   if (fs.existsSync(historyPath)) {
-    history = JSON.parse(fs.readFileSync(historyPath, 'utf8'));
+    const read = readHistoryJson(historyPath);
+    history = read.parsed;
+    recoveredConflictedHistory = read.recovered;
+    if (recoveredConflictedHistory) {
+      console.warn(`Recovered conflicted history file for ${repo}: ${historyPath}`);
+    }
     history.repo = history.repo || repo;
     if (!history.totals) history.totals = {};
     hadPopularPaths = Array.isArray(history.popularPaths);
@@ -170,7 +226,7 @@ async function syncRepo(item) {
   });
 
   const schemaBackfillNeeded = !hadPopularPaths || !hadReferrers;
-  if (before === after && !schemaBackfillNeeded) {
+  if (before === after && !schemaBackfillNeeded && !recoveredConflictedHistory) {
     return { repo, changed: false, historyPath };
   }
 
