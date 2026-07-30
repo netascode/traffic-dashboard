@@ -17,10 +17,61 @@ const defaultStarsPath = (repo) => repo && repo.includes('/') ? `${historyDir}/$
 const defaultIssuesPath = (repo) => repo && repo.includes('/') ? `${historyDir}/${repoToFileSlug(repo)}.issues.json` : null;
 const defaultRegistryPath = (repo) => repo && repo.includes('/') ? `${historyDir}/${repoToFileSlug(repo)}.registry.json` : null;
 
+const resolveGitConflictMarkers = (text) => {
+  if (!text.includes('<<<<<<<') || !text.includes('>>>>>>>')) return text;
+  const lines = text.split('\n');
+  const resolved = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+    if (!line.startsWith('<<<<<<< ')) {
+      resolved.push(line);
+      i += 1;
+      continue;
+    }
+
+    i += 1;
+    const headChunk = [];
+
+    while (i < lines.length && !lines[i].startsWith('=======')) {
+      headChunk.push(lines[i]);
+      i += 1;
+    }
+
+    if (i < lines.length && lines[i].startsWith('=======')) i += 1;
+
+    while (i < lines.length && !lines[i].startsWith('>>>>>>> ')) {
+      i += 1;
+    }
+
+    if (i < lines.length && lines[i].startsWith('>>>>>>> ')) i += 1;
+
+    resolved.push(...headChunk);
+  }
+
+  return resolved.join('\n');
+};
+
 const readJsonIfExists = (path) => {
   if (!path || !fs.existsSync(path)) return null;
-  try { return JSON.parse(fs.readFileSync(path, 'utf8')); }
-  catch (err) { console.warn(`Failed to parse ${path}: ${err.message}`); return null; }
+  const raw = fs.readFileSync(path, 'utf8');
+  try {
+    return JSON.parse(raw);
+  } catch (err) {
+    if (raw.includes('<<<<<<< ') && raw.includes('=======') && raw.includes('>>>>>>> ')) {
+      try {
+        const resolved = resolveGitConflictMarkers(raw);
+        const parsed = JSON.parse(resolved);
+        console.warn(`Recovered conflicted JSON in ${path} by preferring current-branch section.`);
+        return parsed;
+      } catch (recoveryErr) {
+        console.warn(`Failed to recover conflicted JSON ${path}: ${recoveryErr.message}`);
+      }
+    }
+    console.warn(`Failed to parse ${path}: ${err.message}`);
+    return null;
+  }
 };
 
 if (!fs.existsSync(configPath)) {
@@ -37,20 +88,21 @@ for (const item of config.repos || []) {
   const trafficEnabled = !Array.isArray(item.signals) || item.signals.includes('traffic');
   const trafficPath = item.trafficPath || defaultTrafficPath(item.repo);
   const trafficData = trafficEnabled ? readJsonIfExists(trafficPath) : null;
-  if (trafficData) {
+  if (trafficEnabled) {
     repos.push({
       repo: item.repo,
       owner: item.owner || null,
       name: item.name || null,
-      lastUpdated: trafficData.lastUpdated || null,
-      clones: trafficData.clones || [],
-      views: trafficData.views || [],
-      popularPaths: trafficData.popularPaths || [],
-      referrers: trafficData.referrers || [],
-      totals: trafficData.totals || null,
+      lastUpdated: trafficData?.lastUpdated || null,
+      clones: trafficData?.clones || [],
+      views: trafficData?.views || [],
+      popularPaths: trafficData?.popularPaths || [],
+      referrers: trafficData?.referrers || [],
+      totals: trafficData?.totals || null,
     });
-  } else if (trafficEnabled) {
-    console.warn(`Skipping traffic for ${item.repo || 'unknown'}: file not found (${trafficPath})`);
+    if (!trafficData) {
+      console.warn(`Using empty traffic data for ${item.repo || 'unknown'}: file missing or invalid (${trafficPath})`);
+    }
   }
 
   // Community signals: fold stars + issues if either present.
