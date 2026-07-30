@@ -3905,7 +3905,7 @@
       "type": "pr",
       "state": "open",
       "author_login": "suhas1git",
-      "is_org_member": true,
+      "is_org_member": false,
       "created_at": "2026-05-25T19:10:57Z",
       "closed_at": null,
       "merged_at": null
@@ -4065,7 +4065,7 @@
       "type": "pr",
       "state": "closed",
       "author_login": "jmiguelhp",
-      "is_org_member": true,
+      "is_org_member": false,
       "created_at": "2026-07-13T16:16:32Z",
       "closed_at": "2026-07-29T13:45:23Z",
       "merged_at": "2026-07-29T13:45:23Z"
@@ -4199,14 +4199,24 @@
       "created_at": "2026-07-28T18:44:30Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 421,
+      "type": "pr",
+      "state": "open",
+      "author_login": "jmiguelhp",
+      "is_org_member": false,
+      "created_at": "2026-07-29T20:41:45Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 20,
-    "external_new_30d": 7,
-    "external_closed_30d": 3,
-    "external_pr_merged_90d": 6,
-    "external_authors_all_time": 66
+    "external_open": 22,
+    "external_new_30d": 9,
+    "external_closed_30d": 4,
+    "external_pr_merged_90d": 7,
+    "external_authors_all_time": 68
   },
-  "lastPolledAt": "2026-07-29T14:29:22.685Z"
+  "lastPolledAt": "2026-07-30T10:07:24.995Z"
 }
