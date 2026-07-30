@@ -1,0 +1,89 @@
+{
+  "stars": [
+    {
+      "starred_at": "2024-07-05T17:28:24Z",
+      "user_login": "devegupt"
+    },
+    {
+      "starred_at": "2024-09-27T05:22:52Z",
+      "user_login": "christianbur"
+    },
+    {
+      "starred_at": "2025-03-31T16:54:12Z",
+      "user_login": "schachem"
+    },
+    {
+      "starred_at": "2025-09-11T20:16:00Z",
+      "user_login": "billwaz65"
+    },
+    {
+      "starred_at": "2025-11-10T15:18:44Z",
+      "user_login": "cleufven"
+    },
+    {
+      "starred_at": "2025-11-24T20:48:08Z",
+      "user_login": "cdrefke"
+    },
+    {
+      "starred_at": "2026-01-21T17:07:16Z",
+      "user_login": "rileytp"
+    },
+    {
+      "starred_at": "2026-06-22T23:32:47Z",
+      "user_login": "jonnywinter"
+    }
+  ],
+  "snapshots": [
+    {
+      "polled_at": "2024-07-05T00:00:00Z",
+      "total": 1,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2024-09-27T00:00:00Z",
+      "total": 2,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2025-03-31T00:00:00Z",
+      "total": 3,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2025-09-11T00:00:00Z",
+      "total": 4,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2025-11-10T00:00:00Z",
+      "total": 5,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2025-11-24T00:00:00Z",
+      "total": 6,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2026-01-21T00:00:00Z",
+      "total": 7,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2026-06-22T00:00:00Z",
+      "total": 8,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2026-07-30T08:32:31.359Z",
+      "total": 8
+    }
+  ],
+  "totals": {
+    "total": 8,
+    "last30d": 0,
+    "last90d": 1,
+    "velocity30d": 0
+  },
+  "lastUpdated": "2026-07-30T08:32:31.359Z"
+}

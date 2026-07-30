@@ -1,1 +1,5 @@
 .DS_Store
+
+# Org-member classification cache, computed by scripts/sync-github-issues.js.
+# Not committed (public repo); persisted between GHA runs via actions/cache. Rebuilt if missing.
+data/raw/_org-members.json

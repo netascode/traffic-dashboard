@@ -1,0 +1,32 @@
+{
+  "type": "terraform-provider",
+  "snapshots": [
+    {
+      "week": null,
+      "month": null,
+      "year": null,
+      "total": 160779,
+      "polled_at": "2026-07-29T14:29:24.850Z"
+    },
+    {
+      "week": null,
+      "month": null,
+      "year": null,
+      "total": 161065,
+      "polled_at": "2026-07-30T10:07:28.216Z"
+    },
+    {
+      "week": null,
+      "month": null,
+      "year": null,
+      "total": 161146,
+      "polled_at": "2026-07-30T13:05:31.531Z"
+    }
+  ],
+  "totals": {
+    "current_total": 161146,
+    "week_delta_avg": 0,
+    "month_delta_avg": 0
+  },
+  "lastUpdated": "2026-07-30T13:05:31.531Z"
+}

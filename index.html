@@ -3,17 +3,30 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GitHub Multi-Repo Traffic Dashboard</title>
+    <title>netascode Insights Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body class="min-h-screen bg-slate-50 text-slate-900">
     <main class="mx-auto max-w-7xl space-y-5 p-5 lg:p-8">
-      <section class="rounded-xl border border-slate-200 bg-white p-5">
-        <h1 class="text-2xl font-semibold">GitHub Traffic Dashboard</h1>
-        <p class="mt-2 text-sm text-slate-600">Track clones, unique visitors, and trend metrics across multiple repositories with clickable filters and chart drill-down.</p>
+      <section id="previewBanner" class="hidden rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900">
+        <strong>Testing deployment:</strong>
+        <span id="previewBannerText">This is not production.</span>
       </section>
 
+      <section class="rounded-xl border border-slate-200 bg-white p-5">
+        <h1 class="text-2xl font-semibold">netascode Insights Dashboard</h1>
+        <p class="mt-2 text-sm text-slate-600">Traffic, community, and registry signals across netascode open-source repositories.</p>
+      </section>
+
+      <nav id="tabs" class="flex gap-2 border-b border-slate-200">
+        <a href="#traffic"   data-tab="traffic"   class="tab-link inline-block border-b-2 border-transparent px-4 py-2 text-sm font-medium text-slate-500 hover:text-slate-900">Traffic</a>
+        <a href="#community" data-tab="community" class="tab-link inline-block border-b-2 border-transparent px-4 py-2 text-sm font-medium text-slate-500 hover:text-slate-900">Community</a>
+        <a href="#registry"  data-tab="registry"  class="tab-link inline-block border-b-2 border-transparent px-4 py-2 text-sm font-medium text-slate-500 hover:text-slate-900">Registry</a>
+        <a href="#providers" data-tab="providers" class="tab-link inline-block border-b-2 border-transparent px-4 py-2 text-sm font-medium text-slate-500 hover:text-slate-900">Providers</a>
+      </nav>
+
+      <div id="traffic-panel" class="tab-panel space-y-5">
       <section class="rounded-xl border border-slate-200 bg-white p-4">
         <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-6">
           <label class="text-sm">Date range
@@ -139,6 +152,180 @@
           </div>
         </section>
       </section>
+      </div><!-- /#traffic-panel -->
+
+      <div id="community-panel" class="tab-panel space-y-5 hidden">
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <div class="flex items-center justify-between gap-3">
+            <div>
+              <h2 class="font-semibold">Star velocity</h2>
+              <p class="mt-1 text-xs text-slate-500">Cumulative stars over time. Toggle repos via the legend.</p>
+            </div>
+            <label class="text-sm text-slate-600">Range
+              <select id="starsRange" class="ml-2 rounded-md border border-slate-300 px-2 py-1.5 text-sm">
+                <option value="180">Last 6 months</option>
+                <option value="365">Last 1 year</option>
+                <option value="730" selected>Last 2 years</option>
+                <option value="1095">Last 3 years</option>
+                <option value="all">All time</option>
+              </select>
+            </label>
+          </div>
+          <div class="mt-3 h-80"><canvas id="starsChart"></canvas></div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Stars scorecard</h2>
+          <p class="mt-1 text-xs text-slate-500">Sorted by total stars.</p>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-right">Total stars</th>
+                  <th class="px-3 py-2 text-right">Last 30d</th>
+                  <th class="px-3 py-2 text-right">Last 90d</th>
+                  <th class="px-3 py-2 text-right">Velocity (per day, 30d)</th>
+                </tr>
+              </thead>
+              <tbody id="starsScoreBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Issues &amp; PRs scorecard</h2>
+          <p class="mt-1 text-xs text-slate-500">Issues and PRs opened by users who are not netascode org members. Sorted by number of open external issues.</p>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-right">Open</th>
+                  <th class="px-3 py-2 text-right">New (30d)</th>
+                  <th class="px-3 py-2 text-right">Closed (30d)</th>
+                  <th class="px-3 py-2 text-right">PRs merged (90d)</th>
+                  <th class="px-3 py-2 text-right">External authors (all)</th>
+                </tr>
+              </thead>
+              <tbody id="issuesScoreBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Recent external issues &amp; PRs</h2>
+          <p class="mt-1 text-xs text-slate-500">20 most recent issues/PRs opened by non-org-members across all repos.</p>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-left">Type</th>
+                  <th class="px-3 py-2 text-left">Number</th>
+                  <th class="px-3 py-2 text-left">Author</th>
+                  <th class="px-3 py-2 text-left">State</th>
+                  <th class="px-3 py-2 text-left">Created</th>
+                </tr>
+              </thead>
+              <tbody id="recentExternalBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </div><!-- /#community-panel -->
+
+      <div id="registry-panel" class="tab-panel space-y-5 hidden">
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Terraform Registry downloads</h2>
+          <p class="mt-1 text-xs text-slate-500">Cumulative total downloads over time (rolls forward with each daily snapshot).</p>
+          <div class="mt-3 h-80"><canvas id="registryChart"></canvas></div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Monthly downloads trend</h2>
+          <p class="mt-1 text-xs text-slate-500">Trailing 30-day downloads at each polling time. Shows how monthly usage evolves. Fills in as daily snapshots accumulate.</p>
+          <div class="mt-3 h-80"><canvas id="registryMonthlyChart"></canvas></div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Current registry totals</h2>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-left">Registry</th>
+                  <th class="px-3 py-2 text-right">Total</th>
+                  <th class="px-3 py-2 text-right">Last week</th>
+                  <th class="px-3 py-2 text-right">Last month</th>
+                  <th class="px-3 py-2 text-right">Last year</th>
+                  <th class="px-3 py-2 text-left">Last polled</th>
+                </tr>
+              </thead>
+              <tbody id="registryTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </div><!-- /#registry-panel -->
+
+      <div id="providers-panel" class="tab-panel space-y-5 hidden">
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Providers (CiscoDevNet)</h2>
+          <p class="mt-1 text-xs text-slate-500">Stars and Terraform Registry downloads for the CiscoDevNet-owned provider repositories that back our netascode modules. No traffic or issues data (requires push access we don't own on these repos).</p>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Star growth</h2>
+          <p class="mt-1 text-xs text-slate-500">Daily star count per repo. Starts today (no historical backfill available for CiscoDevNet).</p>
+          <div class="mt-3 h-80"><canvas id="providersStarsChart"></canvas></div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Stars scorecard</h2>
+          <p class="mt-1 text-xs text-slate-500">Sorted by total stars. 30d/90d deltas populate after enough daily snapshots accumulate.</p>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-right">Total stars</th>
+                  <th class="px-3 py-2 text-right">Last 30d</th>
+                  <th class="px-3 py-2 text-right">Last 90d</th>
+                  <th class="px-3 py-2 text-right">Velocity (per day, 30d)</th>
+                </tr>
+              </thead>
+              <tbody id="providersStarsScoreBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Terraform Registry downloads</h2>
+          <p class="mt-1 text-xs text-slate-500">Cumulative total provider downloads over time.</p>
+          <div class="mt-3 h-80"><canvas id="providersRegistryChart"></canvas></div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Current registry totals</h2>
+          <p class="mt-1 text-xs text-slate-500">Terraform provider downloads only expose a single total (no week/month/year breakdown).</p>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-left">Registry</th>
+                  <th class="px-3 py-2 text-right">Total</th>
+                  <th class="px-3 py-2 text-right">Last week</th>
+                  <th class="px-3 py-2 text-right">Last month</th>
+                  <th class="px-3 py-2 text-right">Last year</th>
+                  <th class="px-3 py-2 text-left">Last polled</th>
+                </tr>
+              </thead>
+              <tbody id="providersRegistryTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </div><!-- /#providers-panel -->
     </main>
 
     <script>
@@ -161,6 +348,32 @@
         clones: { key: 'clones', field: 'count' },
         cloners: { key: 'clones', field: 'uniques' },
       };
+
+      async function detectPreviewBranch() {
+        if (window.PREVIEW_BRANCH) return window.PREVIEW_BRANCH;
+        try {
+          const res = await fetch('./preview-meta.js', { cache: 'no-store' });
+          if (!res.ok) return null;
+          const text = await res.text();
+          const match = text.match(/window\.PREVIEW_BRANCH\s*=\s*['\"]([^'\"]+)['\"]/);
+          return match ? match[1] : null;
+        } catch (_) {
+          return null;
+        }
+      }
+
+      async function renderPreviewBanner() {
+        const banner = document.getElementById('previewBanner');
+        const text = document.getElementById('previewBannerText');
+        const host = location.hostname.toLowerCase();
+        const isPreviewHost = host.includes('traffic-dashboard-preview');
+        const branch = await detectPreviewBranch();
+        if (!isPreviewHost && !branch) return;
+        text.textContent = branch
+          ? `This is a testing deployment from branch ${branch}.`
+          : 'This is a testing deployment and may differ from production.';
+        banner.classList.remove('hidden');
+      }
 
       const fmt = (n) => new Intl.NumberFormat().format(n || 0);
       const startOfMonth = () => {
@@ -620,10 +833,345 @@
       document.getElementById('downloadJson').addEventListener('click', exportJson);
       document.getElementById('downloadCsv').addEventListener('click', exportCsv);
 
+      // ----- Tabs / community / registry -----
+      const REPO_PALETTE = ['#3b82f6', '#10b981', '#f59e0b', '#f43f5e', '#8b5cf6', '#06b6d4', '#ec4899', '#14b8a6'];
+      const repoColor = (idx) => REPO_PALETTE[idx % REPO_PALETTE.length];
+      let starsChartRef = { chart: null };
+      let providersStarsChartRef = { chart: null };
+      let registryChartRef = { chart: null };
+      let registryMonthlyChartRef = { chart: null };
+      let providersRegistryChartRef = { chart: null };
+      let starsRangeDays = 730; // community-tab star chart window, default 2 years
+
+      const windowFilter = (points, days) => {
+        if (days === 'all' || days == null) return points;
+        const cutoff = Date.now() - Number(days) * 24 * 60 * 60 * 1000;
+        return points.filter((p) => p.x >= cutoff);
+      };
+
+      function setActiveTab(name) {
+        const tabs = ['traffic', 'community', 'registry', 'providers'];
+        const target = tabs.includes(name) ? name : 'traffic';
+        tabs.forEach((t) => {
+          const panel = document.getElementById(`${t}-panel`);
+          const link = document.querySelector(`.tab-link[data-tab="${t}"]`);
+          if (panel) panel.classList.toggle('hidden', t !== target);
+          if (link) {
+            link.classList.toggle('border-blue-600', t === target);
+            link.classList.toggle('text-blue-700', t === target);
+            link.classList.toggle('text-slate-500', t !== target);
+          }
+        });
+      }
+      window.addEventListener('hashchange', () => setActiveTab(location.hash.replace('#', '')));
+
+      function renderStarsChart(canvasId, group, chartRef, windowDays) {
+        const community = state.raw.community || { repos: [] };
+        const filtered = community.repos.filter((r) => (r.group || 'modules') === group);
+        const perRepoDatasets = filtered
+          .filter((r) => r.stars && Array.isArray(r.stars.snapshots) && r.stars.snapshots.length)
+          .map((r, idx) => {
+            const points = r.stars.snapshots.map((s) => ({ x: Date.parse(s.polled_at), y: s.total || 0 }));
+            return {
+              label: r.repo.replace(/^netascode\/|^CiscoDevNet\//i, ''),
+              data: windowFilter(points, windowDays),
+              borderColor: repoColor(idx),
+              backgroundColor: repoColor(idx) + '33',
+              tension: 0.1,
+              pointRadius: 0,
+              borderWidth: 2,
+              stepped: false,
+              spanGaps: true,
+            };
+          });
+
+        // Combined: at each unique snapshot date across repos, sum the most-recent-known total per repo.
+        const dateSet = new Set();
+        filtered.forEach((r) => (r.stars?.snapshots || []).forEach((s) => dateSet.add(s.polled_at.slice(0, 10))));
+        const dates = [...dateSet].sort();
+        const lastByRepo = new Map();
+        const combinedPoints = dates.map((d) => {
+          filtered.forEach((r) => {
+            for (const s of (r.stars?.snapshots || [])) {
+              if (s.polled_at.slice(0, 10) <= d) lastByRepo.set(r.repo, s.total || 0);
+            }
+          });
+          const sum = [...lastByRepo.values()].reduce((a, b) => a + b, 0);
+          return { x: Date.parse(d + 'T00:00:00Z'), y: sum };
+        });
+        const combinedDataset = combinedPoints.length ? [{
+          label: 'All repos (combined)',
+          data: windowFilter(combinedPoints, windowDays),
+          borderColor: '#0f172a',
+          backgroundColor: '#0f172a1a',
+          tension: 0.1,
+          pointRadius: 0,
+          borderWidth: 3,
+          borderDash: [6, 4],
+        }] : [];
+
+        const datasets = [...combinedDataset, ...perRepoDatasets];
+        const ctx = document.getElementById(canvasId);
+        if (chartRef.chart) chartRef.chart.destroy();
+        chartRef.chart = new Chart(ctx, {
+          type: 'line',
+          data: { datasets },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            parsing: false,
+            scales: {
+              x: { type: 'linear', ticks: { callback: (v) => new Date(v).toISOString().slice(0, 10), maxTicksLimit: 8 } },
+              y: { beginAtZero: true, title: { display: true, text: 'stars' } },
+            },
+            plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { title: (items) => new Date(items[0].parsed.x).toISOString().slice(0, 10) } } },
+          },
+        });
+      }
+
+      function renderIssuesScore(group) {
+        const community = state.raw.community || { repos: [] };
+        const rows = community.repos
+          .filter((r) => (r.group || 'modules') === group && r.issues)
+          .map((r) => ({ repo: r.repo, it: (r.issues && r.issues.totals) || {} }))
+          .sort((a, b) => (b.it.external_open || 0) - (a.it.external_open || 0));
+        const tb = document.getElementById('issuesScoreBody');
+        tb.innerHTML = '';
+        rows.forEach(({ repo, it }) => {
+          const tr = document.createElement('tr');
+          tr.className = 'border-t border-slate-100';
+          tr.innerHTML = `
+            <td class="px-3 py-2">${repo}</td>
+            <td class="px-3 py-2 text-right">${fmt(it.external_open || 0)}</td>
+            <td class="px-3 py-2 text-right">${fmt(it.external_new_30d || 0)}</td>
+            <td class="px-3 py-2 text-right">${fmt(it.external_closed_30d || 0)}</td>
+            <td class="px-3 py-2 text-right">${fmt(it.external_pr_merged_90d || 0)}</td>
+            <td class="px-3 py-2 text-right">${fmt(it.external_authors_all_time || 0)}</td>`;
+          tb.appendChild(tr);
+        });
+      }
+
+      function renderStarsScore(bodyId, group) {
+        const community = state.raw.community || { repos: [] };
+        const rows = community.repos
+          .filter((r) => (r.group || 'modules') === group && r.stars)
+          .map((r) => ({ repo: r.repo, st: (r.stars && r.stars.totals) || {} }))
+          .sort((a, b) => (b.st.total || 0) - (a.st.total || 0));
+        const tb = document.getElementById(bodyId);
+        tb.innerHTML = '';
+        rows.forEach(({ repo, st }) => {
+          const tr = document.createElement('tr');
+          tr.className = 'border-t border-slate-100';
+          const fmtN = (v) => (v == null ? '—' : fmt(v));
+          const velocity = st.velocity30d != null ? st.velocity30d.toFixed(3) : '—';
+          tr.innerHTML = `
+            <td class="px-3 py-2">${repo}</td>
+            <td class="px-3 py-2 text-right">${fmtN(st.total)}</td>
+            <td class="px-3 py-2 text-right">${fmtN(st.last30d)}</td>
+            <td class="px-3 py-2 text-right">${fmtN(st.last90d)}</td>
+            <td class="px-3 py-2 text-right">${velocity}</td>`;
+          tb.appendChild(tr);
+        });
+      }
+
+      function renderRecentExternal(group) {
+        const community = state.raw.community || { repos: [] };
+        const all = [];
+        community.repos.forEach((r) => {
+          if ((r.group || 'modules') !== group) return;
+          if (!r.issues || !Array.isArray(r.issues.recentExternal)) return;
+          r.issues.recentExternal.forEach((it) => all.push({ ...it, repo: r.repo }));
+        });
+        all.sort((a, b) => (b.created_at || '').localeCompare(a.created_at || ''));
+        const top = all.slice(0, 20);
+        const tb = document.getElementById('recentExternalBody');
+        tb.innerHTML = '';
+        if (!top.length) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td class="px-3 py-3 text-slate-500" colspan="6">No recent external issues or PRs.</td>';
+          tb.appendChild(tr);
+          return;
+        }
+        top.forEach((it) => {
+          const [owner, name] = it.repo.split('/');
+          const url = `https://github.com/${owner}/${name}/${it.type === 'pr' ? 'pull' : 'issues'}/${it.number}`;
+          const tr = document.createElement('tr');
+          tr.className = 'border-t border-slate-100';
+          tr.innerHTML = `
+            <td class="px-3 py-2">${it.repo.replace(/^netascode\//, '')}</td>
+            <td class="px-3 py-2">${(it.type || '').toUpperCase()}</td>
+            <td class="px-3 py-2"><a class="text-blue-700 hover:underline" href="${url}" target="_blank" rel="noopener noreferrer">#${it.number}</a></td>
+            <td class="px-3 py-2">${it.author || ''}</td>
+            <td class="px-3 py-2">${it.state || ''}</td>
+            <td class="px-3 py-2">${(it.created_at || '').slice(0, 10)}</td>`;
+          tb.appendChild(tr);
+        });
+      }
+
+      function renderRegistryChart() {
+        const registry = state.raw.registry || { repos: [] };
+        const datasets = registry.repos
+          .filter((r) => Array.isArray(r.snapshots) && r.snapshots.length)
+          .map((r, idx) => {
+            const points = r.snapshots.map((s) => ({ x: Date.parse(s.polled_at), y: s.total || 0 }));
+            return {
+              label: r.repo.replace(/^netascode\//, ''),
+              data: points,
+              borderColor: repoColor(idx),
+              backgroundColor: repoColor(idx) + '33',
+              tension: 0.1,
+              pointRadius: 3,
+              borderWidth: 2,
+            };
+          });
+        const ctx = document.getElementById('registryChart');
+        if (registryChart) registryChart.destroy();
+        registryChart = new Chart(ctx, {
+          type: 'line',
+          data: { datasets },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            parsing: false,
+            scales: {
+              x: { type: 'linear', ticks: { callback: (v) => new Date(v).toISOString().slice(0, 10), maxTicksLimit: 8 } },
+              y: { title: { display: true, text: 'total downloads' } },
+            },
+            plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { title: (items) => new Date(items[0].parsed.x).toISOString().slice(0, 10) } } },
+          },
+        });
+      }
+
+      function renderRegistryChart(canvasId, group, chartRef) {
+        const registry = state.raw.registry || { repos: [] };
+        const datasets = registry.repos
+          .filter((r) => (r.group || 'modules') === group)
+          .filter((r) => Array.isArray(r.snapshots) && r.snapshots.length)
+          .map((r, idx) => {
+            const points = r.snapshots.map((s) => ({ x: Date.parse(s.polled_at), y: s.total || 0 }));
+            return {
+              label: r.repo.replace(/^netascode\/|^CiscoDevNet\//i, ''),
+              data: points,
+              borderColor: repoColor(idx),
+              backgroundColor: repoColor(idx) + '33',
+              tension: 0.1,
+              pointRadius: 3,
+              borderWidth: 2,
+            };
+          });
+        const ctx = document.getElementById(canvasId);
+        if (chartRef.chart) chartRef.chart.destroy();
+        chartRef.chart = new Chart(ctx, {
+          type: 'line',
+          data: { datasets },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            parsing: false,
+            scales: {
+              x: { type: 'linear', ticks: { callback: (v) => new Date(v).toISOString().slice(0, 10), maxTicksLimit: 8 } },
+              y: { title: { display: true, text: 'total downloads' } },
+            },
+            plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { title: (items) => new Date(items[0].parsed.x).toISOString().slice(0, 10) } } },
+          },
+        });
+      }
+
+      function renderRegistryTable(bodyId, group) {
+        const registry = state.raw.registry || { repos: [] };
+        const tb = document.getElementById(bodyId);
+        tb.innerHTML = '';
+        const rows = registry.repos
+          .filter((r) => (r.group || 'modules') === group)
+          .slice()
+          .sort((a, b) => {
+            const at = (a.snapshots && a.snapshots[a.snapshots.length - 1] && a.snapshots[a.snapshots.length - 1].total) || 0;
+            const bt = (b.snapshots && b.snapshots[b.snapshots.length - 1] && b.snapshots[b.snapshots.length - 1].total) || 0;
+            return bt - at;
+          });
+        rows.forEach((r) => {
+          const last = (r.snapshots && r.snapshots[r.snapshots.length - 1]) || {};
+          const regInfo = r.registry ? `${r.registry.namespace}/${r.registry.name}${r.registry.provider ? '/' + r.registry.provider : ''}` : (r.type || '');
+          const tr = document.createElement('tr');
+          tr.className = 'border-t border-slate-100';
+          tr.innerHTML = `
+            <td class="px-3 py-2">${r.repo}</td>
+            <td class="px-3 py-2 text-xs text-slate-500">${regInfo}</td>
+            <td class="px-3 py-2 text-right">${fmt(last.total || 0)}</td>
+            <td class="px-3 py-2 text-right">${last.week != null ? fmt(last.week) : '—'}</td>
+            <td class="px-3 py-2 text-right">${last.month != null ? fmt(last.month) : '—'}</td>
+            <td class="px-3 py-2 text-right">${last.year != null ? fmt(last.year) : '—'}</td>
+            <td class="px-3 py-2 text-xs text-slate-500">${(last.polled_at || '').slice(0, 10)}</td>`;
+          tb.appendChild(tr);
+        });
+      }
+
+      function renderRegistryMonthlyChart(canvasId, group, chartRef) {
+        const registry = state.raw.registry || { repos: [] };
+        const datasets = registry.repos
+          .filter((r) => (r.group || 'modules') === group)
+          .filter((r) => Array.isArray(r.snapshots) && r.snapshots.length)
+          .map((r, idx) => {
+            const points = r.snapshots
+              .filter((s) => s.month != null)
+              .map((s) => ({ x: Date.parse(s.polled_at), y: s.month || 0 }));
+            return {
+              label: r.repo.replace(/^netascode\/|^CiscoDevNet\//i, ''),
+              data: points,
+              borderColor: repoColor(idx),
+              backgroundColor: repoColor(idx) + '33',
+              tension: 0.1,
+              pointRadius: 3,
+              borderWidth: 2,
+            };
+          });
+        const ctx = document.getElementById(canvasId);
+        if (chartRef.chart) chartRef.chart.destroy();
+        chartRef.chart = new Chart(ctx, {
+          type: 'line',
+          data: { datasets },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            parsing: false,
+            scales: {
+              x: { type: 'linear', ticks: { callback: (v) => new Date(v).toISOString().slice(0, 10), maxTicksLimit: 8 } },
+              y: { beginAtZero: true, title: { display: true, text: 'downloads in trailing 30d' } },
+            },
+            plugins: { legend: { position: 'bottom' }, tooltip: { callbacks: { title: (items) => new Date(items[0].parsed.x).toISOString().slice(0, 10) } } },
+          },
+        });
+      }
+
       (async () => {
+        await renderPreviewBanner();
         state.raw = await loadData();
         state.raw.repos.forEach((r) => state.selectedRepos.add(r.repo));
         redraw();
+        // modules
+        renderIssuesScore('modules');
+        renderStarsScore('starsScoreBody', 'modules');
+        renderRecentExternal('modules');
+        renderStarsChart('starsChart', 'modules', starsChartRef, starsRangeDays);
+        renderRegistryChart('registryChart', 'modules', registryChartRef);
+        renderRegistryMonthlyChart('registryMonthlyChart', 'modules', registryMonthlyChartRef);
+        renderRegistryTable('registryTableBody', 'modules');
+        // providers (no window filter — data starts today)
+        renderStarsScore('providersStarsScoreBody', 'providers');
+        renderStarsChart('providersStarsChart', 'providers', providersStarsChartRef, 'all');
+        renderRegistryChart('providersRegistryChart', 'providers', providersRegistryChartRef);
+        renderRegistryTable('providersRegistryTableBody', 'providers');
+
+        // Community star-chart range control
+        const starsRangeEl = document.getElementById('starsRange');
+        if (starsRangeEl) {
+          starsRangeEl.addEventListener('change', (e) => {
+            starsRangeDays = e.target.value === 'all' ? 'all' : Number(e.target.value);
+            renderStarsChart('starsChart', 'modules', starsChartRef, starsRangeDays);
+          });
+        }
+
+        setActiveTab(location.hash.replace('#', ''));
       })();
     </script>
   </body>

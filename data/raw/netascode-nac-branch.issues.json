@@ -1,0 +1,272 @@
+{
+  "items": [
+    {
+      "number": 1,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "rsaville2",
+      "is_org_member": false,
+      "created_at": "2025-07-25T15:11:21Z",
+      "closed_at": "2025-11-03T17:57:00Z",
+      "merged_at": null
+    },
+    {
+      "number": 2,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "rsaville2",
+      "is_org_member": false,
+      "created_at": "2025-07-28T20:21:54Z",
+      "closed_at": "2025-07-29T08:27:26Z",
+      "merged_at": "2025-07-29T08:27:26Z"
+    },
+    {
+      "number": 3,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "jbarozet",
+      "is_org_member": false,
+      "created_at": "2025-07-29T08:43:09Z",
+      "closed_at": "2025-07-29T08:43:16Z",
+      "merged_at": "2025-07-29T08:43:16Z"
+    },
+    {
+      "number": 4,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2025-07-29T10:52:03Z",
+      "closed_at": "2025-07-29T14:30:56Z",
+      "merged_at": "2025-07-29T14:30:56Z"
+    },
+    {
+      "number": 5,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "rsaville2",
+      "is_org_member": false,
+      "created_at": "2025-08-14T13:26:12Z",
+      "closed_at": "2025-08-14T13:27:21Z",
+      "merged_at": "2025-08-14T13:27:21Z"
+    },
+    {
+      "number": 6,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "github-actions[bot]",
+      "is_org_member": false,
+      "created_at": "2025-10-01T06:45:34Z",
+      "closed_at": "2025-10-05T19:09:22Z",
+      "merged_at": null
+    },
+    {
+      "number": 7,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "github-actions[bot]",
+      "is_org_member": false,
+      "created_at": "2025-10-01T06:45:35Z",
+      "closed_at": "2025-10-05T19:10:07Z",
+      "merged_at": null
+    },
+    {
+      "number": 8,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "github-actions[bot]",
+      "is_org_member": false,
+      "created_at": "2025-10-02T06:43:31Z",
+      "closed_at": "2025-10-05T19:09:58Z",
+      "merged_at": null
+    },
+    {
+      "number": 9,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "github-actions[bot]",
+      "is_org_member": false,
+      "created_at": "2025-10-02T06:43:32Z",
+      "closed_at": "2025-10-05T19:09:46Z",
+      "merged_at": null
+    },
+    {
+      "number": 10,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "github-actions[bot]",
+      "is_org_member": false,
+      "created_at": "2025-10-03T15:38:46Z",
+      "closed_at": "2025-10-05T19:09:40Z",
+      "merged_at": null
+    },
+    {
+      "number": 11,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "github-actions[bot]",
+      "is_org_member": false,
+      "created_at": "2025-10-03T15:38:48Z",
+      "closed_at": "2025-10-05T19:09:28Z",
+      "merged_at": null
+    },
+    {
+      "number": 12,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2025-10-07T14:20:40Z",
+      "closed_at": "2025-10-08T07:37:23Z",
+      "merged_at": "2025-10-08T07:37:23Z"
+    },
+    {
+      "number": 13,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2025-11-03T15:58:42Z",
+      "closed_at": "2025-11-03T17:51:45Z",
+      "merged_at": "2025-11-03T17:51:45Z"
+    },
+    {
+      "number": 14,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2025-11-05T10:53:00Z",
+      "closed_at": "2025-11-05T10:56:12Z",
+      "merged_at": null
+    },
+    {
+      "number": 15,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2025-11-05T10:59:15Z",
+      "closed_at": "2025-11-05T16:10:18Z",
+      "merged_at": "2025-11-05T16:10:18Z"
+    },
+    {
+      "number": 16,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "mbatcs",
+      "is_org_member": false,
+      "created_at": "2025-11-10T18:49:44Z",
+      "closed_at": "2025-11-14T13:28:07Z",
+      "merged_at": null
+    },
+    {
+      "number": 17,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "rsaville2",
+      "is_org_member": false,
+      "created_at": "2025-11-13T18:53:35Z",
+      "closed_at": "2025-11-14T13:27:44Z",
+      "merged_at": null
+    },
+    {
+      "number": 18,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "rsaville2",
+      "is_org_member": false,
+      "created_at": "2025-11-13T21:49:36Z",
+      "closed_at": "2025-11-14T13:14:32Z",
+      "merged_at": "2025-11-14T13:14:32Z"
+    },
+    {
+      "number": 19,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2026-01-16T11:42:30Z",
+      "closed_at": "2026-03-11T09:45:19Z",
+      "merged_at": "2026-03-11T09:45:19Z"
+    },
+    {
+      "number": 20,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2026-03-27T09:17:20Z",
+      "closed_at": "2026-03-27T10:48:52Z",
+      "merged_at": "2026-03-27T10:48:52Z"
+    },
+    {
+      "number": 21,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2026-05-26T21:51:42Z",
+      "closed_at": "2026-05-26T21:57:35Z",
+      "merged_at": null
+    },
+    {
+      "number": 22,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2026-05-26T22:02:54Z",
+      "closed_at": "2026-05-26T22:11:06Z",
+      "merged_at": null
+    },
+    {
+      "number": 23,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2026-05-26T22:10:36Z",
+      "closed_at": "2026-05-26T23:01:13Z",
+      "merged_at": "2026-05-26T23:01:13Z"
+    },
+    {
+      "number": 24,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2026-05-26T23:02:46Z",
+      "closed_at": "2026-05-28T13:50:30Z",
+      "merged_at": "2026-05-28T13:50:30Z"
+    },
+    {
+      "number": 25,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "vinavasu",
+      "is_org_member": false,
+      "created_at": "2026-05-27T15:27:45Z",
+      "closed_at": "2026-05-27T20:08:27Z",
+      "merged_at": null
+    },
+    {
+      "number": 26,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "snmitrov",
+      "is_org_member": true,
+      "created_at": "2026-05-28T13:52:38Z",
+      "closed_at": "2026-05-28T19:41:53Z",
+      "merged_at": "2026-05-28T19:41:53Z"
+    }
+  ],
+  "totals": {
+    "external_open": 0,
+    "external_new_30d": 0,
+    "external_closed_30d": 0,
+    "external_pr_merged_90d": 0,
+    "external_authors_all_time": 5
+  },
+  "lastPolledAt": "2026-07-30T15:11:12.166Z"
+}

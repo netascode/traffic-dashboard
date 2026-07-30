@@ -36,6 +36,46 @@ jobs:
             --config=repos.json \
             --historyDir=data/raw
 
+      - name: Sync stars from configured repositories
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.TRAFFIC_PAT }}
+        run: |
+          node scripts/sync-github-stars.js \
+            --config=repos.json \
+            --historyDir=data/raw
+
+      - name: Restore org-member classification cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/raw/_org-members.json
+          key: org-members-${{ github.run_id }}
+          restore-keys: |
+            org-members-
+
+      - name: Sync issues & PRs from configured repositories
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.TRAFFIC_PAT }}
+        run: |
+          node scripts/sync-github-issues.js \
+            --config=repos.json \
+            --historyDir=data/raw
+
+      - name: Save org-member classification cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/raw/_org-members.json
+          key: org-members-${{ github.run_id }}
+
+      - name: Sync registry downloads for configured repositories
+        continue-on-error: true
+        run: |
+          node scripts/sync-registry.js \
+            --config=repos.json \
+            --historyDir=data/raw
+
       - name: Build aggregated dashboard dataset
         run: |
           node scripts/build-dashboard-data.js \
