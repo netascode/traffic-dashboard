@@ -69,6 +69,16 @@
       "timestamp": "2026-07-27T00:00:00Z",
       "count": 299,
       "uniques": 49
+    },
+    {
+      "timestamp": "2026-07-28T00:00:00Z",
+      "count": 284,
+      "uniques": 55
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 241,
+      "uniques": 52
     }
   ],
   "views": [
@@ -141,57 +151,67 @@
       "timestamp": "2026-07-27T00:00:00Z",
       "count": 32,
       "uniques": 14
+    },
+    {
+      "timestamp": "2026-07-28T00:00:00Z",
+      "count": 86,
+      "uniques": 17
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 59,
+      "uniques": 18
     }
   ],
   "totals": {
-    "clones": 4991,
-    "uniqueClonerDays": 579,
+    "clones": 5516,
+    "uniqueClonerDays": 686,
     "peakDailyClones": 923,
     "peakDailyUniqueCloners": 76,
-    "views": 490,
-    "uniqueVisitorDays": 162,
+    "views": 635,
+    "uniqueVisitorDays": 197,
     "peakDailyViews": 99,
     "peakDailyUniqueVisitors": 19,
-    "daysTracked": 14,
+    "daysTracked": 16,
     "firstDay": "2026-07-14T00:00:00Z",
-    "lastDay": "2026-07-27T00:00:00Z"
+    "lastDay": "2026-07-29T00:00:00Z"
   },
-  "lastUpdated": "2026-07-29T11:38:18.782Z",
+  "lastUpdated": "2026-07-30T11:38:19.573Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-aci-nac-aci",
       "title": "Overview",
       "count": 127,
-      "uniques": 79
-    },
-    {
-      "path": "/netascode/terraform-aci-nac-aci/issues",
-      "title": "/issues",
-      "count": 28,
-      "uniques": 11
+      "uniques": 87
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/pulls",
       "title": "/pulls",
+      "count": 32,
+      "uniques": 8
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/issues",
+      "title": "/issues",
       "count": 23,
-      "uniques": 7
+      "uniques": 11
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/tree/main",
       "title": "/tree/main",
-      "count": 17,
-      "uniques": 14
-    },
-    {
-      "path": "/netascode/terraform-aci-nac-aci/tree/main/modules",
-      "title": "/tree/main/modules",
-      "count": 15,
+      "count": 16,
       "uniques": 12
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/blob/main/defaults/defaults.yaml",
       "title": "/blob/main/defaults/defaults.yaml",
-      "count": 13,
+      "count": 15,
+      "uniques": 12
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/tree/main/modules",
+      "title": "/tree/main/modules",
+      "count": 15,
       "uniques": 11
     },
     {
@@ -201,39 +221,39 @@
       "uniques": 12
     },
     {
-      "path": "/netascode/terraform-aci-nac-aci/tags",
-      "title": "/tags",
-      "count": 12,
-      "uniques": 9
-    },
-    {
       "path": "/netascode/terraform-aci-nac-aci/issues/409",
       "title": "/issues/409",
       "count": 12,
       "uniques": 7
     },
     {
-      "path": "/netascode/terraform-aci-nac-aci/blob/main/versions.tf",
-      "title": "/blob/main/versions.tf",
-      "count": 7,
-      "uniques": 7
+      "path": "/netascode/terraform-aci-nac-aci/pull/412",
+      "title": "/pull/412",
+      "count": 11,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/tags",
+      "title": "/tags",
+      "count": 10,
+      "uniques": 6
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 103,
-      "uniques": 34
+      "count": 105,
+      "uniques": 35
     },
     {
       "referrer": "Google",
-      "count": 54,
-      "uniques": 11
+      "count": 81,
+      "uniques": 15
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 41,
-      "uniques": 12
+      "count": 45,
+      "uniques": 13
     },
     {
       "referrer": "statics.teams.cdn.office.net",
@@ -241,13 +261,13 @@
       "uniques": 1
     },
     {
-      "referrer": "wwwin-github.cisco.com",
-      "count": 6,
-      "uniques": 3
-    },
-    {
       "referrer": "Bing",
       "count": 5,
+      "uniques": 2
+    },
+    {
+      "referrer": "wwwin-github.cisco.com",
+      "count": 4,
       "uniques": 2
     },
     {
@@ -261,14 +281,14 @@
       "uniques": 1
     },
     {
-      "referrer": "teams.public.onecdn.static.microsoft",
-      "count": 4,
+      "referrer": "DuckDuckGo",
+      "count": 1,
       "uniques": 1
     },
     {
       "referrer": "registry.terraform.io",
-      "count": 2,
-      "uniques": 2
+      "count": 1,
+      "uniques": 1
     }
   ]
 }
