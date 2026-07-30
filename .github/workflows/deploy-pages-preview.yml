@@ -7,9 +7,7 @@ on:
     types: [completed]
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages-preview-${{ github.event.workflow_run.head_branch || github.ref_name || 'manual' }}
@@ -29,9 +27,6 @@ jobs:
         with:
           ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref_name }}
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
       - name: Prepare site artifact
         run: |
           test -s public/dashboard.json || { echo "Missing public/dashboard.json in checked out branch"; exit 1; }
@@ -44,16 +39,20 @@ jobs:
             echo "window.PREVIEW_BRANCH = '${BRANCH_SLUG}';"
           } > _site/preview-meta.js
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy preview site to /preview
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: _site
-
-      - name: Deploy preview to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          preview: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: _site
+          destination_dir: preview
+          keep_files: true
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_message: >-
+            chore: deploy preview from
+            ${{ github.event.workflow_run.head_branch || github.ref_name }}
+            @ ${{ github.event.workflow_run.head_sha || github.sha }}
 
       - name: Print preview deployment details
         run: |
@@ -61,5 +60,4 @@ jobs:
           echo "workflow_run_head_branch=${{ github.event.workflow_run.head_branch }}"
           echo "workflow_run_head_sha=${{ github.event.workflow_run.head_sha }}"
           echo "ref_name=${{ github.ref_name }}"
-          echo "preview_url=${{ steps.deployment.outputs.page_url }}"
-          echo "deployment_id=${{ steps.deployment.outputs.deployment_id }}"
+          echo "preview_url=https://netascode.github.io/traffic-dashboard/preview/"
