@@ -1,4 +1,4 @@
-name: Deploy Dashboard to GitHub Pages
+name: Deploy Dashboard Preview
 
 on:
   workflow_dispatch:
@@ -12,23 +12,22 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-preview-${{ github.event.workflow_run.head_branch || github.ref_name || 'manual' }}
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  deploy-preview:
     if: >-
-      ${{ github.event_name == 'workflow_dispatch' ||
-          (github.event_name == 'workflow_run' &&
-           github.event.workflow_run.conclusion == 'success' &&
-           github.event.workflow_run.head_branch == 'main') }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      ${{ (github.event_name == 'workflow_run' &&
+          github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.head_branch != 'main') ||
+          github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout source branch commit
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -44,6 +43,12 @@ jobs:
         with:
           path: _site
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy preview to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          preview: true
+
+      - name: Print preview URL
+        run: |
+          echo "Preview URL: ${{ steps.deployment.outputs.page_url }}"

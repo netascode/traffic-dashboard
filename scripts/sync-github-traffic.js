@@ -56,6 +56,39 @@ const merge = (existing, fresh) => {
   return [...map.values()].sort((a, b) => a.timestamp.localeCompare(b.timestamp));
 };
 
+const normalizeSeries = (series) => (Array.isArray(series)
+  ? series.filter((entry) => entry && typeof entry.timestamp === 'string')
+  : []);
+
+const assertNoHistoryRegression = (existing, merged, seriesName, repo) => {
+  if (!existing.length) return;
+
+  const mergedTimestamps = new Set(merged.map((entry) => entry.timestamp));
+  const missing = existing
+    .map((entry) => entry.timestamp)
+    .filter((timestamp) => !mergedTimestamps.has(timestamp));
+
+  if (missing.length) {
+    throw new Error(
+      `${repo}: ${seriesName} history regression detected (missing timestamps: ${missing.slice(0, 5).join(', ')})`
+    );
+  }
+
+  const existingFirst = existing[0]?.timestamp;
+  const mergedFirst = merged[0]?.timestamp;
+  if (existingFirst && mergedFirst && mergedFirst > existingFirst) {
+    throw new Error(
+      `${repo}: ${seriesName} history regression detected (first day moved from ${existingFirst} to ${mergedFirst})`
+    );
+  }
+
+  if (merged.length < existing.length) {
+    throw new Error(
+      `${repo}: ${seriesName} history regression detected (entry count shrank from ${existing.length} to ${merged.length})`
+    );
+  }
+};
+
 const sumBy = (arr, key) => arr.reduce((acc, entry) => acc + (entry[key] || 0), 0);
 const maxBy = (arr, key) => arr.reduce((acc, entry) => Math.max(acc, entry[key] || 0), 0);
 
@@ -87,11 +120,12 @@ async function syncRepo(item) {
     apiGet(`https://api.github.com/repos/${owner}/${name}/traffic/popular/referrers`),
   ]);
 
-  let history = { clones: [], views: [], popularPaths: [], referrers: [], totals: {}, lastUpdated: null };
+  let history = { repo, clones: [], views: [], popularPaths: [], referrers: [], totals: {}, lastUpdated: null };
   let hadPopularPaths = true;
   let hadReferrers = true;
   if (fs.existsSync(historyPath)) {
     history = JSON.parse(fs.readFileSync(historyPath, 'utf8'));
+    history.repo = history.repo || repo;
     if (!history.totals) history.totals = {};
     hadPopularPaths = Array.isArray(history.popularPaths);
     hadReferrers = Array.isArray(history.referrers);
@@ -99,14 +133,21 @@ async function syncRepo(item) {
     if (!history.referrers) history.referrers = [];
   }
 
+  history.clones = normalizeSeries(history.clones);
+  history.views = normalizeSeries(history.views);
+
   const before = JSON.stringify({
     clones: history.clones,
     views: history.views,
     popularPaths: history.popularPaths,
     referrers: history.referrers,
   });
-  history.clones = merge(history.clones || [], clonesRes.clones || []);
-  history.views = merge(history.views || [], viewsRes.views || []);
+  const mergedClones = merge(history.clones || [], normalizeSeries(clonesRes.clones || []));
+  const mergedViews = merge(history.views || [], normalizeSeries(viewsRes.views || []));
+  assertNoHistoryRegression(history.clones, mergedClones, 'clones', repo);
+  assertNoHistoryRegression(history.views, mergedViews, 'views', repo);
+  history.clones = mergedClones;
+  history.views = mergedViews;
   history.popularPaths = (popularPathsRes || []).map((entry) => ({
     path: entry.path,
     title: entry.title,
