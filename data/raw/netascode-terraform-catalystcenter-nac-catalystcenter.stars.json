@@ -1,0 +1,98 @@
+{
+  "stars": [
+    {
+      "starred_at": "2025-02-24T23:33:12Z",
+      "user_login": "jorgenspange"
+    },
+    {
+      "starred_at": "2025-03-11T13:23:30Z",
+      "user_login": "Gieblah"
+    },
+    {
+      "starred_at": "2025-05-12T08:26:58Z",
+      "user_login": "TahirAliSp"
+    },
+    {
+      "starred_at": "2025-07-11T10:56:22Z",
+      "user_login": "NOMNudler"
+    },
+    {
+      "starred_at": "2025-09-11T20:15:59Z",
+      "user_login": "billwaz65"
+    },
+    {
+      "starred_at": "2026-04-16T09:06:52Z",
+      "user_login": "cleufven"
+    },
+    {
+      "starred_at": "2026-05-31T14:50:05Z",
+      "user_login": "billwan2077"
+    },
+    {
+      "starred_at": "2026-07-07T14:21:23Z",
+      "user_login": "Yoh-kun"
+    },
+    {
+      "starred_at": "2026-07-15T17:56:08Z",
+      "user_login": "ocdxr3lo4der"
+    }
+  ],
+  "snapshots": [
+    {
+      "polled_at": "2025-02-24T00:00:00Z",
+      "total": 1,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2025-03-11T00:00:00Z",
+      "total": 2,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2025-05-12T00:00:00Z",
+      "total": 3,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2025-07-11T00:00:00Z",
+      "total": 4,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2025-09-11T00:00:00Z",
+      "total": 5,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2026-04-16T00:00:00Z",
+      "total": 6,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2026-05-31T00:00:00Z",
+      "total": 7,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2026-07-07T00:00:00Z",
+      "total": 8,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2026-07-15T00:00:00Z",
+      "total": 9,
+      "backfilled": true
+    },
+    {
+      "polled_at": "2026-07-30T08:32:32.045Z",
+      "total": 9
+    }
+  ],
+  "totals": {
+    "total": 9,
+    "last30d": 2,
+    "last90d": 3,
+    "velocity30d": 0.067
+  },
+  "lastUpdated": "2026-07-30T08:32:32.045Z"
+}

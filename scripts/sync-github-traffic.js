@@ -73,6 +73,9 @@ async function syncRepo(item) {
     console.warn('Skipping invalid repo entry', item);
     return { repo: item.repo || 'unknown', changed: false, reason: 'invalid repo' };
   }
+  if (Array.isArray(item.signals) && !item.signals.includes('traffic')) {
+    return { repo, changed: false, reason: 'traffic disabled by config' };
+  }
 
   const [owner, name] = repo.split('/');
   const historyPath = item.trafficPath || item.historyPath || defaultHistoryPath(repo);

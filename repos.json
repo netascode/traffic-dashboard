@@ -1,22 +1,63 @@
 {
   "repos": [
     {
-      "repo": "netascode/nac-branch"
+      "repo": "netascode/nac-branch",
+      "group": "modules"
     },
     {
-      "repo": "netascode/terraform-aci-nac-aci"
+      "repo": "netascode/terraform-aci-nac-aci",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-aci", "provider": "aci" }
     },
     {
-      "repo": "netascode/terraform-fmc-nac-fmc"
+      "repo": "netascode/terraform-fmc-nac-fmc",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-fmc", "provider": "fmc" }
     },
     {
-      "repo": "netascode/terraform-meraki-nac-meraki"
+      "repo": "netascode/terraform-meraki-nac-meraki",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-meraki", "provider": "meraki" }
     },
     {
-      "repo": "netascode/terraform-iosxe-nac-iosxe"
+      "repo": "netascode/terraform-iosxe-nac-iosxe",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-iosxe", "provider": "iosxe" }
     },
     {
-      "repo": "netascode/terraform-catalystcenter-nac-catalystcenter"
+      "repo": "netascode/terraform-catalystcenter-nac-catalystcenter",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-catalystcenter", "provider": "catalystcenter" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-aci",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "aci" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-fmc",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "fmc" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-meraki",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "meraki" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-iosxe",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "iosxe" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-catalystcenter",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "catalystcenter" }
     }
   ]
 }
