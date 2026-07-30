@@ -27,17 +27,20 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout source branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref_name }}
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Prepare site artifact
         run: |
+          test -s public/dashboard.json || { echo "Missing public/dashboard.json in checked out branch"; exit 1; }
           mkdir -p _site/public
           cp index.html _site/index.html
-          if [ -f public/dashboard.json ]; then cp public/dashboard.json _site/public/dashboard.json; fi
+          cp public/dashboard.json _site/public/dashboard.json
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

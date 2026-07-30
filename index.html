@@ -9,6 +9,11 @@
   </head>
   <body class="min-h-screen bg-slate-50 text-slate-900">
     <main class="mx-auto max-w-7xl space-y-5 p-5 lg:p-8">
+      <section id="previewBanner" class="hidden rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900">
+        <strong>Testing deployment:</strong>
+        <span id="previewBannerText">This is not production.</span>
+      </section>
+
       <section class="rounded-xl border border-slate-200 bg-white p-5">
         <h1 class="text-2xl font-semibold">netascode Insights Dashboard</h1>
         <p class="mt-2 text-sm text-slate-600">Traffic, community, and registry signals across netascode open-source repositories.</p>
@@ -343,6 +348,32 @@
         clones: { key: 'clones', field: 'count' },
         cloners: { key: 'clones', field: 'uniques' },
       };
+
+      async function detectPreviewBranch() {
+        if (window.PREVIEW_BRANCH) return window.PREVIEW_BRANCH;
+        try {
+          const res = await fetch('./preview-meta.js', { cache: 'no-store' });
+          if (!res.ok) return null;
+          const text = await res.text();
+          const match = text.match(/window\.PREVIEW_BRANCH\s*=\s*['\"]([^'\"]+)['\"]/);
+          return match ? match[1] : null;
+        } catch (_) {
+          return null;
+        }
+      }
+
+      async function renderPreviewBanner() {
+        const banner = document.getElementById('previewBanner');
+        const text = document.getElementById('previewBannerText');
+        const host = location.hostname.toLowerCase();
+        const isPreviewHost = host.includes('traffic-dashboard-preview');
+        const branch = await detectPreviewBranch();
+        if (!isPreviewHost && !branch) return;
+        text.textContent = branch
+          ? `This is a testing deployment from branch ${branch}.`
+          : 'This is a testing deployment and may differ from production.';
+        banner.classList.remove('hidden');
+      }
 
       const fmt = (n) => new Intl.NumberFormat().format(n || 0);
       const startOfMonth = () => {
@@ -1113,6 +1144,7 @@
       }
 
       (async () => {
+        await renderPreviewBanner();
         state.raw = await loadData();
         state.raw.repos.forEach((r) => state.selectedRepos.add(r.repo));
         redraw();
