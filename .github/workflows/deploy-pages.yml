@@ -6,7 +6,8 @@ on:
     workflows: ["Sync GitHub Traffic Dashboard"]
     types: [completed]
   push:
-    branches: [main]
+    branches:
+      - '**'
     paths:
       - index.html
       - public/dashboard.json

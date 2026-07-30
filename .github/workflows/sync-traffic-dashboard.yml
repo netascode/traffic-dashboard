@@ -2,6 +2,14 @@ name: Sync GitHub Traffic Dashboard
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - '**'
+    paths:
+      - repos.json
+      - scripts/sync-github-traffic.js
+      - scripts/build-dashboard-data.js
+      - .github/workflows/sync-traffic-dashboard.yml
   schedule:
     - cron: '23 2 * * *'
 
