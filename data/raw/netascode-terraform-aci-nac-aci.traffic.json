@@ -84,6 +84,11 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 261,
       "uniques": 59
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 261,
+      "uniques": 48
     }
   ],
   "views": [
@@ -171,46 +176,51 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 52,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 116,
+      "uniques": 14
     }
   ],
   "totals": {
-    "clones": 5777,
-    "uniqueClonerDays": 745,
+    "clones": 6038,
+    "uniqueClonerDays": 793,
     "peakDailyClones": 923,
     "peakDailyUniqueCloners": 76,
-    "views": 687,
-    "uniqueVisitorDays": 207,
-    "peakDailyViews": 99,
+    "views": 803,
+    "uniqueVisitorDays": 221,
+    "peakDailyViews": 116,
     "peakDailyUniqueVisitors": 19,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-14T00:00:00Z",
-    "lastDay": "2026-07-30T00:00:00Z"
+    "lastDay": "2026-07-31T00:00:00Z"
   },
-  "lastUpdated": "2026-07-31T05:47:07.665Z",
+  "lastUpdated": "2026-08-01T05:38:06.115Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-aci-nac-aci",
       "title": "Overview",
-      "count": 128,
-      "uniques": 85
+      "count": 134,
+      "uniques": 88
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/pulls",
       "title": "/pulls",
-      "count": 35,
-      "uniques": 8
-    },
-    {
-      "path": "/netascode/terraform-aci-nac-aci/issues",
-      "title": "/issues",
-      "count": 23,
-      "uniques": 11
+      "count": 37,
+      "uniques": 9
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/blob/main/defaults/defaults.yaml",
       "title": "/blob/main/defaults/defaults.yaml",
-      "count": 19,
-      "uniques": 14
+      "count": 24,
+      "uniques": 16
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/issues",
+      "title": "/issues",
+      "count": 20,
+      "uniques": 10
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/tree/main/modules",
@@ -219,10 +229,22 @@
       "uniques": 12
     },
     {
+      "path": "/netascode/terraform-aci-nac-aci/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 15,
+      "uniques": 8
+    },
+    {
       "path": "/netascode/terraform-aci-nac-aci/tree/main",
       "title": "/tree/main",
-      "count": 15,
-      "uniques": 12
+      "count": 13,
+      "uniques": 10
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/blob/main/aci_access_policies.tf",
+      "title": "/blob/main/aci_access_policies.tf",
+      "count": 13,
+      "uniques": 9
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/tree/main/examples",
@@ -231,44 +253,27 @@
       "uniques": 12
     },
     {
-      "path": "/netascode/terraform-aci-nac-aci/issues/409",
-      "title": "/issues/409",
-      "count": 12,
-      "uniques": 7
-    },
-    {
       "path": "/netascode/terraform-aci-nac-aci/pull/412",
       "title": "/pull/412",
       "count": 11,
       "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-aci-nac-aci/tags",
-      "title": "/tags",
-      "count": 10,
-      "uniques": 6
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 104,
+      "count": 107,
       "uniques": 34
     },
     {
       "referrer": "Google",
-      "count": 83,
-      "uniques": 16
+      "count": 102,
+      "uniques": 17
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 40,
+      "count": 45,
       "uniques": 12
-    },
-    {
-      "referrer": "statics.teams.cdn.office.net",
-      "count": 7,
-      "uniques": 1
     },
     {
       "referrer": "Bing",
@@ -291,12 +296,17 @@
       "uniques": 1
     },
     {
+      "referrer": "statics.teams.cdn.office.net",
+      "count": 3,
+      "uniques": 1
+    },
+    {
       "referrer": "DuckDuckGo",
       "count": 1,
       "uniques": 1
     },
     {
-      "referrer": "registry.terraform.io",
+      "referrer": "cisco.sharepoint.com",
       "count": 1,
       "uniques": 1
     }

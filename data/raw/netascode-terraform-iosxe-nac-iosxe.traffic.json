@@ -79,6 +79,11 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 47,
       "uniques": 11
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 45,
+      "uniques": 10
     }
   ],
   "views": [
@@ -161,14 +166,19 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 12,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 5,
+      "uniques": 5
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe",
       "title": "Overview",
-      "count": 77,
-      "uniques": 40
+      "count": 81,
+      "uniques": 42
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
@@ -189,16 +199,16 @@
       "uniques": 4
     },
     {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
-      "title": "/blob/main/main.tf",
-      "count": 7,
-      "uniques": 5
-    },
-    {
       "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main/examples/system",
       "title": "/tree/main/examples/system",
       "count": 7,
       "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 6,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/versions.tf",
@@ -228,18 +238,18 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 61,
-      "uniques": 13
+      "count": 45,
+      "uniques": 12
     },
     {
       "referrer": "Google",
-      "count": 39,
-      "uniques": 10
+      "count": 40,
+      "uniques": 11
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 13,
-      "uniques": 4
+      "count": 14,
+      "uniques": 5
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
@@ -258,18 +268,18 @@
     }
   ],
   "totals": {
-    "clones": 1093,
-    "uniqueClonerDays": 271,
+    "clones": 1138,
+    "uniqueClonerDays": 281,
     "peakDailyClones": 149,
     "peakDailyUniqueCloners": 59,
-    "views": 344,
-    "uniqueVisitorDays": 89,
+    "views": 349,
+    "uniqueVisitorDays": 94,
     "peakDailyViews": 85,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-30T00:00:00Z"
+    "lastDay": "2026-07-31T00:00:00Z"
   },
-  "lastUpdated": "2026-07-31T05:47:08.247Z",
+  "lastUpdated": "2026-08-01T05:38:06.636Z",
   "repo": "netascode/terraform-iosxe-nac-iosxe"
 }

@@ -79,6 +79,11 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 37,
       "uniques": 15
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 35,
+      "uniques": 22
     }
   ],
   "views": [
@@ -161,27 +166,32 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 7,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 8,
+      "uniques": 3
     }
   ],
   "totals": {
-    "clones": 734,
-    "uniqueClonerDays": 484,
+    "clones": 769,
+    "uniqueClonerDays": 506,
     "peakDailyClones": 116,
     "peakDailyUniqueCloners": 81,
-    "views": 236,
-    "uniqueVisitorDays": 53,
+    "views": 244,
+    "uniqueVisitorDays": 56,
     "peakDailyViews": 105,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-30T00:00:00Z"
+    "lastDay": "2026-07-31T00:00:00Z"
   },
-  "lastUpdated": "2026-07-31T05:47:08.051Z",
+  "lastUpdated": "2026-08-01T05:38:06.474Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-meraki-nac-meraki",
       "title": "Overview",
-      "count": 39,
+      "count": 40,
       "uniques": 26
     },
     {
@@ -215,26 +225,26 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-meraki-nac-meraki/tree/main",
-      "title": "/tree/main",
-      "count": 4,
-      "uniques": 4
-    },
-    {
       "path": "/netascode/terraform-meraki-nac-meraki/pull/186",
       "title": "/pull/186",
       "count": 4,
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-meraki-nac-meraki/pulse",
-      "title": "/pulse",
+      "path": "/netascode/terraform-meraki-nac-meraki/releases",
+      "title": "/releases",
       "count": 3,
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-meraki-nac-meraki/releases",
-      "title": "/releases",
+      "path": "/netascode/terraform-meraki-nac-meraki/releases/tag/v0.10.0",
+      "title": "/releases/tag/v0.10.0",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/tree/main",
+      "title": "/tree/main",
       "count": 3,
       "uniques": 3
     }
@@ -243,7 +253,7 @@
     {
       "referrer": "github.com",
       "count": 42,
-      "uniques": 12
+      "uniques": 13
     },
     {
       "referrer": "wwwin-github.cisco.com",

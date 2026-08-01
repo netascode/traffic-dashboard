@@ -74,6 +74,11 @@
       "timestamp": "2026-07-29T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -151,6 +156,11 @@
       "timestamp": "2026-07-29T00:00:00Z",
       "count": 43,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 3,
+      "uniques": 3
     }
   ],
   "totals": {
@@ -158,21 +168,21 @@
     "uniqueClonerDays": 9,
     "peakDailyClones": 8,
     "peakDailyUniqueCloners": 2,
-    "views": 135,
-    "uniqueVisitorDays": 29,
+    "views": 138,
+    "uniqueVisitorDays": 32,
     "peakDailyViews": 43,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-29T00:00:00Z"
+    "lastDay": "2026-07-30T00:00:00Z"
   },
-  "lastUpdated": "2026-07-30T05:20:33.587Z",
+  "lastUpdated": "2026-08-01T05:38:05.966Z",
   "popularPaths": [
     {
       "path": "/netascode/nac-branch",
       "title": "Overview",
-      "count": 32,
-      "uniques": 18
+      "count": 34,
+      "uniques": 19
     },
     {
       "path": "/netascode/nac-branch/pulse",
@@ -223,10 +233,10 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-branch/graphs/traffic",
-      "title": "/graphs/traffic",
+      "path": "/netascode/nac-branch/tree/main/docs",
+      "title": "/tree/main/docs",
       "count": 3,
-      "uniques": 2
+      "uniques": 3
     }
   ],
   "referrers": [
@@ -255,5 +265,6 @@
       "count": 2,
       "uniques": 2
     }
-  ]
+  ],
+  "repo": "netascode/nac-branch"
 }
