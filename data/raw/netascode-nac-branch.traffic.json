@@ -79,6 +79,11 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "views": [
@@ -161,28 +166,33 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 3,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "totals": {
-    "clones": 15,
-    "uniqueClonerDays": 9,
+    "clones": 17,
+    "uniqueClonerDays": 11,
     "peakDailyClones": 8,
     "peakDailyUniqueCloners": 2,
-    "views": 138,
-    "uniqueVisitorDays": 32,
+    "views": 140,
+    "uniqueVisitorDays": 34,
     "peakDailyViews": 43,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-30T00:00:00Z"
+    "lastDay": "2026-07-31T00:00:00Z"
   },
-  "lastUpdated": "2026-08-01T05:38:05.966Z",
+  "lastUpdated": "2026-08-02T05:38:57.884Z",
   "popularPaths": [
     {
       "path": "/netascode/nac-branch",
       "title": "Overview",
-      "count": 34,
-      "uniques": 19
+      "count": 36,
+      "uniques": 20
     },
     {
       "path": "/netascode/nac-branch/pulse",

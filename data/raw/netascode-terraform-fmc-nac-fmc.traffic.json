@@ -79,6 +79,11 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 21,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 24,
+      "uniques": 6
     }
   ],
   "views": [
@@ -161,28 +166,33 @@
       "timestamp": "2026-07-30T00:00:00Z",
       "count": 8,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 8,
+      "uniques": 3
     }
   ],
   "totals": {
-    "clones": 796,
-    "uniqueClonerDays": 125,
+    "clones": 820,
+    "uniqueClonerDays": 131,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
-    "views": 89,
-    "uniqueVisitorDays": 35,
+    "views": 97,
+    "uniqueVisitorDays": 38,
     "peakDailyViews": 24,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-30T00:00:00Z"
+    "lastDay": "2026-07-31T00:00:00Z"
   },
-  "lastUpdated": "2026-08-01T05:38:06.258Z",
+  "lastUpdated": "2026-08-02T05:38:58.202Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
       "title": "Overview",
-      "count": 39,
-      "uniques": 22
+      "count": 44,
+      "uniques": 24
     },
     {
       "path": "/netascode/terraform-fmc-nac-fmc/issues",
@@ -197,6 +207,12 @@
       "uniques": 3
     },
     {
+      "path": "/netascode/terraform-fmc-nac-fmc/branches",
+      "title": "/branches",
+      "count": 3,
+      "uniques": 3
+    },
+    {
       "path": "/netascode/terraform-fmc-nac-fmc/commits/main",
       "title": "/commits/main",
       "count": 3,
@@ -205,12 +221,6 @@
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/merge.tf",
       "title": "/blob/main/merge.tf",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-fmc-nac-fmc/branches",
-      "title": "/branches",
       "count": 2,
       "uniques": 2
     },
@@ -253,6 +263,11 @@
     {
       "referrer": "Bing",
       "count": 2,
+      "uniques": 1
+    },
+    {
+      "referrer": "DuckDuckGo",
+      "count": 1,
       "uniques": 1
     }
   ],
