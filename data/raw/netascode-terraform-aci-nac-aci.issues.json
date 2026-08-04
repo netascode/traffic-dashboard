@@ -4219,14 +4219,34 @@
       "created_at": "2026-07-30T20:07:21Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 423,
+      "type": "issue",
+      "state": "open",
+      "author_login": "noppanut15",
+      "is_org_member": false,
+      "created_at": "2026-08-03T07:38:43Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 424,
+      "type": "pr",
+      "state": "open",
+      "author_login": "noppanut15",
+      "is_org_member": false,
+      "created_at": "2026-08-03T08:06:09Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 23,
-    "external_new_30d": 10,
+    "external_open": 25,
+    "external_new_30d": 12,
     "external_closed_30d": 3,
     "external_pr_merged_90d": 7,
-    "external_authors_all_time": 68
+    "external_authors_all_time": 69
   },
-  "lastPolledAt": "2026-08-03T05:54:24.350Z"
+  "lastPolledAt": "2026-08-04T05:27:00.473Z"
 }
