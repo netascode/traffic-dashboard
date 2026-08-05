@@ -84,6 +84,26 @@
       "timestamp": "2026-07-31T00:00:00Z",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "views": [
@@ -171,28 +191,48 @@
       "timestamp": "2026-07-31T00:00:00Z",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 6,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 10,
+      "uniques": 6
     }
   ],
   "totals": {
-    "clones": 17,
-    "uniqueClonerDays": 11,
+    "clones": 20,
+    "uniqueClonerDays": 14,
     "peakDailyClones": 8,
     "peakDailyUniqueCloners": 2,
-    "views": 140,
-    "uniqueVisitorDays": 34,
+    "views": 157,
+    "uniqueVisitorDays": 46,
     "peakDailyViews": 43,
-    "peakDailyUniqueVisitors": 5,
-    "daysTracked": 17,
+    "peakDailyUniqueVisitors": 6,
+    "daysTracked": 21,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-31T00:00:00Z"
+    "lastDay": "2026-08-04T00:00:00Z"
   },
-  "lastUpdated": "2026-08-02T05:38:57.884Z",
+  "lastUpdated": "2026-08-05T05:26:35.588Z",
   "popularPaths": [
     {
       "path": "/netascode/nac-branch",
       "title": "Overview",
-      "count": 36,
-      "uniques": 20
+      "count": 38,
+      "uniques": 21
     },
     {
       "path": "/netascode/nac-branch/pulse",
@@ -201,16 +241,22 @@
       "uniques": 5
     },
     {
+      "path": "/netascode/nac-branch/tree/main/data",
+      "title": "/tree/main/data",
+      "count": 8,
+      "uniques": 2
+    },
+    {
       "path": "/netascode/nac-branch/forks",
       "title": "/forks",
       "count": 7,
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-branch/tree/main/data",
-      "title": "/tree/main/data",
-      "count": 7,
-      "uniques": 2
+      "path": "/netascode/nac-branch/blob/main/tests/templates/config/networks_list.robot",
+      "title": "/blob/main/tests/templates/config/networks_list.robot",
+      "count": 6,
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-branch/fork",
@@ -231,34 +277,28 @@
       "uniques": 4
     },
     {
-      "path": "/netascode/nac-branch/blob/main/tests/templates/config/networks_list.robot",
-      "title": "/blob/main/tests/templates/config/networks_list.robot",
+      "path": "/netascode/nac-branch/tree/main/tests/templates/config",
+      "title": "/tree/main/tests/templates/config",
       "count": 5,
-      "uniques": 3
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-branch/security",
       "title": "/security",
       "count": 4,
       "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-branch/tree/main/docs",
-      "title": "/tree/main/docs",
-      "count": 3,
-      "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 21,
-      "uniques": 4
+      "count": 22,
+      "uniques": 5
     },
     {
-      "referrer": "cisco.com",
-      "count": 10,
-      "uniques": 1
+      "referrer": "Google",
+      "count": 4,
+      "uniques": 2
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
@@ -266,9 +306,9 @@
       "uniques": 2
     },
     {
-      "referrer": "Google",
-      "count": 2,
-      "uniques": 2
+      "referrer": "cisco.com",
+      "count": 4,
+      "uniques": 1
     },
     {
       "referrer": "netascode.cisco.com",

@@ -84,6 +84,21 @@
       "timestamp": "2026-07-31T00:00:00Z",
       "count": 45,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 28,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 48,
+      "uniques": 4
     }
   ],
   "views": [
@@ -171,49 +186,58 @@
       "timestamp": "2026-07-31T00:00:00Z",
       "count": 5,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 13,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 9,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe",
       "title": "Overview",
-      "count": 81,
-      "uniques": 42
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
-      "title": "/pulls",
-      "count": 46,
-      "uniques": 4
+      "count": 71,
+      "uniques": 45
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main",
       "title": "/tree/main",
-      "count": 14,
-      "uniques": 5
+      "count": 7,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/issues",
       "title": "/issues",
-      "count": 9,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main/examples/system",
-      "title": "/tree/main/examples/system",
       "count": 7,
-      "uniques": 5
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
       "title": "/blob/main/main.tf",
-      "count": 6,
+      "count": 5,
       "uniques": 4
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/versions.tf",
       "title": "/blob/main/versions.tf",
-      "count": 6,
+      "count": 5,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/commits/main",
+      "title": "/commits/main",
+      "count": 5,
       "uniques": 4
     },
     {
@@ -223,33 +247,39 @@
       "uniques": 4
     },
     {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/commits/main",
-      "title": "/commits/main",
+      "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
+      "title": "/pulls",
       "count": 5,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/iosxe_evpn.tf",
+      "title": "/blob/main/iosxe_evpn.tf",
+      "count": 3,
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/pull/345",
-      "title": "/pull/345",
-      "count": 5,
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/iosxe_vlan.tf",
+      "title": "/blob/main/iosxe_vlan.tf",
+      "count": 3,
       "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 45,
-      "uniques": 12
+      "count": 32,
+      "uniques": 13
     },
     {
       "referrer": "Google",
-      "count": 40,
-      "uniques": 11
+      "count": 31,
+      "uniques": 7
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 14,
-      "uniques": 5
+      "count": 13,
+      "uniques": 8
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
@@ -260,26 +290,21 @@
       "referrer": "netascode.github.io",
       "count": 2,
       "uniques": 1
-    },
-    {
-      "referrer": "wwwin-github.cisco.com",
-      "count": 2,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 1138,
-    "uniqueClonerDays": 281,
+    "clones": 1217,
+    "uniqueClonerDays": 290,
     "peakDailyClones": 149,
     "peakDailyUniqueCloners": 59,
-    "views": 349,
-    "uniqueVisitorDays": 94,
+    "views": 371,
+    "uniqueVisitorDays": 104,
     "peakDailyViews": 85,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 17,
+    "daysTracked": 20,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-31T00:00:00Z"
+    "lastDay": "2026-08-03T00:00:00Z"
   },
-  "lastUpdated": "2026-08-01T05:38:06.636Z",
+  "lastUpdated": "2026-08-05T05:26:36.228Z",
   "repo": "netascode/terraform-iosxe-nac-iosxe"
 }

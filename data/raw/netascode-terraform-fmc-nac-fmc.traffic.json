@@ -84,6 +84,21 @@
       "timestamp": "2026-07-31T00:00:00Z",
       "count": 24,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 6,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 6,
+      "uniques": 3
     }
   ],
   "views": [
@@ -171,28 +186,43 @@
       "timestamp": "2026-07-31T00:00:00Z",
       "count": 8,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "totals": {
-    "clones": 820,
-    "uniqueClonerDays": 131,
+    "clones": 837,
+    "uniqueClonerDays": 141,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
-    "views": 97,
-    "uniqueVisitorDays": 38,
+    "views": 98,
+    "uniqueVisitorDays": 39,
     "peakDailyViews": 24,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 17,
+    "daysTracked": 20,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-07-31T00:00:00Z"
+    "lastDay": "2026-08-03T00:00:00Z"
   },
-  "lastUpdated": "2026-08-02T05:38:58.202Z",
+  "lastUpdated": "2026-08-05T05:26:35.903Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
       "title": "Overview",
-      "count": 44,
-      "uniques": 24
+      "count": 40,
+      "uniques": 20
     },
     {
       "path": "/netascode/terraform-fmc-nac-fmc/issues",
@@ -207,12 +237,6 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/branches",
-      "title": "/branches",
-      "count": 3,
-      "uniques": 3
-    },
-    {
       "path": "/netascode/terraform-fmc-nac-fmc/commits/main",
       "title": "/commits/main",
       "count": 3,
@@ -221,6 +245,12 @@
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/merge.tf",
       "title": "/blob/main/merge.tf",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/branches",
+      "title": "/branches",
       "count": 2,
       "uniques": 2
     },
@@ -252,13 +282,13 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 22,
+      "count": 21,
       "uniques": 8
     },
     {
       "referrer": "github.com",
-      "count": 7,
-      "uniques": 4
+      "count": 6,
+      "uniques": 3
     },
     {
       "referrer": "Bing",

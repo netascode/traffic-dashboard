@@ -94,6 +94,11 @@
       "timestamp": "2026-08-02T00:00:00Z",
       "count": 36,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 46,
+      "uniques": 13
     }
   ],
   "views": [
@@ -191,25 +196,30 @@
       "timestamp": "2026-08-02T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 18,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter",
       "title": "Overview",
-      "count": 116,
-      "uniques": 44
+      "count": 113,
+      "uniques": 43
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pulls",
       "title": "/pulls",
-      "count": 42,
-      "uniques": 6
+      "count": 36,
+      "uniques": 5
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/148",
       "title": "/pull/148",
-      "count": 30,
+      "count": 24,
       "uniques": 5
     },
     {
@@ -219,28 +229,28 @@
       "uniques": 5
     },
     {
-      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/148/changes",
-      "title": "/pull/148/changes",
-      "count": 17,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/147",
-      "title": "/pull/147",
-      "count": 15,
-      "uniques": 3
-    },
-    {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/153",
       "title": "/pull/153",
-      "count": 14,
-      "uniques": 3
+      "count": 15,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
       "count": 13,
       "uniques": 8
+    },
+    {
+      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/151",
+      "title": "/pull/151",
+      "count": 12,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/148/changes",
+      "title": "/pull/148/changes",
+      "count": 12,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/tree/v0.4.5",
@@ -258,18 +268,18 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 86,
+      "count": 82,
       "uniques": 20
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 39,
-      "uniques": 5
+      "count": 31,
+      "uniques": 6
     },
     {
       "referrer": "Google",
-      "count": 10,
-      "uniques": 7
+      "count": 9,
+      "uniques": 6
     },
     {
       "referrer": "netascode.cisco.com",
@@ -283,18 +293,18 @@
     }
   ],
   "totals": {
-    "clones": 1799,
-    "uniqueClonerDays": 324,
+    "clones": 1845,
+    "uniqueClonerDays": 337,
     "peakDailyClones": 250,
     "peakDailyUniqueCloners": 31,
-    "views": 643,
-    "uniqueVisitorDays": 123,
+    "views": 661,
+    "uniqueVisitorDays": 129,
     "peakDailyViews": 127,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 19,
+    "daysTracked": 20,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-02T00:00:00Z"
+    "lastDay": "2026-08-03T00:00:00Z"
   },
-  "lastUpdated": "2026-08-03T05:54:20.985Z",
+  "lastUpdated": "2026-08-05T05:26:36.405Z",
   "repo": "netascode/terraform-catalystcenter-nac-catalystcenter"
 }

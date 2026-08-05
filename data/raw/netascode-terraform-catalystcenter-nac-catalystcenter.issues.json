@@ -1443,22 +1443,22 @@
     {
       "number": 145,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "Yoh-kun",
       "is_org_member": false,
       "created_at": "2026-07-16T08:39:26Z",
-      "closed_at": null,
+      "closed_at": "2026-08-04T08:24:41Z",
       "merged_at": null
     },
     {
       "number": 146,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "dependabot[bot]",
       "is_org_member": false,
       "created_at": "2026-07-17T01:12:56Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-04T13:24:36Z",
+      "merged_at": "2026-08-04T13:24:36Z"
     },
     {
       "number": 147,
@@ -1483,22 +1483,22 @@
     {
       "number": 149,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "dependabot[bot]",
       "is_org_member": false,
       "created_at": "2026-07-21T01:12:42Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-04T13:24:51Z",
+      "merged_at": "2026-08-04T13:24:51Z"
     },
     {
       "number": 150,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "kaymay",
       "is_org_member": false,
       "created_at": "2026-07-23T00:59:47Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-04T13:24:26Z",
+      "merged_at": "2026-08-04T13:24:25Z"
     },
     {
       "number": 151,
@@ -1513,12 +1513,12 @@
     {
       "number": 152,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "kaymay",
       "is_org_member": false,
       "created_at": "2026-07-29T21:19:55Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-04T13:33:16Z",
+      "merged_at": "2026-08-04T13:33:16Z"
     },
     {
       "number": 153,
@@ -1532,11 +1532,11 @@
     }
   ],
   "totals": {
-    "external_open": 9,
+    "external_open": 4,
     "external_new_30d": 17,
-    "external_closed_30d": 8,
-    "external_pr_merged_90d": 27,
+    "external_closed_30d": 13,
+    "external_pr_merged_90d": 31,
     "external_authors_all_time": 9
   },
-  "lastPolledAt": "2026-08-04T05:27:01.153Z"
+  "lastPolledAt": "2026-08-05T05:26:41.998Z"
 }
