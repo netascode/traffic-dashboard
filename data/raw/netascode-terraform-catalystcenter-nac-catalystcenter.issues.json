@@ -1363,12 +1363,12 @@
     {
       "number": 137,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "kaymay",
       "is_org_member": false,
       "created_at": "2026-07-07T12:14:00Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-05T08:41:52Z",
+      "merged_at": "2026-08-05T08:41:52Z"
     },
     {
       "number": 138,
@@ -1529,14 +1529,24 @@
       "created_at": "2026-07-30T08:15:57Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 154,
+      "type": "pr",
+      "state": "open",
+      "author_login": "kaymay",
+      "is_org_member": false,
+      "created_at": "2026-08-05T07:17:51Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
     "external_open": 4,
-    "external_new_30d": 17,
-    "external_closed_30d": 13,
-    "external_pr_merged_90d": 31,
+    "external_new_30d": 18,
+    "external_closed_30d": 14,
+    "external_pr_merged_90d": 32,
     "external_authors_all_time": 9
   },
-  "lastPolledAt": "2026-08-05T05:26:41.998Z"
+  "lastPolledAt": "2026-08-06T05:29:02.513Z"
 }

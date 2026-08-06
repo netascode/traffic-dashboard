@@ -104,6 +104,11 @@
       "timestamp": "2026-08-03T00:00:00Z",
       "count": 241,
       "uniques": 41
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 293,
+      "uniques": 49
     }
   ],
   "views": [
@@ -211,109 +216,109 @@
       "timestamp": "2026-08-03T00:00:00Z",
       "count": 160,
       "uniques": 23
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 122,
+      "uniques": 18
     }
   ],
   "totals": {
-    "clones": 6389,
-    "uniqueClonerDays": 862,
+    "clones": 6682,
+    "uniqueClonerDays": 911,
     "peakDailyClones": 923,
     "peakDailyUniqueCloners": 76,
-    "views": 994,
-    "uniqueVisitorDays": 253,
+    "views": 1116,
+    "uniqueVisitorDays": 271,
     "peakDailyViews": 160,
     "peakDailyUniqueVisitors": 23,
-    "daysTracked": 21,
+    "daysTracked": 22,
     "firstDay": "2026-07-14T00:00:00Z",
-    "lastDay": "2026-08-03T00:00:00Z"
+    "lastDay": "2026-08-04T00:00:00Z"
   },
-  "lastUpdated": "2026-08-05T05:26:35.746Z",
+  "lastUpdated": "2026-08-06T05:28:55.239Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-aci-nac-aci",
       "title": "Overview",
-      "count": 127,
-      "uniques": 86
+      "count": 131,
+      "uniques": 87
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/pulls",
       "title": "/pulls",
-      "count": 42,
-      "uniques": 11
-    },
-    {
-      "path": "/netascode/terraform-aci-nac-aci/blob/main/defaults/defaults.yaml",
-      "title": "/blob/main/defaults/defaults.yaml",
-      "count": 27,
-      "uniques": 18
-    },
-    {
-      "path": "/netascode/terraform-aci-nac-aci/issues",
-      "title": "/issues",
-      "count": 25,
+      "count": 53,
       "uniques": 13
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/issues/423",
       "title": "/issues/423",
-      "count": 24,
-      "uniques": 6
+      "count": 31,
+      "uniques": 8
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/blob/main/defaults/defaults.yaml",
+      "title": "/blob/main/defaults/defaults.yaml",
+      "count": 28,
+      "uniques": 19
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/pull/424",
       "title": "/pull/424",
+      "count": 28,
+      "uniques": 6
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/issues",
+      "title": "/issues",
+      "count": 26,
+      "uniques": 13
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/blob/main/merge.tf",
+      "title": "/blob/main/merge.tf",
       "count": 22,
       "uniques": 6
     },
     {
+      "path": "/netascode/terraform-aci-nac-aci/blob/main/aci_access_policies.tf",
+      "title": "/blob/main/aci_access_policies.tf",
+      "count": 21,
+      "uniques": 10
+    },
+    {
       "path": "/netascode/terraform-aci-nac-aci/blob/main/main.tf",
       "title": "/blob/main/main.tf",
-      "count": 20,
-      "uniques": 9
+      "count": 21,
+      "uniques": 8
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/tree/main/modules",
       "title": "/tree/main/modules",
-      "count": 18,
+      "count": 19,
       "uniques": 14
-    },
-    {
-      "path": "/netascode/terraform-aci-nac-aci/tree/main",
-      "title": "/tree/main",
-      "count": 18,
-      "uniques": 11
-    },
-    {
-      "path": "/netascode/terraform-aci-nac-aci/tree/main/defaults",
-      "title": "/tree/main/defaults",
-      "count": 15,
-      "uniques": 12
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 123,
-      "uniques": 37
+      "count": 130,
+      "uniques": 38
     },
     {
       "referrer": "Google",
-      "count": 103,
+      "count": 107,
       "uniques": 16
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 41,
-      "uniques": 10
+      "count": 34,
+      "uniques": 9
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 20,
-      "uniques": 3
-    },
-    {
-      "referrer": "Bing",
-      "count": 5,
-      "uniques": 2
+      "count": 26,
+      "uniques": 4
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
@@ -321,8 +326,8 @@
       "uniques": 2
     },
     {
-      "referrer": "statics.dod.teams.microsoft.us",
-      "count": 4,
+      "referrer": "Bing",
+      "count": 1,
       "uniques": 1
     },
     {

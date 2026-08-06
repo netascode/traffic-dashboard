@@ -99,6 +99,11 @@
       "timestamp": "2026-08-03T00:00:00Z",
       "count": 6,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 24,
+      "uniques": 9
     }
   ],
   "views": [
@@ -201,27 +206,32 @@
       "timestamp": "2026-08-03T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 24,
+      "uniques": 2
     }
   ],
   "totals": {
-    "clones": 837,
-    "uniqueClonerDays": 141,
+    "clones": 861,
+    "uniqueClonerDays": 150,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
-    "views": 98,
-    "uniqueVisitorDays": 39,
+    "views": 122,
+    "uniqueVisitorDays": 41,
     "peakDailyViews": 24,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 20,
+    "daysTracked": 21,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-03T00:00:00Z"
+    "lastDay": "2026-08-04T00:00:00Z"
   },
-  "lastUpdated": "2026-08-05T05:26:35.903Z",
+  "lastUpdated": "2026-08-06T05:28:55.489Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
       "title": "Overview",
-      "count": 40,
+      "count": 32,
       "uniques": 20
     },
     {
@@ -237,14 +247,32 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/commits/main",
-      "title": "/commits/main",
-      "count": 3,
-      "uniques": 1
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_objects.tf",
+      "title": "/blob/main/fmc_objects.tf",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_objects_maps.tf",
+      "title": "/blob/main/fmc_objects_maps.tf",
+      "count": 2,
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/merge.tf",
       "title": "/blob/main/merge.tf",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/variables.tf",
+      "title": "/blob/main/variables.tf",
       "count": 2,
       "uniques": 2
     },
@@ -255,26 +283,8 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/commit/359df8da9a2ba7ebf5c3deb535b09ddbd6221012",
-      "title": "/commit/359df8da9a2ba7ebf5c3deb535b09ddbd6221012",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-fmc-nac-fmc/commit/ee61d2e4676622baf3df78b518f70ef1ae15edb3",
-      "title": "/commit/ee61d2e4676622baf3df78b518f70ef1ae15edb3",
-      "count": 2,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-fmc-nac-fmc/issues/21",
-      "title": "/issues/21",
-      "count": 2,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-fmc-nac-fmc/pull/30",
-      "title": "/pull/30",
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/README.md",
+      "title": "/blob/main/README.md",
       "count": 2,
       "uniques": 1
     }
@@ -282,13 +292,13 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 21,
-      "uniques": 8
+      "count": 17,
+      "uniques": 6
     },
     {
       "referrer": "github.com",
-      "count": 6,
-      "uniques": 3
+      "count": 12,
+      "uniques": 4
     },
     {
       "referrer": "Bing",

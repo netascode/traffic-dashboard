@@ -4239,14 +4239,24 @@
       "created_at": "2026-08-03T08:06:09Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 425,
+      "type": "pr",
+      "state": "open",
+      "author_login": "suhas1git",
+      "is_org_member": false,
+      "created_at": "2026-08-06T05:05:10Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 24,
-    "external_new_30d": 13,
+    "external_open": 25,
+    "external_new_30d": 14,
     "external_closed_30d": 5,
     "external_pr_merged_90d": 9,
     "external_authors_all_time": 69
   },
-  "lastPolledAt": "2026-08-05T05:26:40.468Z"
+  "lastPolledAt": "2026-08-06T05:29:01.234Z"
 }
