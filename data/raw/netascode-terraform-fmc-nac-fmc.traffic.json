@@ -104,6 +104,11 @@
       "timestamp": "2026-08-04T00:00:00Z",
       "count": 24,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 52,
+      "uniques": 8
     }
   ],
   "views": [
@@ -211,28 +216,33 @@
       "timestamp": "2026-08-04T00:00:00Z",
       "count": 24,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 3,
+      "uniques": 3
     }
   ],
   "totals": {
-    "clones": 861,
-    "uniqueClonerDays": 150,
+    "clones": 913,
+    "uniqueClonerDays": 158,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
-    "views": 122,
-    "uniqueVisitorDays": 41,
+    "views": 125,
+    "uniqueVisitorDays": 44,
     "peakDailyViews": 24,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 21,
+    "daysTracked": 22,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-04T00:00:00Z"
+    "lastDay": "2026-08-05T00:00:00Z"
   },
-  "lastUpdated": "2026-08-06T05:28:55.489Z",
+  "lastUpdated": "2026-08-07T04:33:46.503Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
       "title": "Overview",
-      "count": 32,
-      "uniques": 20
+      "count": 34,
+      "uniques": 22
     },
     {
       "path": "/netascode/terraform-fmc-nac-fmc/issues",
@@ -259,20 +269,8 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_objects_maps.tf",
-      "title": "/blob/main/fmc_objects_maps.tf",
-      "count": 2,
-      "uniques": 2
-    },
-    {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/merge.tf",
       "title": "/blob/main/merge.tf",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/variables.tf",
-      "title": "/blob/main/variables.tf",
       "count": 2,
       "uniques": 2
     },
@@ -285,6 +283,18 @@
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/README.md",
       "title": "/blob/main/README.md",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/examples/network_groups/README.md",
+      "title": "/blob/main/examples/network_groups/README.md",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/issues/21",
+      "title": "/issues/21",
       "count": 2,
       "uniques": 1
     }

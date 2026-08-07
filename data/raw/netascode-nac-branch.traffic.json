@@ -104,6 +104,11 @@
       "timestamp": "2026-08-04T00:00:00Z",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -211,6 +216,11 @@
       "timestamp": "2026-08-04T00:00:00Z",
       "count": 10,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 9,
+      "uniques": 6
     }
   ],
   "totals": {
@@ -218,27 +228,33 @@
     "uniqueClonerDays": 14,
     "peakDailyClones": 8,
     "peakDailyUniqueCloners": 2,
-    "views": 157,
-    "uniqueVisitorDays": 46,
+    "views": 166,
+    "uniqueVisitorDays": 52,
     "peakDailyViews": 43,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 21,
+    "daysTracked": 22,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-04T00:00:00Z"
+    "lastDay": "2026-08-05T00:00:00Z"
   },
-  "lastUpdated": "2026-08-05T05:26:35.588Z",
+  "lastUpdated": "2026-08-07T04:33:46.013Z",
   "popularPaths": [
     {
       "path": "/netascode/nac-branch",
       "title": "Overview",
-      "count": 38,
-      "uniques": 21
+      "count": 40,
+      "uniques": 22
     },
     {
       "path": "/netascode/nac-branch/pulse",
       "title": "/pulse",
       "count": 14,
       "uniques": 5
+    },
+    {
+      "path": "/netascode/nac-branch/blob/main/tests/templates/config/networks_list.robot",
+      "title": "/blob/main/tests/templates/config/networks_list.robot",
+      "count": 9,
+      "uniques": 6
     },
     {
       "path": "/netascode/nac-branch/tree/main/data",
@@ -253,8 +269,8 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-branch/blob/main/tests/templates/config/networks_list.robot",
-      "title": "/blob/main/tests/templates/config/networks_list.robot",
+      "path": "/netascode/nac-branch/tree/main/tests/templates/config",
+      "title": "/tree/main/tests/templates/config",
       "count": 6,
       "uniques": 4
     },
@@ -273,12 +289,6 @@
     {
       "path": "/netascode/nac-branch/graphs/contributors",
       "title": "/graphs/contributors",
-      "count": 5,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-branch/tree/main/tests/templates/config",
-      "title": "/tree/main/tests/templates/config",
       "count": 5,
       "uniques": 4
     },
