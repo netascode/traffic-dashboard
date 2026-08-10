@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T15:16:16.421Z",
+  "generatedAt": "2026-08-10T15:17:26.802Z",
   "repos": [
     {
       "repo": "netascode/nac-branch",
@@ -3467,7 +3467,7 @@
               "merged_at": null
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:31.532Z"
+          "lastPolledAt": "2026-08-10T15:17:22.062Z"
         }
       },
       {
@@ -3972,7 +3972,7 @@
               "merged_at": null
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:31.968Z"
+          "lastPolledAt": "2026-08-10T15:17:22.342Z"
         }
       },
       {
@@ -4238,7 +4238,7 @@
               "merged_at": null
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:32.429Z"
+          "lastPolledAt": "2026-08-10T15:17:22.619Z"
         }
       },
       {
@@ -4533,7 +4533,7 @@
               "merged_at": "2025-11-17T09:22:23Z"
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:32.801Z"
+          "lastPolledAt": "2026-08-10T15:17:22.900Z"
         }
       },
       {
@@ -4833,7 +4833,7 @@
               "merged_at": "2025-08-15T17:23:55Z"
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:33.108Z"
+          "lastPolledAt": "2026-08-10T15:17:23.190Z"
         }
       },
       {
@@ -5133,7 +5133,7 @@
               "merged_at": null
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:33.524Z"
+          "lastPolledAt": "2026-08-10T15:17:23.555Z"
         }
       },
       {
@@ -5344,7 +5344,7 @@
               "merged_at": null
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:33.926Z"
+          "lastPolledAt": "2026-08-10T15:17:23.874Z"
         }
       },
       {
@@ -5555,7 +5555,7 @@
               "merged_at": "2024-01-12T12:14:24Z"
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:34.279Z"
+          "lastPolledAt": "2026-08-10T15:17:24.142Z"
         }
       },
       {
@@ -5766,7 +5766,7 @@
               "merged_at": null
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:44.099Z"
+          "lastPolledAt": "2026-08-10T15:17:24.411Z"
         }
       },
       {
@@ -5977,7 +5977,7 @@
               "merged_at": null
             }
           ],
-          "lastPolledAt": "2026-08-10T15:15:48.955Z"
+          "lastPolledAt": "2026-08-10T15:17:24.682Z"
         }
       },
       {
@@ -6506,14 +6506,21 @@
             "year": 54276,
             "total": 135553,
             "polled_at": "2026-08-10T15:16:14.255Z"
+          },
+          {
+            "week": 367,
+            "month": 367,
+            "year": 53577,
+            "total": 134854,
+            "polled_at": "2026-08-10T15:17:25.646Z"
           }
         ],
         "totals": {
-          "current_total": 135553,
-          "week_delta_avg": 963,
-          "month_delta_avg": 2748
+          "current_total": 134854,
+          "week_delta_avg": 928,
+          "month_delta_avg": 2608
         },
-        "lastUpdated": "2026-08-10T15:16:14.257Z"
+        "lastUpdated": "2026-08-10T15:17:25.647Z"
       },
       {
         "repo": "netascode/terraform-fmc-nac-fmc",
@@ -6609,14 +6616,21 @@
             "year": 3219,
             "total": 5056,
             "polled_at": "2026-08-10T15:16:14.298Z"
+          },
+          {
+            "week": 12,
+            "month": 12,
+            "year": 3147,
+            "total": 4984,
+            "polled_at": "2026-08-10T15:17:25.654Z"
           }
         ],
         "totals": {
-          "current_total": 5056,
-          "week_delta_avg": 114,
-          "month_delta_avg": 302
+          "current_total": 4984,
+          "week_delta_avg": 106,
+          "month_delta_avg": 280
         },
-        "lastUpdated": "2026-08-10T15:16:14.299Z"
+        "lastUpdated": "2026-08-10T15:17:25.654Z"
       },
       {
         "repo": "netascode/terraform-meraki-nac-meraki",
@@ -6726,14 +6740,21 @@
             "year": 4495,
             "total": 5536,
             "polled_at": "2026-08-10T15:16:14.385Z"
+          },
+          {
+            "week": 18,
+            "month": 18,
+            "year": 3350,
+            "total": 4391,
+            "polled_at": "2026-08-10T15:17:25.659Z"
           }
         ],
         "totals": {
-          "current_total": 5536,
-          "week_delta_avg": 322,
-          "month_delta_avg": 426
+          "current_total": 4391,
+          "week_delta_avg": 302,
+          "month_delta_avg": 398
         },
-        "lastUpdated": "2026-08-10T15:16:14.386Z"
+        "lastUpdated": "2026-08-10T15:17:25.659Z"
       },
       {
         "repo": "netascode/terraform-iosxe-nac-iosxe",
@@ -6843,14 +6864,21 @@
             "year": 4031,
             "total": 4031,
             "polled_at": "2026-08-10T15:10:08.435Z"
+          },
+          {
+            "week": 6,
+            "month": 6,
+            "year": 4010,
+            "total": 4010,
+            "polled_at": "2026-08-10T15:17:25.665Z"
           }
         ],
         "totals": {
-          "current_total": 4031,
-          "week_delta_avg": 58,
-          "month_delta_avg": 164
+          "current_total": 4010,
+          "week_delta_avg": 55,
+          "month_delta_avg": 154
         },
-        "lastUpdated": "2026-08-10T15:10:08.436Z"
+        "lastUpdated": "2026-08-10T15:17:25.666Z"
       },
       {
         "repo": "netascode/terraform-catalystcenter-nac-catalystcenter",
@@ -6974,14 +7002,21 @@
             "year": 9591,
             "total": 15251,
             "polled_at": "2026-08-10T15:16:14.511Z"
+          },
+          {
+            "week": 83,
+            "month": 83,
+            "year": 9537,
+            "total": 15197,
+            "polled_at": "2026-08-10T15:17:25.671Z"
           }
         ],
         "totals": {
-          "current_total": 15251,
-          "week_delta_avg": 187,
-          "month_delta_avg": 983
+          "current_total": 15197,
+          "week_delta_avg": 181,
+          "month_delta_avg": 930
         },
-        "lastUpdated": "2026-08-10T15:16:14.513Z"
+        "lastUpdated": "2026-08-10T15:17:25.671Z"
       },
       {
         "repo": "netascode/terraform-nxos-nac-nxos",
