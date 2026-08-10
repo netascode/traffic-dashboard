@@ -495,13 +495,17 @@
     {
       "polled_at": "2026-08-09T03:54:33.604Z",
       "total": 51
+    },
+    {
+      "polled_at": "2026-08-10T04:09:58.968Z",
+      "total": 51
     }
   ],
   "totals": {
     "total": 51,
-    "last30d": 3,
+    "last30d": 2,
     "last90d": 4,
-    "velocity30d": 0.1
+    "velocity30d": 0.067
   },
-  "lastUpdated": "2026-08-09T03:54:33.604Z"
+  "lastUpdated": "2026-08-10T04:09:58.968Z"
 }

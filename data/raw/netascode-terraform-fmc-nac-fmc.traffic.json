@@ -119,6 +119,11 @@
       "timestamp": "2026-08-07T00:00:00Z",
       "count": 16,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 4,
+      "uniques": 2
     }
   ],
   "views": [
@@ -241,27 +246,32 @@
       "timestamp": "2026-08-07T00:00:00Z",
       "count": 4,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 949,
-    "uniqueClonerDays": 168,
+    "clones": 953,
+    "uniqueClonerDays": 170,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
-    "views": 129,
-    "uniqueVisitorDays": 45,
+    "views": 130,
+    "uniqueVisitorDays": 46,
     "peakDailyViews": 24,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 24,
+    "daysTracked": 25,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-07T00:00:00Z"
+    "lastDay": "2026-08-08T00:00:00Z"
   },
-  "lastUpdated": "2026-08-09T03:54:32.548Z",
+  "lastUpdated": "2026-08-10T04:09:57.874Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
       "title": "Overview",
-      "count": 34,
+      "count": 35,
       "uniques": 20
     },
     {
