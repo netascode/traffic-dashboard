@@ -1,0 +1,18 @@
+{
+  "type": "terraform",
+  "snapshots": [
+    {
+      "week": 96,
+      "month": 99,
+      "year": 3900,
+      "total": 8522,
+      "polled_at": "2026-08-10T15:16:14.726Z"
+    }
+  ],
+  "totals": {
+    "current_total": 8522,
+    "week_delta_avg": 96,
+    "month_delta_avg": 99
+  },
+  "lastUpdated": "2026-08-10T15:16:14.726Z"
+}

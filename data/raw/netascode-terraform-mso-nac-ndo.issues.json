@@ -1,0 +1,902 @@
+{
+  "items": [
+    {
+      "number": 1,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-04-14T06:28:58Z",
+      "closed_at": "2023-04-14T07:29:44Z",
+      "merged_at": "2023-04-14T07:29:44Z"
+    },
+    {
+      "number": 2,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-04-14T06:30:05Z",
+      "closed_at": "2023-04-14T06:54:13Z",
+      "merged_at": "2023-04-14T06:54:13Z"
+    },
+    {
+      "number": 3,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-04-14T06:31:00Z",
+      "closed_at": "2023-04-14T07:18:34Z",
+      "merged_at": null
+    },
+    {
+      "number": 4,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-04-14T06:34:34Z",
+      "closed_at": "2023-04-17T05:07:36Z",
+      "merged_at": "2023-04-17T05:07:35Z"
+    },
+    {
+      "number": 5,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-04-18T00:12:46Z",
+      "closed_at": "2023-04-18T00:23:54Z",
+      "merged_at": "2023-04-18T00:23:54Z"
+    },
+    {
+      "number": 6,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-04-18T05:02:37Z",
+      "closed_at": "2023-04-19T04:23:53Z",
+      "merged_at": null
+    },
+    {
+      "number": 7,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-04-19T06:55:56Z",
+      "closed_at": "2023-04-19T08:53:45Z",
+      "merged_at": "2023-04-19T08:53:45Z"
+    },
+    {
+      "number": 8,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-04-28T08:25:22Z",
+      "closed_at": "2023-04-28T10:00:46Z",
+      "merged_at": "2023-04-28T10:00:45Z"
+    },
+    {
+      "number": 9,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-05-05T03:10:16Z",
+      "closed_at": "2023-05-06T07:43:01Z",
+      "merged_at": "2023-05-06T07:43:01Z"
+    },
+    {
+      "number": 10,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-05-10T06:30:22Z",
+      "closed_at": "2023-05-10T07:58:07Z",
+      "merged_at": "2023-05-10T07:58:06Z"
+    },
+    {
+      "number": 11,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-06-01T23:52:35Z",
+      "closed_at": "2023-06-13T10:20:19Z",
+      "merged_at": "2023-06-13T10:20:19Z"
+    },
+    {
+      "number": 12,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-06-23T01:36:05Z",
+      "closed_at": "2023-06-23T07:35:57Z",
+      "merged_at": "2023-06-23T07:35:57Z"
+    },
+    {
+      "number": 13,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-07-24T04:50:11Z",
+      "closed_at": "2023-07-24T05:52:26Z",
+      "merged_at": "2023-07-24T05:52:26Z"
+    },
+    {
+      "number": 14,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-07-24T05:14:50Z",
+      "closed_at": "2023-07-24T05:51:13Z",
+      "merged_at": "2023-07-24T05:51:13Z"
+    },
+    {
+      "number": 15,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-07-26T00:24:24Z",
+      "closed_at": "2023-07-26T06:42:12Z",
+      "merged_at": "2023-07-26T06:42:12Z"
+    },
+    {
+      "number": 16,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-07-26T05:29:36Z",
+      "closed_at": "2023-07-26T08:10:55Z",
+      "merged_at": "2023-07-26T08:10:55Z"
+    },
+    {
+      "number": 17,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-08-01T23:41:13Z",
+      "closed_at": "2023-08-04T07:10:12Z",
+      "merged_at": "2023-08-04T07:10:12Z"
+    },
+    {
+      "number": 18,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-08-01T23:41:59Z",
+      "closed_at": "2023-08-04T06:44:19Z",
+      "merged_at": "2023-08-04T06:44:19Z"
+    },
+    {
+      "number": 19,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2023-09-04T17:58:16Z",
+      "closed_at": "2023-09-04T19:02:24Z",
+      "merged_at": "2023-09-04T19:02:24Z"
+    },
+    {
+      "number": 20,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2023-09-26T17:16:35Z",
+      "closed_at": "2023-10-11T08:57:01Z",
+      "merged_at": "2023-10-11T08:57:01Z"
+    },
+    {
+      "number": 21,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "balnovak",
+      "is_org_member": false,
+      "created_at": "2023-10-24T10:48:45Z",
+      "closed_at": "2023-10-25T10:36:01Z",
+      "merged_at": "2023-10-25T10:36:01Z"
+    },
+    {
+      "number": 22,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "balnovak",
+      "is_org_member": false,
+      "created_at": "2023-10-24T20:20:32Z",
+      "closed_at": "2023-10-25T10:40:52Z",
+      "merged_at": "2023-10-25T10:40:52Z"
+    },
+    {
+      "number": 23,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2023-10-30T17:26:22Z",
+      "closed_at": "2023-10-31T15:01:03Z",
+      "merged_at": "2023-10-31T15:01:03Z"
+    },
+    {
+      "number": 24,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-11-14T12:09:21Z",
+      "closed_at": "2023-11-19T07:31:06Z",
+      "merged_at": "2023-11-19T07:31:06Z"
+    },
+    {
+      "number": 25,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2023-12-06T17:17:07Z",
+      "closed_at": "2024-01-12T12:14:24Z",
+      "merged_at": "2024-01-12T12:14:24Z"
+    },
+    {
+      "number": 26,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2023-12-11T06:31:33Z",
+      "closed_at": "2024-01-14T18:25:51Z",
+      "merged_at": "2024-01-14T18:25:51Z"
+    },
+    {
+      "number": 27,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "jorgenspange",
+      "is_org_member": false,
+      "created_at": "2024-01-11T15:06:52Z",
+      "closed_at": "2024-07-02T05:30:43Z",
+      "merged_at": null
+    },
+    {
+      "number": 28,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-01-17T03:52:31Z",
+      "closed_at": "2024-01-17T08:28:45Z",
+      "merged_at": "2024-01-17T08:28:45Z"
+    },
+    {
+      "number": 29,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2024-02-07T17:51:09Z",
+      "closed_at": "2024-02-10T12:03:45Z",
+      "merged_at": "2024-02-10T12:03:45Z"
+    },
+    {
+      "number": 30,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "lonix77",
+      "is_org_member": false,
+      "created_at": "2024-03-27T06:54:01Z",
+      "closed_at": "2024-08-06T04:59:45Z",
+      "merged_at": null
+    },
+    {
+      "number": 31,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "ghost",
+      "is_org_member": false,
+      "created_at": "2024-05-15T21:14:48Z",
+      "closed_at": "2025-07-21T07:36:00Z",
+      "merged_at": null
+    },
+    {
+      "number": 32,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2024-05-22T15:29:58Z",
+      "closed_at": "2024-05-24T10:14:08Z",
+      "merged_at": "2024-05-24T10:14:08Z"
+    },
+    {
+      "number": 33,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-06-05T00:21:55Z",
+      "closed_at": "2024-06-07T01:03:08Z",
+      "merged_at": "2024-06-07T01:03:08Z"
+    },
+    {
+      "number": 34,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-06-05T00:26:45Z",
+      "closed_at": "2024-06-07T01:04:47Z",
+      "merged_at": "2024-06-07T01:04:47Z"
+    },
+    {
+      "number": 35,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-06-05T07:49:49Z",
+      "closed_at": "2024-06-07T01:05:06Z",
+      "merged_at": "2024-06-07T01:05:06Z"
+    },
+    {
+      "number": 36,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-06-20T02:19:45Z",
+      "closed_at": "2024-07-02T05:57:36Z",
+      "merged_at": null
+    },
+    {
+      "number": 37,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-06-20T02:52:27Z",
+      "closed_at": "2024-07-02T05:57:35Z",
+      "merged_at": "2024-07-02T05:57:35Z"
+    },
+    {
+      "number": 38,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-06-20T03:57:21Z",
+      "closed_at": "2024-07-02T05:30:42Z",
+      "merged_at": "2024-07-02T05:30:42Z"
+    },
+    {
+      "number": 39,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-07-09T08:24:44Z",
+      "closed_at": "2024-08-23T10:26:34Z",
+      "merged_at": "2024-08-23T10:26:34Z"
+    },
+    {
+      "number": 40,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-07-17T02:29:21Z",
+      "closed_at": "2024-08-30T13:34:20Z",
+      "merged_at": "2024-08-30T13:34:20Z"
+    },
+    {
+      "number": 41,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "null0route",
+      "is_org_member": true,
+      "created_at": "2024-08-23T06:40:19Z",
+      "closed_at": "2024-08-23T10:22:18Z",
+      "merged_at": "2024-08-23T10:22:18Z"
+    },
+    {
+      "number": 42,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2024-08-29T13:49:29Z",
+      "closed_at": "2024-08-30T13:43:54Z",
+      "merged_at": "2024-08-30T13:43:54Z"
+    },
+    {
+      "number": 43,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2024-10-15T06:21:35Z",
+      "closed_at": "2024-10-15T09:31:29Z",
+      "merged_at": "2024-10-15T09:31:29Z"
+    },
+    {
+      "number": 44,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2024-10-16T11:49:42Z",
+      "closed_at": "2024-10-17T06:03:52Z",
+      "merged_at": "2024-10-17T06:03:52Z"
+    },
+    {
+      "number": 45,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2024-11-07T20:00:38Z",
+      "closed_at": "2024-11-29T17:21:10Z",
+      "merged_at": "2024-11-29T17:21:10Z"
+    },
+    {
+      "number": 46,
+      "type": "issue",
+      "state": "open",
+      "author_login": "TufailKh",
+      "is_org_member": false,
+      "created_at": "2024-12-08T19:38:18Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 47,
+      "type": "issue",
+      "state": "open",
+      "author_login": "TufailKh",
+      "is_org_member": false,
+      "created_at": "2024-12-08T19:39:35Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 48,
+      "type": "issue",
+      "state": "open",
+      "author_login": "TufailKh",
+      "is_org_member": false,
+      "created_at": "2024-12-08T19:41:11Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 49,
+      "type": "issue",
+      "state": "open",
+      "author_login": "TufailKh",
+      "is_org_member": false,
+      "created_at": "2024-12-08T19:43:02Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 50,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2025-01-23T07:23:46Z",
+      "closed_at": "2025-01-23T07:24:39Z",
+      "merged_at": "2025-01-23T07:24:39Z"
+    },
+    {
+      "number": 51,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2025-01-23T23:56:53Z",
+      "closed_at": "2025-03-07T13:27:10Z",
+      "merged_at": "2025-03-07T13:27:09Z"
+    },
+    {
+      "number": 52,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2025-04-30T15:11:20Z",
+      "closed_at": "2025-05-05T06:59:23Z",
+      "merged_at": "2025-05-05T06:59:23Z"
+    },
+    {
+      "number": 53,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2025-05-13T06:46:21Z",
+      "closed_at": "2025-05-13T06:50:28Z",
+      "merged_at": "2025-05-13T06:50:28Z"
+    },
+    {
+      "number": 54,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "marcinduma",
+      "is_org_member": false,
+      "created_at": "2025-07-23T14:18:29Z",
+      "closed_at": "2026-07-28T14:05:28Z",
+      "merged_at": null
+    },
+    {
+      "number": 55,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2025-07-25T09:14:27Z",
+      "closed_at": "2025-07-28T10:46:04Z",
+      "merged_at": "2025-07-28T10:46:04Z"
+    },
+    {
+      "number": 56,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2025-08-12T00:49:44Z",
+      "closed_at": "2025-11-20T17:06:09Z",
+      "merged_at": null
+    },
+    {
+      "number": 57,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2025-08-13T00:25:25Z",
+      "closed_at": "2025-10-03T17:06:45Z",
+      "merged_at": null
+    },
+    {
+      "number": 58,
+      "type": "issue",
+      "state": "open",
+      "author_login": "nimadaneshvar",
+      "is_org_member": false,
+      "created_at": "2025-08-13T23:08:22Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 59,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2025-08-28T06:36:00Z",
+      "closed_at": "2025-09-25T13:16:15Z",
+      "merged_at": "2025-09-25T13:16:15Z"
+    },
+    {
+      "number": 60,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2025-09-01T02:17:14Z",
+      "closed_at": "2025-09-25T13:11:45Z",
+      "merged_at": "2025-09-25T13:11:45Z"
+    },
+    {
+      "number": 61,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2025-09-04T17:05:42Z",
+      "closed_at": "2026-04-15T11:58:59Z",
+      "merged_at": "2026-04-15T11:58:59Z"
+    },
+    {
+      "number": 62,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "ogorczow",
+      "is_org_member": true,
+      "created_at": "2025-09-09T12:26:28Z",
+      "closed_at": "2025-09-25T13:10:40Z",
+      "merged_at": "2025-09-25T13:10:40Z"
+    },
+    {
+      "number": 63,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2025-10-02T13:48:35Z",
+      "closed_at": "2025-11-24T13:02:20Z",
+      "merged_at": "2025-11-24T13:02:20Z"
+    },
+    {
+      "number": 64,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2025-10-03T17:06:42Z",
+      "closed_at": "2025-11-24T16:23:09Z",
+      "merged_at": "2025-11-24T16:23:08Z"
+    },
+    {
+      "number": 65,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2025-11-06T10:57:40Z",
+      "closed_at": "2026-03-05T15:24:40Z",
+      "merged_at": "2026-03-05T15:24:39Z"
+    },
+    {
+      "number": 66,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2025-11-20T17:06:06Z",
+      "closed_at": "2025-11-24T16:22:59Z",
+      "merged_at": "2025-11-24T16:22:59Z"
+    },
+    {
+      "number": 67,
+      "type": "issue",
+      "state": "open",
+      "author_login": "ccie18473",
+      "is_org_member": false,
+      "created_at": "2025-12-01T12:58:19Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 68,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2025-12-05T14:55:49Z",
+      "closed_at": "2025-12-05T14:57:07Z",
+      "merged_at": "2025-12-05T14:57:07Z"
+    },
+    {
+      "number": 69,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-02-24T17:23:28Z",
+      "closed_at": "2026-04-15T11:58:32Z",
+      "merged_at": "2026-04-15T11:58:32Z"
+    },
+    {
+      "number": 70,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-04-14T14:24:11Z",
+      "closed_at": "2026-04-15T09:39:17Z",
+      "merged_at": "2026-04-15T09:39:17Z"
+    },
+    {
+      "number": 71,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-04-14T14:27:51Z",
+      "closed_at": "2026-04-15T11:34:41Z",
+      "merged_at": "2026-04-15T11:34:41Z"
+    },
+    {
+      "number": 72,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-04-15T11:37:48Z",
+      "closed_at": "2026-04-15T11:48:56Z",
+      "merged_at": "2026-04-15T11:48:56Z"
+    },
+    {
+      "number": 73,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-04-21T14:17:42Z",
+      "closed_at": "2026-04-21T14:18:48Z",
+      "merged_at": "2026-04-21T14:18:48Z"
+    },
+    {
+      "number": 74,
+      "type": "pr",
+      "state": "open",
+      "author_login": "ogorczow",
+      "is_org_member": true,
+      "created_at": "2026-05-06T13:08:52Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 75,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-06-18T17:22:41Z",
+      "closed_at": "2026-07-07T15:06:05Z",
+      "merged_at": "2026-07-07T15:06:05Z"
+    },
+    {
+      "number": 76,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-02T14:20:34Z",
+      "closed_at": "2026-07-02T14:23:55Z",
+      "merged_at": "2026-07-02T14:23:55Z"
+    },
+    {
+      "number": 77,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-02T15:16:21Z",
+      "closed_at": "2026-07-03T05:16:19Z",
+      "merged_at": "2026-07-03T05:16:19Z"
+    },
+    {
+      "number": 78,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-03T10:25:56Z",
+      "closed_at": "2026-07-03T14:33:19Z",
+      "merged_at": "2026-07-03T14:33:19Z"
+    },
+    {
+      "number": 79,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-03T10:35:11Z",
+      "closed_at": "2026-07-03T12:26:49Z",
+      "merged_at": "2026-07-03T12:26:49Z"
+    },
+    {
+      "number": 80,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-03T11:00:47Z",
+      "closed_at": "2026-07-06T11:27:46Z",
+      "merged_at": "2026-07-06T11:27:46Z"
+    },
+    {
+      "number": 81,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-03T12:06:42Z",
+      "closed_at": "2026-07-07T11:30:06Z",
+      "merged_at": "2026-07-07T11:30:06Z"
+    },
+    {
+      "number": 82,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-07T11:40:21Z",
+      "closed_at": "2026-07-07T11:41:08Z",
+      "merged_at": "2026-07-07T11:41:08Z"
+    },
+    {
+      "number": 83,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-07T14:07:14Z",
+      "closed_at": "2026-07-07T15:05:36Z",
+      "merged_at": "2026-07-07T15:05:36Z"
+    },
+    {
+      "number": 84,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-14T10:53:06Z",
+      "closed_at": "2026-07-14T13:59:18Z",
+      "merged_at": "2026-07-14T13:59:18Z"
+    },
+    {
+      "number": 85,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-07-20T17:22:39Z",
+      "closed_at": "2026-07-28T14:05:06Z",
+      "merged_at": "2026-07-28T14:05:06Z"
+    },
+    {
+      "number": 86,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-28T13:28:37Z",
+      "closed_at": "2026-07-28T14:04:50Z",
+      "merged_at": "2026-07-28T14:04:50Z"
+    },
+    {
+      "number": 87,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2026-07-30T02:03:07Z",
+      "closed_at": "2026-07-30T07:33:34Z",
+      "merged_at": "2026-07-30T07:33:34Z"
+    },
+    {
+      "number": 88,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juchowan",
+      "is_org_member": true,
+      "created_at": "2026-07-30T12:50:46Z",
+      "closed_at": "2026-07-30T13:03:38Z",
+      "merged_at": "2026-07-30T13:03:38Z"
+    },
+    {
+      "number": 89,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "andbyrne",
+      "is_org_member": true,
+      "created_at": "2026-08-03T00:42:29Z",
+      "closed_at": "2026-08-04T12:18:54Z",
+      "merged_at": "2026-08-04T12:18:54Z"
+    }
+  ],
+  "totals": {
+    "external_open": 6,
+    "external_new_30d": 1,
+    "external_closed_30d": 2,
+    "external_pr_merged_90d": 2,
+    "external_authors_all_time": 9
+  },
+  "lastPolledAt": "2026-08-10T15:15:34.279Z"
+}

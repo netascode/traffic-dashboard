@@ -84,12 +84,26 @@
       "year": 4493,
       "total": 5534,
       "polled_at": "2026-08-10T04:10:03.042Z"
+    },
+    {
+      "week": 1160,
+      "month": 1162,
+      "year": 4494,
+      "total": 5535,
+      "polled_at": "2026-08-10T15:10:08.298Z"
+    },
+    {
+      "week": 1161,
+      "month": 1163,
+      "year": 4495,
+      "total": 5536,
+      "polled_at": "2026-08-10T15:16:14.385Z"
     }
   ],
   "totals": {
-    "current_total": 5534,
-    "week_delta_avg": 182,
-    "month_delta_avg": 303
+    "current_total": 5536,
+    "week_delta_avg": 322,
+    "month_delta_avg": 426
   },
-  "lastUpdated": "2026-08-10T04:10:03.042Z"
+  "lastUpdated": "2026-08-10T15:16:14.386Z"
 }

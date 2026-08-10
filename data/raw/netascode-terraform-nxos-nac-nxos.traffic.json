@@ -1,0 +1,255 @@
+{
+  "repo": "netascode/terraform-nxos-nac-nxos",
+  "clones": [
+    {
+      "timestamp": "2026-07-27T00:00:00Z",
+      "count": 23,
+      "uniques": 13
+    },
+    {
+      "timestamp": "2026-07-28T00:00:00Z",
+      "count": 25,
+      "uniques": 10
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 26,
+      "uniques": 11
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 16,
+      "uniques": 9
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 105,
+      "uniques": 21
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 37,
+      "uniques": 13
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 21,
+      "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 9,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 32,
+      "uniques": 12
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 85,
+      "uniques": 22
+    },
+    {
+      "timestamp": "2026-08-06T00:00:00Z",
+      "count": 23,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-07T00:00:00Z",
+      "count": 12,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 5,
+      "uniques": 4
+    }
+  ],
+  "views": [
+    {
+      "timestamp": "2026-07-27T00:00:00Z",
+      "count": 18,
+      "uniques": 10
+    },
+    {
+      "timestamp": "2026-07-28T00:00:00Z",
+      "count": 10,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 15,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 26,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 47,
+      "uniques": 12
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 18,
+      "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 8,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-06T00:00:00Z",
+      "count": 32,
+      "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-07T00:00:00Z",
+      "count": 22,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    }
+  ],
+  "popularPaths": [
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos",
+      "title": "Overview",
+      "count": 79,
+      "uniques": 36
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/issues",
+      "title": "/issues",
+      "count": 14,
+      "uniques": 7
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/pulls",
+      "title": "/pulls",
+      "count": 12,
+      "uniques": 6
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 11,
+      "uniques": 8
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/issues/167",
+      "title": "/issues/167",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/tree/main",
+      "title": "/tree/main",
+      "count": 4,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/defaults/defaults.yaml",
+      "title": "/blob/main/defaults/defaults.yaml",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/pull/166",
+      "title": "/pull/166",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/nxos_access_list.tf",
+      "title": "/blob/main/nxos_access_list.tf",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/nxos_route_policy.tf",
+      "title": "/blob/main/nxos_route_policy.tf",
+      "count": 3,
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "count": 40,
+      "uniques": 12
+    },
+    {
+      "referrer": "Google",
+      "count": 37,
+      "uniques": 6
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 20,
+      "uniques": 8
+    },
+    {
+      "referrer": "teams.public.onecdn.static.microsoft",
+      "count": 6,
+      "uniques": 3
+    },
+    {
+      "referrer": "DuckDuckGo",
+      "count": 3,
+      "uniques": 1
+    },
+    {
+      "referrer": "statics.teams.cdn.office.net",
+      "count": 1,
+      "uniques": 1
+    }
+  ],
+  "totals": {
+    "clones": 423,
+    "uniqueClonerDays": 138,
+    "peakDailyClones": 105,
+    "peakDailyUniqueCloners": 22,
+    "views": 201,
+    "uniqueVisitorDays": 64,
+    "peakDailyViews": 47,
+    "peakDailyUniqueVisitors": 12,
+    "daysTracked": 14,
+    "firstDay": "2026-07-27T00:00:00Z",
+    "lastDay": "2026-08-09T00:00:00Z"
+  },
+  "lastUpdated": "2026-08-10T15:09:54.053Z"
+}

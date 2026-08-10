@@ -30,6 +30,26 @@
       "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-catalystcenter", "provider": "catalystcenter" }
     },
     {
+      "repo": "netascode/terraform-nxos-nac-nxos",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-nxos", "provider": "nxos" }
+    },
+    {
+      "repo": "netascode/terraform-mso-nac-ndo",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-ndo", "provider": "mso" }
+    },
+    {
+      "repo": "netascode/terraform-sdwan-nac-sdwan",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-sdwan", "provider": "sdwan" }
+    },
+    {
+      "repo": "netascode/terraform-ise-nac-ise",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-ise", "provider": "ise" }
+    },
+    {
       "repo": "CiscoDevNet/terraform-provider-aci",
       "group": "providers",
       "signals": ["stars", "registry"],
@@ -58,6 +78,30 @@
       "group": "providers",
       "signals": ["stars", "registry"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "catalystcenter" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-nxos",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "nxos" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-mso",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "mso" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-sdwan",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "sdwan" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-ise",
+      "group": "providers",
+      "signals": ["stars", "registry"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "ise" }
     }
   ]
 }

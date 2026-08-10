@@ -129,6 +129,11 @@
       "timestamp": "2026-08-08T00:00:00Z",
       "count": 159,
       "uniques": 34
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 50,
+      "uniques": 14
     }
   ],
   "views": [
@@ -261,22 +266,27 @@
       "timestamp": "2026-08-08T00:00:00Z",
       "count": 15,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 5,
+      "uniques": 4
     }
   ],
   "totals": {
-    "clones": 7558,
-    "uniqueClonerDays": 1060,
+    "clones": 7608,
+    "uniqueClonerDays": 1074,
     "peakDailyClones": 923,
     "peakDailyUniqueCloners": 76,
-    "views": 1301,
-    "uniqueVisitorDays": 319,
+    "views": 1306,
+    "uniqueVisitorDays": 323,
     "peakDailyViews": 160,
     "peakDailyUniqueVisitors": 23,
-    "daysTracked": 26,
+    "daysTracked": 27,
     "firstDay": "2026-07-14T00:00:00Z",
-    "lastDay": "2026-08-08T00:00:00Z"
+    "lastDay": "2026-08-09T00:00:00Z"
   },
-  "lastUpdated": "2026-08-10T04:09:57.707Z",
+  "lastUpdated": "2026-08-10T15:09:52.501Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-aci-nac-aci",
@@ -357,8 +367,8 @@
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 28,
-      "uniques": 8
+      "count": 29,
+      "uniques": 9
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
