@@ -4639,13 +4639,23 @@
       "created_at": "2026-08-05T10:23:41Z",
       "closed_at": "2026-08-05T12:46:07Z",
       "merged_at": "2026-08-05T12:46:07Z"
+    },
+    {
+      "number": 465,
+      "type": "issue",
+      "state": "open",
+      "author_login": "Minibrams",
+      "is_org_member": false,
+      "created_at": "2026-08-11T08:16:41Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 2,
-    "external_new_30d": 0,
+    "external_open": 3,
+    "external_new_30d": 1,
     "external_closed_30d": 0,
-    "external_authors_all_time": 18
+    "external_authors_all_time": 19
   },
-  "lastPolledAt": "2026-08-11T07:44:29.545Z"
+  "lastPolledAt": "2026-08-11T09:43:53.124Z"
 }
