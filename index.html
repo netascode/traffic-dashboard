@@ -84,9 +84,10 @@
               <tr>
                 <th class="px-3 py-2 text-left">Repository</th>
                 <th class="px-3 py-2 text-right">Views</th>
-                <th class="px-3 py-2 text-right">Unique visitors</th>
+                <th class="px-3 py-2 text-right" title="Sum of GitHub's daily-distinct visitors over the selected period. A visitor visiting on multiple days is counted once per day.">Visitor-days</th>
                 <th class="px-3 py-2 text-right">Clones</th>
-                <th class="px-3 py-2 text-right">Unique cloners</th>
+                <th class="px-3 py-2 text-right" title="Sum of GitHub's daily-distinct cloners over the selected period. A cloner cloning on multiple days is counted once per day.">Cloner-days</th>
+                <th class="px-3 py-2 text-right" title="Clones ÷ distinct cloners in the last 14 days (GitHub's fixed rolling window). Always 14d regardless of the period picker. Amber >3, red >10.">CI ratio (14d)</th>
               </tr>
             </thead>
             <tbody id="compareTableBody"></tbody>
@@ -189,8 +190,8 @@
         </section>
 
         <section class="rounded-xl border border-slate-200 bg-white p-4">
-          <h2 class="font-semibold">Issues &amp; PRs scorecard</h2>
-          <p class="mt-1 text-xs text-slate-500">Issues and PRs opened by users who are not netascode org members. Sorted by number of open external issues.</p>
+          <h2 class="font-semibold">Issues scorecard</h2>
+          <p class="mt-1 text-xs text-slate-500">Issues opened by users who are not netascode org members. Sorted by number of open external issues.</p>
           <div class="mt-3 max-h-96 overflow-auto">
             <table class="min-w-full text-sm">
               <thead class="sticky top-0 bg-slate-100">
@@ -199,7 +200,6 @@
                   <th class="px-3 py-2 text-right">Open</th>
                   <th class="px-3 py-2 text-right">New (30d)</th>
                   <th class="px-3 py-2 text-right">Closed (30d)</th>
-                  <th class="px-3 py-2 text-right">PRs merged (90d)</th>
                   <th class="px-3 py-2 text-right">External authors (all)</th>
                 </tr>
               </thead>
@@ -209,14 +209,13 @@
         </section>
 
         <section class="rounded-xl border border-slate-200 bg-white p-4">
-          <h2 class="font-semibold">Recent external issues &amp; PRs</h2>
-          <p class="mt-1 text-xs text-slate-500">20 most recent issues/PRs opened by non-org-members across all repos.</p>
+          <h2 class="font-semibold">Recent external issues</h2>
+          <p class="mt-1 text-xs text-slate-500">20 most recent issues opened by non-org-members across all repos.</p>
           <div class="mt-3 max-h-96 overflow-auto">
             <table class="min-w-full text-sm">
               <thead class="sticky top-0 bg-slate-100">
                 <tr>
                   <th class="px-3 py-2 text-left">Repository</th>
-                  <th class="px-3 py-2 text-left">Type</th>
                   <th class="px-3 py-2 text-left">Number</th>
                   <th class="px-3 py-2 text-left">Author</th>
                   <th class="px-3 py-2 text-left">State</th>
@@ -266,7 +265,27 @@
       <div id="providers-panel" class="tab-panel space-y-5 hidden">
         <section class="rounded-xl border border-slate-200 bg-white p-4">
           <h2 class="font-semibold">Providers (CiscoDevNet)</h2>
-          <p class="mt-1 text-xs text-slate-500">Stars and Terraform Registry downloads for the CiscoDevNet-owned provider repositories that back our netascode modules. No traffic or issues data (requires push access we don't own on these repos).</p>
+          <p class="mt-1 text-xs text-slate-500">Traffic, stars, issues, and Terraform Registry downloads for the CiscoDevNet-owned provider repositories that back our netascode modules.</p>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Traffic (last 14 days)</h2>
+          <p class="mt-1 text-xs text-slate-500">Views, unique visitors, clones, and unique cloners over the trailing 14 days. High clone/uniques ratios indicate CI-dominated pulls.</p>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-right">Views</th>
+                  <th class="px-3 py-2 text-right" title="GitHub's own 14-day distinct-visitor count (deduped across the whole window).">Unique visitors (14d)</th>
+                  <th class="px-3 py-2 text-right">Clones</th>
+                  <th class="px-3 py-2 text-right" title="GitHub's own 14-day distinct-cloner count (deduped across the whole window).">Unique cloners (14d)</th>
+                  <th class="px-3 py-2 text-right" title="Clones ÷ distinct cloners over the 14-day window. Amber >3, red >10.">CI ratio (14d)</th>
+                </tr>
+              </thead>
+              <tbody id="providersTrafficBody"></tbody>
+            </table>
+          </div>
         </section>
 
         <section class="rounded-xl border border-slate-200 bg-white p-4">
@@ -290,6 +309,44 @@
                 </tr>
               </thead>
               <tbody id="providersStarsScoreBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Issues scorecard</h2>
+          <p class="mt-1 text-xs text-slate-500">Issues opened by users who are not CiscoDevNet org members. Sorted by number of open external issues. Private CiscoDevNet members may appear as external because the DEVNET_TOKEN owner is not an org member.</p>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-right">Open</th>
+                  <th class="px-3 py-2 text-right">New (30d)</th>
+                  <th class="px-3 py-2 text-right">Closed (30d)</th>
+                  <th class="px-3 py-2 text-right">External authors (all)</th>
+                </tr>
+              </thead>
+              <tbody id="providersIssuesScoreBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 bg-white p-4">
+          <h2 class="font-semibold">Recent external issues</h2>
+          <p class="mt-1 text-xs text-slate-500">20 most recent issues opened by non-org-members across all provider repos.</p>
+          <div class="mt-3 max-h-96 overflow-auto">
+            <table class="min-w-full text-sm">
+              <thead class="sticky top-0 bg-slate-100">
+                <tr>
+                  <th class="px-3 py-2 text-left">Repository</th>
+                  <th class="px-3 py-2 text-left">Number</th>
+                  <th class="px-3 py-2 text-left">Author</th>
+                  <th class="px-3 py-2 text-left">State</th>
+                  <th class="px-3 py-2 text-left">Created</th>
+                </tr>
+              </thead>
+              <tbody id="providersRecentExternalBody"></tbody>
             </table>
           </div>
         </section>
@@ -491,7 +548,7 @@
       function renderRepoFilters() {
         const wrap = document.getElementById('repoFilters');
         wrap.innerHTML = '';
-        for (const repo of state.raw.repos.map((r) => r.repo)) {
+        for (const repo of state.raw.repos.filter((r) => (r.group || 'modules') === 'modules').map((r) => r.repo)) {
           const active = state.selectedRepos.has(repo);
           const b = document.createElement('button');
           b.className = `rounded-full border px-3 py-1 text-sm ${active ? 'border-blue-600 bg-blue-50 text-blue-700' : 'border-slate-300 hover:bg-slate-50'}`;
@@ -590,10 +647,18 @@
 
         const tb = document.getElementById('compareTableBody');
         tb.innerHTML = '';
+        // Look up snapshot14d per repo for the accurate CI ratio (fixed 14d window from GitHub).
+        const snapshotByRepo = new Map((state.raw.repos || []).map((rr) => [rr.repo, rr.snapshot14d]));
         rows.forEach((r) => {
           const tr = document.createElement('tr');
           tr.className = 'border-t border-slate-100';
-          tr.innerHTML = `<td class="px-3 py-2">${r.repo}</td><td class="px-3 py-2 text-right">${fmt(r.views)}</td><td class="px-3 py-2 text-right">${fmt(r.visitors)}</td><td class="px-3 py-2 text-right">${fmt(r.clones)}</td><td class="px-3 py-2 text-right">${fmt(r.cloners)}</td>`;
+          const snap = snapshotByRepo.get(r.repo);
+          const distinctCloners14d = snap?.clones?.uniques || 0;
+          const totalClones14d = snap?.clones?.count || 0;
+          const ratio = distinctCloners14d > 0 ? (totalClones14d / distinctCloners14d) : null;
+          const ratioStr = ratio == null ? '—' : ratio.toFixed(1);
+          const ratioClass = ratio == null ? 'text-slate-500' : (ratio > 10 ? 'text-red-600 font-semibold' : (ratio > 3 ? 'text-amber-600' : 'text-slate-700'));
+          tr.innerHTML = `<td class="px-3 py-2">${r.repo}</td><td class="px-3 py-2 text-right">${fmt(r.views)}</td><td class="px-3 py-2 text-right">${fmt(r.visitors)}</td><td class="px-3 py-2 text-right">${fmt(r.clones)}</td><td class="px-3 py-2 text-right">${fmt(r.cloners)}</td><td class="px-3 py-2 text-right ${ratioClass}">${ratioStr}</td>`;
           tb.appendChild(tr);
         });
       }
@@ -790,7 +855,7 @@
       document.getElementById('metric').addEventListener('change', (e) => { state.metric = e.target.value; redraw(); });
       document.getElementById('clearDrill').addEventListener('click', () => { state.focusedBucket = null; redraw(); });
       document.getElementById('selectAllRepos').addEventListener('click', () => {
-        state.selectedRepos = new Set(state.raw.repos.map((r) => r.repo));
+        state.selectedRepos = new Set(state.raw.repos.filter((r) => (r.group || 'modules') === 'modules').map((r) => r.repo));
         state.focusedBucket = null;
         redraw();
       });
@@ -898,13 +963,13 @@
         });
       }
 
-      function renderIssuesScore(group) {
+      function renderIssuesScore(bodyId, group) {
         const community = state.raw.community || { repos: [] };
         const rows = community.repos
           .filter((r) => (r.group || 'modules') === group && r.issues)
           .map((r) => ({ repo: r.repo, it: (r.issues && r.issues.totals) || {} }))
           .sort((a, b) => (b.it.external_open || 0) - (a.it.external_open || 0));
-        const tb = document.getElementById('issuesScoreBody');
+        const tb = document.getElementById(bodyId);
         tb.innerHTML = '';
         rows.forEach(({ repo, it }) => {
           const tr = document.createElement('tr');
@@ -914,7 +979,6 @@
             <td class="px-3 py-2 text-right">${fmt(it.external_open || 0)}</td>
             <td class="px-3 py-2 text-right">${fmt(it.external_new_30d || 0)}</td>
             <td class="px-3 py-2 text-right">${fmt(it.external_closed_30d || 0)}</td>
-            <td class="px-3 py-2 text-right">${fmt(it.external_pr_merged_90d || 0)}</td>
             <td class="px-3 py-2 text-right">${fmt(it.external_authors_all_time || 0)}</td>`;
           tb.appendChild(tr);
         });
@@ -943,7 +1007,7 @@
         });
       }
 
-      function renderRecentExternal(group) {
+      function renderRecentExternal(bodyId, group) {
         const community = state.raw.community || { repos: [] };
         const all = [];
         community.repos.forEach((r) => {
@@ -953,22 +1017,21 @@
         });
         all.sort((a, b) => (b.created_at || '').localeCompare(a.created_at || ''));
         const top = all.slice(0, 20);
-        const tb = document.getElementById('recentExternalBody');
+        const tb = document.getElementById(bodyId);
         tb.innerHTML = '';
         if (!top.length) {
           const tr = document.createElement('tr');
-          tr.innerHTML = '<td class="px-3 py-3 text-slate-500" colspan="6">No recent external issues or PRs.</td>';
+          tr.innerHTML = '<td class="px-3 py-3 text-slate-500" colspan="5">No recent external issues.</td>';
           tb.appendChild(tr);
           return;
         }
         top.forEach((it) => {
           const [owner, name] = it.repo.split('/');
-          const url = `https://github.com/${owner}/${name}/${it.type === 'pr' ? 'pull' : 'issues'}/${it.number}`;
+          const url = `https://github.com/${owner}/${name}/issues/${it.number}`;
           const tr = document.createElement('tr');
           tr.className = 'border-t border-slate-100';
           tr.innerHTML = `
-            <td class="px-3 py-2">${it.repo.replace(/^netascode\//, '')}</td>
-            <td class="px-3 py-2">${(it.type || '').toUpperCase()}</td>
+            <td class="px-3 py-2">${it.repo.replace(/^netascode\/|^CiscoDevNet\//i, '')}</td>
             <td class="px-3 py-2"><a class="text-blue-700 hover:underline" href="${url}" target="_blank" rel="noopener noreferrer">#${it.number}</a></td>
             <td class="px-3 py-2">${it.author || ''}</td>
             <td class="px-3 py-2">${it.state || ''}</td>
@@ -1112,20 +1175,61 @@
         });
       }
 
+      function renderProvidersTraffic(bodyId) {
+        const traffic = (state.raw.repos || []).filter((r) => (r.group || 'modules') === 'providers');
+        const rows = traffic.map((r) => {
+          // Prefer GitHub's own top-level 14d totals from snapshot14d (accurate). Fall back to
+          // summing daily rows only if the snapshot isn't yet present in the file.
+          const snap = r.snapshot14d;
+          const views = snap?.views?.count ?? (r.views || []).reduce((a, e) => a + (e.count || 0), 0);
+          const visitors = snap?.views?.uniques ?? null;
+          const clones = snap?.clones?.count ?? (r.clones || []).reduce((a, e) => a + (e.count || 0), 0);
+          const cloners = snap?.clones?.uniques ?? null;
+          const ratio = cloners && cloners > 0 ? (clones / cloners) : null;
+          return { repo: r.repo, views, visitors, clones, cloners, ratio };
+        }).sort((a, b) => b.clones - a.clones);
+        const tb = document.getElementById(bodyId);
+        tb.innerHTML = '';
+        if (!rows.length) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td class="px-3 py-3 text-slate-500" colspan="6">No traffic data for provider repos yet.</td>';
+          tb.appendChild(tr);
+          return;
+        }
+        rows.forEach((r) => {
+          const tr = document.createElement('tr');
+          tr.className = 'border-t border-slate-100';
+          const ratioStr = r.ratio == null ? '—' : r.ratio.toFixed(1);
+          const ratioClass = r.ratio == null ? 'text-slate-500' : (r.ratio > 10 ? 'text-red-600 font-semibold' : (r.ratio > 3 ? 'text-amber-600' : 'text-slate-700'));
+          const nOrDash = (v) => v == null ? '—' : fmt(v);
+          tr.innerHTML = `
+            <td class="px-3 py-2">${r.repo}</td>
+            <td class="px-3 py-2 text-right">${fmt(r.views)}</td>
+            <td class="px-3 py-2 text-right">${nOrDash(r.visitors)}</td>
+            <td class="px-3 py-2 text-right">${fmt(r.clones)}</td>
+            <td class="px-3 py-2 text-right">${nOrDash(r.cloners)}</td>
+            <td class="px-3 py-2 text-right ${ratioClass}">${ratioStr}</td>`;
+          tb.appendChild(tr);
+        });
+      }
+
       (async () => {
         state.raw = await loadData();
-        state.raw.repos.forEach((r) => state.selectedRepos.add(r.repo));
+        state.raw.repos.filter((r) => (r.group || 'modules') === 'modules').forEach((r) => state.selectedRepos.add(r.repo));
         redraw();
         // modules
-        renderIssuesScore('modules');
+        renderIssuesScore('issuesScoreBody', 'modules');
         renderStarsScore('starsScoreBody', 'modules');
-        renderRecentExternal('modules');
+        renderRecentExternal('recentExternalBody', 'modules');
         renderStarsChart('starsChart', 'modules', starsChartRef, starsRangeDays);
         renderRegistryChart('registryChart', 'modules', registryChartRef);
         renderRegistryMonthlyChart('registryMonthlyChart', 'modules', registryMonthlyChartRef);
         renderRegistryTable('registryTableBody', 'modules');
-        // providers (no window filter — data starts today)
+        // providers
+        renderProvidersTraffic('providersTrafficBody');
         renderStarsScore('providersStarsScoreBody', 'providers');
+        renderIssuesScore('providersIssuesScoreBody', 'providers');
+        renderRecentExternal('providersRecentExternalBody', 'providers');
         renderStarsChart('providersStarsChart', 'providers', providersStarsChartRef, 'all');
         renderRegistryChart('providersRegistryChart', 'providers', providersRegistryChartRef);
         renderRegistryTable('providersRegistryTableBody', 'providers');

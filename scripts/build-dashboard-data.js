@@ -91,6 +91,7 @@ for (const item of config.repos || []) {
   if (trafficEnabled) {
     repos.push({
       repo: item.repo,
+      group: item.group || 'modules',
       owner: item.owner || null,
       name: item.name || null,
       lastUpdated: trafficData?.lastUpdated || null,
@@ -99,6 +100,7 @@ for (const item of config.repos || []) {
       popularPaths: trafficData?.popularPaths || [],
       referrers: trafficData?.referrers || [],
       totals: trafficData?.totals || null,
+      snapshot14d: trafficData?.snapshot14d || null,
     });
     if (!trafficData) {
       console.warn(`Using empty traffic data for ${item.repo || 'unknown'}: file missing or invalid (${trafficPath})`);
@@ -120,17 +122,15 @@ for (const item of config.repos || []) {
       issues: issuesData ? {
         totals: issuesData.totals || {},
         recentExternal: (issuesData.items || [])
-          .filter((it) => it.is_org_member === false)
+          .filter((it) => it.is_org_member === false && it.type !== 'pr')
           .sort((a, b) => (b.created_at || '').localeCompare(a.created_at || ''))
           .slice(0, 20)
           .map((it) => ({
             number: it.number,
-            type: it.type,
             state: it.state,
             author: it.author_login,
             created_at: it.created_at,
             closed_at: it.closed_at,
-            merged_at: it.merged_at,
           })),
         lastPolledAt: issuesData.lastPolledAt || null,
       } : null,

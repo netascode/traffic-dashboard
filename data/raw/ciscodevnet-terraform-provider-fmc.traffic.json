@@ -1,0 +1,261 @@
+{
+  "repo": "CiscoDevNet/terraform-provider-fmc",
+  "clones": [
+    {
+      "timestamp": "2026-07-28T00:00:00Z",
+      "count": 1943,
+      "uniques": 15
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 1886,
+      "uniques": 13
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 1859,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 1861,
+      "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 1859,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 1861,
+      "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 1811,
+      "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 1747,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 1879,
+      "uniques": 12
+    },
+    {
+      "timestamp": "2026-08-06T00:00:00Z",
+      "count": 1875,
+      "uniques": 12
+    },
+    {
+      "timestamp": "2026-08-07T00:00:00Z",
+      "count": 1868,
+      "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 1804,
+      "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 1748,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 3741,
+      "uniques": 9
+    }
+  ],
+  "views": [
+    {
+      "timestamp": "2026-07-28T00:00:00Z",
+      "count": 29,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 31,
+      "uniques": 9
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 23,
+      "uniques": 7
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 19,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 23,
+      "uniques": 16
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 22,
+      "uniques": 15
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 13,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-06T00:00:00Z",
+      "count": 26,
+      "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-07T00:00:00Z",
+      "count": 44,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 11,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 42,
+      "uniques": 7
+    }
+  ],
+  "popularPaths": [
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc",
+      "title": "Overview",
+      "count": 89,
+      "uniques": 48
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/pulls",
+      "title": "/pulls",
+      "count": 25,
+      "uniques": 5
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/blob/main/fmc/fmc_network_object.go",
+      "title": "/blob/main/fmc/fmc_network_object.go",
+      "count": 16,
+      "uniques": 16
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/tree/main/docs",
+      "title": "/tree/main/docs",
+      "count": 15,
+      "uniques": 10
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/tree/main/docs/resources",
+      "title": "/tree/main/docs/resources",
+      "count": 11,
+      "uniques": 7
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/pull/433",
+      "title": "/pull/433",
+      "count": 9,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/issues",
+      "title": "/issues",
+      "count": 6,
+      "uniques": 6
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/pull/433/changes",
+      "title": "/pull/433/changes",
+      "count": 5,
+      "uniques": 2
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/tree/main/gen/definitions",
+      "title": "/tree/main/gen/definitions",
+      "count": 5,
+      "uniques": 2
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-fmc/blob/main/CONTRIBUTING.md",
+      "title": "/blob/main/CONTRIBUTING.md",
+      "count": 5,
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "Google",
+      "count": 47,
+      "uniques": 12
+    },
+    {
+      "referrer": "github.com",
+      "count": 47,
+      "uniques": 12
+    },
+    {
+      "referrer": "cdredmine.bethelservice.org",
+      "count": 11,
+      "uniques": 3
+    },
+    {
+      "referrer": "chatgpt.com",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "referrer": "teams.public.onecdn.static.microsoft",
+      "count": 2,
+      "uniques": 1
+    }
+  ],
+  "totals": {
+    "clones": 27742,
+    "uniqueClonerDays": 124,
+    "peakDailyClones": 3741,
+    "peakDailyUniqueCloners": 15,
+    "views": 290,
+    "uniqueVisitorDays": 101,
+    "peakDailyViews": 44,
+    "peakDailyUniqueVisitors": 16,
+    "daysTracked": 14,
+    "firstDay": "2026-07-28T00:00:00Z",
+    "lastDay": "2026-08-10T00:00:00Z"
+  },
+  "lastUpdated": "2026-08-11T08:21:24.134Z",
+  "snapshot14d": {
+    "polled_at": "2026-08-11T08:21:24.134Z",
+    "views": {
+      "count": 290,
+      "uniques": 85
+    },
+    "clones": {
+      "count": 27742,
+      "uniques": 73
+    }
+  }
+}

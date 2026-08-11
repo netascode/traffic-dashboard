@@ -10,12 +10,20 @@ const getArg = (name, fallback = null) => {
 
 const configPath = getArg('--config', 'repos.json');
 const historyDir = getArg('--historyDir', 'data/raw');
-const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+const defaultToken = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+// Owner-scoped tokens override the default per API host (e.g. DEVNET_TOKEN for CiscoDevNet-owned repos).
+const OWNER_TOKENS = { ciscodevnet: process.env.DEVNET_TOKEN };
 
-if (!token) {
+if (!defaultToken) {
   console.error('Missing token. Set GITHUB_TOKEN or GH_TOKEN.');
   process.exit(1);
 }
+
+const tokenForUrl = (url) => {
+  const match = url.match(/api\.github\.com\/(?:repos|orgs)\/([^/]+)/);
+  const owner = match ? match[1].toLowerCase() : null;
+  return (owner && OWNER_TOKENS[owner]) || defaultToken;
+};
 
 if (!fs.existsSync(configPath)) {
   console.error(`Missing config file: ${configPath}`);
@@ -29,7 +37,7 @@ const apiGet = (url) => new Promise((resolve, reject) => {
     headers: {
       'User-Agent': 'traffic-dashboard-sync',
       'Accept': 'application/vnd.github+json',
-      'Authorization': `Bearer ${token}`,
+      'Authorization': `Bearer ${tokenForUrl(url)}`,
       'X-GitHub-Api-Version': '2022-11-28',
     },
   }, (res) => {
@@ -197,6 +205,7 @@ async function syncRepo(item) {
     views: history.views,
     popularPaths: history.popularPaths,
     referrers: history.referrers,
+    snapshot14dNumbers: history.snapshot14d ? { views: history.snapshot14d.views, clones: history.snapshot14d.clones } : null,
   });
   const mergedClones = merge(history.clones || [], normalizeSeries(clonesRes.clones || []));
   const mergedViews = merge(history.views || [], normalizeSeries(viewsRes.views || []));
@@ -215,6 +224,15 @@ async function syncRepo(item) {
     count: entry.count || 0,
     uniques: entry.uniques || 0,
   }));
+  // Preserve GitHub's own top-level 14-day totals. `uniques` here is deduplicated across
+  // the whole 14-day window (not per-day like history.clones[i].uniques). The only way to
+  // get a true "distinct cloners in the last 14 days" without inflation from cross-day
+  // repeats. Overwritten on every poll — always represents "today's trailing 14 days".
+  history.snapshot14d = {
+    polled_at: new Date().toISOString(),
+    views: { count: viewsRes.count || 0, uniques: viewsRes.uniques || 0 },
+    clones: { count: clonesRes.count || 0, uniques: clonesRes.uniques || 0 },
+  };
 
   console.log(`Fetched ${repo}: popularPaths=${history.popularPaths.length}, referrers=${history.referrers.length}`);
 
@@ -223,6 +241,7 @@ async function syncRepo(item) {
     views: history.views,
     popularPaths: history.popularPaths,
     referrers: history.referrers,
+    snapshot14dNumbers: { views: history.snapshot14d.views, clones: history.snapshot14d.clones },
   });
 
   const schemaBackfillNeeded = !hadPopularPaths || !hadReferrers;

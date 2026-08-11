@@ -52,55 +52,55 @@
     {
       "repo": "CiscoDevNet/terraform-provider-aci",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "aci" }
     },
     {
       "repo": "CiscoDevNet/terraform-provider-fmc",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "fmc" }
     },
     {
       "repo": "CiscoDevNet/terraform-provider-meraki",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "meraki" }
     },
     {
       "repo": "CiscoDevNet/terraform-provider-iosxe",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "iosxe" }
     },
     {
       "repo": "CiscoDevNet/terraform-provider-catalystcenter",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "catalystcenter" }
     },
     {
       "repo": "CiscoDevNet/terraform-provider-nxos",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "nxos" }
     },
     {
       "repo": "CiscoDevNet/terraform-provider-mso",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "mso" }
     },
     {
       "repo": "CiscoDevNet/terraform-provider-sdwan",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "sdwan" }
     },
     {
       "repo": "CiscoDevNet/terraform-provider-ise",
       "group": "providers",
-      "signals": ["stars", "registry"],
+      "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "ise" }
     }
   ]

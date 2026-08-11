@@ -775,7 +775,11 @@
       "type": "issue",
       "state": "open",
       "author_login": "camschaecisco",
+<<<<<<< Updated upstream
       "is_org_member": false,
+=======
+      "is_org_member": true,
+>>>>>>> Stashed changes
       "created_at": "2026-08-10T16:07:09Z",
       "closed_at": null,
       "merged_at": null
@@ -785,13 +789,18 @@
       "type": "pr",
       "state": "open",
       "author_login": "camschaecisco",
+<<<<<<< Updated upstream
       "is_org_member": false,
+=======
+      "is_org_member": true,
+>>>>>>> Stashed changes
       "created_at": "2026-08-10T18:33:35Z",
       "closed_at": null,
       "merged_at": null
     }
   ],
   "totals": {
+<<<<<<< Updated upstream
     "external_open": 3,
     "external_new_30d": 3,
     "external_closed_30d": 1,
@@ -799,4 +808,12 @@
     "external_authors_all_time": 10
   },
   "lastPolledAt": "2026-08-11T03:56:49.380Z"
+=======
+    "external_open": 1,
+    "external_new_30d": 0,
+    "external_closed_30d": 0,
+    "external_authors_all_time": 6
+  },
+  "lastPolledAt": "2026-08-11T07:44:26.072Z"
+>>>>>>> Stashed changes
 }

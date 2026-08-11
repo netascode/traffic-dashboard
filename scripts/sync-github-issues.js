@@ -12,11 +12,18 @@ const configPath = getArg('--config', 'repos.json');
 const historyDir = getArg('--historyDir', 'data/raw');
 const memberCacheDays = Number(getArg('--memberCacheDays', '7'));
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+const OWNER_TOKENS = { ciscodevnet: process.env.DEVNET_TOKEN };
 
 if (!token) {
   console.error('Missing token. Set GITHUB_TOKEN or GH_TOKEN.');
   process.exit(1);
 }
+
+const tokenForUrl = (url) => {
+  const match = url.match(/api\.github\.com\/(?:repos|orgs)\/([^/]+)/);
+  const owner = match ? match[1].toLowerCase() : null;
+  return (owner && OWNER_TOKENS[owner]) || token;
+};
 
 if (!fs.existsSync(configPath)) {
   console.error(`Missing config file: ${configPath}`);
@@ -31,7 +38,7 @@ const apiRaw = (url, method = 'GET') => new Promise((resolve, reject) => {
     headers: {
       'User-Agent': 'traffic-dashboard-sync',
       'Accept': 'application/vnd.github+json',
-      'Authorization': `Bearer ${token}`,
+      'Authorization': `Bearer ${tokenForUrl(url)}`,
       'X-GitHub-Api-Version': '2022-11-28',
     },
   }, (res) => {
@@ -128,28 +135,24 @@ const checkMembership = async (org, login) => {
 const computeTotals = (items) => {
   const now = Date.now();
   const day30 = now - 30 * 24 * 60 * 60 * 1000;
-  const day90 = now - 90 * 24 * 60 * 60 * 1000;
   let external_open = 0;
   let external_new_30d = 0;
   let external_closed_30d = 0;
-  let external_pr_merged_90d = 0;
   const authors = new Set();
   for (const it of items) {
     if (it.is_org_member) continue;
+    if (it.type === 'pr') continue; // PRs excluded from external-community signal
     if (it.author_login) authors.add(it.author_login);
     if (it.state === 'open') external_open += 1;
     const created = Date.parse(it.created_at);
     const closed = Date.parse(it.closed_at || '');
-    const merged = Date.parse(it.merged_at || '');
     if (Number.isFinite(created) && created >= day30) external_new_30d += 1;
     if (Number.isFinite(closed) && closed >= day30) external_closed_30d += 1;
-    if (it.type === 'pr' && Number.isFinite(merged) && merged >= day90) external_pr_merged_90d += 1;
   }
   return {
     external_open,
     external_new_30d,
     external_closed_30d,
-    external_pr_merged_90d,
     external_authors_all_time: authors.size,
   };
 };

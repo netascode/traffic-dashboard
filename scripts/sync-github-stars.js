@@ -12,12 +12,19 @@ const configPath = getArg('--config', 'repos.json');
 const historyDir = getArg('--historyDir', 'data/raw');
 // Only the scalar /repos/{owner}/{repo} endpoint is used, so any token (including
 // TRAFFIC_PAT scoped to netascode) works for both netascode and CiscoDevNet public data.
-const token = process.env.PUBLIC_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+const defaultToken = process.env.PUBLIC_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+const OWNER_TOKENS = { ciscodevnet: process.env.DEVNET_TOKEN };
 
-if (!token) {
+if (!defaultToken) {
   console.error('Missing token. Set PUBLIC_TOKEN, GITHUB_TOKEN, or GH_TOKEN.');
   process.exit(1);
 }
+
+const tokenForUrl = (url) => {
+  const match = url.match(/api\.github\.com\/(?:repos|orgs)\/([^/]+)/);
+  const owner = match ? match[1].toLowerCase() : null;
+  return (owner && OWNER_TOKENS[owner]) || defaultToken;
+};
 
 if (!fs.existsSync(configPath)) {
   console.error(`Missing config file: ${configPath}`);
@@ -31,7 +38,7 @@ const apiGet = (url) => new Promise((resolve, reject) => {
     headers: {
       'User-Agent': 'traffic-dashboard-sync',
       'Accept': 'application/vnd.github+json',
-      'Authorization': `Bearer ${token}`,
+      'Authorization': `Bearer ${tokenForUrl(url)}`,
       'X-GitHub-Api-Version': '2022-11-28',
     },
   }, (res) => {

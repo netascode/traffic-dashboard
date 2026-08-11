@@ -313,10 +313,13 @@
   ],
   "totals": {
     "external_open": 2,
-    "external_new_30d": 1,
-    "external_closed_30d": 1,
-    "external_pr_merged_90d": 2,
-    "external_authors_all_time": 8
+    "external_new_30d": 0,
+    "external_closed_30d": 0,
+    "external_authors_all_time": 6
   },
+<<<<<<< Updated upstream
   "lastPolledAt": "2026-08-11T03:56:47.273Z"
+=======
+  "lastPolledAt": "2026-08-11T07:44:23.697Z"
+>>>>>>> Stashed changes
 }

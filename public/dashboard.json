@@ -1,11 +1,16 @@
 {
+<<<<<<< Updated upstream
   "generatedAt": "2026-08-11T03:56:51.280Z",
+=======
+  "generatedAt": "2026-08-11T08:21:26.613Z",
+>>>>>>> Stashed changes
   "repos": [
     {
       "repo": "netascode/nac-branch",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:09:52.214Z",
+      "lastUpdated": "2026-08-11T08:21:20.954Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -366,13 +371,25 @@
         "daysTracked": 26,
         "firstDay": "2026-07-15T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:20.951Z",
+        "views": {
+          "count": 173,
+          "uniques": 31
+        },
+        "clones": {
+          "count": 11,
+          "uniques": 11
+        }
       }
     },
     {
       "repo": "netascode/terraform-aci-nac-aci",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:09:52.501Z",
+      "lastUpdated": "2026-08-11T08:21:21.230Z",
       "clones": [
         {
           "timestamp": "2026-07-14T00:00:00Z",
@@ -763,13 +780,25 @@
         "daysTracked": 27,
         "firstDay": "2026-07-14T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:21.230Z",
+        "views": {
+          "count": 848,
+          "uniques": 125
+        },
+        "clones": {
+          "count": 2916,
+          "uniques": 269
+        }
       }
     },
     {
       "repo": "netascode/terraform-fmc-nac-fmc",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:09:52.835Z",
+      "lastUpdated": "2026-08-11T08:21:21.509Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -1130,13 +1159,25 @@
         "daysTracked": 26,
         "firstDay": "2026-07-15T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:21.509Z",
+        "views": {
+          "count": 84,
+          "uniques": 22
+        },
+        "clones": {
+          "count": 405,
+          "uniques": 44
+        }
       }
     },
     {
       "repo": "netascode/terraform-meraki-nac-meraki",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:09:53.126Z",
+      "lastUpdated": "2026-08-11T08:21:21.776Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -1492,13 +1533,25 @@
         "daysTracked": 26,
         "firstDay": "2026-07-15T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:21.776Z",
+        "views": {
+          "count": 90,
+          "uniques": 35
+        },
+        "clones": {
+          "count": 1704,
+          "uniques": 417
+        }
       }
     },
     {
       "repo": "netascode/terraform-iosxe-nac-iosxe",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:09:53.466Z",
+      "lastUpdated": "2026-08-11T08:21:22.020Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -1859,13 +1912,25 @@
         "daysTracked": 26,
         "firstDay": "2026-07-15T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:22.019Z",
+        "views": {
+          "count": 250,
+          "uniques": 58
+        },
+        "clones": {
+          "count": 535,
+          "uniques": 59
+        }
       }
     },
     {
       "repo": "netascode/terraform-catalystcenter-nac-catalystcenter",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:09:53.772Z",
+      "lastUpdated": "2026-08-11T08:21:22.283Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -2231,13 +2296,25 @@
         "daysTracked": 26,
         "firstDay": "2026-07-15T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:22.283Z",
+        "views": {
+          "count": 582,
+          "uniques": 53
+        },
+        "clones": {
+          "count": 886,
+          "uniques": 122
+        }
       }
     },
     {
       "repo": "netascode/terraform-nxos-nac-nxos",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:09:54.053Z",
+      "lastUpdated": "2026-08-11T08:21:22.550Z",
       "clones": [
         {
           "timestamp": "2026-07-27T00:00:00Z",
@@ -2488,13 +2565,25 @@
         "daysTracked": 14,
         "firstDay": "2026-07-27T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:22.550Z",
+        "views": {
+          "count": 201,
+          "uniques": 43
+        },
+        "clones": {
+          "count": 423,
+          "uniques": 81
+        }
       }
     },
     {
       "repo": "netascode/terraform-mso-nac-ndo",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:12:27.959Z",
+      "lastUpdated": "2026-08-11T08:21:22.816Z",
       "clones": [
         {
           "timestamp": "2026-07-27T00:00:00Z",
@@ -2730,13 +2819,25 @@
         "daysTracked": 14,
         "firstDay": "2026-07-27T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:22.816Z",
+        "views": {
+          "count": 108,
+          "uniques": 27
+        },
+        "clones": {
+          "count": 783,
+          "uniques": 61
+        }
       }
     },
     {
       "repo": "netascode/terraform-sdwan-nac-sdwan",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:15:20.206Z",
+      "lastUpdated": "2026-08-11T08:21:23.087Z",
       "clones": [
         {
           "timestamp": "2026-07-27T00:00:00Z",
@@ -2987,13 +3088,25 @@
         "daysTracked": 14,
         "firstDay": "2026-07-27T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:23.087Z",
+        "views": {
+          "count": 285,
+          "uniques": 58
+        },
+        "clones": {
+          "count": 652,
+          "uniques": 113
+        }
       }
     },
     {
       "repo": "netascode/terraform-ise-nac-ise",
+      "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-10T15:15:20.556Z",
+      "lastUpdated": "2026-08-11T08:21:23.364Z",
       "clones": [
         {
           "timestamp": "2026-07-27T00:00:00Z",
@@ -3234,6 +3347,2428 @@
         "daysTracked": 14,
         "firstDay": "2026-07-27T00:00:00Z",
         "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:23.364Z",
+        "views": {
+          "count": 72,
+          "uniques": 27
+        },
+        "clones": {
+          "count": 411,
+          "uniques": 63
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-aci",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:23.691Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-27T00:00:00Z",
+          "count": 5546,
+          "uniques": 134
+        },
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 17,
+          "uniques": 17
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 375,
+          "uniques": 128
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 203,
+          "uniques": 99
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 2725,
+          "uniques": 108
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 1059,
+          "uniques": 106
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 8,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 371,
+          "uniques": 107
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 928,
+          "uniques": 118
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 7893,
+          "uniques": 122
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 83,
+          "uniques": 60
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 15,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 290,
+          "uniques": 138
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 11,
+          "uniques": 11
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-27T00:00:00Z",
+          "count": 44,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 49,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 74,
+          "uniques": 13
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 63,
+          "uniques": 24
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 49,
+          "uniques": 16
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 8,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 31,
+          "uniques": 19
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 20,
+          "uniques": 19
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 86,
+          "uniques": 78
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 26,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 66,
+          "uniques": 15
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 27,
+          "uniques": 17
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 32,
+          "uniques": 30
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 13,
+          "uniques": 7
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci",
+          "title": "Overview",
+          "count": 88,
+          "uniques": 61
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/commits/develop",
+          "title": "/commits/develop",
+          "count": 30,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/issues",
+          "title": "/issues",
+          "count": 16,
+          "uniques": 7
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/tree/develop/aci",
+          "title": "/tree/develop/aci",
+          "count": 12,
+          "uniques": 11
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/pulls",
+          "title": "/pulls",
+          "count": 9,
+          "uniques": 5
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/blob/develop/examples/resources/aci_relation_to_static_path/resource-all-attributes.tf",
+          "title": "/blob/develop/examples/resources/aci_relation_to_static_path/resource-all-attributes.tf",
+          "count": 7,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/releases",
+          "title": "/releases",
+          "count": 7,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/tree/main",
+          "title": "/tree/main",
+          "count": 6,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/tree/develop/scripts",
+          "title": "/tree/develop/scripts",
+          "count": 5,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-aci/tree/develop/examples",
+          "title": "/tree/develop/examples",
+          "count": 5,
+          "uniques": 2
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 39,
+          "uniques": 5
+        },
+        {
+          "referrer": "registry.terraform.io",
+          "count": 26,
+          "uniques": 1
+        },
+        {
+          "referrer": "Google",
+          "count": 21,
+          "uniques": 17
+        },
+        {
+          "referrer": "netascode.cisco.com",
+          "count": 21,
+          "uniques": 12
+        },
+        {
+          "referrer": "Bing",
+          "count": 8,
+          "uniques": 2
+        },
+        {
+          "referrer": "teams.public.onecdn.static.microsoft",
+          "count": 4,
+          "uniques": 4
+        },
+        {
+          "referrer": "cisco-aci.atlassian.net",
+          "count": 4,
+          "uniques": 1
+        },
+        {
+          "referrer": "core-cisco.bravais.com",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "referrer": "DuckDuckGo",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "referrer": "ondemandelearning.cisco.com",
+          "count": 1,
+          "uniques": 1
+        }
+      ],
+      "totals": {
+        "clones": 19524,
+        "uniqueClonerDays": 1170,
+        "peakDailyClones": 7893,
+        "peakDailyUniqueCloners": 138,
+        "views": 588,
+        "uniqueVisitorDays": 275,
+        "peakDailyViews": 86,
+        "peakDailyUniqueVisitors": 78,
+        "daysTracked": 14,
+        "firstDay": "2026-07-27T00:00:00Z",
+        "lastDay": "2026-08-09T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:23.691Z",
+        "views": {
+          "count": 588,
+          "uniques": 247
+        },
+        "clones": {
+          "count": 19524,
+          "uniques": 431
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-fmc",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:24.134Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 1943,
+          "uniques": 15
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 1886,
+          "uniques": 13
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 1859,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 1861,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 1859,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 1861,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 1811,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 1747,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 1879,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 1875,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 1868,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 1804,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 1748,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 3741,
+          "uniques": 9
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 29,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 31,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 23,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 19,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 3,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 3,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 23,
+          "uniques": 16
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 22,
+          "uniques": 15
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 13,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 26,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 44,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 11,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 42,
+          "uniques": 7
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc",
+          "title": "Overview",
+          "count": 89,
+          "uniques": 48
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/pulls",
+          "title": "/pulls",
+          "count": 25,
+          "uniques": 5
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/blob/main/fmc/fmc_network_object.go",
+          "title": "/blob/main/fmc/fmc_network_object.go",
+          "count": 16,
+          "uniques": 16
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/tree/main/docs",
+          "title": "/tree/main/docs",
+          "count": 15,
+          "uniques": 10
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/tree/main/docs/resources",
+          "title": "/tree/main/docs/resources",
+          "count": 11,
+          "uniques": 7
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/pull/433",
+          "title": "/pull/433",
+          "count": 9,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/issues",
+          "title": "/issues",
+          "count": 6,
+          "uniques": 6
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/pull/433/changes",
+          "title": "/pull/433/changes",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/tree/main/gen/definitions",
+          "title": "/tree/main/gen/definitions",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-fmc/blob/main/CONTRIBUTING.md",
+          "title": "/blob/main/CONTRIBUTING.md",
+          "count": 5,
+          "uniques": 1
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "Google",
+          "count": 47,
+          "uniques": 12
+        },
+        {
+          "referrer": "github.com",
+          "count": 47,
+          "uniques": 12
+        },
+        {
+          "referrer": "cdredmine.bethelservice.org",
+          "count": 11,
+          "uniques": 3
+        },
+        {
+          "referrer": "chatgpt.com",
+          "count": 2,
+          "uniques": 1
+        },
+        {
+          "referrer": "teams.public.onecdn.static.microsoft",
+          "count": 2,
+          "uniques": 1
+        }
+      ],
+      "totals": {
+        "clones": 27742,
+        "uniqueClonerDays": 124,
+        "peakDailyClones": 3741,
+        "peakDailyUniqueCloners": 15,
+        "views": 290,
+        "uniqueVisitorDays": 101,
+        "peakDailyViews": 44,
+        "peakDailyUniqueVisitors": 16,
+        "daysTracked": 14,
+        "firstDay": "2026-07-28T00:00:00Z",
+        "lastDay": "2026-08-10T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:24.134Z",
+        "views": {
+          "count": 290,
+          "uniques": 85
+        },
+        "clones": {
+          "count": 27742,
+          "uniques": 73
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-meraki",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:24.451Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 284,
+          "uniques": 15
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 43,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 19,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 11,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 21,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 11,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 16,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 19,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 17,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 30,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 40,
+          "uniques": 13
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 9,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 13,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 16,
+          "uniques": 12
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 16,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 17,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 8,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 81,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 53,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 67,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 24,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 18,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 3,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 14,
+          "uniques": 6
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki",
+          "title": "Overview",
+          "count": 55,
+          "uniques": 31
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/pulls",
+          "title": "/pulls",
+          "count": 32,
+          "uniques": 5
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/pull/237",
+          "title": "/pull/237",
+          "count": 23,
+          "uniques": 5
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/issues",
+          "title": "/issues",
+          "count": 18,
+          "uniques": 12
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/pull/259",
+          "title": "/pull/259",
+          "count": 14,
+          "uniques": 6
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/actions",
+          "title": "/actions",
+          "count": 14,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/actions/runs/30701807235",
+          "title": "/actions/runs/30701807235",
+          "count": 13,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/pull/261",
+          "title": "/pull/261",
+          "count": 6,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/tree/main/examples",
+          "title": "/tree/main/examples",
+          "count": 5,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-meraki/tree/main/internal",
+          "title": "/tree/main/internal",
+          "count": 4,
+          "uniques": 4
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 31,
+          "uniques": 9
+        },
+        {
+          "referrer": "Google",
+          "count": 9,
+          "uniques": 5
+        },
+        {
+          "referrer": "wwwin-github.cisco.com",
+          "count": 7,
+          "uniques": 1
+        },
+        {
+          "referrer": "powerpoint.officeapps.live.com",
+          "count": 3,
+          "uniques": 1
+        }
+      ],
+      "totals": {
+        "clones": 549,
+        "uniqueClonerDays": 151,
+        "peakDailyClones": 284,
+        "peakDailyUniqueCloners": 15,
+        "views": 311,
+        "uniqueVisitorDays": 69,
+        "peakDailyViews": 81,
+        "peakDailyUniqueVisitors": 10,
+        "daysTracked": 14,
+        "firstDay": "2026-07-28T00:00:00Z",
+        "lastDay": "2026-08-10T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:24.451Z",
+        "views": {
+          "count": 311,
+          "uniques": 51
+        },
+        "clones": {
+          "count": 549,
+          "uniques": 135
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-iosxe",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:24.751Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 30,
+          "uniques": 19
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 1884,
+          "uniques": 17
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 293,
+          "uniques": 22
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 9,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 784,
+          "uniques": 789
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 5,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 31,
+          "uniques": 16
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 24,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 78,
+          "uniques": 20
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 11,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 18,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 28,
+          "uniques": 16
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 13,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 1002,
+          "uniques": 23
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 35,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 29,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 10,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 59,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 7,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 5,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 68,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 40,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 74,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 87,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 23,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 3,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 72,
+          "uniques": 17
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe",
+          "title": "Overview",
+          "count": 129,
+          "uniques": 61
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/issues",
+          "title": "/issues",
+          "count": 40,
+          "uniques": 11
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/pulls",
+          "title": "/pulls",
+          "count": 36,
+          "uniques": 8
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/blob/main/CHANGELOG.md",
+          "title": "/blob/main/CHANGELOG.md",
+          "count": 17,
+          "uniques": 11
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main/examples",
+          "title": "/tree/main/examples",
+          "count": 12,
+          "uniques": 9
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/issues/619",
+          "title": "/issues/619",
+          "count": 10,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/issues/618",
+          "title": "/issues/618",
+          "count": 9,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/pull/620",
+          "title": "/pull/620",
+          "count": 9,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main",
+          "title": "/tree/main",
+          "count": 9,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main/docs",
+          "title": "/tree/main/docs",
+          "count": 7,
+          "uniques": 6
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 65,
+          "uniques": 11
+        },
+        {
+          "referrer": "Google",
+          "count": 64,
+          "uniques": 14
+        },
+        {
+          "referrer": "teams.public.onecdn.static.microsoft",
+          "count": 6,
+          "uniques": 2
+        },
+        {
+          "referrer": "DuckDuckGo",
+          "count": 3,
+          "uniques": 2
+        },
+        {
+          "referrer": "wwwin-github.cisco.com",
+          "count": 3,
+          "uniques": 1
+        },
+        {
+          "referrer": "Bing",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "referrer": "e.mail.ru",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "referrer": "firstpasslab.com",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "referrer": "link.zhihu.com",
+          "count": 1,
+          "uniques": 1
+        }
+      ],
+      "totals": {
+        "clones": 4210,
+        "uniqueClonerDays": 976,
+        "peakDailyClones": 1884,
+        "peakDailyUniqueCloners": 789,
+        "views": 514,
+        "uniqueVisitorDays": 128,
+        "peakDailyViews": 87,
+        "peakDailyUniqueVisitors": 17,
+        "daysTracked": 14,
+        "firstDay": "2026-07-28T00:00:00Z",
+        "lastDay": "2026-08-10T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:24.751Z",
+        "views": {
+          "count": 514,
+          "uniques": 99
+        },
+        "clones": {
+          "count": 4210,
+          "uniques": 909
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-catalystcenter",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:25.081Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 2388,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 2389,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 2396,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 2389,
+          "uniques": 13
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 2383,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 2383,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 774,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 55,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 83,
+          "uniques": 24
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 74,
+          "uniques": 27
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 125,
+          "uniques": 13
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 1201,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 1093,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 1200,
+          "uniques": 10
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 10,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 80,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 32,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 114,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 308,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 60,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 12,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 6,
+          "uniques": 2
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter",
+          "title": "Overview",
+          "count": 121,
+          "uniques": 27
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/pulls",
+          "title": "/pulls",
+          "count": 121,
+          "uniques": 9
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/pull/461",
+          "title": "/pull/461",
+          "count": 36,
+          "uniques": 5
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/pull/463",
+          "title": "/pull/463",
+          "count": 32,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/pull/461/changes",
+          "title": "/pull/461/changes",
+          "count": 27,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/pull/463/changes",
+          "title": "/pull/463/changes",
+          "count": 21,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/pull/464",
+          "title": "/pull/464",
+          "count": 10,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/issues",
+          "title": "/issues",
+          "count": 9,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/blob/main/CHANGELOG.md",
+          "title": "/blob/main/CHANGELOG.md",
+          "count": 9,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-catalystcenter/tree/main/docs/resources",
+          "title": "/tree/main/docs/resources",
+          "count": 6,
+          "uniques": 2
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "Bing",
+          "count": 54,
+          "uniques": 1
+        },
+        {
+          "referrer": "github.com",
+          "count": 51,
+          "uniques": 9
+        },
+        {
+          "referrer": "Google",
+          "count": 26,
+          "uniques": 5
+        },
+        {
+          "referrer": "wwwin-github.cisco.com",
+          "count": 14,
+          "uniques": 3
+        },
+        {
+          "referrer": "registry.terraform.io",
+          "count": 10,
+          "uniques": 3
+        }
+      ],
+      "totals": {
+        "clones": 18933,
+        "uniqueClonerDays": 189,
+        "peakDailyClones": 2396,
+        "peakDailyUniqueCloners": 27,
+        "views": 639,
+        "uniqueVisitorDays": 52,
+        "peakDailyViews": 308,
+        "peakDailyUniqueVisitors": 9,
+        "daysTracked": 14,
+        "firstDay": "2026-07-28T00:00:00Z",
+        "lastDay": "2026-08-10T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:25.081Z",
+        "views": {
+          "count": 639,
+          "uniques": 35
+        },
+        "clones": {
+          "count": 18933,
+          "uniques": 150
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-nxos",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:25.385Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 5,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 12,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 4,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 84,
+          "uniques": 19
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 47,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 4,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 23,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 7,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 26,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 10,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 7,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 4,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 4,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 9,
+          "uniques": 8
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 5,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 18,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 5,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 82,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 34,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 6,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 19,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 15,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 9,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 45,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 7,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 10,
+          "uniques": 7
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos",
+          "title": "Overview",
+          "count": 56,
+          "uniques": 36
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/issues",
+          "title": "/issues",
+          "count": 22,
+          "uniques": 8
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/pulls",
+          "title": "/pulls",
+          "count": 14,
+          "uniques": 6
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/releases",
+          "title": "/releases",
+          "count": 12,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/tree/main/internal/provider",
+          "title": "/tree/main/internal/provider",
+          "count": 7,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/issues/513",
+          "title": "/issues/513",
+          "count": 6,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/pull/514",
+          "title": "/pull/514",
+          "count": 6,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/tree/main",
+          "title": "/tree/main",
+          "count": 6,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/pull/511",
+          "title": "/pull/511",
+          "count": 6,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-nxos/blob/main/CHANGELOG.md",
+          "title": "/blob/main/CHANGELOG.md",
+          "count": 5,
+          "uniques": 5
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 51,
+          "uniques": 7
+        },
+        {
+          "referrer": "Google",
+          "count": 11,
+          "uniques": 8
+        },
+        {
+          "referrer": "netascode.cisco.com",
+          "count": 2,
+          "uniques": 1
+        },
+        {
+          "referrer": "Bing",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "referrer": "blogs.cisco.com",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "referrer": "search.brave.com",
+          "count": 1,
+          "uniques": 1
+        }
+      ],
+      "totals": {
+        "clones": 246,
+        "uniqueClonerDays": 105,
+        "peakDailyClones": 84,
+        "peakDailyUniqueCloners": 19,
+        "views": 257,
+        "uniqueVisitorDays": 71,
+        "peakDailyViews": 82,
+        "peakDailyUniqueVisitors": 9,
+        "daysTracked": 14,
+        "firstDay": "2026-07-28T00:00:00Z",
+        "lastDay": "2026-08-10T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:25.385Z",
+        "views": {
+          "count": 257,
+          "uniques": 52
+        },
+        "clones": {
+          "count": 246,
+          "uniques": 80
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-mso",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:25.739Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 24,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 32,
+          "uniques": 19
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 8,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 7,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 5,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 4,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 16,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 13,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 6,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 10,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 15,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 14,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 5,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 6,
+          "uniques": 6
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 43,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 55,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 32,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 27,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 9,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 21,
+          "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 11,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 5,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 9,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 15,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 6,
+          "uniques": 4
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso",
+          "title": "Overview",
+          "count": 38,
+          "uniques": 20
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/issues",
+          "title": "/issues",
+          "count": 32,
+          "uniques": 6
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/pull/537",
+          "title": "/pull/537",
+          "count": 19,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/pull/538",
+          "title": "/pull/538",
+          "count": 17,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/pulls",
+          "title": "/pulls",
+          "count": 16,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/pull/537/changes",
+          "title": "/pull/537/changes",
+          "count": 10,
+          "uniques": 5
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/tree/develop/mso",
+          "title": "/tree/develop/mso",
+          "count": 9,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/pull/538/changes",
+          "title": "/pull/538/changes",
+          "count": 5,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/pull/535",
+          "title": "/pull/535",
+          "count": 5,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-mso/blob/develop/examples/schema_template_external_epg_selector/main.tf",
+          "title": "/blob/develop/examples/schema_template_external_epg_selector/main.tf",
+          "count": 3,
+          "uniques": 3
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 16,
+          "uniques": 2
+        },
+        {
+          "referrer": "cisco-aci.atlassian.net",
+          "count": 9,
+          "uniques": 1
+        },
+        {
+          "referrer": "developer.cisco.com",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "referrer": "blogs.cisco.com",
+          "count": 2,
+          "uniques": 1
+        }
+      ],
+      "totals": {
+        "clones": 165,
+        "uniqueClonerDays": 131,
+        "peakDailyClones": 32,
+        "peakDailyUniqueCloners": 19,
+        "views": 241,
+        "uniqueVisitorDays": 72,
+        "peakDailyViews": 55,
+        "peakDailyUniqueVisitors": 9,
+        "daysTracked": 14,
+        "firstDay": "2026-07-28T00:00:00Z",
+        "lastDay": "2026-08-10T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:25.739Z",
+        "views": {
+          "count": 241,
+          "uniques": 56
+        },
+        "clones": {
+          "count": 165,
+          "uniques": 111
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-sdwan",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:26.032Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 1441,
+          "uniques": 72
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 1277,
+          "uniques": 92
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 1278,
+          "uniques": 19
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 1189,
+          "uniques": 49
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 1302,
+          "uniques": 49
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 1150,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 1291,
+          "uniques": 18
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 1169,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 1763,
+          "uniques": 16
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 4889,
+          "uniques": 54
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 4711,
+          "uniques": 20
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 4846,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 4863,
+          "uniques": 31
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 4706,
+          "uniques": 16
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 156,
+          "uniques": 16
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 31,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 46,
+          "uniques": 15
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 14,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 3,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 37,
+          "uniques": 18
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 31,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 51,
+          "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 123,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 5,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 5,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 43,
+          "uniques": 9
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan",
+          "title": "Overview",
+          "count": 104,
+          "uniques": 34
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/pulls",
+          "title": "/pulls",
+          "count": 56,
+          "uniques": 9
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/tree/main",
+          "title": "/tree/main",
+          "count": 18,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/pull/723",
+          "title": "/pull/723",
+          "count": 16,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/pull/737",
+          "title": "/pull/737",
+          "count": 15,
+          "uniques": 5
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/blob/main/CHANGELOG.md",
+          "title": "/blob/main/CHANGELOG.md",
+          "count": 9,
+          "uniques": 7
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/issues",
+          "title": "/issues",
+          "count": 9,
+          "uniques": 5
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/pull/737/changes",
+          "title": "/pull/737/changes",
+          "count": 8,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/commits/main",
+          "title": "/commits/main",
+          "count": 8,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-sdwan/pull/724",
+          "title": "/pull/724",
+          "count": 6,
+          "uniques": 1
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 146,
+          "uniques": 13
+        },
+        {
+          "referrer": "wwwin-github.cisco.com",
+          "count": 42,
+          "uniques": 7
+        },
+        {
+          "referrer": "Google",
+          "count": 5,
+          "uniques": 5
+        },
+        {
+          "referrer": "Bing",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "referrer": "teams.public.onecdn.static.microsoft",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "referrer": "developer.cisco.com",
+          "count": 1,
+          "uniques": 1
+        }
+      ],
+      "totals": {
+        "clones": 35875,
+        "uniqueClonerDays": 475,
+        "peakDailyClones": 4889,
+        "peakDailyUniqueCloners": 92,
+        "views": 545,
+        "uniqueVisitorDays": 109,
+        "peakDailyViews": 156,
+        "peakDailyUniqueVisitors": 18,
+        "daysTracked": 14,
+        "firstDay": "2026-07-28T00:00:00Z",
+        "lastDay": "2026-08-10T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:26.032Z",
+        "views": {
+          "count": 545,
+          "uniques": 75
+        },
+        "clones": {
+          "count": 35875,
+          "uniques": 403
+        }
+      }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-ise",
+      "group": "providers",
+      "owner": null,
+      "name": null,
+      "lastUpdated": "2026-08-11T08:21:26.517Z",
+      "clones": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 55,
+          "uniques": 54
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 13,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 11,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 75,
+          "uniques": 51
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 58,
+          "uniques": 48
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 7,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 35,
+          "uniques": 15
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 24,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 38,
+          "uniques": 16
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 47,
+          "uniques": 47
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 18,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 14,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 33,
+          "uniques": 30
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 24,
+          "uniques": 13
+        }
+      ],
+      "views": [
+        {
+          "timestamp": "2026-07-28T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-29T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-07-30T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-07-31T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-01T00:00:00Z",
+          "count": 19,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-02T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-03T00:00:00Z",
+          "count": 4,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-04T00:00:00Z",
+          "count": 28,
+          "uniques": 6
+        },
+        {
+          "timestamp": "2026-08-05T00:00:00Z",
+          "count": 107,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-06T00:00:00Z",
+          "count": 13,
+          "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-07T00:00:00Z",
+          "count": 14,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-08T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-09T00:00:00Z",
+          "count": 4,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-10T00:00:00Z",
+          "count": 41,
+          "uniques": 5
+        }
+      ],
+      "popularPaths": [
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/pulls",
+          "title": "/pulls",
+          "count": 52,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise",
+          "title": "Overview",
+          "count": 44,
+          "uniques": 21
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/pull/252",
+          "title": "/pull/252",
+          "count": 23,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/pull/239",
+          "title": "/pull/239",
+          "count": 18,
+          "uniques": 4
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/pull/252/changes",
+          "title": "/pull/252/changes",
+          "count": 16,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/issues",
+          "title": "/issues",
+          "count": 10,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/pull/239/changes",
+          "title": "/pull/239/changes",
+          "count": 8,
+          "uniques": 3
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/pull/254",
+          "title": "/pull/254",
+          "count": 5,
+          "uniques": 1
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/commit/2c7552c5dacd17e47d64fac6e1623ca028a30ebe",
+          "title": "/commit/2c7552c5dacd17e47d64fac6e1623ca028a30ebe",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "path": "/CiscoDevNet/terraform-provider-ise/releases",
+          "title": "/releases",
+          "count": 2,
+          "uniques": 2
+        }
+      ],
+      "referrers": [
+        {
+          "referrer": "github.com",
+          "count": 32,
+          "uniques": 7
+        },
+        {
+          "referrer": "Google",
+          "count": 14,
+          "uniques": 5
+        },
+        {
+          "referrer": "blogs.cisco.com",
+          "count": 1,
+          "uniques": 1
+        }
+      ],
+      "totals": {
+        "clones": 452,
+        "uniqueClonerDays": 340,
+        "peakDailyClones": 75,
+        "peakDailyUniqueCloners": 54,
+        "views": 237,
+        "uniqueVisitorDays": 41,
+        "peakDailyViews": 107,
+        "peakDailyUniqueVisitors": 6,
+        "daysTracked": 14,
+        "firstDay": "2026-07-28T00:00:00Z",
+        "lastDay": "2026-08-10T00:00:00Z"
+      },
+      "snapshot14d": {
+        "polled_at": "2026-08-11T08:21:26.517Z",
+        "views": {
+          "count": 237,
+          "uniques": 29
+        },
+        "clones": {
+          "count": 452,
+          "uniques": 313
+        }
       }
     }
   ],
@@ -3340,138 +5875,85 @@
             "external_open": 0,
             "external_new_30d": 0,
             "external_closed_30d": 0,
-            "external_pr_merged_90d": 0,
-            "external_authors_all_time": 5
+            "external_authors_all_time": 4
           },
           "recentExternal": [
             {
               "number": 25,
-              "type": "issue",
               "state": "closed",
               "author": "vinavasu",
               "created_at": "2026-05-27T15:27:45Z",
-              "closed_at": "2026-05-27T20:08:27Z",
-              "merged_at": null
-            },
-            {
-              "number": 18,
-              "type": "pr",
-              "state": "closed",
-              "author": "rsaville2",
-              "created_at": "2025-11-13T21:49:36Z",
-              "closed_at": "2025-11-14T13:14:32Z",
-              "merged_at": "2025-11-14T13:14:32Z"
+              "closed_at": "2026-05-27T20:08:27Z"
             },
             {
               "number": 17,
-              "type": "issue",
               "state": "closed",
               "author": "rsaville2",
               "created_at": "2025-11-13T18:53:35Z",
-              "closed_at": "2025-11-14T13:27:44Z",
-              "merged_at": null
+              "closed_at": "2025-11-14T13:27:44Z"
             },
             {
               "number": 16,
-              "type": "issue",
               "state": "closed",
               "author": "mbatcs",
               "created_at": "2025-11-10T18:49:44Z",
-              "closed_at": "2025-11-14T13:28:07Z",
-              "merged_at": null
+              "closed_at": "2025-11-14T13:28:07Z"
             },
             {
               "number": 11,
-              "type": "issue",
               "state": "closed",
               "author": "github-actions[bot]",
               "created_at": "2025-10-03T15:38:48Z",
-              "closed_at": "2025-10-05T19:09:28Z",
-              "merged_at": null
+              "closed_at": "2025-10-05T19:09:28Z"
             },
             {
               "number": 10,
-              "type": "issue",
               "state": "closed",
               "author": "github-actions[bot]",
               "created_at": "2025-10-03T15:38:46Z",
-              "closed_at": "2025-10-05T19:09:40Z",
-              "merged_at": null
+              "closed_at": "2025-10-05T19:09:40Z"
             },
             {
               "number": 9,
-              "type": "issue",
               "state": "closed",
               "author": "github-actions[bot]",
               "created_at": "2025-10-02T06:43:32Z",
-              "closed_at": "2025-10-05T19:09:46Z",
-              "merged_at": null
+              "closed_at": "2025-10-05T19:09:46Z"
             },
             {
               "number": 8,
-              "type": "issue",
               "state": "closed",
               "author": "github-actions[bot]",
               "created_at": "2025-10-02T06:43:31Z",
-              "closed_at": "2025-10-05T19:09:58Z",
-              "merged_at": null
+              "closed_at": "2025-10-05T19:09:58Z"
             },
             {
               "number": 7,
-              "type": "issue",
               "state": "closed",
               "author": "github-actions[bot]",
               "created_at": "2025-10-01T06:45:35Z",
-              "closed_at": "2025-10-05T19:10:07Z",
-              "merged_at": null
+              "closed_at": "2025-10-05T19:10:07Z"
             },
             {
               "number": 6,
-              "type": "issue",
               "state": "closed",
               "author": "github-actions[bot]",
               "created_at": "2025-10-01T06:45:34Z",
-              "closed_at": "2025-10-05T19:09:22Z",
-              "merged_at": null
-            },
-            {
-              "number": 5,
-              "type": "pr",
-              "state": "closed",
-              "author": "rsaville2",
-              "created_at": "2025-08-14T13:26:12Z",
-              "closed_at": "2025-08-14T13:27:21Z",
-              "merged_at": "2025-08-14T13:27:21Z"
-            },
-            {
-              "number": 3,
-              "type": "pr",
-              "state": "closed",
-              "author": "jbarozet",
-              "created_at": "2025-07-29T08:43:09Z",
-              "closed_at": "2025-07-29T08:43:16Z",
-              "merged_at": "2025-07-29T08:43:16Z"
-            },
-            {
-              "number": 2,
-              "type": "pr",
-              "state": "closed",
-              "author": "rsaville2",
-              "created_at": "2025-07-28T20:21:54Z",
-              "closed_at": "2025-07-29T08:27:26Z",
-              "merged_at": "2025-07-29T08:27:26Z"
+              "closed_at": "2025-10-05T19:09:22Z"
             },
             {
               "number": 1,
-              "type": "issue",
               "state": "closed",
               "author": "rsaville2",
               "created_at": "2025-07-25T15:11:21Z",
-              "closed_at": "2025-11-03T17:57:00Z",
-              "merged_at": null
+              "closed_at": "2025-11-03T17:57:00Z"
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:46.750Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:23.023Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -3792,195 +6274,158 @@
         },
         "issues": {
           "totals": {
-            "external_open": 25,
-            "external_new_30d": 12,
-            "external_closed_30d": 5,
-            "external_pr_merged_90d": 9,
-            "external_authors_all_time": 69
+            "external_open": 15,
+            "external_new_30d": 4,
+            "external_closed_30d": 1,
+            "external_authors_all_time": 43
           },
           "recentExternal": [
             {
-              "number": 425,
-              "type": "pr",
-              "state": "open",
-              "author": "suhas1git",
-              "created_at": "2026-08-06T05:05:10Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 424,
-              "type": "pr",
-              "state": "open",
-              "author": "noppanut15",
-              "created_at": "2026-08-03T08:06:09Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
               "number": 423,
-              "type": "issue",
               "state": "open",
               "author": "noppanut15",
               "created_at": "2026-08-03T07:38:43Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 422,
-              "type": "pr",
-              "state": "open",
-              "author": "jmiguelhp",
-              "created_at": "2026-07-30T20:07:21Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 421,
-              "type": "pr",
-              "state": "closed",
-              "author": "jmiguelhp",
-              "created_at": "2026-07-29T20:41:45Z",
-              "closed_at": "2026-08-04T13:48:10Z",
-              "merged_at": "2026-08-04T13:48:10Z"
-            },
-            {
-              "number": 420,
-              "type": "pr",
-              "state": "open",
-              "author": "jmiguelhp",
-              "created_at": "2026-07-28T18:44:30Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 418,
-              "type": "issue",
               "state": "open",
               "author": "pboertje",
               "created_at": "2026-07-28T11:24:12Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 415,
-              "type": "pr",
-              "state": "closed",
-              "author": "jmmarquezg",
-              "created_at": "2026-07-23T02:20:25Z",
-              "closed_at": "2026-08-04T13:14:38Z",
-              "merged_at": "2026-08-04T13:14:38Z"
-            },
-            {
-              "number": 413,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-20T08:32:36Z",
-              "closed_at": "2026-07-28T10:51:06Z",
-              "merged_at": "2026-07-28T10:51:06Z"
+              "closed_at": null
             },
             {
               "number": 410,
-              "type": "issue",
               "state": "open",
               "author": "edy02",
               "created_at": "2026-07-17T13:54:38Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 409,
-              "type": "issue",
               "state": "open",
               "author": "jpokorny-cz",
               "created_at": "2026-07-17T09:05:02Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 407,
-              "type": "pr",
-              "state": "closed",
-              "author": "jmiguelhp",
-              "created_at": "2026-07-13T16:16:32Z",
-              "closed_at": "2026-07-29T13:45:23Z",
-              "merged_at": "2026-07-29T13:45:23Z"
+              "closed_at": null
             },
             {
               "number": 406,
-              "type": "issue",
               "state": "open",
               "author": "hresch",
               "created_at": "2026-07-08T11:18:53Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 405,
-              "type": "issue",
               "state": "open",
               "author": "roberto-lx",
               "created_at": "2026-07-07T08:05:25Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 400,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-06-19T08:32:18Z",
-              "closed_at": "2026-07-01T09:31:18Z",
-              "merged_at": "2026-07-01T09:31:18Z"
-            },
-            {
-              "number": 396,
-              "type": "pr",
-              "state": "closed",
-              "author": "brokenax3",
-              "created_at": "2026-06-08T07:27:17Z",
-              "closed_at": "2026-06-17T14:19:46Z",
-              "merged_at": "2026-06-17T14:19:46Z"
+              "closed_at": null
             },
             {
               "number": 395,
-              "type": "issue",
               "state": "open",
               "author": "roberto-lx",
               "created_at": "2026-06-02T09:22:27Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 392,
-              "type": "pr",
-              "state": "closed",
-              "author": "jmmarquezg",
-              "created_at": "2026-05-26T00:25:36Z",
-              "closed_at": "2026-05-27T14:54:03Z",
-              "merged_at": "2026-05-27T14:54:03Z"
-            },
-            {
-              "number": 391,
-              "type": "pr",
-              "state": "open",
-              "author": "suhas1git",
-              "created_at": "2026-05-25T19:10:57Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 389,
-              "type": "issue",
               "state": "closed",
               "author": "jkliss-csco",
               "created_at": "2026-05-20T14:14:50Z",
-              "closed_at": "2026-07-24T09:53:00Z",
-              "merged_at": null
+              "closed_at": "2026-07-24T09:53:00Z"
+            },
+            {
+              "number": 386,
+              "state": "open",
+              "author": "micronemo",
+              "created_at": "2026-04-28T07:04:56Z",
+              "closed_at": null
+            },
+            {
+              "number": 380,
+              "state": "closed",
+              "author": "micronemo",
+              "created_at": "2026-04-11T13:53:12Z",
+              "closed_at": "2026-04-16T11:53:59Z"
+            },
+            {
+              "number": 379,
+              "state": "closed",
+              "author": "m-kasamatsu",
+              "created_at": "2026-04-03T00:25:43Z",
+              "closed_at": "2026-04-16T12:07:06Z"
+            },
+            {
+              "number": 378,
+              "state": "closed",
+              "author": "ymuramat",
+              "created_at": "2026-04-02T11:13:45Z",
+              "closed_at": "2026-04-08T08:54:34Z"
+            },
+            {
+              "number": 375,
+              "state": "closed",
+              "author": "dieherna",
+              "created_at": "2026-03-25T18:50:21Z",
+              "closed_at": "2026-04-16T09:15:55Z"
+            },
+            {
+              "number": 359,
+              "state": "closed",
+              "author": "johanekstroms",
+              "created_at": "2026-02-10T14:24:58Z",
+              "closed_at": "2026-02-17T10:27:15Z"
+            },
+            {
+              "number": 355,
+              "state": "closed",
+              "author": "alexanderdeca",
+              "created_at": "2026-01-29T10:41:37Z",
+              "closed_at": "2026-01-29T11:42:45Z"
+            },
+            {
+              "number": 350,
+              "state": "closed",
+              "author": "micronemo",
+              "created_at": "2026-01-10T20:15:00Z",
+              "closed_at": "2026-02-18T12:38:24Z"
+            },
+            {
+              "number": 334,
+              "state": "closed",
+              "author": "camrossi",
+              "created_at": "2025-11-19T02:18:28Z",
+              "closed_at": "2026-03-23T14:20:36Z"
+            },
+            {
+              "number": 331,
+              "state": "closed",
+              "author": "roberto-lx",
+              "created_at": "2025-10-31T07:24:22Z",
+              "closed_at": "2026-04-09T19:27:18Z"
+            },
+            {
+              "number": 330,
+              "state": "closed",
+              "author": "roberto-lx",
+              "created_at": "2025-10-30T11:46:45Z",
+              "closed_at": "2025-11-03T08:02:55Z"
+            },
+            {
+              "number": 326,
+              "state": "closed",
+              "author": "maximeparentaniinfrabel-png",
+              "created_at": "2025-10-20T08:09:50Z",
+              "closed_at": "2026-04-16T12:40:38Z"
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:46.985Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:23.352Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -4072,185 +6517,80 @@
         "issues": {
           "totals": {
             "external_open": 2,
-            "external_new_30d": 1,
-            "external_closed_30d": 1,
-            "external_pr_merged_90d": 2,
-            "external_authors_all_time": 8
+            "external_new_30d": 0,
+            "external_closed_30d": 0,
+            "external_authors_all_time": 6
           },
           "recentExternal": [
             {
-              "number": 30,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-20T08:53:13Z",
-              "closed_at": "2026-07-29T08:25:44Z",
-              "merged_at": "2026-07-29T08:25:44Z"
-            },
-            {
-              "number": 29,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-06-19T08:52:38Z",
-              "closed_at": "2026-06-24T09:34:00Z",
-              "merged_at": "2026-06-24T09:34:00Z"
-            },
-            {
               "number": 28,
-              "type": "issue",
               "state": "closed",
               "author": "caiohpsanttos",
               "created_at": "2026-05-22T22:30:23Z",
-              "closed_at": "2026-05-25T07:49:11Z",
-              "merged_at": null
+              "closed_at": "2026-05-25T07:49:11Z"
             },
             {
               "number": 27,
-              "type": "issue",
               "state": "open",
               "author": "xibriz",
               "created_at": "2026-03-25T06:20:10Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 25,
-              "type": "issue",
               "state": "closed",
               "author": "xibriz",
               "created_at": "2026-03-18T09:46:01Z",
-              "closed_at": "2026-03-25T06:12:21Z",
-              "merged_at": null
+              "closed_at": "2026-03-25T06:12:21Z"
             },
             {
               "number": 23,
-              "type": "issue",
               "state": "closed",
               "author": "caiohpsanttos",
               "created_at": "2026-03-14T21:00:06Z",
-              "closed_at": "2026-03-16T11:34:07Z",
-              "merged_at": null
-            },
-            {
-              "number": 22,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-02-25T08:53:54Z",
-              "closed_at": "2026-03-02T10:33:26Z",
-              "merged_at": "2026-03-02T10:33:26Z"
+              "closed_at": "2026-03-16T11:34:07Z"
             },
             {
               "number": 21,
-              "type": "issue",
               "state": "open",
               "author": "WhippingBoy01",
               "created_at": "2026-02-15T21:54:23Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 20,
-              "type": "issue",
               "state": "closed",
               "author": "caiohpsanttos",
               "created_at": "2026-02-09T14:46:21Z",
-              "closed_at": "2026-02-09T21:13:47Z",
-              "merged_at": null
-            },
-            {
-              "number": 18,
-              "type": "pr",
-              "state": "closed",
-              "author": "caiohpsanttos",
-              "created_at": "2026-01-12T16:51:20Z",
-              "closed_at": "2026-01-21T13:17:50Z",
-              "merged_at": null
-            },
-            {
-              "number": 15,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-11-21T08:11:19Z",
-              "closed_at": "2025-12-01T10:53:16Z",
-              "merged_at": "2025-12-01T10:53:16Z"
-            },
-            {
-              "number": 14,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-10-03T08:09:45Z",
-              "closed_at": "2025-10-03T09:58:30Z",
-              "merged_at": "2025-10-03T09:58:30Z"
-            },
-            {
-              "number": 11,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-09-04T12:21:40Z",
-              "closed_at": "2025-09-10T12:59:40Z",
-              "merged_at": "2025-09-10T12:59:40Z"
-            },
-            {
-              "number": 10,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-12T16:42:27Z",
-              "closed_at": "2025-09-10T12:57:57Z",
-              "merged_at": "2025-09-10T12:57:57Z"
-            },
-            {
-              "number": 9,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-12T14:57:03Z",
-              "closed_at": "2025-09-10T12:56:32Z",
-              "merged_at": "2025-09-10T12:56:32Z"
-            },
-            {
-              "number": 7,
-              "type": "pr",
-              "state": "closed",
-              "author": "shumphr2",
-              "created_at": "2025-07-15T12:53:22Z",
-              "closed_at": "2025-07-16T09:46:15Z",
-              "merged_at": "2025-07-16T09:46:15Z"
+              "closed_at": "2026-02-09T21:13:47Z"
             },
             {
               "number": 5,
-              "type": "issue",
               "state": "closed",
               "author": "DeviousIan",
               "created_at": "2025-02-26T14:45:55Z",
-              "closed_at": "2025-08-07T08:36:04Z",
-              "merged_at": null
+              "closed_at": "2025-08-07T08:36:04Z"
             },
             {
               "number": 2,
-              "type": "issue",
               "state": "closed",
               "author": "fiblund",
               "created_at": "2024-10-12T14:39:31Z",
-              "closed_at": "2025-07-16T10:39:59Z",
-              "merged_at": null
+              "closed_at": "2025-07-16T10:39:59Z"
             },
             {
               "number": 1,
-              "type": "issue",
               "state": "closed",
               "author": "tomvrugt",
               "created_at": "2024-06-28T13:07:30Z",
-              "closed_at": "2025-02-26T18:51:24Z",
-              "merged_at": null
+              "closed_at": "2025-02-26T18:51:24Z"
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:47.273Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:23.697Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -4361,195 +6701,144 @@
         },
         "issues": {
           "totals": {
-            "external_open": 7,
-            "external_new_30d": 1,
+            "external_open": 5,
+            "external_new_30d": 0,
             "external_closed_30d": 0,
-            "external_pr_merged_90d": 3,
-            "external_authors_all_time": 8
+            "external_authors_all_time": 4
           },
           "recentExternal": [
             {
-              "number": 185,
-              "type": "pr",
-              "state": "open",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-20T09:33:46Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
               "number": 179,
-              "type": "issue",
               "state": "open",
               "author": "felixblang",
               "created_at": "2026-07-09T13:24:49Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 178,
-              "type": "issue",
               "state": "open",
               "author": "felixblang",
               "created_at": "2026-07-09T13:05:53Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 177,
-              "type": "pr",
-              "state": "closed",
-              "author": "vozhyk-",
-              "created_at": "2026-06-26T21:07:53Z",
-              "closed_at": "2026-06-29T13:05:03Z",
-              "merged_at": "2026-06-29T13:05:03Z"
-            },
-            {
-              "number": 175,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-06-19T09:32:42Z",
-              "closed_at": "2026-06-29T13:06:12Z",
-              "merged_at": "2026-06-29T13:06:12Z"
-            },
-            {
-              "number": 173,
-              "type": "pr",
-              "state": "closed",
-              "author": "vozhyk-",
-              "created_at": "2026-05-25T12:50:50Z",
-              "closed_at": "2026-06-29T14:07:17Z",
-              "merged_at": "2026-06-29T14:07:17Z"
-            },
-            {
-              "number": 168,
-              "type": "pr",
-              "state": "closed",
-              "author": "vozhyk-",
-              "created_at": "2026-05-11T08:47:22Z",
-              "closed_at": "2026-05-12T14:54:45Z",
-              "merged_at": "2026-05-12T14:54:45Z"
-            },
-            {
-              "number": 167,
-              "type": "pr",
-              "state": "open",
-              "author": "jon-humphries",
-              "created_at": "2026-05-07T20:00:50Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 157,
-              "type": "issue",
               "state": "open",
               "author": "mbatcs",
               "created_at": "2026-04-20T13:00:56Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 155,
-              "type": "issue",
               "state": "closed",
               "author": "mbatcs",
               "created_at": "2026-04-15T12:41:25Z",
-              "closed_at": "2026-07-06T08:09:15Z",
-              "merged_at": null
+              "closed_at": "2026-07-06T08:09:15Z"
             },
             {
               "number": 152,
-              "type": "issue",
               "state": "closed",
               "author": "Scally0815",
               "created_at": "2026-04-09T09:30:13Z",
-              "closed_at": "2026-04-13T08:41:25Z",
-              "merged_at": null
-            },
-            {
-              "number": 146,
-              "type": "pr",
-              "state": "closed",
-              "author": "vozhyk-",
-              "created_at": "2026-03-30T10:07:10Z",
-              "closed_at": "2026-03-30T10:08:03Z",
-              "merged_at": "2026-03-30T10:08:03Z"
-            },
-            {
-              "number": 145,
-              "type": "pr",
-              "state": "closed",
-              "author": "Pson123",
-              "created_at": "2026-03-27T12:29:56Z",
-              "closed_at": "2026-03-27T16:01:54Z",
-              "merged_at": "2026-03-27T16:01:54Z"
-            },
-            {
-              "number": 144,
-              "type": "pr",
-              "state": "closed",
-              "author": "vozhyk-",
-              "created_at": "2026-03-26T13:26:59Z",
-              "closed_at": "2026-03-30T08:55:07Z",
-              "merged_at": "2026-03-30T08:55:07Z"
+              "closed_at": "2026-04-13T08:41:25Z"
             },
             {
               "number": 143,
-              "type": "issue",
               "state": "open",
               "author": "mbatcs",
               "created_at": "2026-03-23T13:46:42Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
-              "number": 140,
-              "type": "pr",
+              "number": 113,
               "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-02-25T09:32:59Z",
-              "closed_at": "2026-03-11T10:42:41Z",
-              "merged_at": "2026-03-11T10:42:41Z"
+              "author": "felixblang",
+              "created_at": "2025-10-08T08:49:16Z",
+              "closed_at": "2026-03-31T16:21:30Z"
             },
             {
-              "number": 138,
-              "type": "pr",
-              "state": "closed",
-              "author": "Pson123",
-              "created_at": "2026-02-02T16:12:08Z",
-              "closed_at": "2026-03-10T13:05:28Z",
-              "merged_at": "2026-03-10T13:05:28Z"
+              "number": 110,
+              "state": "open",
+              "author": "felixblang",
+              "created_at": "2025-10-02T08:03:21Z",
+              "closed_at": null
             },
             {
-              "number": 136,
-              "type": "pr",
+              "number": 108,
               "state": "closed",
-              "author": "Pson123",
-              "created_at": "2025-12-18T08:39:11Z",
-              "closed_at": "2026-01-14T11:27:32Z",
-              "merged_at": null
+              "author": "felixblang",
+              "created_at": "2025-09-30T12:00:08Z",
+              "closed_at": "2025-10-08T08:21:51Z"
             },
             {
-              "number": 129,
-              "type": "pr",
+              "number": 107,
               "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-11-21T09:11:01Z",
-              "closed_at": "2025-11-26T16:18:38Z",
-              "merged_at": "2025-11-26T16:18:38Z"
+              "author": "felixblang",
+              "created_at": "2025-09-30T11:52:50Z",
+              "closed_at": "2025-11-17T15:16:24Z"
             },
             {
-              "number": 125,
-              "type": "pr",
+              "number": 106,
               "state": "closed",
-              "author": "vozhyk-",
-              "created_at": "2025-11-17T07:26:18Z",
-              "closed_at": "2025-11-17T09:22:23Z",
-              "merged_at": "2025-11-17T09:22:23Z"
+              "author": "felixblang",
+              "created_at": "2025-09-29T15:19:18Z",
+              "closed_at": "2025-11-26T16:26:18Z"
+            },
+            {
+              "number": 105,
+              "state": "closed",
+              "author": "felixblang",
+              "created_at": "2025-09-29T15:15:46Z",
+              "closed_at": "2025-11-24T15:18:48Z"
+            },
+            {
+              "number": 104,
+              "state": "closed",
+              "author": "felixblang",
+              "created_at": "2025-09-29T15:05:36Z",
+              "closed_at": "2026-04-12T19:31:47Z"
+            },
+            {
+              "number": 103,
+              "state": "closed",
+              "author": "felixblang",
+              "created_at": "2025-09-29T15:00:22Z",
+              "closed_at": "2025-10-27T14:20:35Z"
+            },
+            {
+              "number": 17,
+              "state": "closed",
+              "author": "christianbur",
+              "created_at": "2024-10-11T19:43:42Z",
+              "closed_at": "2024-10-14T16:38:40Z"
+            },
+            {
+              "number": 15,
+              "state": "closed",
+              "author": "christianbur",
+              "created_at": "2024-10-11T13:02:10Z",
+              "closed_at": "2024-12-18T15:56:12Z"
+            },
+            {
+              "number": 12,
+              "state": "closed",
+              "author": "christianbur",
+              "created_at": "2024-10-11T06:16:50Z",
+              "closed_at": "2024-10-14T16:39:04Z"
+            },
+            {
+              "number": 7,
+              "state": "closed",
+              "author": "christianbur",
+              "created_at": "2024-10-03T19:41:47Z",
+              "closed_at": "2024-10-09T17:51:42Z"
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:47.505Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:24.061Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -4665,195 +6954,102 @@
         },
         "issues": {
           "totals": {
-            "external_open": 10,
-            "external_new_30d": 5,
+            "external_open": 9,
+            "external_new_30d": 4,
             "external_closed_30d": 0,
-            "external_pr_merged_90d": 1,
-            "external_authors_all_time": 27
+            "external_authors_all_time": 9
           },
           "recentExternal": [
             {
               "number": 357,
-              "type": "issue",
               "state": "open",
               "author": "PacketThrowr",
               "created_at": "2026-08-04T20:21:49Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 356,
-              "type": "issue",
               "state": "open",
               "author": "romain46",
               "created_at": "2026-07-27T14:39:14Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 354,
-              "type": "issue",
               "state": "open",
               "author": "durd",
               "created_at": "2026-07-22T13:12:04Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 353,
-              "type": "issue",
               "state": "open",
               "author": "durd",
               "created_at": "2026-07-22T11:37:41Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 351,
-              "type": "pr",
-              "state": "open",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-20T22:23:39Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 346,
-              "type": "issue",
               "state": "open",
               "author": "durd",
               "created_at": "2026-07-09T08:02:37Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 335,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-06-18T22:22:46Z",
-              "closed_at": "2026-06-28T11:29:55Z",
-              "merged_at": "2026-06-28T11:29:55Z"
+              "closed_at": null
             },
             {
               "number": 316,
-              "type": "issue",
               "state": "closed",
               "author": "mobig",
               "created_at": "2026-06-07T23:37:09Z",
-              "closed_at": "2026-06-09T19:43:26Z",
-              "merged_at": null
+              "closed_at": "2026-06-09T19:43:26Z"
             },
             {
               "number": 312,
-              "type": "issue",
               "state": "open",
               "author": "Hr0bar",
               "created_at": "2026-05-26T12:54:53Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 255,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-02-24T22:24:00Z",
-              "closed_at": "2026-05-11T14:44:34Z",
-              "merged_at": "2026-05-11T14:44:34Z"
+              "closed_at": null
             },
             {
               "number": 254,
-              "type": "issue",
               "state": "open",
               "author": "giovanni-bellini-argo",
               "created_at": "2026-02-24T08:26:29Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 252,
-              "type": "issue",
               "state": "closed",
               "author": "ivancesg",
               "created_at": "2026-02-19T15:25:56Z",
-              "closed_at": "2026-02-19T15:54:35Z",
-              "merged_at": null
+              "closed_at": "2026-02-19T15:54:35Z"
             },
             {
               "number": 249,
-              "type": "issue",
               "state": "closed",
               "author": "ivancesg",
               "created_at": "2026-02-16T15:00:51Z",
-              "closed_at": "2026-04-22T09:27:37Z",
-              "merged_at": null
-            },
-            {
-              "number": 143,
-              "type": "pr",
-              "state": "closed",
-              "author": "kamn8r",
-              "created_at": "2026-01-07T15:48:25Z",
-              "closed_at": "2026-01-15T19:10:54Z",
-              "merged_at": "2026-01-15T19:10:54Z"
-            },
-            {
-              "number": 103,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-11-20T22:18:18Z",
-              "closed_at": "2025-11-23T08:42:52Z",
-              "merged_at": "2025-11-23T08:42:52Z"
+              "closed_at": "2026-04-22T09:27:37Z"
             },
             {
               "number": 60,
-              "type": "issue",
               "state": "open",
               "author": "trazanetsl",
               "created_at": "2025-10-20T23:10:59Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 56,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-10-03T22:14:17Z",
-              "closed_at": "2025-10-16T18:55:20Z",
-              "merged_at": "2025-10-16T18:55:20Z"
+              "closed_at": null
             },
             {
               "number": 55,
-              "type": "issue",
               "state": "open",
               "author": "thomaschristory",
               "created_at": "2025-09-26T12:03:35Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 54,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-09-04T22:16:04Z",
-              "closed_at": "2025-09-23T10:16:30Z",
-              "merged_at": "2025-09-23T10:16:30Z"
-            },
-            {
-              "number": 53,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-12T08:39:40Z",
-              "closed_at": "2025-08-15T17:23:55Z",
-              "merged_at": "2025-08-15T17:23:55Z"
+              "closed_at": null
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:47.719Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:24.353Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -4970,194 +7166,87 @@
         "issues": {
           "totals": {
             "external_open": 2,
-            "external_new_30d": 14,
-            "external_closed_30d": 16,
-            "external_pr_merged_90d": 32,
-            "external_authors_all_time": 9
+            "external_new_30d": 2,
+            "external_closed_30d": 1,
+            "external_authors_all_time": 4
           },
           "recentExternal": [
             {
-              "number": 154,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-08-05T07:17:51Z",
-              "closed_at": "2026-08-10T11:33:07Z",
-              "merged_at": "2026-08-10T11:33:07Z"
-            },
-            {
-              "number": 153,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-07-30T08:15:57Z",
-              "closed_at": "2026-08-06T12:40:14Z",
-              "merged_at": "2026-08-06T12:40:13Z"
-            },
-            {
-              "number": 152,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-07-29T21:19:55Z",
-              "closed_at": "2026-08-04T13:33:16Z",
-              "merged_at": "2026-08-04T13:33:16Z"
-            },
-            {
-              "number": 151,
-              "type": "pr",
-              "state": "closed",
-              "author": "Pson123",
-              "created_at": "2026-07-29T13:29:59Z",
-              "closed_at": "2026-07-30T07:41:29Z",
-              "merged_at": "2026-07-30T07:41:29Z"
-            },
-            {
-              "number": 150,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-07-23T00:59:47Z",
-              "closed_at": "2026-08-04T13:24:26Z",
-              "merged_at": "2026-08-04T13:24:25Z"
-            },
-            {
-              "number": 149,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-21T01:12:42Z",
-              "closed_at": "2026-08-04T13:24:51Z",
-              "merged_at": "2026-08-04T13:24:51Z"
-            },
-            {
-              "number": 148,
-              "type": "pr",
-              "state": "closed",
-              "author": "Pson123",
-              "created_at": "2026-07-20T10:47:24Z",
-              "closed_at": "2026-07-22T14:05:55Z",
-              "merged_at": "2026-07-22T14:05:55Z"
-            },
-            {
-              "number": 147,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-07-17T18:29:25Z",
-              "closed_at": "2026-07-22T14:05:33Z",
-              "merged_at": "2026-07-22T14:05:32Z"
-            },
-            {
-              "number": 146,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-17T01:12:56Z",
-              "closed_at": "2026-08-04T13:24:36Z",
-              "merged_at": "2026-08-04T13:24:36Z"
-            },
-            {
               "number": 145,
-              "type": "issue",
               "state": "closed",
               "author": "Yoh-kun",
               "created_at": "2026-07-16T08:39:26Z",
-              "closed_at": "2026-08-04T08:24:41Z",
-              "merged_at": null
+              "closed_at": "2026-08-04T08:24:41Z"
             },
             {
               "number": 144,
-              "type": "issue",
               "state": "open",
               "author": "Yoh-kun",
               "created_at": "2026-07-16T06:08:21Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 143,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-07-14T16:22:15Z",
-              "closed_at": "2026-07-14T16:34:22Z",
-              "merged_at": "2026-07-14T16:34:22Z"
-            },
-            {
-              "number": 142,
-              "type": "pr",
-              "state": "closed",
-              "author": "Pson123",
-              "created_at": "2026-07-14T14:27:42Z",
-              "closed_at": "2026-07-16T08:37:37Z",
-              "merged_at": "2026-07-16T08:37:37Z"
-            },
-            {
-              "number": 141,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-07-14T14:14:40Z",
-              "closed_at": "2026-07-14T15:56:46Z",
-              "merged_at": "2026-07-14T15:56:46Z"
-            },
-            {
-              "number": 139,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-07-09T10:17:44Z",
-              "closed_at": "2026-07-14T13:42:14Z",
-              "merged_at": "2026-07-14T13:42:14Z"
-            },
-            {
-              "number": 138,
-              "type": "pr",
-              "state": "closed",
-              "author": "Pson123",
-              "created_at": "2026-07-08T10:53:11Z",
-              "closed_at": "2026-07-13T11:51:16Z",
-              "merged_at": "2026-07-13T11:51:16Z"
-            },
-            {
-              "number": 137,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-07-07T12:14:00Z",
-              "closed_at": "2026-08-05T08:41:52Z",
-              "merged_at": "2026-08-05T08:41:52Z"
+              "closed_at": null
             },
             {
               "number": 136,
-              "type": "issue",
               "state": "open",
               "author": "Yoh-kun",
               "created_at": "2026-07-07T08:45:30Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 135,
-              "type": "pr",
-              "state": "closed",
-              "author": "kaymay",
-              "created_at": "2026-06-23T21:51:07Z",
-              "closed_at": "2026-06-24T07:53:54Z",
-              "merged_at": "2026-06-24T07:53:54Z"
+              "closed_at": null
             },
             {
               "number": 134,
-              "type": "issue",
               "state": "closed",
               "author": "arpatel13",
               "created_at": "2026-06-22T16:06:09Z",
-              "closed_at": "2026-06-23T13:37:33Z",
-              "merged_at": null
+              "closed_at": "2026-06-23T13:37:33Z"
+            },
+            {
+              "number": 133,
+              "state": "closed",
+              "author": "arpatel13",
+              "created_at": "2026-06-22T12:46:06Z",
+              "closed_at": "2026-06-23T13:37:41Z"
+            },
+            {
+              "number": 132,
+              "state": "closed",
+              "author": "arpatel13",
+              "created_at": "2026-06-22T12:46:00Z",
+              "closed_at": "2026-06-23T13:37:47Z"
+            },
+            {
+              "number": 131,
+              "state": "closed",
+              "author": "arpatel13",
+              "created_at": "2026-06-22T12:45:54Z",
+              "closed_at": "2026-06-23T13:37:51Z"
+            },
+            {
+              "number": 130,
+              "state": "closed",
+              "author": "arpatel13",
+              "created_at": "2026-06-22T12:45:46Z",
+              "closed_at": "2026-06-23T13:37:56Z"
+            },
+            {
+              "number": 67,
+              "state": "closed",
+              "author": "bassomarco",
+              "created_at": "2026-01-22T08:40:50Z",
+              "closed_at": "2026-04-14T09:27:25Z"
+            },
+            {
+              "number": 31,
+              "state": "closed",
+              "author": "fox27374",
+              "created_at": "2025-10-15T18:15:21Z",
+              "closed_at": "2025-11-28T08:27:59Z"
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:47.933Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:24.756Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -5185,194 +7274,80 @@
         "issues": {
           "totals": {
             "external_open": 3,
-            "external_new_30d": 7,
-            "external_closed_30d": 5,
-            "external_pr_merged_90d": 2,
-            "external_authors_all_time": 8
+            "external_new_30d": 5,
+            "external_closed_30d": 2,
+            "external_authors_all_time": 5
           },
           "recentExternal": [
             {
-              "number": 173,
-              "type": "pr",
-              "state": "closed",
-              "author": "scholsey",
-              "created_at": "2026-07-24T12:55:03Z",
-              "closed_at": "2026-07-31T09:38:46Z",
-              "merged_at": null
-            },
-            {
               "number": 172,
-              "type": "issue",
               "state": "closed",
               "author": "scholsey",
               "created_at": "2026-07-24T12:54:53Z",
-              "closed_at": "2026-07-31T09:38:48Z",
-              "merged_at": null
+              "closed_at": "2026-07-31T09:38:48Z"
             },
             {
               "number": 171,
-              "type": "issue",
               "state": "open",
               "author": "scholsey",
               "created_at": "2026-07-20T17:11:10Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 170,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-20T11:33:21Z",
-              "closed_at": "2026-07-31T12:58:45Z",
-              "merged_at": "2026-07-31T12:58:45Z"
+              "closed_at": null
             },
             {
               "number": 169,
-              "type": "issue",
               "state": "open",
               "author": "scholsey",
               "created_at": "2026-07-16T15:41:34Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 168,
-              "type": "issue",
               "state": "closed",
               "author": "scholsey",
               "created_at": "2026-07-16T15:16:46Z",
-              "closed_at": "2026-07-16T15:28:16Z",
-              "merged_at": null
+              "closed_at": "2026-07-16T15:28:16Z"
             },
             {
               "number": 167,
-              "type": "issue",
               "state": "open",
               "author": "Bribruh123",
               "created_at": "2026-07-15T13:08:54Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 165,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-06-19T11:32:36Z",
-              "closed_at": "2026-07-15T20:40:39Z",
-              "merged_at": "2026-07-15T20:40:39Z"
-            },
-            {
-              "number": 65,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-03-30T12:12:02Z",
-              "closed_at": "2026-04-14T07:23:58Z",
-              "merged_at": "2026-04-14T07:23:58Z"
-            },
-            {
-              "number": 26,
-              "type": "pr",
-              "state": "closed",
-              "author": "tdorssers",
-              "created_at": "2026-03-01T16:07:26Z",
-              "closed_at": "2026-03-20T20:01:31Z",
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 25,
-              "type": "issue",
               "state": "closed",
               "author": "tdorssers",
               "created_at": "2026-03-01T15:49:04Z",
-              "closed_at": "2026-03-20T20:09:48Z",
-              "merged_at": null
+              "closed_at": "2026-03-20T20:09:48Z"
             },
             {
-              "number": 21,
-              "type": "pr",
+              "number": 8,
               "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-11-21T11:16:56Z",
-              "closed_at": "2026-03-28T16:50:12Z",
-              "merged_at": "2026-03-28T16:50:12Z"
+              "author": "Exonical",
+              "created_at": "2025-04-13T00:26:01Z",
+              "closed_at": "2026-05-02T08:13:38Z"
             },
             {
-              "number": 20,
-              "type": "pr",
+              "number": 7,
               "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-10-03T11:14:00Z",
-              "closed_at": "2026-03-28T16:50:47Z",
-              "merged_at": "2026-03-28T16:50:47Z"
+              "author": "Exonical",
+              "created_at": "2025-04-12T23:35:19Z",
+              "closed_at": "2026-04-19T09:50:45Z"
             },
             {
-              "number": 19,
-              "type": "pr",
+              "number": 5,
               "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-09-04T14:16:02Z",
-              "closed_at": "2026-03-28T16:50:35Z",
-              "merged_at": "2026-03-28T16:50:35Z"
-            },
-            {
-              "number": 18,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-12T21:42:27Z",
-              "closed_at": "2025-11-21T11:16:59Z",
-              "merged_at": null
-            },
-            {
-              "number": 17,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-12T17:37:15Z",
-              "closed_at": "2025-10-03T11:14:03Z",
-              "merged_at": null
-            },
-            {
-              "number": 16,
-              "type": "pr",
-              "state": "closed",
-              "author": "tobiwang",
-              "created_at": "2025-07-29T08:46:25Z",
-              "closed_at": "2026-04-19T09:49:31Z",
-              "merged_at": null
-            },
-            {
-              "number": 15,
-              "type": "pr",
-              "state": "closed",
-              "author": "tobiwang",
-              "created_at": "2025-07-29T05:46:09Z",
-              "closed_at": "2025-07-29T05:48:47Z",
-              "merged_at": null
-            },
-            {
-              "number": 14,
-              "type": "pr",
-              "state": "closed",
-              "author": "tobiwang",
-              "created_at": "2025-07-15T13:40:46Z",
-              "closed_at": "2025-07-24T07:03:52Z",
-              "merged_at": "2025-07-24T07:03:52Z"
-            },
-            {
-              "number": 13,
-              "type": "pr",
-              "state": "closed",
-              "author": "tobiwang",
-              "created_at": "2025-07-13T00:11:28Z",
-              "closed_at": "2025-07-13T00:13:48Z",
-              "merged_at": null
+              "author": "manofcolombia",
+              "created_at": "2025-02-28T20:13:33Z",
+              "closed_at": "2025-04-08T14:20:45Z"
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:48.158Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:25.046Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -5400,194 +7375,87 @@
         "issues": {
           "totals": {
             "external_open": 6,
-            "external_new_30d": 1,
-            "external_closed_30d": 2,
-            "external_pr_merged_90d": 2,
-            "external_authors_all_time": 9
+            "external_new_30d": 0,
+            "external_closed_30d": 1,
+            "external_authors_all_time": 7
           },
           "recentExternal": [
             {
-              "number": 85,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-20T17:22:39Z",
-              "closed_at": "2026-07-28T14:05:06Z",
-              "merged_at": "2026-07-28T14:05:06Z"
-            },
-            {
-              "number": 75,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-06-18T17:22:41Z",
-              "closed_at": "2026-07-07T15:06:05Z",
-              "merged_at": "2026-07-07T15:06:05Z"
-            },
-            {
-              "number": 69,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-02-24T17:23:28Z",
-              "closed_at": "2026-04-15T11:58:32Z",
-              "merged_at": "2026-04-15T11:58:32Z"
-            },
-            {
               "number": 67,
-              "type": "issue",
               "state": "open",
               "author": "ccie18473",
               "created_at": "2025-12-01T12:58:19Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 66,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-11-20T17:06:06Z",
-              "closed_at": "2025-11-24T16:22:59Z",
-              "merged_at": "2025-11-24T16:22:59Z"
-            },
-            {
-              "number": 64,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-10-03T17:06:42Z",
-              "closed_at": "2025-11-24T16:23:09Z",
-              "merged_at": "2025-11-24T16:23:08Z"
-            },
-            {
-              "number": 61,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-09-04T17:05:42Z",
-              "closed_at": "2026-04-15T11:58:59Z",
-              "merged_at": "2026-04-15T11:58:59Z"
+              "closed_at": null
             },
             {
               "number": 58,
-              "type": "issue",
               "state": "open",
               "author": "nimadaneshvar",
               "created_at": "2025-08-13T23:08:22Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 57,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-13T00:25:25Z",
-              "closed_at": "2025-10-03T17:06:45Z",
-              "merged_at": null
-            },
-            {
-              "number": 56,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-12T00:49:44Z",
-              "closed_at": "2025-11-20T17:06:09Z",
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 54,
-              "type": "issue",
               "state": "closed",
               "author": "marcinduma",
               "created_at": "2025-07-23T14:18:29Z",
-              "closed_at": "2026-07-28T14:05:28Z",
-              "merged_at": null
+              "closed_at": "2026-07-28T14:05:28Z"
             },
             {
               "number": 49,
-              "type": "issue",
               "state": "open",
               "author": "TufailKh",
               "created_at": "2024-12-08T19:43:02Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 48,
-              "type": "issue",
               "state": "open",
               "author": "TufailKh",
               "created_at": "2024-12-08T19:41:11Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 47,
-              "type": "issue",
               "state": "open",
               "author": "TufailKh",
               "created_at": "2024-12-08T19:39:35Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 46,
-              "type": "issue",
               "state": "open",
               "author": "TufailKh",
               "created_at": "2024-12-08T19:38:18Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 31,
-              "type": "issue",
               "state": "closed",
               "author": "ghost",
               "created_at": "2024-05-15T21:14:48Z",
-              "closed_at": "2025-07-21T07:36:00Z",
-              "merged_at": null
+              "closed_at": "2025-07-21T07:36:00Z"
             },
             {
               "number": 30,
-              "type": "issue",
               "state": "closed",
               "author": "lonix77",
               "created_at": "2024-03-27T06:54:01Z",
-              "closed_at": "2024-08-06T04:59:45Z",
-              "merged_at": null
-            },
-            {
-              "number": 29,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2024-02-07T17:51:09Z",
-              "closed_at": "2024-02-10T12:03:45Z",
-              "merged_at": "2024-02-10T12:03:45Z"
+              "closed_at": "2024-08-06T04:59:45Z"
             },
             {
               "number": 27,
-              "type": "issue",
               "state": "closed",
               "author": "jorgenspange",
               "created_at": "2024-01-11T15:06:52Z",
-              "closed_at": "2024-07-02T05:30:43Z",
-              "merged_at": null
-            },
-            {
-              "number": 25,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2023-12-06T17:17:07Z",
-              "closed_at": "2024-01-12T12:14:24Z",
-              "merged_at": "2024-01-12T12:14:24Z"
+              "closed_at": "2024-07-02T05:30:43Z"
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:48.380Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:25.334Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -5614,195 +7482,158 @@
         },
         "issues": {
           "totals": {
-            "external_open": 8,
-            "external_new_30d": 2,
-            "external_closed_30d": 1,
-            "external_pr_merged_90d": 5,
-            "external_authors_all_time": 17
+            "external_open": 6,
+            "external_new_30d": 0,
+            "external_closed_30d": 0,
+            "external_authors_all_time": 9
           },
           "recentExternal": [
             {
-              "number": 267,
-              "type": "pr",
-              "state": "open",
-              "author": "wli6-dev",
-              "created_at": "2026-08-06T08:48:04Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 265,
-              "type": "pr",
-              "state": "open",
-              "author": "dependabot[bot]",
-              "created_at": "2026-07-21T01:12:41Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 264,
-              "type": "pr",
-              "state": "closed",
-              "author": "wli6-dev",
-              "created_at": "2026-07-11T03:56:40Z",
-              "closed_at": "2026-07-28T06:18:29Z",
-              "merged_at": "2026-07-28T06:18:29Z"
-            },
-            {
-              "number": 260,
-              "type": "pr",
-              "state": "closed",
-              "author": "wli6-dev",
-              "created_at": "2026-06-26T10:21:05Z",
-              "closed_at": "2026-06-29T08:29:34Z",
-              "merged_at": "2026-06-29T08:29:34Z"
-            },
-            {
-              "number": 258,
-              "type": "pr",
-              "state": "closed",
-              "author": "wli6-dev",
-              "created_at": "2026-06-25T04:27:43Z",
-              "closed_at": "2026-06-30T13:03:33Z",
-              "merged_at": "2026-06-30T13:03:33Z"
-            },
-            {
               "number": 257,
-              "type": "issue",
               "state": "closed",
               "author": "PacketThrowr",
               "created_at": "2026-06-22T14:31:53Z",
-              "closed_at": "2026-06-22T14:46:25Z",
-              "merged_at": null
+              "closed_at": "2026-06-22T14:46:25Z"
             },
             {
               "number": 256,
-              "type": "issue",
               "state": "open",
               "author": "PacketThrowr",
               "created_at": "2026-06-22T14:09:54Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 255,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2026-06-19T01:12:34Z",
-              "closed_at": "2026-06-29T08:47:29Z",
-              "merged_at": "2026-06-29T08:47:29Z"
+              "closed_at": null
             },
             {
               "number": 254,
-              "type": "issue",
               "state": "closed",
               "author": "PacketThrowr",
               "created_at": "2026-06-18T22:11:44Z",
-              "closed_at": "2026-06-22T14:43:35Z",
-              "merged_at": null
+              "closed_at": "2026-06-22T14:43:35Z"
             },
             {
               "number": 253,
-              "type": "issue",
               "state": "open",
               "author": "PacketThrowr",
               "created_at": "2026-06-18T21:38:43Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 251,
-              "type": "issue",
               "state": "open",
               "author": "PacketThrowr",
               "created_at": "2026-06-18T13:00:42Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 248,
-              "type": "issue",
               "state": "open",
               "author": "PacketThrowr",
               "created_at": "2026-06-15T20:16:10Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 247,
-              "type": "issue",
               "state": "closed",
               "author": "PacketThrowr",
               "created_at": "2026-06-15T15:56:23Z",
-              "closed_at": "2026-06-18T13:01:22Z",
-              "merged_at": null
+              "closed_at": "2026-06-18T13:01:22Z"
             },
             {
               "number": 246,
-              "type": "issue",
               "state": "open",
               "author": "ktron12-neteng",
               "created_at": "2026-06-10T15:46:20Z",
-              "closed_at": null,
-              "merged_at": null
+              "closed_at": null
             },
             {
               "number": 245,
-              "type": "issue",
               "state": "open",
               "author": "ktron12-neteng",
               "created_at": "2026-06-10T15:35:00Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 243,
-              "type": "pr",
-              "state": "closed",
-              "author": "wli6-dev",
-              "created_at": "2026-05-26T04:23:45Z",
-              "closed_at": "2026-05-27T13:19:12Z",
-              "merged_at": "2026-05-27T13:19:12Z"
+              "closed_at": null
             },
             {
               "number": 236,
-              "type": "issue",
               "state": "closed",
               "author": "maxclise",
               "created_at": "2026-04-21T20:01:01Z",
-              "closed_at": "2026-06-11T13:34:57Z",
-              "merged_at": null
-            },
-            {
-              "number": 235,
-              "type": "pr",
-              "state": "closed",
-              "author": "wli6-dev",
-              "created_at": "2026-04-15T09:58:46Z",
-              "closed_at": "2026-04-17T07:23:59Z",
-              "merged_at": "2026-04-17T07:23:59Z"
-            },
-            {
-              "number": 234,
-              "type": "pr",
-              "state": "closed",
-              "author": "wli6-dev",
-              "created_at": "2026-04-13T11:51:38Z",
-              "closed_at": "2026-04-14T11:12:13Z",
-              "merged_at": "2026-04-14T11:12:13Z"
+              "closed_at": "2026-06-11T13:34:57Z"
             },
             {
               "number": 222,
-              "type": "issue",
               "state": "closed",
               "author": "ctvedt",
               "created_at": "2026-03-27T06:59:26Z",
-              "closed_at": "2026-04-09T07:02:03Z",
-              "merged_at": null
+              "closed_at": "2026-04-09T07:02:03Z"
+            },
+            {
+              "number": 199,
+              "state": "closed",
+              "author": "jorgenspange",
+              "created_at": "2026-02-06T10:35:35Z",
+              "closed_at": "2026-02-19T11:01:49Z"
+            },
+            {
+              "number": 178,
+              "state": "closed",
+              "author": "ctvedt",
+              "created_at": "2025-12-18T09:01:11Z",
+              "closed_at": "2026-01-26T10:57:41Z"
+            },
+            {
+              "number": 160,
+              "state": "closed",
+              "author": "jaykhalil",
+              "created_at": "2025-11-06T18:02:21Z",
+              "closed_at": "2025-11-06T19:42:35Z"
+            },
+            {
+              "number": 139,
+              "state": "closed",
+              "author": "ctvedt",
+              "created_at": "2025-09-30T12:31:01Z",
+              "closed_at": "2025-10-06T11:30:59Z"
+            },
+            {
+              "number": 92,
+              "state": "closed",
+              "author": "pehruby",
+              "created_at": "2025-05-29T10:30:25Z",
+              "closed_at": "2025-05-29T12:44:50Z"
+            },
+            {
+              "number": 88,
+              "state": "closed",
+              "author": "rfarquha",
+              "created_at": "2025-03-24T06:15:48Z",
+              "closed_at": "2025-03-25T11:32:51Z"
+            },
+            {
+              "number": 68,
+              "state": "closed",
+              "author": "rfarquha",
+              "created_at": "2024-11-19T21:27:38Z",
+              "closed_at": "2025-01-21T14:56:04Z"
+            },
+            {
+              "number": 67,
+              "state": "closed",
+              "author": "rfarquha",
+              "created_at": "2024-11-19T21:23:31Z",
+              "closed_at": "2025-01-21T14:56:10Z"
+            },
+            {
+              "number": 55,
+              "state": "closed",
+              "author": "pehruby",
+              "created_at": "2024-10-16T12:35:23Z",
+              "closed_at": "2024-11-13T12:27:55Z"
             }
           ],
+<<<<<<< Updated upstream
           "lastPolledAt": "2026-08-11T03:56:48.645Z"
+=======
+          "lastPolledAt": "2026-08-11T07:44:25.615Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -5829,6 +7660,7 @@
         },
         "issues": {
           "totals": {
+<<<<<<< Updated upstream
             "external_open": 3,
             "external_new_30d": 3,
             "external_closed_30d": 1,
@@ -5882,135 +7714,74 @@
               "merged_at": "2026-02-25T22:39:47Z"
             },
             {
+=======
+            "external_open": 1,
+            "external_new_30d": 0,
+            "external_closed_30d": 0,
+            "external_authors_all_time": 6
+          },
+          "recentExternal": [
+            {
+>>>>>>> Stashed changes
               "number": 40,
-              "type": "issue",
               "state": "closed",
               "author": "SBrungs",
               "created_at": "2025-12-05T12:29:45Z",
-              "closed_at": "2025-12-05T12:51:05Z",
-              "merged_at": null
+              "closed_at": "2025-12-05T12:51:05Z"
             },
             {
               "number": 39,
-              "type": "issue",
               "state": "closed",
               "author": "SBrungs",
               "created_at": "2025-12-05T12:10:37Z",
-              "closed_at": "2025-12-05T12:49:24Z",
-              "merged_at": null
-            },
-            {
-              "number": 38,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-11-21T03:08:09Z",
-              "closed_at": "2026-01-18T21:31:40Z",
-              "merged_at": "2026-01-18T21:31:40Z"
+              "closed_at": "2025-12-05T12:49:24Z"
             },
             {
               "number": 37,
-              "type": "issue",
               "state": "open",
               "author": "thomaschristory",
               "created_at": "2025-10-20T14:10:13Z",
-              "closed_at": null,
-              "merged_at": null
-            },
-            {
-              "number": 36,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-10-06T03:07:33Z",
-              "closed_at": "2026-01-18T21:31:50Z",
-              "merged_at": "2026-01-18T21:31:50Z"
+              "closed_at": null
             },
             {
               "number": 35,
-              "type": "issue",
               "state": "closed",
               "author": "Monkey-Bytes",
               "created_at": "2025-09-15T19:47:18Z",
-              "closed_at": "2026-07-08T13:23:29Z",
-              "merged_at": null
-            },
-            {
-              "number": 34,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-09-05T03:07:45Z",
-              "closed_at": "2025-09-06T08:00:36Z",
-              "merged_at": "2025-09-06T08:00:36Z"
+              "closed_at": "2026-07-08T13:23:29Z"
             },
             {
               "number": 33,
-              "type": "issue",
               "state": "closed",
               "author": "SBrungs",
               "created_at": "2025-08-12T12:36:10Z",
-              "closed_at": "2026-01-15T16:06:52Z",
-              "merged_at": null
-            },
-            {
-              "number": 32,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-12T11:47:34Z",
-              "closed_at": "2025-09-06T08:00:25Z",
-              "merged_at": "2025-09-06T08:00:25Z"
-            },
-            {
-              "number": 31,
-              "type": "pr",
-              "state": "closed",
-              "author": "dependabot[bot]",
-              "created_at": "2025-08-12T10:08:33Z",
-              "closed_at": "2025-09-06T08:00:15Z",
-              "merged_at": "2025-09-06T08:00:15Z"
+              "closed_at": "2026-01-15T16:06:52Z"
             },
             {
               "number": 30,
-              "type": "issue",
               "state": "closed",
               "author": "camschae",
               "created_at": "2025-07-31T04:47:21Z",
-              "closed_at": "2025-08-01T01:25:26Z",
-              "merged_at": null
-            },
-            {
-              "number": 29,
-              "type": "pr",
-              "state": "closed",
-              "author": "shumphr2",
-              "created_at": "2025-07-28T05:59:06Z",
-              "closed_at": "2025-08-01T19:51:20Z",
-              "merged_at": "2025-08-01T19:51:20Z"
+              "closed_at": "2025-08-01T01:25:26Z"
             },
             {
               "number": 28,
-              "type": "issue",
               "state": "closed",
               "author": "shumphr2",
               "created_at": "2025-06-24T00:23:04Z",
-              "closed_at": "2025-10-20T08:30:12Z",
-              "merged_at": null
+              "closed_at": "2025-10-20T08:30:12Z"
             },
             {
               "number": 27,
-              "type": "issue",
               "state": "closed",
               "author": "shumphr2",
               "created_at": "2025-06-24T00:08:18Z",
-              "closed_at": "2025-07-28T04:33:51Z",
-              "merged_at": null
+              "closed_at": "2025-07-28T04:33:51Z"
             },
             {
-              "number": 25,
-              "type": "pr",
+              "number": 21,
               "state": "closed",
+<<<<<<< Updated upstream
               "author": "tvarohohlavy",
               "created_at": "2025-04-11T11:29:52Z",
               "closed_at": "2025-04-24T11:37:33Z",
@@ -6018,6 +7789,49 @@
             }
           ],
           "lastPolledAt": "2026-08-11T03:56:49.380Z"
+=======
+              "author": "grg1bbs",
+              "created_at": "2025-03-20T03:40:32Z",
+              "closed_at": "2025-06-24T21:00:27Z"
+            },
+            {
+              "number": 8,
+              "state": "closed",
+              "author": "grg1bbs",
+              "created_at": "2024-02-13T02:49:03Z",
+              "closed_at": "2024-02-14T21:06:48Z"
+            },
+            {
+              "number": 7,
+              "state": "closed",
+              "author": "grg1bbs",
+              "created_at": "2024-02-12T01:36:32Z",
+              "closed_at": "2024-02-15T02:25:09Z"
+            },
+            {
+              "number": 6,
+              "state": "closed",
+              "author": "grg1bbs",
+              "created_at": "2024-02-12T01:07:33Z",
+              "closed_at": "2024-02-15T01:25:23Z"
+            },
+            {
+              "number": 5,
+              "state": "closed",
+              "author": "grg1bbs",
+              "created_at": "2024-02-09T05:29:19Z",
+              "closed_at": "2024-02-15T01:24:39Z"
+            },
+            {
+              "number": 4,
+              "state": "closed",
+              "author": "grg1bbs",
+              "created_at": "2024-02-08T21:56:02Z",
+              "closed_at": "2024-02-15T01:23:36Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:26.072Z"
+>>>>>>> Stashed changes
         }
       },
       {
@@ -6086,7 +7900,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:43.261Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 35,
+            "external_new_30d": 1,
+            "external_closed_30d": 0,
+            "external_authors_all_time": 158
+          },
+          "recentExternal": [
+            {
+              "number": 1487,
+              "state": "open",
+              "author": "edudppaz",
+              "created_at": "2026-07-14T08:38:47Z",
+              "closed_at": null
+            },
+            {
+              "number": 1477,
+              "state": "closed",
+              "author": "Haibert98",
+              "created_at": "2026-06-08T09:58:10Z",
+              "closed_at": "2026-06-19T05:48:54Z"
+            },
+            {
+              "number": 1476,
+              "state": "closed",
+              "author": "Haibert98",
+              "created_at": "2026-06-08T09:32:52Z",
+              "closed_at": "2026-06-25T13:37:29Z"
+            },
+            {
+              "number": 1472,
+              "state": "closed",
+              "author": "ahusking",
+              "created_at": "2026-05-07T12:52:21Z",
+              "closed_at": "2026-05-11T07:05:18Z"
+            },
+            {
+              "number": 1463,
+              "state": "open",
+              "author": "bardahlm",
+              "created_at": "2026-04-14T10:16:47Z",
+              "closed_at": null
+            },
+            {
+              "number": 1448,
+              "state": "closed",
+              "author": "joreinec",
+              "created_at": "2026-02-27T13:57:04Z",
+              "closed_at": "2026-03-27T07:40:06Z"
+            },
+            {
+              "number": 1446,
+              "state": "closed",
+              "author": "bardahlm",
+              "created_at": "2026-02-24T13:20:45Z",
+              "closed_at": "2026-03-18T07:31:31Z"
+            },
+            {
+              "number": 1445,
+              "state": "open",
+              "author": "spsharman",
+              "created_at": "2026-02-16T18:48:43Z",
+              "closed_at": null
+            },
+            {
+              "number": 1444,
+              "state": "closed",
+              "author": "ma-double-t",
+              "created_at": "2026-02-16T08:45:33Z",
+              "closed_at": "2026-02-17T13:27:18Z"
+            },
+            {
+              "number": 1443,
+              "state": "closed",
+              "author": "ogorczow",
+              "created_at": "2026-02-06T11:23:13Z",
+              "closed_at": "2026-04-07T22:50:37Z"
+            },
+            {
+              "number": 1440,
+              "state": "open",
+              "author": "pv2b",
+              "created_at": "2026-01-27T20:01:58Z",
+              "closed_at": null
+            },
+            {
+              "number": 1432,
+              "state": "closed",
+              "author": "jmiguelhp",
+              "created_at": "2025-12-16T06:22:22Z",
+              "closed_at": "2025-12-17T19:06:47Z"
+            },
+            {
+              "number": 1401,
+              "state": "closed",
+              "author": "DerrickTJ",
+              "created_at": "2025-11-14T23:08:31Z",
+              "closed_at": "2025-11-25T00:52:17Z"
+            },
+            {
+              "number": 1392,
+              "state": "open",
+              "author": "bardahlm",
+              "created_at": "2025-10-30T11:56:31Z",
+              "closed_at": null
+            },
+            {
+              "number": 1389,
+              "state": "closed",
+              "author": "avesst",
+              "created_at": "2025-10-28T13:15:16Z",
+              "closed_at": "2025-11-04T21:35:51Z"
+            },
+            {
+              "number": 1388,
+              "state": "closed",
+              "author": "aaron-olguin-cc",
+              "created_at": "2025-10-28T08:22:07Z",
+              "closed_at": "2025-10-28T10:24:48Z"
+            },
+            {
+              "number": 1385,
+              "state": "closed",
+              "author": "pv2b",
+              "created_at": "2025-10-02T10:09:15Z",
+              "closed_at": "2025-11-17T17:15:38Z"
+            },
+            {
+              "number": 1384,
+              "state": "open",
+              "author": "diyvol777",
+              "created_at": "2025-09-30T04:48:32Z",
+              "closed_at": null
+            },
+            {
+              "number": 1383,
+              "state": "closed",
+              "author": "diyvol777",
+              "created_at": "2025-09-30T04:34:07Z",
+              "closed_at": "2025-09-30T11:49:50Z"
+            },
+            {
+              "number": 1382,
+              "state": "closed",
+              "author": "juchowan",
+              "created_at": "2025-09-25T14:53:09Z",
+              "closed_at": "2025-11-15T01:11:24Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:26.449Z"
+        }
       },
       {
         "repo": "CiscoDevNet/terraform-provider-fmc",
@@ -6154,7 +8118,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:43.563Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 4,
+            "external_new_30d": 1,
+            "external_closed_30d": 0,
+            "external_authors_all_time": 41
+          },
+          "recentExternal": [
+            {
+              "number": 432,
+              "state": "open",
+              "author": "scott-brown-sh",
+              "created_at": "2026-08-06T15:45:12Z",
+              "closed_at": null
+            },
+            {
+              "number": 415,
+              "state": "closed",
+              "author": "peslung",
+              "created_at": "2026-05-25T21:25:46Z",
+              "closed_at": "2026-05-29T12:30:00Z"
+            },
+            {
+              "number": 412,
+              "state": "closed",
+              "author": "DiHasi",
+              "created_at": "2026-05-19T07:09:31Z",
+              "closed_at": "2026-05-29T12:16:31Z"
+            },
+            {
+              "number": 401,
+              "state": "closed",
+              "author": "gruvy245",
+              "created_at": "2026-04-17T19:32:52Z",
+              "closed_at": "2026-04-21T10:56:03Z"
+            },
+            {
+              "number": 395,
+              "state": "closed",
+              "author": "ecruzfu",
+              "created_at": "2026-03-24T06:43:35Z",
+              "closed_at": "2026-03-24T15:22:08Z"
+            },
+            {
+              "number": 387,
+              "state": "closed",
+              "author": "yevgeniyromachshuk-del",
+              "created_at": "2026-03-17T10:07:15Z",
+              "closed_at": "2026-04-02T10:42:32Z"
+            },
+            {
+              "number": 367,
+              "state": "closed",
+              "author": "richwats",
+              "created_at": "2026-02-20T03:06:00Z",
+              "closed_at": "2026-03-03T11:55:19Z"
+            },
+            {
+              "number": 364,
+              "state": "closed",
+              "author": "ticher-hack",
+              "created_at": "2026-02-09T07:07:49Z",
+              "closed_at": "2026-02-09T16:59:44Z"
+            },
+            {
+              "number": 363,
+              "state": "open",
+              "author": "pipeiden",
+              "created_at": "2026-02-06T16:05:56Z",
+              "closed_at": null
+            },
+            {
+              "number": 362,
+              "state": "closed",
+              "author": "rchrabas",
+              "created_at": "2026-02-06T08:15:18Z",
+              "closed_at": "2026-03-20T05:26:09Z"
+            },
+            {
+              "number": 360,
+              "state": "closed",
+              "author": "rchrabas",
+              "created_at": "2026-02-05T12:05:37Z",
+              "closed_at": "2026-03-12T14:36:59Z"
+            },
+            {
+              "number": 359,
+              "state": "closed",
+              "author": "rchrabas",
+              "created_at": "2026-02-04T14:39:14Z",
+              "closed_at": "2026-03-18T14:37:08Z"
+            },
+            {
+              "number": 358,
+              "state": "closed",
+              "author": "ticher-hack",
+              "created_at": "2026-02-03T14:57:42Z",
+              "closed_at": "2026-03-20T05:26:21Z"
+            },
+            {
+              "number": 356,
+              "state": "closed",
+              "author": "ticher-hack",
+              "created_at": "2026-01-29T09:57:21Z",
+              "closed_at": "2026-03-18T11:52:54Z"
+            },
+            {
+              "number": 355,
+              "state": "closed",
+              "author": "richwats",
+              "created_at": "2026-01-27T06:54:54Z",
+              "closed_at": "2026-03-18T13:59:46Z"
+            },
+            {
+              "number": 354,
+              "state": "closed",
+              "author": "ticher-hack",
+              "created_at": "2026-01-27T03:15:45Z",
+              "closed_at": "2026-03-05T13:08:43Z"
+            },
+            {
+              "number": 353,
+              "state": "closed",
+              "author": "alxgarder",
+              "created_at": "2026-01-23T08:38:33Z",
+              "closed_at": "2026-01-23T11:03:53Z"
+            },
+            {
+              "number": 352,
+              "state": "closed",
+              "author": "alxgarder",
+              "created_at": "2026-01-21T09:41:10Z",
+              "closed_at": "2026-01-21T10:09:33Z"
+            },
+            {
+              "number": 339,
+              "state": "closed",
+              "author": "richwats",
+              "created_at": "2025-11-24T12:25:31Z",
+              "closed_at": "2026-02-18T10:51:26Z"
+            },
+            {
+              "number": 336,
+              "state": "closed",
+              "author": "yevrom",
+              "created_at": "2025-11-19T11:24:42Z",
+              "closed_at": "2026-02-06T10:37:20Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:27.362Z"
+        }
       },
       {
         "repo": "CiscoDevNet/terraform-provider-meraki",
@@ -6222,7 +8336,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:43.872Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 45,
+            "external_new_30d": 3,
+            "external_closed_30d": 0,
+            "external_authors_all_time": 30
+          },
+          "recentExternal": [
+            {
+              "number": 258,
+              "state": "open",
+              "author": "finkjordanj",
+              "created_at": "2026-07-28T16:06:11Z",
+              "closed_at": null
+            },
+            {
+              "number": 256,
+              "state": "open",
+              "author": "rrahimm",
+              "created_at": "2026-07-23T14:31:59Z",
+              "closed_at": null
+            },
+            {
+              "number": 252,
+              "state": "open",
+              "author": "rrahimm",
+              "created_at": "2026-07-14T16:37:47Z",
+              "closed_at": null
+            },
+            {
+              "number": 248,
+              "state": "closed",
+              "author": "CoreyGrondin",
+              "created_at": "2026-07-04T23:02:58Z",
+              "closed_at": "2026-07-07T06:58:27Z"
+            },
+            {
+              "number": 245,
+              "state": "open",
+              "author": "github-joris-maitrejean",
+              "created_at": "2026-06-29T18:18:09Z",
+              "closed_at": null
+            },
+            {
+              "number": 243,
+              "state": "open",
+              "author": "finkjordanj",
+              "created_at": "2026-06-25T16:38:57Z",
+              "closed_at": null
+            },
+            {
+              "number": 242,
+              "state": "open",
+              "author": "rrahimm",
+              "created_at": "2026-06-25T16:34:52Z",
+              "closed_at": null
+            },
+            {
+              "number": 233,
+              "state": "open",
+              "author": "jon-humphries",
+              "created_at": "2026-06-11T12:32:06Z",
+              "closed_at": null
+            },
+            {
+              "number": 230,
+              "state": "closed",
+              "author": "rrahimm",
+              "created_at": "2026-06-08T06:49:39Z",
+              "closed_at": "2026-06-24T13:49:33Z"
+            },
+            {
+              "number": 227,
+              "state": "open",
+              "author": "github-joris-maitrejean",
+              "created_at": "2026-05-21T20:16:24Z",
+              "closed_at": null
+            },
+            {
+              "number": 226,
+              "state": "open",
+              "author": "github-joris-maitrejean",
+              "created_at": "2026-05-21T20:15:44Z",
+              "closed_at": null
+            },
+            {
+              "number": 224,
+              "state": "closed",
+              "author": "rrahimm",
+              "created_at": "2026-05-20T10:19:00Z",
+              "closed_at": "2026-05-27T05:23:09Z"
+            },
+            {
+              "number": 218,
+              "state": "open",
+              "author": "jon-humphries",
+              "created_at": "2026-04-27T10:51:04Z",
+              "closed_at": null
+            },
+            {
+              "number": 216,
+              "state": "closed",
+              "author": "rrahimm",
+              "created_at": "2026-04-22T10:02:10Z",
+              "closed_at": "2026-04-29T13:01:19Z"
+            },
+            {
+              "number": 215,
+              "state": "open",
+              "author": "snmitrov",
+              "created_at": "2026-04-21T11:49:21Z",
+              "closed_at": null
+            },
+            {
+              "number": 213,
+              "state": "open",
+              "author": "mbatcs",
+              "created_at": "2026-04-20T13:50:07Z",
+              "closed_at": null
+            },
+            {
+              "number": 212,
+              "state": "open",
+              "author": "escapestudios-vv",
+              "created_at": "2026-04-20T12:49:06Z",
+              "closed_at": null
+            },
+            {
+              "number": 208,
+              "state": "open",
+              "author": "cstokes-nh",
+              "created_at": "2026-04-12T18:04:25Z",
+              "closed_at": null
+            },
+            {
+              "number": 206,
+              "state": "closed",
+              "author": "snmitrov",
+              "created_at": "2026-04-09T08:54:10Z",
+              "closed_at": "2026-06-23T16:25:40Z"
+            },
+            {
+              "number": 204,
+              "state": "closed",
+              "author": "joekohlsdorf",
+              "created_at": "2026-04-01T12:55:39Z",
+              "closed_at": "2026-05-28T22:11:56Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:27.670Z"
+        }
       },
       {
         "repo": "CiscoDevNet/terraform-provider-iosxe",
@@ -6290,7 +8554,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:44.157Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 21,
+            "external_new_30d": 8,
+            "external_closed_30d": 0,
+            "external_authors_all_time": 59
+          },
+          "recentExternal": [
+            {
+              "number": 619,
+              "state": "open",
+              "author": "durd",
+              "created_at": "2026-08-03T10:45:26Z",
+              "closed_at": null
+            },
+            {
+              "number": 618,
+              "state": "open",
+              "author": "durd",
+              "created_at": "2026-08-03T10:33:09Z",
+              "closed_at": null
+            },
+            {
+              "number": 617,
+              "state": "open",
+              "author": "durd",
+              "created_at": "2026-07-24T09:02:01Z",
+              "closed_at": null
+            },
+            {
+              "number": 616,
+              "state": "open",
+              "author": "durd",
+              "created_at": "2026-07-24T07:18:44Z",
+              "closed_at": null
+            },
+            {
+              "number": 615,
+              "state": "open",
+              "author": "durd",
+              "created_at": "2026-07-22T13:09:56Z",
+              "closed_at": null
+            },
+            {
+              "number": 612,
+              "state": "open",
+              "author": "Topherr",
+              "created_at": "2026-07-20T23:26:17Z",
+              "closed_at": null
+            },
+            {
+              "number": 611,
+              "state": "open",
+              "author": "durd",
+              "created_at": "2026-07-20T10:50:29Z",
+              "closed_at": null
+            },
+            {
+              "number": 608,
+              "state": "open",
+              "author": "durd",
+              "created_at": "2026-07-17T11:57:24Z",
+              "closed_at": null
+            },
+            {
+              "number": 589,
+              "state": "open",
+              "author": "aitestino",
+              "created_at": "2026-06-29T17:10:54Z",
+              "closed_at": null
+            },
+            {
+              "number": 576,
+              "state": "open",
+              "author": "paneu",
+              "created_at": "2026-06-19T11:05:51Z",
+              "closed_at": null
+            },
+            {
+              "number": 556,
+              "state": "open",
+              "author": "ChristopherJHart",
+              "created_at": "2026-06-12T21:44:05Z",
+              "closed_at": null
+            },
+            {
+              "number": 553,
+              "state": "closed",
+              "author": "aitestino",
+              "created_at": "2026-06-10T00:58:05Z",
+              "closed_at": "2026-06-10T01:49:25Z"
+            },
+            {
+              "number": 552,
+              "state": "closed",
+              "author": "mobig",
+              "created_at": "2026-06-09T20:01:05Z",
+              "closed_at": "2026-06-29T08:36:08Z"
+            },
+            {
+              "number": 551,
+              "state": "closed",
+              "author": "mobig",
+              "created_at": "2026-06-09T19:44:26Z",
+              "closed_at": "2026-06-29T08:11:31Z"
+            },
+            {
+              "number": 550,
+              "state": "closed",
+              "author": "julate-cmyk",
+              "created_at": "2026-06-09T14:38:21Z",
+              "closed_at": "2026-06-29T07:42:26Z"
+            },
+            {
+              "number": 549,
+              "state": "closed",
+              "author": "paneu",
+              "created_at": "2026-06-03T14:24:32Z",
+              "closed_at": "2026-06-29T08:55:49Z"
+            },
+            {
+              "number": 548,
+              "state": "closed",
+              "author": "pharsos",
+              "created_at": "2026-05-29T12:41:01Z",
+              "closed_at": "2026-06-29T07:13:37Z"
+            },
+            {
+              "number": 546,
+              "state": "closed",
+              "author": "aitestino",
+              "created_at": "2026-05-26T00:48:46Z",
+              "closed_at": "2026-05-26T01:33:49Z"
+            },
+            {
+              "number": 521,
+              "state": "open",
+              "author": "tiagosil-cisco",
+              "created_at": "2026-05-08T20:19:47Z",
+              "closed_at": null
+            },
+            {
+              "number": 513,
+              "state": "closed",
+              "author": "ChristopherJHart",
+              "created_at": "2026-05-03T18:17:22Z",
+              "closed_at": "2026-05-05T03:04:06Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:29.265Z"
+        }
       },
       {
         "repo": "CiscoDevNet/terraform-provider-catalystcenter",
@@ -6358,7 +8772,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:44.437Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 2,
+            "external_new_30d": 0,
+            "external_closed_30d": 0,
+            "external_authors_all_time": 18
+          },
+          "recentExternal": [
+            {
+              "number": 423,
+              "state": "closed",
+              "author": "TahirAliSp",
+              "created_at": "2026-05-19T14:06:35Z",
+              "closed_at": "2026-06-16T12:03:10Z"
+            },
+            {
+              "number": 414,
+              "state": "open",
+              "author": "TahirAliSp",
+              "created_at": "2026-05-08T09:11:26Z",
+              "closed_at": null
+            },
+            {
+              "number": 385,
+              "state": "closed",
+              "author": "thoaxe",
+              "created_at": "2026-04-01T10:05:14Z",
+              "closed_at": "2026-04-09T10:53:54Z"
+            },
+            {
+              "number": 374,
+              "state": "closed",
+              "author": "jolstorn",
+              "created_at": "2026-03-11T08:10:00Z",
+              "closed_at": "2026-04-22T07:10:21Z"
+            },
+            {
+              "number": 350,
+              "state": "closed",
+              "author": "jolstorn",
+              "created_at": "2026-02-12T12:28:00Z",
+              "closed_at": "2026-03-09T11:16:20Z"
+            },
+            {
+              "number": 336,
+              "state": "closed",
+              "author": "mixxor",
+              "created_at": "2026-01-15T14:43:38Z",
+              "closed_at": "2026-01-18T20:31:25Z"
+            },
+            {
+              "number": 327,
+              "state": "open",
+              "author": "consulttelecom",
+              "created_at": "2025-12-15T09:34:16Z",
+              "closed_at": null
+            },
+            {
+              "number": 300,
+              "state": "closed",
+              "author": "jolstorn",
+              "created_at": "2025-10-30T14:20:21Z",
+              "closed_at": "2025-10-31T09:18:35Z"
+            },
+            {
+              "number": 296,
+              "state": "closed",
+              "author": "richwats",
+              "created_at": "2025-10-13T06:13:13Z",
+              "closed_at": "2025-11-03T10:23:15Z"
+            },
+            {
+              "number": 274,
+              "state": "closed",
+              "author": "simon-morin",
+              "created_at": "2025-08-29T17:06:57Z",
+              "closed_at": "2025-09-02T17:23:48Z"
+            },
+            {
+              "number": 272,
+              "state": "closed",
+              "author": "initd-01",
+              "created_at": "2025-08-27T17:13:06Z",
+              "closed_at": "2026-06-22T13:22:29Z"
+            },
+            {
+              "number": 258,
+              "state": "closed",
+              "author": "Pson123",
+              "created_at": "2025-07-29T13:54:35Z",
+              "closed_at": "2025-08-11T08:23:32Z"
+            },
+            {
+              "number": 251,
+              "state": "closed",
+              "author": "Pson123",
+              "created_at": "2025-07-23T12:04:46Z",
+              "closed_at": "2025-07-30T08:33:30Z"
+            },
+            {
+              "number": 234,
+              "state": "closed",
+              "author": "jolstorn",
+              "created_at": "2025-06-12T07:48:04Z",
+              "closed_at": "2025-07-02T07:54:08Z"
+            },
+            {
+              "number": 233,
+              "state": "closed",
+              "author": "jolstorn",
+              "created_at": "2025-06-11T13:38:01Z",
+              "closed_at": "2025-06-23T19:39:33Z"
+            },
+            {
+              "number": 232,
+              "state": "closed",
+              "author": "jolstorn",
+              "created_at": "2025-06-11T13:35:39Z",
+              "closed_at": "2025-07-01T11:40:14Z"
+            },
+            {
+              "number": 226,
+              "state": "closed",
+              "author": "henghuberlin",
+              "created_at": "2025-05-23T09:39:02Z",
+              "closed_at": "2025-05-26T07:40:58Z"
+            },
+            {
+              "number": 203,
+              "state": "closed",
+              "author": "finkjordanj",
+              "created_at": "2025-04-11T15:45:35Z",
+              "closed_at": "2025-08-14T02:44:00Z"
+            },
+            {
+              "number": 200,
+              "state": "closed",
+              "author": "kristofff1204",
+              "created_at": "2025-04-02T15:11:02Z",
+              "closed_at": "2025-06-29T18:06:42Z"
+            },
+            {
+              "number": 196,
+              "state": "closed",
+              "author": "kristofff1204",
+              "created_at": "2025-03-27T15:55:46Z",
+              "closed_at": "2025-06-29T18:05:06Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:29.545Z"
+        }
       },
       {
         "repo": "CiscoDevNet/terraform-provider-nxos",
@@ -6382,7 +8946,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:44.771Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 5,
+            "external_new_30d": 3,
+            "external_closed_30d": 2,
+            "external_authors_all_time": 28
+          },
+          "recentExternal": [
+            {
+              "number": 513,
+              "state": "open",
+              "author": "SamDawkins822",
+              "created_at": "2026-07-27T15:28:50Z",
+              "closed_at": null
+            },
+            {
+              "number": 510,
+              "state": "closed",
+              "author": "scholsey",
+              "created_at": "2026-07-24T12:14:36Z",
+              "closed_at": "2026-07-31T07:13:09Z"
+            },
+            {
+              "number": 509,
+              "state": "closed",
+              "author": "scholsey",
+              "created_at": "2026-07-21T11:26:59Z",
+              "closed_at": "2026-07-31T07:19:17Z"
+            },
+            {
+              "number": 460,
+              "state": "closed",
+              "author": "maggelsel",
+              "created_at": "2026-04-22T08:49:00Z",
+              "closed_at": "2026-04-28T12:19:04Z"
+            },
+            {
+              "number": 453,
+              "state": "closed",
+              "author": "SebaKP",
+              "created_at": "2026-04-20T16:27:49Z",
+              "closed_at": "2026-04-21T05:04:50Z"
+            },
+            {
+              "number": 340,
+              "state": "open",
+              "author": "trevorpatch73",
+              "created_at": "2025-08-22T13:25:12Z",
+              "closed_at": null
+            },
+            {
+              "number": 339,
+              "state": "open",
+              "author": "trevorpatch73",
+              "created_at": "2025-08-22T12:53:32Z",
+              "closed_at": null
+            },
+            {
+              "number": 319,
+              "state": "closed",
+              "author": "Exonical",
+              "created_at": "2025-04-14T05:06:44Z",
+              "closed_at": "2026-05-02T19:11:31Z"
+            },
+            {
+              "number": 318,
+              "state": "closed",
+              "author": "Exonical",
+              "created_at": "2025-04-12T23:22:48Z",
+              "closed_at": "2026-04-21T05:06:12Z"
+            },
+            {
+              "number": 313,
+              "state": "closed",
+              "author": "krzysztofmaciejewskiit",
+              "created_at": "2025-03-19T21:25:19Z",
+              "closed_at": "2025-04-01T05:23:16Z"
+            },
+            {
+              "number": 310,
+              "state": "closed",
+              "author": "Rossnunez",
+              "created_at": "2025-03-12T14:36:58Z",
+              "closed_at": "2026-04-19T12:37:25Z"
+            },
+            {
+              "number": 307,
+              "state": "closed",
+              "author": "Pidpad",
+              "created_at": "2025-02-28T09:24:23Z",
+              "closed_at": "2025-02-28T09:45:22Z"
+            },
+            {
+              "number": 305,
+              "state": "closed",
+              "author": "Pidpad",
+              "created_at": "2025-02-24T10:08:40Z",
+              "closed_at": "2026-04-19T14:43:29Z"
+            },
+            {
+              "number": 298,
+              "state": "open",
+              "author": "krzysztofmaciejewskiit",
+              "created_at": "2025-02-04T15:17:29Z",
+              "closed_at": null
+            },
+            {
+              "number": 296,
+              "state": "open",
+              "author": "jeffreyvos87",
+              "created_at": "2025-01-20T07:37:06Z",
+              "closed_at": null
+            },
+            {
+              "number": 290,
+              "state": "closed",
+              "author": "leodlsrt",
+              "created_at": "2025-01-02T10:47:58Z",
+              "closed_at": "2025-01-08T18:22:05Z"
+            },
+            {
+              "number": 287,
+              "state": "closed",
+              "author": "leodlsrt",
+              "created_at": "2024-12-26T10:05:37Z",
+              "closed_at": "2024-12-31T09:47:14Z"
+            },
+            {
+              "number": 282,
+              "state": "closed",
+              "author": "krzysztofmaciejewskiit",
+              "created_at": "2024-12-03T15:23:47Z",
+              "closed_at": "2024-12-04T09:41:32Z"
+            },
+            {
+              "number": 280,
+              "state": "closed",
+              "author": "krzysztofmaciejewskiit",
+              "created_at": "2024-11-26T17:30:46Z",
+              "closed_at": "2024-11-27T07:16:37Z"
+            },
+            {
+              "number": 279,
+              "state": "closed",
+              "author": "krzysztofmaciejewskiit",
+              "created_at": "2024-11-22T13:14:57Z",
+              "closed_at": "2024-11-22T15:51:31Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:29.823Z"
+        }
       },
       {
         "repo": "CiscoDevNet/terraform-provider-mso",
@@ -6406,7 +9120,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:45.070Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 38,
+            "external_new_30d": 2,
+            "external_closed_30d": 3,
+            "external_authors_all_time": 54
+          },
+          "recentExternal": [
+            {
+              "number": 536,
+              "state": "closed",
+              "author": "juchowan",
+              "created_at": "2026-07-27T06:37:59Z",
+              "closed_at": "2026-08-04T03:10:39Z"
+            },
+            {
+              "number": 532,
+              "state": "closed",
+              "author": "juchowan",
+              "created_at": "2026-07-20T13:09:45Z",
+              "closed_at": "2026-07-24T07:38:41Z"
+            },
+            {
+              "number": 530,
+              "state": "closed",
+              "author": "juchowan",
+              "created_at": "2026-07-09T15:04:09Z",
+              "closed_at": "2026-07-10T13:29:25Z"
+            },
+            {
+              "number": 496,
+              "state": "closed",
+              "author": "ogorczow",
+              "created_at": "2026-05-08T12:43:50Z",
+              "closed_at": "2026-07-24T07:37:24Z"
+            },
+            {
+              "number": 489,
+              "state": "open",
+              "author": "DerrickTJ",
+              "created_at": "2026-04-24T20:06:09Z",
+              "closed_at": null
+            },
+            {
+              "number": 481,
+              "state": "open",
+              "author": "juchowan",
+              "created_at": "2026-04-14T14:45:54Z",
+              "closed_at": null
+            },
+            {
+              "number": 459,
+              "state": "closed",
+              "author": "hdhdn",
+              "created_at": "2026-03-14T02:28:12Z",
+              "closed_at": "2026-03-14T10:13:42Z"
+            },
+            {
+              "number": 453,
+              "state": "closed",
+              "author": "ogorczow",
+              "created_at": "2026-03-03T15:19:35Z",
+              "closed_at": "2026-03-30T12:57:12Z"
+            },
+            {
+              "number": 447,
+              "state": "open",
+              "author": "juchowan",
+              "created_at": "2026-02-10T14:46:49Z",
+              "closed_at": null
+            },
+            {
+              "number": 446,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-04T08:28:13Z",
+              "closed_at": null
+            },
+            {
+              "number": 445,
+              "state": "closed",
+              "author": "sajagana",
+              "created_at": "2026-02-04T08:19:57Z",
+              "closed_at": "2026-04-29T06:24:58Z"
+            },
+            {
+              "number": 444,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:23:17Z",
+              "closed_at": null
+            },
+            {
+              "number": 443,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:22:10Z",
+              "closed_at": null
+            },
+            {
+              "number": 442,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:20:38Z",
+              "closed_at": null
+            },
+            {
+              "number": 441,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:19:44Z",
+              "closed_at": null
+            },
+            {
+              "number": 440,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:18:16Z",
+              "closed_at": null
+            },
+            {
+              "number": 439,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:17:15Z",
+              "closed_at": null
+            },
+            {
+              "number": 438,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:16:07Z",
+              "closed_at": null
+            },
+            {
+              "number": 437,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:14:54Z",
+              "closed_at": null
+            },
+            {
+              "number": 436,
+              "state": "open",
+              "author": "sajagana",
+              "created_at": "2026-02-03T16:12:44Z",
+              "closed_at": null
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:30.140Z"
+        }
       },
       {
         "repo": "CiscoDevNet/terraform-provider-sdwan",
@@ -6430,7 +9294,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:45.356Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 8,
+            "external_new_30d": 4,
+            "external_closed_30d": 1,
+            "external_authors_all_time": 33
+          },
+          "recentExternal": [
+            {
+              "number": 744,
+              "state": "open",
+              "author": "eftele",
+              "created_at": "2026-08-10T13:30:42Z",
+              "closed_at": null
+            },
+            {
+              "number": 730,
+              "state": "open",
+              "author": "rr413d",
+              "created_at": "2026-07-20T14:31:20Z",
+              "closed_at": null
+            },
+            {
+              "number": 729,
+              "state": "open",
+              "author": "rr413d",
+              "created_at": "2026-07-20T14:24:54Z",
+              "closed_at": null
+            },
+            {
+              "number": 727,
+              "state": "closed",
+              "author": "nitodd-cisco",
+              "created_at": "2026-07-17T17:57:15Z",
+              "closed_at": "2026-07-17T20:52:34Z"
+            },
+            {
+              "number": 708,
+              "state": "open",
+              "author": "rkanne0",
+              "created_at": "2026-06-08T11:35:56Z",
+              "closed_at": null
+            },
+            {
+              "number": 695,
+              "state": "closed",
+              "author": "rkanne0",
+              "created_at": "2026-05-11T14:03:33Z",
+              "closed_at": "2026-05-12T06:23:06Z"
+            },
+            {
+              "number": 692,
+              "state": "closed",
+              "author": "wcmder",
+              "created_at": "2026-05-01T19:55:06Z",
+              "closed_at": "2026-05-08T13:46:50Z"
+            },
+            {
+              "number": 690,
+              "state": "closed",
+              "author": "maxclise",
+              "created_at": "2026-04-29T17:34:08Z",
+              "closed_at": "2026-04-29T21:07:28Z"
+            },
+            {
+              "number": 679,
+              "state": "open",
+              "author": "mic-mc",
+              "created_at": "2026-04-16T14:30:46Z",
+              "closed_at": null
+            },
+            {
+              "number": 673,
+              "state": "open",
+              "author": "stevenmc13",
+              "created_at": "2026-04-03T08:53:37Z",
+              "closed_at": null
+            },
+            {
+              "number": 613,
+              "state": "open",
+              "author": "wcmder",
+              "created_at": "2026-02-07T01:34:43Z",
+              "closed_at": null
+            },
+            {
+              "number": 578,
+              "state": "closed",
+              "author": "Anush-Mangaluru",
+              "created_at": "2025-12-04T06:57:39Z",
+              "closed_at": "2025-12-18T16:15:27Z"
+            },
+            {
+              "number": 559,
+              "state": "closed",
+              "author": "tcp-port-179",
+              "created_at": "2025-11-07T20:29:03Z",
+              "closed_at": "2025-12-22T13:22:24Z"
+            },
+            {
+              "number": 549,
+              "state": "closed",
+              "author": "HSPm",
+              "created_at": "2025-10-16T05:19:19Z",
+              "closed_at": "2026-03-16T16:55:02Z"
+            },
+            {
+              "number": 539,
+              "state": "closed",
+              "author": "HSPm",
+              "created_at": "2025-10-08T21:55:27Z",
+              "closed_at": "2025-10-13T00:52:16Z"
+            },
+            {
+              "number": 537,
+              "state": "open",
+              "author": "Anush-Mangaluru",
+              "created_at": "2025-10-07T05:03:04Z",
+              "closed_at": null
+            },
+            {
+              "number": 534,
+              "state": "closed",
+              "author": "pavithran-rathinam",
+              "created_at": "2025-09-30T06:03:48Z",
+              "closed_at": "2025-10-09T15:41:56Z"
+            },
+            {
+              "number": 527,
+              "state": "closed",
+              "author": "Anush-Mangaluru",
+              "created_at": "2025-09-16T08:03:25Z",
+              "closed_at": "2025-10-09T15:41:57Z"
+            },
+            {
+              "number": 520,
+              "state": "closed",
+              "author": "ivancesg",
+              "created_at": "2025-09-05T09:27:16Z",
+              "closed_at": "2025-12-04T16:40:50Z"
+            },
+            {
+              "number": 514,
+              "state": "closed",
+              "author": "koval4ukav",
+              "created_at": "2025-09-02T08:50:53Z",
+              "closed_at": "2025-10-13T09:26:28Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:30.566Z"
+        }
       },
       {
         "repo": "CiscoDevNet/terraform-provider-ise",
@@ -6454,7 +9468,157 @@
           },
           "lastUpdated": "2026-08-11T03:56:45.662Z"
         },
-        "issues": null
+        "issues": {
+          "totals": {
+            "external_open": 5,
+            "external_new_30d": 3,
+            "external_closed_30d": 9,
+            "external_authors_all_time": 10
+          },
+          "recentExternal": [
+            {
+              "number": 257,
+              "state": "open",
+              "author": "camschaecisco",
+              "created_at": "2026-08-11T00:46:19Z",
+              "closed_at": null
+            },
+            {
+              "number": 255,
+              "state": "open",
+              "author": "camschaecisco",
+              "created_at": "2026-08-10T19:54:09Z",
+              "closed_at": null
+            },
+            {
+              "number": 253,
+              "state": "open",
+              "author": "camschaecisco",
+              "created_at": "2026-08-10T16:06:50Z",
+              "closed_at": null
+            },
+            {
+              "number": 241,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-06T13:10:27Z",
+              "closed_at": "2026-08-10T14:00:31Z"
+            },
+            {
+              "number": 237,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-04T20:40:21Z",
+              "closed_at": "2026-08-10T14:00:29Z"
+            },
+            {
+              "number": 236,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-04T20:39:57Z",
+              "closed_at": "2026-08-10T14:00:26Z"
+            },
+            {
+              "number": 235,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-04T20:39:47Z",
+              "closed_at": "2026-08-10T14:00:24Z"
+            },
+            {
+              "number": 234,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-04T16:48:18Z",
+              "closed_at": "2026-08-10T14:00:21Z"
+            },
+            {
+              "number": 233,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-04T15:48:32Z",
+              "closed_at": "2026-08-10T14:00:19Z"
+            },
+            {
+              "number": 232,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-04T13:46:04Z",
+              "closed_at": "2026-08-10T14:00:17Z"
+            },
+            {
+              "number": 230,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-03T22:04:56Z",
+              "closed_at": "2026-07-14T16:36:54Z"
+            },
+            {
+              "number": 229,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-03T21:56:28Z",
+              "closed_at": "2026-07-03T22:06:39Z"
+            },
+            {
+              "number": 227,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-03T18:48:39Z",
+              "closed_at": "2026-08-10T14:00:14Z"
+            },
+            {
+              "number": 225,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-07-03T18:27:47Z",
+              "closed_at": "2026-07-08T12:11:07Z"
+            },
+            {
+              "number": 223,
+              "state": "open",
+              "author": "ybonde87",
+              "created_at": "2026-06-29T08:10:59Z",
+              "closed_at": null
+            },
+            {
+              "number": 219,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-06-22T14:34:52Z",
+              "closed_at": "2026-06-23T07:50:16Z"
+            },
+            {
+              "number": 216,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-06-17T01:12:57Z",
+              "closed_at": "2026-06-17T15:39:49Z"
+            },
+            {
+              "number": 214,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-06-10T21:16:27Z",
+              "closed_at": "2026-06-26T00:42:26Z"
+            },
+            {
+              "number": 213,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-06-10T21:16:21Z",
+              "closed_at": "2026-06-25T20:33:07Z"
+            },
+            {
+              "number": 205,
+              "state": "closed",
+              "author": "ChristopherJHart",
+              "created_at": "2026-04-29T14:22:23Z",
+              "closed_at": "2026-05-07T07:04:59Z"
+            }
+          ],
+          "lastPolledAt": "2026-08-11T07:44:31.597Z"
+        }
       }
     ]
   },

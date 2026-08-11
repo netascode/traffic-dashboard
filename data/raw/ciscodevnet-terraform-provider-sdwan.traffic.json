@@ -1,0 +1,266 @@
+{
+  "repo": "CiscoDevNet/terraform-provider-sdwan",
+  "clones": [
+    {
+      "timestamp": "2026-07-28T00:00:00Z",
+      "count": 1441,
+      "uniques": 72
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 1277,
+      "uniques": 92
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 1278,
+      "uniques": 19
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 1189,
+      "uniques": 49
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 1302,
+      "uniques": 49
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 1150,
+      "uniques": 11
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 1291,
+      "uniques": 18
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 1169,
+      "uniques": 14
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 1763,
+      "uniques": 16
+    },
+    {
+      "timestamp": "2026-08-06T00:00:00Z",
+      "count": 4889,
+      "uniques": 54
+    },
+    {
+      "timestamp": "2026-08-07T00:00:00Z",
+      "count": 4711,
+      "uniques": 20
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 4846,
+      "uniques": 14
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 4863,
+      "uniques": 31
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 4706,
+      "uniques": 16
+    }
+  ],
+  "views": [
+    {
+      "timestamp": "2026-07-28T00:00:00Z",
+      "count": 156,
+      "uniques": 16
+    },
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 31,
+      "uniques": 6
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 46,
+      "uniques": 15
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 14,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 37,
+      "uniques": 18
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 31,
+      "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 51,
+      "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-06T00:00:00Z",
+      "count": 123,
+      "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-07T00:00:00Z",
+      "count": 5,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 43,
+      "uniques": 9
+    }
+  ],
+  "popularPaths": [
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan",
+      "title": "Overview",
+      "count": 104,
+      "uniques": 34
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/pulls",
+      "title": "/pulls",
+      "count": 56,
+      "uniques": 9
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/tree/main",
+      "title": "/tree/main",
+      "count": 18,
+      "uniques": 4
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/723",
+      "title": "/pull/723",
+      "count": 16,
+      "uniques": 4
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/737",
+      "title": "/pull/737",
+      "count": 15,
+      "uniques": 5
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
+      "count": 9,
+      "uniques": 7
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/issues",
+      "title": "/issues",
+      "count": 9,
+      "uniques": 5
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/737/changes",
+      "title": "/pull/737/changes",
+      "count": 8,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/commits/main",
+      "title": "/commits/main",
+      "count": 8,
+      "uniques": 2
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/724",
+      "title": "/pull/724",
+      "count": 6,
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "github.com",
+      "count": 146,
+      "uniques": 13
+    },
+    {
+      "referrer": "wwwin-github.cisco.com",
+      "count": 42,
+      "uniques": 7
+    },
+    {
+      "referrer": "Google",
+      "count": 5,
+      "uniques": 5
+    },
+    {
+      "referrer": "Bing",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "referrer": "teams.public.onecdn.static.microsoft",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "referrer": "developer.cisco.com",
+      "count": 1,
+      "uniques": 1
+    }
+  ],
+  "totals": {
+    "clones": 35875,
+    "uniqueClonerDays": 475,
+    "peakDailyClones": 4889,
+    "peakDailyUniqueCloners": 92,
+    "views": 545,
+    "uniqueVisitorDays": 109,
+    "peakDailyViews": 156,
+    "peakDailyUniqueVisitors": 18,
+    "daysTracked": 14,
+    "firstDay": "2026-07-28T00:00:00Z",
+    "lastDay": "2026-08-10T00:00:00Z"
+  },
+  "lastUpdated": "2026-08-11T08:21:26.032Z",
+  "snapshot14d": {
+    "polled_at": "2026-08-11T08:21:26.032Z",
+    "views": {
+      "count": 545,
+      "uniques": 75
+    },
+    "clones": {
+      "count": 35875,
+      "uniques": 403
+    }
+  }
+}

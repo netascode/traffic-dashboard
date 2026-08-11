@@ -251,5 +251,16 @@
     "firstDay": "2026-07-27T00:00:00Z",
     "lastDay": "2026-08-09T00:00:00Z"
   },
-  "lastUpdated": "2026-08-10T15:15:20.206Z"
+  "lastUpdated": "2026-08-11T08:21:23.087Z",
+  "snapshot14d": {
+    "polled_at": "2026-08-11T08:21:23.087Z",
+    "views": {
+      "count": 285,
+      "uniques": 58
+    },
+    "clones": {
+      "count": 652,
+      "uniques": 113
+    }
+  }
 }

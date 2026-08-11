@@ -31,6 +31,7 @@ jobs:
       - name: Sync traffic from configured repositories
         env:
           GITHUB_TOKEN: ${{ secrets.TRAFFIC_PAT }}
+          DEVNET_TOKEN: ${{ secrets.DEVNET_TOKEN }}
         run: |
           node scripts/sync-github-traffic.js \
             --config=repos.json \
@@ -40,6 +41,7 @@ jobs:
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.TRAFFIC_PAT }}
+          DEVNET_TOKEN: ${{ secrets.DEVNET_TOKEN }}
         run: |
           node scripts/sync-github-stars.js \
             --config=repos.json \
@@ -57,6 +59,7 @@ jobs:
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.TRAFFIC_PAT }}
+          DEVNET_TOKEN: ${{ secrets.DEVNET_TOKEN }}
         run: |
           node scripts/sync-github-issues.js \
             --config=repos.json \
