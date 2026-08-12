@@ -50,6 +50,44 @@
       "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-ise", "provider": "ise" }
     },
     {
+      "repo": "netascode/terraform-intersight-nac-compute",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-compute", "provider": "intersight" }
+    },
+    {
+      "repo": "netascode/nac-collector",
+      "group": "modules"
+    },
+    {
+      "repo": "netascode/ansible-dc-vxlan",
+      "group": "modules"
+    },
+    {
+      "repo": "netascode/terraform-iosxr-nac-iosxr",
+      "group": "modules",
+      "registry": { "type": "terraform", "namespace": "netascode", "name": "nac-iosxr", "provider": "iosxr" }
+    },
+    {
+      "repo": "netascode/nac-test",
+      "group": "modules"
+    },
+    {
+      "repo": "netascode/nac-validate",
+      "group": "modules"
+    },
+    {
+      "repo": "netascode/nac-sdwan-example",
+      "group": "modules"
+    },
+    {
+      "repo": "netascode/nac-meraki-example",
+      "group": "modules"
+    },
+    {
+      "repo": "netascode/nac-branch-example",
+      "group": "modules"
+    },
+    {
       "repo": "CiscoDevNet/terraform-provider-aci",
       "group": "providers",
       "signals": ["stars", "registry", "traffic", "issues"],
@@ -102,6 +140,29 @@
       "group": "providers",
       "signals": ["stars", "registry", "traffic", "issues"],
       "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "ise" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-iosxr",
+      "group": "providers",
+      "signals": ["stars", "registry", "traffic", "issues"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "iosxr" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-nd",
+      "group": "providers",
+      "signals": ["stars", "registry", "traffic", "issues"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "nd" }
+    },
+    {
+      "repo": "CiscoDevNet/terraform-provider-intersight",
+      "group": "providers",
+      "signals": ["stars", "registry", "traffic", "issues"],
+      "registry": { "type": "terraform-provider", "namespace": "CiscoDevNet", "name": "intersight" }
+    },
+    {
+      "repo": "CiscoDevNet/intersight",
+      "group": "providers",
+      "signals": ["stars", "traffic", "issues"]
     }
   ]
 }
