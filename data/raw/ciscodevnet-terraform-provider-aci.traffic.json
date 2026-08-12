@@ -70,6 +70,11 @@
       "timestamp": "2026-08-09T00:00:00Z",
       "count": 11,
       "uniques": 11
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 33,
+      "uniques": 23
     }
   ],
   "views": [
@@ -142,26 +147,31 @@
       "timestamp": "2026-08-09T00:00:00Z",
       "count": 13,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 26,
+      "uniques": 12
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-aci",
       "title": "Overview",
-      "count": 88,
+      "count": 87,
       "uniques": 61
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-aci/commits/develop",
-      "title": "/commits/develop",
-      "count": 30,
-      "uniques": 2
     },
     {
       "path": "/CiscoDevNet/terraform-provider-aci/issues",
       "title": "/issues",
-      "count": 16,
-      "uniques": 7
+      "count": 19,
+      "uniques": 8
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-aci/commits/develop",
+      "title": "/commits/develop",
+      "count": 13,
+      "uniques": 2
     },
     {
       "path": "/CiscoDevNet/terraform-provider-aci/tree/develop/aci",
@@ -172,8 +182,8 @@
     {
       "path": "/CiscoDevNet/terraform-provider-aci/pulls",
       "title": "/pulls",
-      "count": 9,
-      "uniques": 5
+      "count": 8,
+      "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-aci/blob/develop/examples/resources/aci_relation_to_static_path/resource-all-attributes.tf",
@@ -208,24 +218,29 @@
   ],
   "referrers": [
     {
-      "referrer": "github.com",
-      "count": 39,
-      "uniques": 5
-    },
-    {
       "referrer": "registry.terraform.io",
       "count": 26,
       "uniques": 1
     },
     {
-      "referrer": "Google",
-      "count": 21,
-      "uniques": 17
-    },
-    {
       "referrer": "netascode.cisco.com",
       "count": 21,
       "uniques": 12
+    },
+    {
+      "referrer": "github.com",
+      "count": 21,
+      "uniques": 4
+    },
+    {
+      "referrer": "Google",
+      "count": 20,
+      "uniques": 16
+    },
+    {
+      "referrer": "blogs.cisco.com",
+      "count": 9,
+      "uniques": 1
     },
     {
       "referrer": "Bing",
@@ -234,8 +249,8 @@
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
-      "count": 4,
-      "uniques": 4
+      "count": 5,
+      "uniques": 5
     },
     {
       "referrer": "cisco-aci.atlassian.net",
@@ -251,36 +266,31 @@
       "referrer": "DuckDuckGo",
       "count": 1,
       "uniques": 1
-    },
-    {
-      "referrer": "ondemandelearning.cisco.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 19524,
-    "uniqueClonerDays": 1170,
+    "clones": 19557,
+    "uniqueClonerDays": 1193,
     "peakDailyClones": 7893,
     "peakDailyUniqueCloners": 138,
-    "views": 588,
-    "uniqueVisitorDays": 275,
+    "views": 614,
+    "uniqueVisitorDays": 287,
     "peakDailyViews": 86,
     "peakDailyUniqueVisitors": 78,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-09T00:00:00Z"
+    "lastDay": "2026-08-10T00:00:00Z"
   },
-  "lastUpdated": "2026-08-11T08:21:23.691Z",
+  "lastUpdated": "2026-08-12T04:18:44.676Z",
   "snapshot14d": {
-    "polled_at": "2026-08-11T08:21:23.691Z",
+    "polled_at": "2026-08-12T04:18:44.676Z",
     "views": {
-      "count": 588,
+      "count": 570,
       "uniques": 247
     },
     "clones": {
-      "count": 19524,
-      "uniques": 431
+      "count": 14011,
+      "uniques": 422
     }
   }
 }

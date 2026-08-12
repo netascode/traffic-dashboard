@@ -134,6 +134,11 @@
       "timestamp": "2026-08-09T00:00:00Z",
       "count": 50,
       "uniques": 14
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 361,
+      "uniques": 155
     }
   ],
   "views": [
@@ -271,40 +276,45 @@
       "timestamp": "2026-08-09T00:00:00Z",
       "count": 5,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 54,
+      "uniques": 12
     }
   ],
   "totals": {
-    "clones": 7608,
-    "uniqueClonerDays": 1074,
+    "clones": 7969,
+    "uniqueClonerDays": 1229,
     "peakDailyClones": 923,
-    "peakDailyUniqueCloners": 76,
-    "views": 1306,
-    "uniqueVisitorDays": 323,
+    "peakDailyUniqueCloners": 155,
+    "views": 1360,
+    "uniqueVisitorDays": 335,
     "peakDailyViews": 160,
     "peakDailyUniqueVisitors": 23,
-    "daysTracked": 27,
+    "daysTracked": 28,
     "firstDay": "2026-07-14T00:00:00Z",
-    "lastDay": "2026-08-09T00:00:00Z"
+    "lastDay": "2026-08-10T00:00:00Z"
   },
-  "lastUpdated": "2026-08-11T08:21:21.230Z",
+  "lastUpdated": "2026-08-12T04:18:43.222Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-aci-nac-aci",
       "title": "Overview",
-      "count": 135,
-      "uniques": 93
+      "count": 143,
+      "uniques": 91
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/pulls",
       "title": "/pulls",
-      "count": 50,
-      "uniques": 12
+      "count": 53,
+      "uniques": 13
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/issues",
       "title": "/issues",
-      "count": 38,
-      "uniques": 10
+      "count": 41,
+      "uniques": 12
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/issues/423",
@@ -325,16 +335,16 @@
       "uniques": 7
     },
     {
-      "path": "/netascode/terraform-aci-nac-aci/blob/main/defaults/defaults.yaml",
-      "title": "/blob/main/defaults/defaults.yaml",
-      "count": 22,
-      "uniques": 14
-    },
-    {
       "path": "/netascode/terraform-aci-nac-aci/blob/main/main.tf",
       "title": "/blob/main/main.tf",
-      "count": 21,
-      "uniques": 8
+      "count": 22,
+      "uniques": 9
+    },
+    {
+      "path": "/netascode/terraform-aci-nac-aci/blob/main/defaults/defaults.yaml",
+      "title": "/blob/main/defaults/defaults.yaml",
+      "count": 19,
+      "uniques": 12
     },
     {
       "path": "/netascode/terraform-aci-nac-aci/tree/main/modules",
@@ -352,7 +362,7 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 150,
+      "count": 181,
       "uniques": 35
     },
     {
@@ -367,8 +377,8 @@
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 29,
-      "uniques": 9
+      "count": 21,
+      "uniques": 7
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
@@ -393,14 +403,14 @@
   ],
   "repo": "netascode/terraform-aci-nac-aci",
   "snapshot14d": {
-    "polled_at": "2026-08-11T08:21:21.230Z",
+    "polled_at": "2026-08-12T04:18:43.222Z",
     "views": {
-      "count": 848,
+      "count": 870,
       "uniques": 125
     },
     "clones": {
-      "count": 2916,
-      "uniques": 269
+      "count": 2978,
+      "uniques": 375
     }
   }
 }

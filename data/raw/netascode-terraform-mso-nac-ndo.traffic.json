@@ -70,6 +70,11 @@
       "timestamp": "2026-08-09T00:00:00Z",
       "count": 5,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 40,
+      "uniques": 28
     }
   ],
   "views": [
@@ -142,13 +147,18 @@
       "timestamp": "2026-08-09T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 5,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-mso-nac-ndo",
       "title": "Overview",
-      "count": 25,
+      "count": 26,
       "uniques": 17
     },
     {
@@ -160,7 +170,7 @@
     {
       "path": "/netascode/terraform-mso-nac-ndo/blob/main/ndo_schemas.tf",
       "title": "/blob/main/ndo_schemas.tf",
-      "count": 6,
+      "count": 7,
       "uniques": 1
     },
     {
@@ -224,28 +234,28 @@
     }
   ],
   "totals": {
-    "clones": 783,
-    "uniqueClonerDays": 124,
+    "clones": 823,
+    "uniqueClonerDays": 152,
     "peakDailyClones": 156,
-    "peakDailyUniqueCloners": 22,
-    "views": 108,
-    "uniqueVisitorDays": 38,
+    "peakDailyUniqueCloners": 28,
+    "views": 113,
+    "uniqueVisitorDays": 41,
     "peakDailyViews": 25,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-09T00:00:00Z"
+    "lastDay": "2026-08-10T00:00:00Z"
   },
-  "lastUpdated": "2026-08-11T08:21:22.816Z",
+  "lastUpdated": "2026-08-12T04:18:44.214Z",
   "snapshot14d": {
-    "polled_at": "2026-08-11T08:21:22.816Z",
+    "polled_at": "2026-08-12T04:18:44.214Z",
     "views": {
-      "count": 108,
-      "uniques": 27
+      "count": 113,
+      "uniques": 28
     },
     "clones": {
-      "count": 783,
-      "uniques": 61
+      "count": 667,
+      "uniques": 84
     }
   }
 }

@@ -70,6 +70,11 @@
       "timestamp": "2026-08-09T00:00:00Z",
       "count": 5,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 26,
+      "uniques": 17
     }
   ],
   "views": [
@@ -142,31 +147,54 @@
       "timestamp": "2026-08-09T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 35,
+      "uniques": 7
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-ise-nac-ise",
       "title": "Overview",
-      "count": 36,
-      "uniques": 21
+      "count": 35,
+      "uniques": 24
     },
     {
       "path": "/netascode/terraform-ise-nac-ise/pulls",
       "title": "/pulls",
-      "count": 10,
+      "count": 19,
       "uniques": 6
     },
     {
       "path": "/netascode/terraform-ise-nac-ise/issues",
       "title": "/issues",
-      "count": 5,
-      "uniques": 4
+      "count": 9,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-ise-nac-ise/pull/74",
+      "title": "/pull/74",
+      "count": 6,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-ise-nac-ise/pull/67",
+      "title": "/pull/67",
+      "count": 4,
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-ise-nac-ise/tree/main",
       "title": "/tree/main",
       "count": 4,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-ise-nac-ise/blob/main/README.md",
+      "title": "/blob/main/README.md",
+      "count": 2,
       "uniques": 2
     },
     {
@@ -176,8 +204,8 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-ise-nac-ise/pull/74",
-      "title": "/pull/74",
+      "path": "/netascode/terraform-ise-nac-ise/pull/79",
+      "title": "/pull/79",
       "count": 2,
       "uniques": 1
     },
@@ -186,40 +214,22 @@
       "title": "/actions",
       "count": 1,
       "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-ise-nac-ise/blob/main/README.md",
-      "title": "/blob/main/README.md",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-ise-nac-ise/graphs/traffic",
-      "title": "/graphs/traffic",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-ise-nac-ise/issues/37",
-      "title": "/issues/37",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 18,
+      "count": 19,
       "uniques": 8
     },
     {
       "referrer": "Google",
-      "count": 5,
-      "uniques": 4
+      "count": 6,
+      "uniques": 5
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
-      "count": 5,
+      "count": 3,
       "uniques": 1
     },
     {
@@ -229,28 +239,28 @@
     }
   ],
   "totals": {
-    "clones": 411,
-    "uniqueClonerDays": 128,
+    "clones": 437,
+    "uniqueClonerDays": 145,
     "peakDailyClones": 131,
     "peakDailyUniqueCloners": 23,
-    "views": 72,
-    "uniqueVisitorDays": 38,
-    "peakDailyViews": 18,
-    "peakDailyUniqueVisitors": 6,
-    "daysTracked": 14,
+    "views": 107,
+    "uniqueVisitorDays": 45,
+    "peakDailyViews": 35,
+    "peakDailyUniqueVisitors": 7,
+    "daysTracked": 15,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-09T00:00:00Z"
+    "lastDay": "2026-08-10T00:00:00Z"
   },
-  "lastUpdated": "2026-08-11T08:21:23.364Z",
+  "lastUpdated": "2026-08-12T04:18:44.502Z",
   "snapshot14d": {
-    "polled_at": "2026-08-11T08:21:23.364Z",
+    "polled_at": "2026-08-12T04:18:44.502Z",
     "views": {
-      "count": 72,
-      "uniques": 27
+      "count": 101,
+      "uniques": 31
     },
     "clones": {
-      "count": 411,
-      "uniques": 63
+      "count": 423,
+      "uniques": 71
     }
   }
 }
