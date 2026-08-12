@@ -1,0 +1,256 @@
+{
+  "repo": "netascode/nac-meraki-example",
+  "clones": [
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 5,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-06T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-07T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+    }
+  ],
+  "views": [
+    {
+      "timestamp": "2026-07-29T00:00:00Z",
+      "count": 7,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-07-30T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-07-31T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-01T00:00:00Z",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-02T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-03T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-04T00:00:00Z",
+      "count": 45,
+      "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-05T00:00:00Z",
+      "count": 8,
+      "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-06T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-07T00:00:00Z",
+      "count": 3,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-08T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-09T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-10T00:00:00Z",
+      "count": 6,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 5,
+      "uniques": 3
+    }
+  ],
+  "popularPaths": [
+    {
+      "path": "/netascode/nac-meraki-example",
+      "title": "Overview",
+      "count": 28,
+      "uniques": 18
+    },
+    {
+      "path": "/netascode/nac-meraki-example/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/organizations_admin.robot",
+      "title": "/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/organizations_admin.robot",
+      "count": 11,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/nac-meraki-example/tree/main/tests/templates/config",
+      "title": "/tree/main/tests/templates/config",
+      "count": 9,
+      "uniques": 6
+    },
+    {
+      "path": "/netascode/nac-meraki-example/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/networks_list.robot",
+      "title": "/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/networks_list.robot",
+      "count": 9,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/nac-meraki-example/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/networks_wireless_ssid_list.robot",
+      "title": "/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/networks_wireless_ssid_list.robot",
+      "count": 7,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-meraki-example/tags",
+      "title": "/tags",
+      "count": 4,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/nac-meraki-example/blob/main/tests/templates/config/networks_list.robot",
+      "title": "/blob/main/tests/templates/config/networks_list.robot",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-meraki-example/tree/main/tests/templates",
+      "title": "/tree/main/tests/templates",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-meraki-example/blob/main/lab-data/02_configure_network.nac.yaml",
+      "title": "/blob/main/lab-data/02_configure_network.nac.yaml",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-meraki-example/blob/main/lab-data/03_add_wireless.nac.yaml",
+      "title": "/blob/main/lab-data/03_add_wireless.nac.yaml",
+      "count": 1,
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 14,
+      "uniques": 5
+    },
+    {
+      "referrer": "teams.public.onecdn.static.microsoft",
+      "count": 12,
+      "uniques": 3
+    },
+    {
+      "referrer": "github.com",
+      "count": 11,
+      "uniques": 3
+    },
+    {
+      "referrer": "Google",
+      "count": 4,
+      "uniques": 2
+    }
+  ],
+  "totals": {
+    "clones": 11,
+    "uniqueClonerDays": 10,
+    "peakDailyClones": 5,
+    "peakDailyUniqueCloners": 4,
+    "views": 82,
+    "uniqueVisitorDays": 31,
+    "peakDailyViews": 45,
+    "peakDailyUniqueVisitors": 7,
+    "daysTracked": 14,
+    "firstDay": "2026-07-29T00:00:00Z",
+    "lastDay": "2026-08-11T00:00:00Z"
+  },
+  "lastUpdated": "2026-08-12T11:44:57.416Z",
+  "snapshot14d": {
+    "polled_at": "2026-08-12T11:44:57.416Z",
+    "views": {
+      "count": 82,
+      "uniques": 23
+    },
+    "clones": {
+      "count": 11,
+      "uniques": 9
+    }
+  }
+}

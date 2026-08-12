@@ -134,6 +134,11 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 81,
       "uniques": 64
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 32,
+      "uniques": 19
     }
   ],
   "views": [
@@ -271,26 +276,37 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 15,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 31,
+      "uniques": 10
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe",
       "title": "Overview",
-      "count": 100,
-      "uniques": 49
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/issues",
-      "title": "/issues",
-      "count": 14,
-      "uniques": 6
+      "count": 111,
+      "uniques": 50
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
       "title": "/blob/main/main.tf",
+      "count": 11,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/issues",
+      "title": "/issues",
       "count": 10,
       "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
+      "title": "/pulls",
+      "count": 8,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/commits/main",
@@ -301,32 +317,26 @@
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/versions.tf",
       "title": "/blob/main/versions.tf",
-      "count": 5,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
-      "title": "/pulls",
-      "count": 5,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/tags",
-      "title": "/tags",
-      "count": 4,
+      "count": 6,
       "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
+      "title": "/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
+      "count": 5,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
+      "count": 4,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/variables.tf",
       "title": "/blob/main/variables.tf",
       "count": 4,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
-      "title": "/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
-      "count": 4,
-      "uniques": 1
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/issues/356",
@@ -337,45 +347,45 @@
   ],
   "referrers": [
     {
-      "referrer": "Google",
-      "count": 37,
-      "uniques": 9
-    },
-    {
       "referrer": "github.com",
-      "count": 32,
+      "count": 34,
       "uniques": 12
     },
     {
+      "referrer": "Google",
+      "count": 32,
+      "uniques": 8
+    },
+    {
       "referrer": "netascode.cisco.com",
-      "count": 17,
-      "uniques": 11
+      "count": 20,
+      "uniques": 12
     }
   ],
   "totals": {
-    "clones": 1519,
-    "uniqueClonerDays": 400,
+    "clones": 1551,
+    "uniqueClonerDays": 419,
     "peakDailyClones": 149,
     "peakDailyUniqueCloners": 64,
-    "views": 542,
-    "uniqueVisitorDays": 150,
+    "views": 573,
+    "uniqueVisitorDays": 160,
     "peakDailyViews": 85,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 27,
+    "daysTracked": 28,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-10T00:00:00Z"
+    "lastDay": "2026-08-11T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T04:18:43.691Z",
+  "lastUpdated": "2026-08-12T11:44:54.381Z",
   "repo": "netascode/terraform-iosxe-nac-iosxe",
   "snapshot14d": {
-    "polled_at": "2026-08-12T04:18:43.691Z",
+    "polled_at": "2026-08-12T11:44:54.381Z",
     "views": {
-      "count": 235,
-      "uniques": 58
+      "count": 253,
+      "uniques": 57
     },
     "clones": {
-      "count": 573,
-      "uniques": 111
+      "count": 551,
+      "uniques": 118
     }
   }
 }

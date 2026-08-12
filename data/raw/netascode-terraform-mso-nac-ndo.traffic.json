@@ -75,6 +75,11 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 40,
       "uniques": 28
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 51,
+      "uniques": 7
     }
   ],
   "views": [
@@ -152,26 +157,37 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 5,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 13,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-mso-nac-ndo",
       "title": "Overview",
-      "count": 26,
-      "uniques": 17
+      "count": 27,
+      "uniques": 19
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pulls",
       "title": "/pulls",
-      "count": 11,
-      "uniques": 2
+      "count": 12,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/blob/main/ndo_schemas.tf",
       "title": "/blob/main/ndo_schemas.tf",
       "count": 7,
       "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-mso-nac-ndo/commits/main",
+      "title": "/commits/main",
+      "count": 5,
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/87",
@@ -186,10 +202,10 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-mso-nac-ndo/commits/main",
-      "title": "/commits/main",
+      "path": "/netascode/terraform-mso-nac-ndo/pull/74",
+      "title": "/pull/74",
       "count": 4,
-      "uniques": 1
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/89/changes",
@@ -208,24 +224,18 @@
       "title": "/blob/main/main.tf",
       "count": 3,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-mso-nac-ndo/pull/86",
-      "title": "/pull/86",
-      "count": 2,
-      "uniques": 2
     }
   ],
   "referrers": [
     {
-      "referrer": "github.com",
-      "count": 11,
-      "uniques": 5
-    },
-    {
       "referrer": "Google",
       "count": 10,
       "uniques": 5
+    },
+    {
+      "referrer": "github.com",
+      "count": 8,
+      "uniques": 6
     },
     {
       "referrer": "developer.cisco.com",
@@ -234,28 +244,28 @@
     }
   ],
   "totals": {
-    "clones": 823,
-    "uniqueClonerDays": 152,
+    "clones": 874,
+    "uniqueClonerDays": 159,
     "peakDailyClones": 156,
     "peakDailyUniqueCloners": 28,
-    "views": 113,
-    "uniqueVisitorDays": 41,
+    "views": 126,
+    "uniqueVisitorDays": 47,
     "peakDailyViews": 25,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-10T00:00:00Z"
+    "lastDay": "2026-08-11T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T04:18:44.214Z",
+  "lastUpdated": "2026-08-12T11:44:55.161Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T04:18:44.214Z",
+    "polled_at": "2026-08-12T11:44:55.161Z",
     "views": {
       "count": 113,
-      "uniques": 28
+      "uniques": 31
     },
     "clones": {
-      "count": 667,
-      "uniques": 84
+      "count": 658,
+      "uniques": 81
     }
   }
 }

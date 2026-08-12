@@ -75,6 +75,11 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 26,
       "uniques": 17
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 20,
+      "uniques": 5
     }
   ],
   "views": [
@@ -152,14 +157,19 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 35,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-ise-nac-ise",
       "title": "Overview",
-      "count": 35,
-      "uniques": 24
+      "count": 34,
+      "uniques": 23
     },
     {
       "path": "/netascode/terraform-ise-nac-ise/pulls",
@@ -219,17 +229,17 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 19,
-      "uniques": 8
+      "count": 18,
+      "uniques": 7
     },
     {
       "referrer": "Google",
-      "count": 6,
-      "uniques": 5
+      "count": 5,
+      "uniques": 4
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
-      "count": 3,
+      "count": 2,
       "uniques": 1
     },
     {
@@ -239,28 +249,28 @@
     }
   ],
   "totals": {
-    "clones": 437,
-    "uniqueClonerDays": 145,
+    "clones": 457,
+    "uniqueClonerDays": 150,
     "peakDailyClones": 131,
     "peakDailyUniqueCloners": 23,
-    "views": 107,
-    "uniqueVisitorDays": 45,
+    "views": 109,
+    "uniqueVisitorDays": 47,
     "peakDailyViews": 35,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-10T00:00:00Z"
+    "lastDay": "2026-08-11T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T04:18:44.502Z",
+  "lastUpdated": "2026-08-12T11:44:55.648Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T04:18:44.502Z",
+    "polled_at": "2026-08-12T11:44:55.648Z",
     "views": {
-      "count": 101,
-      "uniques": 31
+      "count": 99,
+      "uniques": 30
     },
     "clones": {
-      "count": 423,
-      "uniques": 71
+      "count": 408,
+      "uniques": 66
     }
   }
 }

@@ -70,6 +70,11 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 9,
       "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 15,
+      "uniques": 11
     }
   ],
   "views": [
@@ -142,26 +147,31 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 10,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 8,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-nxos",
       "title": "Overview",
-      "count": 56,
-      "uniques": 36
+      "count": 60,
+      "uniques": 39
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nxos/issues",
       "title": "/issues",
-      "count": 22,
+      "count": 23,
       "uniques": 8
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nxos/pulls",
       "title": "/pulls",
-      "count": 14,
-      "uniques": 6
+      "count": 13,
+      "uniques": 5
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nxos/releases",
@@ -176,12 +186,6 @@
       "uniques": 4
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-nxos/issues/513",
-      "title": "/issues/513",
-      "count": 6,
-      "uniques": 3
-    },
-    {
       "path": "/CiscoDevNet/terraform-provider-nxos/pull/514",
       "title": "/pull/514",
       "count": 6,
@@ -194,28 +198,39 @@
       "uniques": 3
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-nxos/pull/511",
-      "title": "/pull/511",
-      "count": 6,
-      "uniques": 2
-    },
-    {
       "path": "/CiscoDevNet/terraform-provider-nxos/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
       "count": 5,
       "uniques": 5
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-nxos/commit/8457e3ecd71bbfb90d39d3f625c2159fbc72095e",
+      "title": "/commit/8457e3ecd71bbfb90d39d3f625c2159fbc72095e",
+      "count": 5,
+      "uniques": 4
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-nxos/blob/main/README.md",
+      "title": "/blob/main/README.md",
+      "count": 5,
+      "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 51,
-      "uniques": 7
+      "count": 50,
+      "uniques": 6
     },
     {
       "referrer": "Google",
-      "count": 11,
-      "uniques": 8
+      "count": 12,
+      "uniques": 9
+    },
+    {
+      "referrer": "blogs.cisco.com",
+      "count": 4,
+      "uniques": 3
     },
     {
       "referrer": "netascode.cisco.com",
@@ -228,39 +243,34 @@
       "uniques": 1
     },
     {
-      "referrer": "blogs.cisco.com",
-      "count": 1,
-      "uniques": 1
-    },
-    {
       "referrer": "search.brave.com",
       "count": 1,
       "uniques": 1
     }
   ],
   "totals": {
-    "clones": 246,
-    "uniqueClonerDays": 105,
+    "clones": 261,
+    "uniqueClonerDays": 116,
     "peakDailyClones": 84,
     "peakDailyUniqueCloners": 19,
-    "views": 257,
-    "uniqueVisitorDays": 71,
+    "views": 265,
+    "uniqueVisitorDays": 77,
     "peakDailyViews": 82,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-10T00:00:00Z"
+    "lastDay": "2026-08-11T00:00:00Z"
   },
-  "lastUpdated": "2026-08-11T08:21:25.385Z",
+  "lastUpdated": "2026-08-12T11:44:59.202Z",
   "snapshot14d": {
-    "polled_at": "2026-08-11T08:21:25.385Z",
+    "polled_at": "2026-08-12T11:44:59.202Z",
     "views": {
-      "count": 257,
-      "uniques": 52
+      "count": 260,
+      "uniques": 54
     },
     "clones": {
-      "count": 246,
-      "uniques": 80
+      "count": 256,
+      "uniques": 85
     }
   }
 }

@@ -75,6 +75,11 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 65,
       "uniques": 27
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 18,
+      "uniques": 7
     }
   ],
   "views": [
@@ -152,14 +157,19 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 10,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 4,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-nxos-nac-nxos",
       "title": "Overview",
-      "count": 72,
-      "uniques": 34
+      "count": 68,
+      "uniques": 36
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/blob/main/main.tf",
@@ -170,8 +180,8 @@
     {
       "path": "/netascode/terraform-nxos-nac-nxos/issues",
       "title": "/issues",
-      "count": 12,
-      "uniques": 6
+      "count": 10,
+      "uniques": 5
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/pulls",
@@ -219,22 +229,22 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 38,
-      "uniques": 9
+      "count": 37,
+      "uniques": 8
     },
     {
       "referrer": "Google",
-      "count": 37,
-      "uniques": 6
+      "count": 32,
+      "uniques": 5
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 25,
-      "uniques": 9
+      "count": 22,
+      "uniques": 8
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
-      "count": 5,
+      "count": 4,
       "uniques": 3
     },
     {
@@ -249,28 +259,28 @@
     }
   ],
   "totals": {
-    "clones": 488,
-    "uniqueClonerDays": 165,
+    "clones": 506,
+    "uniqueClonerDays": 172,
     "peakDailyClones": 105,
     "peakDailyUniqueCloners": 27,
-    "views": 211,
-    "uniqueVisitorDays": 69,
+    "views": 215,
+    "uniqueVisitorDays": 72,
     "peakDailyViews": 47,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-10T00:00:00Z"
+    "lastDay": "2026-08-11T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T04:18:44.058Z",
+  "lastUpdated": "2026-08-12T11:44:54.902Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T04:18:44.058Z",
+    "polled_at": "2026-08-12T11:44:54.902Z",
     "views": {
-      "count": 193,
-      "uniques": 41
+      "count": 187,
+      "uniques": 43
     },
     "clones": {
-      "count": 465,
-      "uniques": 92
+      "count": 458,
+      "uniques": 93
     }
   }
 }

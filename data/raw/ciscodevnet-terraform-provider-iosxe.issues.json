@@ -6239,13 +6239,23 @@
       "created_at": "2026-08-11T14:26:12Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 626,
+      "type": "issue",
+      "state": "open",
+      "author_login": "durd",
+      "is_org_member": false,
+      "created_at": "2026-08-12T10:03:17Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 21,
-    "external_new_30d": 8,
+    "external_open": 22,
+    "external_new_30d": 9,
     "external_closed_30d": 0,
     "external_authors_all_time": 59
   },
-  "lastPolledAt": "2026-08-12T04:18:52.490Z"
+  "lastPolledAt": "2026-08-12T11:46:06.470Z"
 }

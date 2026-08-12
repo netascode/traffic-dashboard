@@ -70,6 +70,11 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 24,
       "uniques": 13
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 61,
+      "uniques": 53
     }
   ],
   "views": [
@@ -142,20 +147,25 @@
       "timestamp": "2026-08-10T00:00:00Z",
       "count": 41,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-11T00:00:00Z",
+      "count": 27,
+      "uniques": 4
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pulls",
       "title": "/pulls",
-      "count": 52,
+      "count": 55,
       "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-ise",
       "title": "Overview",
-      "count": 44,
-      "uniques": 21
+      "count": 50,
+      "uniques": 23
     },
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pull/252",
@@ -178,8 +188,8 @@
     {
       "path": "/CiscoDevNet/terraform-provider-ise/issues",
       "title": "/issues",
-      "count": 10,
-      "uniques": 2
+      "count": 14,
+      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pull/239/changes",
@@ -194,14 +204,14 @@
       "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-ise/commit/2c7552c5dacd17e47d64fac6e1623ca028a30ebe",
-      "title": "/commit/2c7552c5dacd17e47d64fac6e1623ca028a30ebe",
+      "path": "/CiscoDevNet/terraform-provider-ise/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
       "count": 2,
       "uniques": 2
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-ise/releases",
-      "title": "/releases",
+      "path": "/CiscoDevNet/terraform-provider-ise/commit/2c7552c5dacd17e47d64fac6e1623ca028a30ebe",
+      "title": "/commit/2c7552c5dacd17e47d64fac6e1623ca028a30ebe",
       "count": 2,
       "uniques": 2
     }
@@ -214,8 +224,8 @@
     },
     {
       "referrer": "Google",
-      "count": 14,
-      "uniques": 5
+      "count": 31,
+      "uniques": 6
     },
     {
       "referrer": "blogs.cisco.com",
@@ -224,28 +234,28 @@
     }
   ],
   "totals": {
-    "clones": 452,
-    "uniqueClonerDays": 340,
+    "clones": 513,
+    "uniqueClonerDays": 393,
     "peakDailyClones": 75,
     "peakDailyUniqueCloners": 54,
-    "views": 237,
-    "uniqueVisitorDays": 41,
+    "views": 264,
+    "uniqueVisitorDays": 45,
     "peakDailyViews": 107,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-10T00:00:00Z"
+    "lastDay": "2026-08-11T00:00:00Z"
   },
-  "lastUpdated": "2026-08-11T08:21:26.517Z",
+  "lastUpdated": "2026-08-12T11:44:59.941Z",
   "snapshot14d": {
-    "polled_at": "2026-08-11T08:21:26.517Z",
+    "polled_at": "2026-08-12T11:44:59.941Z",
     "views": {
-      "count": 237,
-      "uniques": 29
+      "count": 264,
+      "uniques": 31
     },
     "clones": {
-      "count": 452,
-      "uniques": 313
+      "count": 458,
+      "uniques": 303
     }
   }
 }
