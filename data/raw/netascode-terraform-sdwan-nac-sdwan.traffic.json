@@ -80,6 +80,11 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 116,
       "uniques": 27
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 91,
+      "uniques": 32
     }
   ],
   "views": [
@@ -162,14 +167,19 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 21,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 11,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan",
       "title": "Overview",
-      "count": 76,
-      "uniques": 54
+      "count": 73,
+      "uniques": 52
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/tree/main",
@@ -178,32 +188,20 @@
       "uniques": 6
     },
     {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/pulls",
-      "title": "/pulls",
-      "count": 9,
-      "uniques": 6
-    },
-    {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/pulse",
-      "title": "/pulse",
-      "count": 9,
-      "uniques": 3
-    },
-    {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pull/267",
       "title": "/pull/267",
       "count": 8,
       "uniques": 1
     },
     {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/issues",
-      "title": "/issues",
-      "count": 7,
-      "uniques": 6
-    },
-    {
       "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/sdwan_centralized_policies.tf",
       "title": "/blob/main/sdwan_centralized_policies.tf",
+      "count": 7,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/pulls",
+      "title": "/pulls",
       "count": 7,
       "uniques": 4
     },
@@ -220,31 +218,43 @@
       "uniques": 5
     },
     {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/issues",
+      "title": "/issues",
+      "count": 5,
+      "uniques": 5
+    },
+    {
       "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/outputs.tf",
       "title": "/blob/main/outputs.tf",
       "count": 5,
       "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
+      "title": "/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
+      "count": 5,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "Google",
-      "count": 62,
-      "uniques": 9
+      "count": 65,
+      "uniques": 10
     },
     {
       "referrer": "github.com",
-      "count": 27,
+      "count": 25,
       "uniques": 16
     },
     {
-      "referrer": "wwwin-github.cisco.com",
+      "referrer": "netascode.cisco.com",
       "count": 19,
-      "uniques": 6
+      "uniques": 4
     },
     {
-      "referrer": "netascode.cisco.com",
-      "count": 18,
+      "referrer": "wwwin-github.cisco.com",
+      "count": 10,
       "uniques": 3
     },
     {
@@ -253,34 +263,39 @@
       "uniques": 2
     },
     {
+      "referrer": "core-cisco.bravais.com",
+      "count": 1,
+      "uniques": 1
+    },
+    {
       "referrer": "developer.cisco.com",
       "count": 1,
       "uniques": 1
     }
   ],
   "totals": {
-    "clones": 926,
-    "uniqueClonerDays": 361,
+    "clones": 1017,
+    "uniqueClonerDays": 393,
     "peakDailyClones": 158,
     "peakDailyUniqueCloners": 113,
-    "views": 344,
-    "uniqueVisitorDays": 92,
+    "views": 355,
+    "uniqueVisitorDays": 98,
     "peakDailyViews": 67,
     "peakDailyUniqueVisitors": 13,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-11T00:00:00Z"
+    "lastDay": "2026-08-12T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T11:44:55.409Z",
+  "lastUpdated": "2026-08-14T04:19:57.600Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T11:44:55.409Z",
+    "polled_at": "2026-08-14T04:19:57.600Z",
     "views": {
-      "count": 283,
-      "uniques": 60
+      "count": 247,
+      "uniques": 58
     },
     "clones": {
-      "count": 803,
-      "uniques": 204
+      "count": 847,
+      "uniques": 212
     }
   }
 }

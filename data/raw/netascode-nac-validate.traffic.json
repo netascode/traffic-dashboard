@@ -70,6 +70,11 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 29,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 23,
+      "uniques": 7
     }
   ],
   "views": [
@@ -142,14 +147,19 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 18,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 7,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-validate",
       "title": "Overview",
-      "count": 80,
-      "uniques": 51
+      "count": 81,
+      "uniques": 53
     },
     {
       "path": "/netascode/nac-validate/blob/main/README.md",
@@ -176,21 +186,15 @@
       "uniques": 3
     },
     {
-      "path": "/Users/boutinea/Downloads/nac-validate.html",
-      "title": "ds/nac-validate.html",
-      "count": 4,
-      "uniques": 1
+      "path": "/netascode/nac-validate/blob/main/pyproject.toml",
+      "title": "/blob/main/pyproject.toml",
+      "count": 3,
+      "uniques": 3
     },
     {
       "path": "/netascode/nac-validate/tree/main",
       "title": "/tree/main",
       "count": 3,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-validate/blob/main/pyproject.toml",
-      "title": "/blob/main/pyproject.toml",
-      "count": 2,
       "uniques": 2
     },
     {
@@ -204,33 +208,34 @@
       "title": "/tree/main/nac_validate/cli",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-validate/actions",
+      "title": "/actions",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
     {
       "referrer": "Google",
-      "count": 25,
-      "uniques": 15
+      "count": 27,
+      "uniques": 16
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 18,
+      "count": 16,
       "uniques": 6
     },
     {
       "referrer": "github.com",
-      "count": 13,
-      "uniques": 9
+      "count": 14,
+      "uniques": 10
     },
     {
       "referrer": "DuckDuckGo",
       "count": 8,
       "uniques": 2
-    },
-    {
-      "referrer": "wwwin-github.cisco.com",
-      "count": 6,
-      "uniques": 5
     },
     {
       "referrer": "cisco.com",
@@ -243,34 +248,44 @@
       "uniques": 2
     },
     {
+      "referrer": "wwwin-github.cisco.com",
+      "count": 4,
+      "uniques": 3
+    },
+    {
       "referrer": "Bing",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "referrer": "teams.public.onecdn.static.microsoft",
       "count": 1,
       "uniques": 1
     }
   ],
   "totals": {
-    "clones": 143,
-    "uniqueClonerDays": 69,
+    "clones": 166,
+    "uniqueClonerDays": 76,
     "peakDailyClones": 29,
     "peakDailyUniqueCloners": 10,
-    "views": 136,
-    "uniqueVisitorDays": 71,
+    "views": 143,
+    "uniqueVisitorDays": 77,
     "peakDailyViews": 36,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-11T00:00:00Z"
+    "lastDay": "2026-08-12T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T11:44:56.946Z",
+  "lastUpdated": "2026-08-14T04:19:58.795Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T11:44:56.946Z",
+    "polled_at": "2026-08-14T04:19:58.795Z",
     "views": {
-      "count": 136,
-      "uniques": 57
+      "count": 135,
+      "uniques": 60
     },
     "clones": {
-      "count": 143,
-      "uniques": 46
+      "count": 161,
+      "uniques": 44
     }
   }
 }

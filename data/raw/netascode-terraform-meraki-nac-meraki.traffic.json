@@ -139,6 +139,11 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 104,
       "uniques": 40
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 90,
+      "uniques": 31
     }
   ],
   "views": [
@@ -281,58 +286,75 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 42,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 55,
+      "uniques": 3
     }
   ],
   "totals": {
-    "clones": 2523,
-    "uniqueClonerDays": 1017,
+    "clones": 2613,
+    "uniqueClonerDays": 1048,
     "peakDailyClones": 703,
     "peakDailyUniqueCloners": 131,
-    "views": 340,
-    "uniqueVisitorDays": 90,
+    "views": 395,
+    "uniqueVisitorDays": 93,
     "peakDailyViews": 105,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 28,
+    "daysTracked": 29,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-11T00:00:00Z"
+    "lastDay": "2026-08-12T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T11:44:54.138Z",
+  "lastUpdated": "2026-08-14T04:19:56.712Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-meraki-nac-meraki",
       "title": "Overview",
-      "count": 46,
-      "uniques": 26
-    },
-    {
-      "path": "/netascode/terraform-meraki-nac-meraki/pull/189",
-      "title": "/pull/189",
-      "count": 10,
-      "uniques": 3
+      "count": 48,
+      "uniques": 21
     },
     {
       "path": "/netascode/terraform-meraki-nac-meraki/pulls",
       "title": "/pulls",
-      "count": 9,
-      "uniques": 5
+      "count": 16,
+      "uniques": 4
     },
     {
-      "path": "/netascode/terraform-meraki-nac-meraki/blob/main/versions.tf",
-      "title": "/blob/main/versions.tf",
-      "count": 5,
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/189",
+      "title": "/pull/189",
+      "count": 16,
       "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-meraki-nac-meraki/pull/189/changes",
-      "title": "/pull/189/changes",
-      "count": 5,
-      "uniques": 2
     },
     {
       "path": "/netascode/terraform-meraki-nac-meraki/issues",
       "title": "/issues",
-      "count": 5,
+      "count": 11,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/189/changes",
+      "title": "/pull/189/changes",
+      "count": 8,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/188/changes",
+      "title": "/pull/188/changes",
+      "count": 8,
       "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/pull/188",
+      "title": "/pull/188",
+      "count": 7,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-meraki-nac-meraki/blob/main/versions.tf",
+      "title": "/blob/main/versions.tf",
+      "count": 6,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-meraki-nac-meraki/blob/main/main.tf",
@@ -341,29 +363,22 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-meraki-nac-meraki/pull/188",
-      "title": "/pull/188",
-      "count": 3,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-meraki-nac-meraki/releases/tag/v0.10.0",
-      "title": "/releases/tag/v0.10.0",
-      "count": 3,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-meraki-nac-meraki/tree/main/modules/model",
-      "title": "/tree/main/modules/model",
-      "count": 3,
+      "path": "/netascode/terraform-meraki-nac-meraki/blob/main/meraki_organization.tf",
+      "title": "/blob/main/meraki_organization.tf",
+      "count": 4,
       "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 20,
-      "uniques": 8
+      "count": 16,
+      "uniques": 6
+    },
+    {
+      "referrer": "wwwin-github.cisco.com",
+      "count": 4,
+      "uniques": 2
     },
     {
       "referrer": "perplexity.ai",
@@ -379,23 +394,18 @@
       "referrer": "teams.public.onecdn.static.microsoft",
       "count": 1,
       "uniques": 1
-    },
-    {
-      "referrer": "wwwin-github.cisco.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "repo": "netascode/terraform-meraki-nac-meraki",
   "snapshot14d": {
-    "polled_at": "2026-08-12T11:44:54.138Z",
+    "polled_at": "2026-08-14T04:19:56.712Z",
     "views": {
-      "count": 125,
-      "uniques": 33
+      "count": 166,
+      "uniques": 28
     },
     "clones": {
-      "count": 1848,
-      "uniques": 488
+      "count": 1916,
+      "uniques": 497
     }
   }
 }

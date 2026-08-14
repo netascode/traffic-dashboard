@@ -75,6 +75,11 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 13,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 13,
+      "uniques": 9
     }
   ],
   "views": [
@@ -152,38 +157,43 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 22,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 8,
+      "uniques": 5
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-meraki",
       "title": "Overview",
-      "count": 55,
-      "uniques": 29
+      "count": 52,
+      "uniques": 26
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/pulls",
       "title": "/pulls",
-      "count": 34,
-      "uniques": 5
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-meraki/pull/237",
-      "title": "/pull/237",
-      "count": 21,
-      "uniques": 5
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-meraki/issues",
-      "title": "/issues",
-      "count": 20,
-      "uniques": 11
+      "count": 33,
+      "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/actions/runs/30701807235",
       "title": "/actions/runs/30701807235",
-      "count": 17,
+      "count": 18,
       "uniques": 2
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-meraki/pull/237",
+      "title": "/pull/237",
+      "count": 17,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-meraki/issues",
+      "title": "/issues",
+      "count": 16,
+      "uniques": 10
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/actions",
@@ -224,8 +234,8 @@
     },
     {
       "referrer": "Google",
-      "count": 8,
-      "uniques": 4
+      "count": 9,
+      "uniques": 5
     },
     {
       "referrer": "wwwin-github.cisco.com",
@@ -239,28 +249,28 @@
     }
   ],
   "totals": {
-    "clones": 562,
-    "uniqueClonerDays": 160,
+    "clones": 575,
+    "uniqueClonerDays": 169,
     "peakDailyClones": 284,
     "peakDailyUniqueCloners": 15,
-    "views": 333,
-    "uniqueVisitorDays": 74,
+    "views": 341,
+    "uniqueVisitorDays": 79,
     "peakDailyViews": 81,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-11T00:00:00Z"
+    "lastDay": "2026-08-12T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T11:44:58.399Z",
+  "lastUpdated": "2026-08-14T04:19:59.867Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T11:44:58.399Z",
+    "polled_at": "2026-08-14T04:19:59.867Z",
     "views": {
-      "count": 317,
-      "uniques": 46
+      "count": 308,
+      "uniques": 41
     },
     "clones": {
-      "count": 278,
-      "uniques": 127
+      "count": 248,
+      "uniques": 125
     }
   }
 }

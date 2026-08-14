@@ -70,6 +70,11 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 27,
       "uniques": 15
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 47,
+      "uniques": 20
     }
   ],
   "views": [
@@ -142,20 +147,25 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 15,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 14,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr",
       "title": "Overview",
-      "count": 81,
-      "uniques": 35
+      "count": 84,
+      "uniques": 37
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pulls",
       "title": "/pulls",
-      "count": 76,
-      "uniques": 3
+      "count": 78,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pull/200",
@@ -172,8 +182,8 @@
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/issues",
       "title": "/issues",
-      "count": 13,
-      "uniques": 6
+      "count": 12,
+      "uniques": 5
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/issues/192",
@@ -209,13 +219,13 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 50,
-      "uniques": 13
+      "count": 47,
+      "uniques": 12
     },
     {
       "referrer": "Google",
-      "count": 27,
-      "uniques": 8
+      "count": 32,
+      "uniques": 11
     },
     {
       "referrer": "wwwin-github.cisco.com",
@@ -224,28 +234,28 @@
     }
   ],
   "totals": {
-    "clones": 272,
-    "uniqueClonerDays": 186,
-    "peakDailyClones": 43,
+    "clones": 319,
+    "uniqueClonerDays": 206,
+    "peakDailyClones": 47,
     "peakDailyUniqueCloners": 39,
-    "views": 410,
-    "uniqueVisitorDays": 76,
+    "views": 424,
+    "uniqueVisitorDays": 82,
     "peakDailyViews": 95,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-11T00:00:00Z"
+    "lastDay": "2026-08-12T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T11:44:56.505Z",
+  "lastUpdated": "2026-08-14T04:19:58.452Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T11:44:56.505Z",
+    "polled_at": "2026-08-14T04:19:58.452Z",
     "views": {
-      "count": 410,
+      "count": 401,
       "uniques": 50
     },
     "clones": {
-      "count": 272,
-      "uniques": 126
+      "count": 306,
+      "uniques": 132
     }
   }
 }

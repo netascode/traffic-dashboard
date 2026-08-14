@@ -70,6 +70,11 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -142,19 +147,30 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 7,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 10,
+      "uniques": 4
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-sdwan-example",
       "title": "Overview",
-      "count": 33,
-      "uniques": 20
+      "count": 36,
+      "uniques": 23
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/.schema.yaml",
       "title": "/blob/main/.schema.yaml",
-      "count": 9,
+      "count": 8,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/tree/main/data",
+      "title": "/tree/main/data",
+      "count": 6,
       "uniques": 5
     },
     {
@@ -162,12 +178,6 @@
       "title": "/tree/main/tests/templates/config",
       "count": 6,
       "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/tree/main/data",
-      "title": "/tree/main/data",
-      "count": 5,
-      "uniques": 4
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/data/centralized_policies.nac.yaml",
@@ -188,6 +198,12 @@
       "uniques": 2
     },
     {
+      "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
+      "title": "/blob/main/data/sites.nac.yaml",
+      "count": 3,
+      "uniques": 3
+    },
+    {
       "path": "/netascode/nac-sdwan-example/tree/main/jinja_filters",
       "title": "/tree/main/jinja_filters",
       "count": 3,
@@ -198,19 +214,13 @@
       "title": "/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
       "count": 3,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config/edge_feature_templates",
-      "title": "/tree/main/tests/templates/config/edge_feature_templates",
-      "count": 3,
-      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "netascode.cisco.com",
-      "count": 62,
-      "uniques": 5
+      "count": 63,
+      "uniques": 6
     },
     {
       "referrer": "github.com",
@@ -223,24 +233,24 @@
     "uniqueClonerDays": 9,
     "peakDailyClones": 3,
     "peakDailyUniqueCloners": 3,
-    "views": 106,
-    "uniqueVisitorDays": 37,
+    "views": 116,
+    "uniqueVisitorDays": 41,
     "peakDailyViews": 33,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-11T00:00:00Z"
+    "lastDay": "2026-08-12T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T11:44:57.181Z",
+  "lastUpdated": "2026-08-14T04:19:58.987Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T11:44:57.181Z",
+    "polled_at": "2026-08-14T04:19:58.987Z",
     "views": {
-      "count": 106,
-      "uniques": 24
+      "count": 112,
+      "uniques": 27
     },
     "clones": {
-      "count": 10,
-      "uniques": 8
+      "count": 8,
+      "uniques": 7
     }
   }
 }

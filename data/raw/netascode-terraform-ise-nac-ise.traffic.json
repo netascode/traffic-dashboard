@@ -80,6 +80,11 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 20,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 29,
+      "uniques": 16
     }
   ],
   "views": [
@@ -162,26 +167,31 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 23,
+      "uniques": 5
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-ise-nac-ise",
       "title": "Overview",
-      "count": 34,
-      "uniques": 23
+      "count": 28,
+      "uniques": 20
     },
     {
       "path": "/netascode/terraform-ise-nac-ise/pulls",
       "title": "/pulls",
-      "count": 19,
-      "uniques": 6
+      "count": 26,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-ise-nac-ise/issues",
       "title": "/issues",
-      "count": 9,
-      "uniques": 5
+      "count": 7,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-ise-nac-ise/pull/74",
@@ -202,8 +212,20 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-ise-nac-ise/blob/main/README.md",
-      "title": "/blob/main/README.md",
+      "path": "/netascode/terraform-ise-nac-ise/pull/79",
+      "title": "/pull/79",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-ise-nac-ise/issues/78",
+      "title": "/issues/78",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-ise-nac-ise/blob/main/ise_network_resources.tf",
+      "title": "/blob/main/ise_network_resources.tf",
       "count": 2,
       "uniques": 2
     },
@@ -212,65 +234,48 @@
       "title": "/pull/59",
       "count": 2,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-ise-nac-ise/pull/79",
-      "title": "/pull/79",
-      "count": 2,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-ise-nac-ise/actions",
-      "title": "/actions",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 18,
+      "count": 11,
       "uniques": 7
     },
     {
       "referrer": "Google",
-      "count": 5,
-      "uniques": 4
+      "count": 3,
+      "uniques": 3
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
-      "count": 2,
-      "uniques": 1
-    },
-    {
-      "referrer": "wwwin-github.cisco.com",
       "count": 1,
       "uniques": 1
     }
   ],
   "totals": {
-    "clones": 457,
-    "uniqueClonerDays": 150,
+    "clones": 486,
+    "uniqueClonerDays": 166,
     "peakDailyClones": 131,
     "peakDailyUniqueCloners": 23,
-    "views": 109,
-    "uniqueVisitorDays": 47,
+    "views": 132,
+    "uniqueVisitorDays": 52,
     "peakDailyViews": 35,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-11T00:00:00Z"
+    "lastDay": "2026-08-12T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T11:44:55.648Z",
+  "lastUpdated": "2026-08-14T04:19:57.768Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T11:44:55.648Z",
+    "polled_at": "2026-08-14T04:19:57.768Z",
     "views": {
-      "count": 99,
-      "uniques": 30
+      "count": 104,
+      "uniques": 27
     },
     "clones": {
-      "count": 408,
-      "uniques": 66
+      "count": 398,
+      "uniques": 72
     }
   }
 }

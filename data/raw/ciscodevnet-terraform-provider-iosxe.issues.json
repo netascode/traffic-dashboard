@@ -5773,12 +5773,12 @@
     {
       "number": 579,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "hshimomura",
       "is_org_member": false,
       "created_at": "2026-06-28T12:50:49Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-13T22:42:23Z",
+      "merged_at": "2026-08-13T22:42:22Z"
     },
     {
       "number": 580,
@@ -6183,32 +6183,32 @@
     {
       "number": 620,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "danischm",
       "is_org_member": true,
       "created_at": "2026-08-03T15:45:44Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-13T23:42:19Z",
+      "merged_at": "2026-08-13T23:42:19Z"
     },
     {
       "number": 621,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "danischm",
       "is_org_member": true,
       "created_at": "2026-08-03T17:38:12Z",
-      "closed_at": null,
+      "closed_at": "2026-08-13T23:42:21Z",
       "merged_at": null
     },
     {
       "number": 622,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "dependabot[bot]",
       "is_org_member": false,
       "created_at": "2026-08-04T05:56:18Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-13T23:42:37Z",
+      "merged_at": "2026-08-13T23:42:37Z"
     },
     {
       "number": 623,
@@ -6257,5 +6257,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 59
   },
-  "lastPolledAt": "2026-08-13T04:23:11.913Z"
+  "lastPolledAt": "2026-08-14T04:20:14.495Z"
 }

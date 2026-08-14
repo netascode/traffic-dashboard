@@ -4649,6 +4649,26 @@
       "created_at": "2026-08-11T08:16:41Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 466,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "Pson123",
+      "is_org_member": false,
+      "created_at": "2026-08-13T10:19:06Z",
+      "closed_at": "2026-08-13T10:30:06Z",
+      "merged_at": "2026-08-13T10:30:06Z"
+    },
+    {
+      "number": 467,
+      "type": "pr",
+      "state": "open",
+      "author_login": "Pson123",
+      "is_org_member": false,
+      "created_at": "2026-08-13T13:23:49Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
@@ -4657,5 +4677,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 19
   },
-  "lastPolledAt": "2026-08-13T04:23:12.118Z"
+  "lastPolledAt": "2026-08-14T04:20:15.352Z"
 }

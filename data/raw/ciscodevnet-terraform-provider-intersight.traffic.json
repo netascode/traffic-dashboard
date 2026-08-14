@@ -70,6 +70,11 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 6,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 7,
+      "uniques": 4
     }
   ],
   "views": [
@@ -142,20 +147,37 @@
       "timestamp": "2026-08-11T00:00:00Z",
       "count": 15,
       "uniques": 15
+    },
+    {
+      "timestamp": "2026-08-12T00:00:00Z",
+      "count": 36,
+      "uniques": 7
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-intersight",
       "title": "Overview",
-      "count": 16,
-      "uniques": 10
+      "count": 23,
+      "uniques": 15
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-intersight/issues",
+      "title": "/issues",
+      "count": 12,
+      "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-intersight/releases",
       "title": "/releases",
       "count": 9,
       "uniques": 2
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-intersight/pulls",
+      "title": "/pulls",
+      "count": 7,
+      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-intersight/pull/347",
@@ -168,6 +190,12 @@
       "title": "/pull/345",
       "count": 6,
       "uniques": 1
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-intersight/issues/254",
+      "title": "/issues/254",
+      "count": 5,
+      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-intersight/issues/45",
@@ -186,24 +214,6 @@
       "title": "/issues/51",
       "count": 4,
       "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-intersight/issues/67",
-      "title": "/issues/67",
-      "count": 4,
-      "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-intersight/issues/69",
-      "title": "/issues/69",
-      "count": 4,
-      "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-intersight/issues/77",
-      "title": "/issues/77",
-      "count": 4,
-      "uniques": 4
     }
   ],
   "referrers": [
@@ -214,38 +224,38 @@
     },
     {
       "referrer": "github.com",
-      "count": 5,
-      "uniques": 2
+      "count": 6,
+      "uniques": 3
     },
     {
       "referrer": "Google",
-      "count": 3,
-      "uniques": 3
+      "count": 2,
+      "uniques": 2
     }
   ],
   "totals": {
-    "clones": 267,
-    "uniqueClonerDays": 85,
+    "clones": 274,
+    "uniqueClonerDays": 89,
     "peakDailyClones": 150,
     "peakDailyUniqueCloners": 22,
-    "views": 165,
-    "uniqueVisitorDays": 84,
-    "peakDailyViews": 30,
+    "views": 201,
+    "uniqueVisitorDays": 91,
+    "peakDailyViews": 36,
     "peakDailyUniqueVisitors": 15,
-    "daysTracked": 14,
+    "daysTracked": 15,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-11T00:00:00Z"
+    "lastDay": "2026-08-12T00:00:00Z"
   },
-  "lastUpdated": "2026-08-12T11:45:00.734Z",
+  "lastUpdated": "2026-08-14T04:20:01.398Z",
   "snapshot14d": {
-    "polled_at": "2026-08-12T11:45:00.734Z",
+    "polled_at": "2026-08-14T04:20:01.398Z",
     "views": {
-      "count": 165,
-      "uniques": 75
+      "count": 199,
+      "uniques": 78
     },
     "clones": {
-      "count": 267,
-      "uniques": 72
+      "count": 264,
+      "uniques": 73
     }
   }
 }

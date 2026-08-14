@@ -3579,6 +3579,26 @@
       "created_at": "2026-08-12T22:25:23Z",
       "closed_at": "2026-08-12T22:32:16Z",
       "merged_at": "2026-08-12T22:32:16Z"
+    },
+    {
+      "number": 359,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "rwcrowe",
+      "is_org_member": false,
+      "created_at": "2026-08-13T18:05:55Z",
+      "closed_at": "2026-08-13T18:43:33Z",
+      "merged_at": "2026-08-13T18:43:33Z"
+    },
+    {
+      "number": 360,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "rwcrowe",
+      "is_org_member": false,
+      "created_at": "2026-08-13T20:14:57Z",
+      "closed_at": "2026-08-13T21:19:42Z",
+      "merged_at": "2026-08-13T21:19:42Z"
     }
   ],
   "totals": {
@@ -3587,5 +3607,5 @@
     "external_closed_30d": 1,
     "external_authors_all_time": 12
   },
-  "lastPolledAt": "2026-08-13T04:23:13.290Z"
+  "lastPolledAt": "2026-08-14T04:20:16.514Z"
 }

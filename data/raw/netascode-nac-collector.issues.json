@@ -2873,22 +2873,22 @@
     {
       "number": 288,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "camschaecisco",
       "is_org_member": false,
       "created_at": "2026-08-07T14:23:54Z",
-      "closed_at": null,
+      "closed_at": "2026-08-13T07:12:59Z",
       "merged_at": null
     },
     {
       "number": 289,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "camschaecisco",
       "is_org_member": false,
       "created_at": "2026-08-07T15:12:37Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-13T07:12:58Z",
+      "merged_at": "2026-08-13T07:12:58Z"
     },
     {
       "number": 290,
@@ -2912,10 +2912,10 @@
     }
   ],
   "totals": {
-    "external_open": 16,
+    "external_open": 15,
     "external_new_30d": 6,
-    "external_closed_30d": 2,
+    "external_closed_30d": 3,
     "external_authors_all_time": 19
   },
-  "lastPolledAt": "2026-08-13T04:23:09.237Z"
+  "lastPolledAt": "2026-08-14T04:20:11.375Z"
 }
