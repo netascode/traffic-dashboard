@@ -144,6 +144,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "views": [
@@ -291,39 +296,38 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 5,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 31,
-    "uniqueClonerDays": 24,
+    "clones": 32,
+    "uniqueClonerDays": 25,
     "peakDailyClones": 8,
     "peakDailyUniqueCloners": 6,
-    "views": 217,
-    "uniqueVisitorDays": 75,
+    "views": 218,
+    "uniqueVisitorDays": 76,
     "peakDailyViews": 43,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 29,
+    "daysTracked": 30,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:56.199Z",
+  "lastUpdated": "2026-08-15T03:07:57.296Z",
   "popularPaths": [
     {
       "path": "/netascode/nac-branch",
       "title": "Overview",
-      "count": 32,
-      "uniques": 25
+      "count": 31,
+      "uniques": 24
     },
     {
       "path": "/netascode/nac-branch/tree/main/data",
       "title": "/tree/main/data",
       "count": 7,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-branch/tree/main/docs",
-      "title": "/tree/main/docs",
-      "count": 5,
       "uniques": 3
     },
     {
@@ -347,6 +351,12 @@
     {
       "path": "/netascode/nac-branch/tree/main",
       "title": "/tree/main",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-branch/tree/main/docs",
+      "title": "/tree/main/docs",
       "count": 4,
       "uniques": 3
     },
@@ -393,14 +403,14 @@
   ],
   "repo": "netascode/nac-branch",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:56.198Z",
+    "polled_at": "2026-08-15T03:07:57.295Z",
     "views": {
-      "count": 82,
-      "uniques": 31
+      "count": 80,
+      "uniques": 30
     },
     "clones": {
-      "count": 16,
-      "uniques": 15
+      "count": 17,
+      "uniques": 16
     }
   }
 }

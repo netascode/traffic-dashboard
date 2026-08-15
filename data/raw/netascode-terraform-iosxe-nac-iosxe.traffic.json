@@ -144,6 +144,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 53,
       "uniques": 20
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 82,
+      "uniques": 25
     }
   ],
   "views": [
@@ -291,24 +296,41 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 76,
       "uniques": 18
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 69,
+      "uniques": 10
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe",
       "title": "Overview",
-      "count": 127,
-      "uniques": 55
+      "count": 138,
+      "uniques": 54
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
       "title": "/blob/main/main.tf",
-      "count": 20,
-      "uniques": 9
+      "count": 23,
+      "uniques": 12
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
+      "title": "/pulls",
+      "count": 23,
+      "uniques": 5
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/issues",
       "title": "/issues",
+      "count": 12,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
+      "title": "/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
       "count": 11,
       "uniques": 5
     },
@@ -319,16 +341,10 @@
       "uniques": 6
     },
     {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
-      "title": "/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
-      "count": 10,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
-      "title": "/pulls",
-      "count": 10,
-      "uniques": 4
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/variables.tf",
+      "title": "/blob/main/variables.tf",
+      "count": 8,
+      "uniques": 5
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/commits/main",
@@ -337,20 +353,14 @@
       "uniques": 4
     },
     {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/variables.tf",
-      "title": "/blob/main/variables.tf",
-      "count": 7,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/versions.tf",
-      "title": "/blob/main/versions.tf",
-      "count": 6,
-      "uniques": 4
-    },
-    {
       "path": "/netascode/terraform-iosxe-nac-iosxe/pull/315",
       "title": "/pull/315",
+      "count": 5,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main",
+      "title": "/tree/main",
       "count": 5,
       "uniques": 3
     }
@@ -358,44 +368,44 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 39,
-      "uniques": 15
+      "count": 77,
+      "uniques": 14
     },
     {
       "referrer": "Google",
-      "count": 32,
-      "uniques": 8
+      "count": 37,
+      "uniques": 10
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 19,
+      "count": 18,
       "uniques": 11
     }
   ],
   "totals": {
-    "clones": 1604,
-    "uniqueClonerDays": 439,
+    "clones": 1686,
+    "uniqueClonerDays": 464,
     "peakDailyClones": 149,
     "peakDailyUniqueCloners": 64,
-    "views": 649,
-    "uniqueVisitorDays": 178,
+    "views": 718,
+    "uniqueVisitorDays": 188,
     "peakDailyViews": 85,
     "peakDailyUniqueVisitors": 18,
-    "daysTracked": 29,
+    "daysTracked": 30,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:56.884Z",
+  "lastUpdated": "2026-08-15T03:07:58.156Z",
   "repo": "netascode/terraform-iosxe-nac-iosxe",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:56.884Z",
+    "polled_at": "2026-08-15T03:07:58.156Z",
     "views": {
-      "count": 317,
+      "count": 374,
       "uniques": 65
     },
     "clones": {
-      "count": 558,
-      "uniques": 122
+      "count": 593,
+      "uniques": 133
     }
   }
 }

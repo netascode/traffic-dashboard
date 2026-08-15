@@ -2909,13 +2909,23 @@
       "created_at": "2026-08-11T14:43:24Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 292,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "github-actions[bot]",
+      "is_org_member": false,
+      "created_at": "2026-08-15T02:44:51Z",
+      "closed_at": "2026-08-15T02:44:56Z",
+      "merged_at": "2026-08-15T02:44:56Z"
     }
   ],
   "totals": {
     "external_open": 15,
-    "external_new_30d": 6,
+    "external_new_30d": 5,
     "external_closed_30d": 3,
     "external_authors_all_time": 19
   },
-  "lastPolledAt": "2026-08-14T04:20:11.375Z"
+  "lastPolledAt": "2026-08-15T03:08:12.745Z"
 }

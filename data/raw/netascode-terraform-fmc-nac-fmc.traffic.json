@@ -144,6 +144,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 28,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 29,
+      "uniques": 9
     }
   ],
   "views": [
@@ -291,38 +296,37 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "totals": {
-    "clones": 1035,
-    "uniqueClonerDays": 184,
+    "clones": 1064,
+    "uniqueClonerDays": 193,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
-    "views": 141,
-    "uniqueVisitorDays": 55,
+    "views": 143,
+    "uniqueVisitorDays": 57,
     "peakDailyViews": 24,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 29,
+    "daysTracked": 30,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:56.552Z",
+  "lastUpdated": "2026-08-15T03:07:57.755Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
       "title": "Overview",
-      "count": 25,
-      "uniques": 17
+      "count": 23,
+      "uniques": 16
     },
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_policies.tf",
       "title": "/blob/main/fmc_policies.tf",
-      "count": 3,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-fmc-nac-fmc/issues",
-      "title": "/issues",
       "count": 3,
       "uniques": 3
     },
@@ -333,14 +337,8 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/actions/workflows/test.yml",
-      "title": "/actions/workflows/test.yml",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/merge.tf",
-      "title": "/blob/main/merge.tf",
+      "path": "/netascode/terraform-fmc-nac-fmc/issues",
+      "title": "/issues",
       "count": 2,
       "uniques": 2
     },
@@ -357,6 +355,12 @@
       "uniques": 1
     },
     {
+      "path": "/netascode/terraform-fmc-nac-fmc/actions/workflows/test.yml",
+      "title": "/actions/workflows/test.yml",
+      "count": 1,
+      "uniques": 1
+    },
+    {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/.pre-commit-config.yaml",
       "title": "/blob/main/.pre-commit-config.yaml",
       "count": 1,
@@ -365,6 +369,12 @@
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/.terraform-docs.yml",
       "title": "/blob/main/.terraform-docs.yml",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
       "count": 1,
       "uniques": 1
     }
@@ -377,13 +387,8 @@
     },
     {
       "referrer": "Google",
-      "count": 9,
-      "uniques": 5
-    },
-    {
-      "referrer": "Bing",
-      "count": 2,
-      "uniques": 1
+      "count": 4,
+      "uniques": 3
     },
     {
       "referrer": "DuckDuckGo",
@@ -393,14 +398,14 @@
   ],
   "repo": "netascode/terraform-fmc-nac-fmc",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:56.552Z",
+    "polled_at": "2026-08-15T03:07:57.755Z",
     "views": {
-      "count": 60,
-      "uniques": 20
+      "count": 54,
+      "uniques": 19
     },
     "clones": {
-      "count": 260,
-      "uniques": 24
+      "count": 268,
+      "uniques": 23
     }
   }
 }

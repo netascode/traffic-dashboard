@@ -75,6 +75,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 23,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 5,
+      "uniques": 4
     }
   ],
   "views": [
@@ -152,32 +157,31 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 7,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 3,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-validate",
       "title": "Overview",
-      "count": 81,
-      "uniques": 53
-    },
-    {
-      "path": "/netascode/nac-validate/blob/main/README.md",
-      "title": "/blob/main/README.md",
-      "count": 12,
-      "uniques": 7
+      "count": 71,
+      "uniques": 49
     },
     {
       "path": "/netascode/nac-validate/tree/main/nac_validate",
       "title": "/tree/main/nac_validate",
-      "count": 9,
-      "uniques": 6
+      "count": 10,
+      "uniques": 7
     },
     {
-      "path": "/netascode/nac-validate/tags",
-      "title": "/tags",
-      "count": 4,
-      "uniques": 4
+      "path": "/netascode/nac-validate/blob/main/README.md",
+      "title": "/blob/main/README.md",
+      "count": 10,
+      "uniques": 6
     },
     {
       "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
@@ -192,15 +196,15 @@
       "uniques": 3
     },
     {
+      "path": "/netascode/nac-validate/tags",
+      "title": "/tags",
+      "count": 3,
+      "uniques": 3
+    },
+    {
       "path": "/netascode/nac-validate/tree/main",
       "title": "/tree/main",
       "count": 3,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-validate/releases",
-      "title": "/releases",
-      "count": 2,
       "uniques": 2
     },
     {
@@ -214,6 +218,12 @@
       "title": "/actions",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-validate/actions/workflows/dependabot/update-graph",
+      "title": "/actions/workflows/dependabot/update-graph",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
@@ -224,13 +234,13 @@
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 16,
-      "uniques": 6
+      "count": 15,
+      "uniques": 5
     },
     {
       "referrer": "github.com",
-      "count": 14,
-      "uniques": 10
+      "count": 12,
+      "uniques": 9
     },
     {
       "referrer": "DuckDuckGo",
@@ -239,7 +249,7 @@
     },
     {
       "referrer": "cisco.com",
-      "count": 6,
+      "count": 5,
       "uniques": 2
     },
     {
@@ -249,8 +259,8 @@
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 4,
-      "uniques": 3
+      "count": 3,
+      "uniques": 2
     },
     {
       "referrer": "Bing",
@@ -264,28 +274,28 @@
     }
   ],
   "totals": {
-    "clones": 166,
-    "uniqueClonerDays": 76,
+    "clones": 171,
+    "uniqueClonerDays": 80,
     "peakDailyClones": 29,
     "peakDailyUniqueCloners": 10,
-    "views": 143,
-    "uniqueVisitorDays": 77,
+    "views": 146,
+    "uniqueVisitorDays": 79,
     "peakDailyViews": 36,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:58.795Z",
+  "lastUpdated": "2026-08-15T03:08:00.613Z",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:58.795Z",
+    "polled_at": "2026-08-15T03:08:00.613Z",
     "views": {
-      "count": 135,
-      "uniques": 60
+      "count": 122,
+      "uniques": 56
     },
     "clones": {
-      "count": 161,
-      "uniques": 44
+      "count": 155,
+      "uniques": 45
     }
   }
 }

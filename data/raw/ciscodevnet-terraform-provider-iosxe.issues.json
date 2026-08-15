@@ -6213,12 +6213,12 @@
     {
       "number": 623,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "durd",
       "is_org_member": false,
       "created_at": "2026-08-04T14:30:20Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-14T13:57:53Z",
+      "merged_at": "2026-08-14T13:57:53Z"
     },
     {
       "number": 624,
@@ -6249,13 +6249,53 @@
       "created_at": "2026-08-12T10:03:17Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 627,
+      "type": "issue",
+      "state": "open",
+      "author_login": "durd",
+      "is_org_member": false,
+      "created_at": "2026-08-14T08:03:19Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 628,
+      "type": "issue",
+      "state": "open",
+      "author_login": "durd",
+      "is_org_member": false,
+      "created_at": "2026-08-14T12:38:01Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 629,
+      "type": "issue",
+      "state": "open",
+      "author_login": "durd",
+      "is_org_member": false,
+      "created_at": "2026-08-14T12:49:03Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 630,
+      "type": "issue",
+      "state": "open",
+      "author_login": "durd",
+      "is_org_member": false,
+      "created_at": "2026-08-14T14:16:14Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 22,
-    "external_new_30d": 9,
+    "external_open": 26,
+    "external_new_30d": 13,
     "external_closed_30d": 0,
     "external_authors_all_time": 59
   },
-  "lastPolledAt": "2026-08-14T04:20:14.495Z"
+  "lastPolledAt": "2026-08-15T03:08:16.477Z"
 }

@@ -75,6 +75,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 47,
       "uniques": 20
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 50,
+      "uniques": 20
     }
   ],
   "views": [
@@ -152,19 +157,24 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 14,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 47,
+      "uniques": 4
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr",
       "title": "Overview",
-      "count": 84,
+      "count": 93,
       "uniques": 37
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pulls",
       "title": "/pulls",
-      "count": 78,
+      "count": 83,
       "uniques": 4
     },
     {
@@ -176,7 +186,7 @@
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pull/201",
       "title": "/pull/201",
-      "count": 16,
+      "count": 17,
       "uniques": 1
     },
     {
@@ -210,22 +220,22 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-iosxr-nac-iosxr/commits/main",
-      "title": "/commits/main",
+      "path": "/netascode/terraform-iosxr-nac-iosxr/pull/200/changes",
+      "title": "/pull/200/changes",
       "count": 6,
-      "uniques": 5
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 47,
-      "uniques": 12
+      "count": 46,
+      "uniques": 11
     },
     {
       "referrer": "Google",
-      "count": 32,
-      "uniques": 11
+      "count": 31,
+      "uniques": 10
     },
     {
       "referrer": "wwwin-github.cisco.com",
@@ -234,28 +244,28 @@
     }
   ],
   "totals": {
-    "clones": 319,
-    "uniqueClonerDays": 206,
-    "peakDailyClones": 47,
+    "clones": 369,
+    "uniqueClonerDays": 226,
+    "peakDailyClones": 50,
     "peakDailyUniqueCloners": 39,
-    "views": 424,
-    "uniqueVisitorDays": 82,
+    "views": 471,
+    "uniqueVisitorDays": 86,
     "peakDailyViews": 95,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:58.452Z",
+  "lastUpdated": "2026-08-15T03:08:00.201Z",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:58.452Z",
+    "polled_at": "2026-08-15T03:08:00.201Z",
     "views": {
-      "count": 401,
-      "uniques": 50
+      "count": 416,
+      "uniques": 51
     },
     "clones": {
-      "count": 306,
-      "uniques": 132
+      "count": 333,
+      "uniques": 137
     }
   }
 }

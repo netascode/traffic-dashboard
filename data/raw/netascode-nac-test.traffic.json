@@ -75,6 +75,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 25,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 131,
+      "uniques": 130
     }
   ],
   "views": [
@@ -152,26 +157,37 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 9,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 13,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-test",
       "title": "Overview",
-      "count": 66,
-      "uniques": 37
+      "count": 64,
+      "uniques": 35
     },
     {
-      "path": "/netascode/nac-test/pulls",
-      "title": "/pulls",
+      "path": "/netascode/nac-test/tree/main/nac_test",
+      "title": "/tree/main/nac_test",
       "count": 8,
       "uniques": 6
     },
     {
-      "path": "/netascode/nac-test/pull/889",
-      "title": "/pull/889",
+      "path": "/netascode/nac-test/pulls",
+      "title": "/pulls",
       "count": 7,
-      "uniques": 3
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/nac-test/tree/main/tests",
+      "title": "/tree/main/tests",
+      "count": 7,
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-test/tags",
@@ -180,21 +196,21 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-test/tree/main/nac_test",
-      "title": "/tree/main/nac_test",
-      "count": 6,
-      "uniques": 5
-    },
-    {
-      "path": "/netascode/nac-test/tree/main/tests",
-      "title": "/tree/main/tests",
-      "count": 6,
+      "path": "/netascode/nac-test/pull/889",
+      "title": "/pull/889",
+      "count": 5,
       "uniques": 3
     },
     {
       "path": "/netascode/nac-test/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
-      "count": 5,
+      "count": 4,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-test/tree/main/nac_test/robot",
+      "title": "/tree/main/nac_test/robot",
+      "count": 3,
       "uniques": 3
     },
     {
@@ -208,29 +224,23 @@
       "title": "/pull/891",
       "count": 3,
       "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-test/tree/main/nac_test/robot",
-      "title": "/tree/main/nac_test/robot",
-      "count": 2,
-      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 37,
-      "uniques": 12
+      "count": 42,
+      "uniques": 13
     },
     {
       "referrer": "Google",
-      "count": 22,
-      "uniques": 11
+      "count": 24,
+      "uniques": 12
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 7,
-      "uniques": 4
+      "count": 6,
+      "uniques": 3
     },
     {
       "referrer": "pypi.org",
@@ -246,36 +256,31 @@
       "referrer": "teams.public.onecdn.static.microsoft",
       "count": 2,
       "uniques": 1
-    },
-    {
-      "referrer": "wwwin-github.cisco.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 550,
-    "uniqueClonerDays": 132,
+    "clones": 681,
+    "uniqueClonerDays": 262,
     "peakDailyClones": 167,
-    "peakDailyUniqueCloners": 20,
-    "views": 188,
-    "uniqueVisitorDays": 77,
+    "peakDailyUniqueCloners": 130,
+    "views": 201,
+    "uniqueVisitorDays": 83,
     "peakDailyViews": 38,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:58.615Z",
+  "lastUpdated": "2026-08-15T03:08:00.399Z",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:58.615Z",
+    "polled_at": "2026-08-15T03:08:00.399Z",
     "views": {
-      "count": 152,
-      "uniques": 46
+      "count": 154,
+      "uniques": 44
     },
     "clones": {
-      "count": 474,
-      "uniques": 91
+      "count": 589,
+      "uniques": 216
     }
   }
 }

@@ -75,6 +75,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -152,32 +157,49 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 10,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 15,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-sdwan-example",
       "title": "Overview",
-      "count": 36,
-      "uniques": 23
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/blob/main/.schema.yaml",
-      "title": "/blob/main/.schema.yaml",
-      "count": 8,
-      "uniques": 5
+      "count": 35,
+      "uniques": 24
     },
     {
       "path": "/netascode/nac-sdwan-example/tree/main/data",
       "title": "/tree/main/data",
-      "count": 6,
-      "uniques": 5
+      "count": 9,
+      "uniques": 6
     },
     {
       "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config",
       "title": "/tree/main/tests/templates/config",
+      "count": 7,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/blob/main/.schema.yaml",
+      "title": "/blob/main/.schema.yaml",
       "count": 6,
-      "uniques": 3
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates",
+      "title": "/tree/main/tests/templates",
+      "count": 5,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
+      "title": "/blob/main/data/sites.nac.yaml",
+      "count": 4,
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/data/centralized_policies.nac.yaml",
@@ -186,8 +208,8 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates",
-      "title": "/tree/main/tests/templates",
+      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
+      "title": "/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
       "count": 4,
       "uniques": 3
     },
@@ -198,22 +220,10 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
-      "title": "/blob/main/data/sites.nac.yaml",
+      "path": "/netascode/nac-sdwan-example/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
       "count": 3,
       "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/tree/main/jinja_filters",
-      "title": "/tree/main/jinja_filters",
-      "count": 3,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
-      "title": "/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
-      "count": 3,
-      "uniques": 2
     }
   ],
   "referrers": [
@@ -233,19 +243,19 @@
     "uniqueClonerDays": 9,
     "peakDailyClones": 3,
     "peakDailyUniqueCloners": 3,
-    "views": 116,
-    "uniqueVisitorDays": 41,
+    "views": 131,
+    "uniqueVisitorDays": 44,
     "peakDailyViews": 33,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:58.987Z",
+  "lastUpdated": "2026-08-15T03:08:00.774Z",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:58.987Z",
+    "polled_at": "2026-08-15T03:08:00.774Z",
     "views": {
-      "count": 112,
+      "count": 120,
       "uniques": 27
     },
     "clones": {

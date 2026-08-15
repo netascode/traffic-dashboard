@@ -75,6 +75,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -152,6 +157,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 6,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
@@ -247,13 +257,13 @@
     "uniqueVisitorDays": 34,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:59.171Z",
+  "lastUpdated": "2026-08-15T03:08:00.957Z",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:59.171Z",
+    "polled_at": "2026-08-15T03:08:00.957Z",
     "views": {
       "count": 81,
       "uniques": 23

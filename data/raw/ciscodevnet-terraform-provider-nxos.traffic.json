@@ -80,6 +80,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 3,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 74,
+      "uniques": 71
     }
   ],
   "views": [
@@ -162,31 +167,36 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 31,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 22,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-nxos",
       "title": "Overview",
-      "count": 59,
-      "uniques": 37
+      "count": 62,
+      "uniques": 41
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nxos/issues",
       "title": "/issues",
-      "count": 23,
-      "uniques": 7
+      "count": 24,
+      "uniques": 8
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-nxos/releases",
+      "title": "/releases",
+      "count": 13,
+      "uniques": 5
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nxos/pulls",
       "title": "/pulls",
       "count": 13,
-      "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-nxos/releases",
-      "title": "/releases",
-      "count": 12,
       "uniques": 4
     },
     {
@@ -229,13 +239,13 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 74,
+      "count": 73,
       "uniques": 10
     },
     {
       "referrer": "Google",
-      "count": 12,
-      "uniques": 9
+      "count": 18,
+      "uniques": 10
     },
     {
       "referrer": "blogs.cisco.com",
@@ -254,28 +264,28 @@
     }
   ],
   "totals": {
-    "clones": 264,
-    "uniqueClonerDays": 118,
+    "clones": 338,
+    "uniqueClonerDays": 189,
     "peakDailyClones": 84,
-    "peakDailyUniqueCloners": 19,
-    "views": 296,
-    "uniqueVisitorDays": 86,
+    "peakDailyUniqueCloners": 71,
+    "views": 318,
+    "uniqueVisitorDays": 92,
     "peakDailyViews": 82,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:20:00.375Z",
+  "lastUpdated": "2026-08-15T03:08:02.523Z",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:20:00.375Z",
+    "polled_at": "2026-08-15T03:08:02.523Z",
     "views": {
-      "count": 273,
-      "uniques": 53
+      "count": 290,
+      "uniques": 56
     },
     "clones": {
-      "count": 247,
-      "uniques": 81
+      "count": 317,
+      "uniques": 149
     }
   }
 }

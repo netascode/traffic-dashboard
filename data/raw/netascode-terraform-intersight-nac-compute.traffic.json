@@ -75,6 +75,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "views": [
@@ -152,14 +157,19 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 14,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 2,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-intersight-nac-compute",
       "title": "Overview",
-      "count": 53,
-      "uniques": 8
+      "count": 55,
+      "uniques": 9
     },
     {
       "path": "/netascode/terraform-intersight-nac-compute/pulls",
@@ -224,28 +234,28 @@
     }
   ],
   "totals": {
-    "clones": 168,
-    "uniqueClonerDays": 65,
+    "clones": 170,
+    "uniqueClonerDays": 67,
     "peakDailyClones": 104,
     "peakDailyUniqueCloners": 30,
-    "views": 216,
-    "uniqueVisitorDays": 13,
+    "views": 218,
+    "uniqueVisitorDays": 14,
     "peakDailyViews": 119,
     "peakDailyUniqueVisitors": 4,
-    "daysTracked": 15,
+    "daysTracked": 16,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:19:57.944Z",
+  "lastUpdated": "2026-08-15T03:07:59.561Z",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:19:57.943Z",
+    "polled_at": "2026-08-15T03:07:59.560Z",
     "views": {
-      "count": 216,
-      "uniques": 8
+      "count": 218,
+      "uniques": 9
     },
     "clones": {
-      "count": 168,
-      "uniques": 55
+      "count": 170,
+      "uniques": 56
     }
   }
 }

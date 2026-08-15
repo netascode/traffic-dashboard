@@ -80,6 +80,11 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 4702,
       "uniques": 15
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 4548,
+      "uniques": 17
     }
   ],
   "views": [
@@ -162,38 +167,43 @@
       "timestamp": "2026-08-12T00:00:00Z",
       "count": 21,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-13T00:00:00Z",
+      "count": 26,
+      "uniques": 8
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan",
       "title": "Overview",
-      "count": 70,
-      "uniques": 34
+      "count": 66,
+      "uniques": 33
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/pulls",
       "title": "/pulls",
-      "count": 29,
-      "uniques": 7
+      "count": 28,
+      "uniques": 8
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/tree/main",
       "title": "/tree/main",
-      "count": 19,
-      "uniques": 3
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/723",
-      "title": "/pull/723",
-      "count": 14,
+      "count": 20,
       "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/issues",
       "title": "/issues",
-      "count": 9,
-      "uniques": 6
+      "count": 11,
+      "uniques": 7
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/723",
+      "title": "/pull/723",
+      "count": 10,
+      "uniques": 2
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/blob/main/CHANGELOG.md",
@@ -214,73 +224,73 @@
       "uniques": 2
     },
     {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/issues/744",
+      "title": "/issues/744",
+      "count": 6,
+      "uniques": 3
+    },
+    {
       "path": "/CiscoDevNet/terraform-provider-sdwan/tree/main/templates/guides",
       "title": "/tree/main/templates/guides",
       "count": 5,
       "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-sdwan/tree/main/examples",
-      "title": "/tree/main/examples",
-      "count": 5,
-      "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
       "count": 150,
-      "uniques": 12
+      "uniques": 13
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 32,
-      "uniques": 7
+      "count": 26,
+      "uniques": 4
     },
     {
       "referrer": "Google",
-      "count": 19,
-      "uniques": 6
+      "count": 17,
+      "uniques": 5
     },
     {
       "referrer": "developer.cisco.com",
-      "count": 5,
-      "uniques": 2
-    },
-    {
-      "referrer": "Bing",
-      "count": 2,
-      "uniques": 2
+      "count": 9,
+      "uniques": 3
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "referrer": "Bing",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 45171,
-    "uniqueClonerDays": 540,
+    "clones": 49719,
+    "uniqueClonerDays": 557,
     "peakDailyClones": 4889,
     "peakDailyUniqueCloners": 92,
-    "views": 593,
-    "uniqueVisitorDays": 130,
+    "views": 619,
+    "uniqueVisitorDays": 138,
     "peakDailyViews": 156,
     "peakDailyUniqueVisitors": 18,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-12T00:00:00Z"
+    "lastDay": "2026-08-13T00:00:00Z"
   },
-  "lastUpdated": "2026-08-14T04:20:00.723Z",
+  "lastUpdated": "2026-08-15T03:08:02.901Z",
   "snapshot14d": {
-    "polled_at": "2026-08-14T04:20:00.723Z",
+    "polled_at": "2026-08-15T03:08:02.901Z",
     "views": {
-      "count": 406,
-      "uniques": 72
+      "count": 386,
+      "uniques": 67
     },
     "clones": {
-      "count": 42453,
-      "uniques": 310
+      "count": 45723,
+      "uniques": 309
     }
   }
 }
