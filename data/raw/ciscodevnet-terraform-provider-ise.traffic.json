@@ -85,6 +85,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 54,
       "uniques": 27
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 143,
+      "uniques": 130
     }
   ],
   "views": [
@@ -172,19 +177,24 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 91,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 3,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pulls",
       "title": "/pulls",
-      "count": 124,
+      "count": 125,
       "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-ise",
       "title": "Overview",
-      "count": 91,
+      "count": 90,
       "uniques": 27
     },
     {
@@ -226,8 +236,8 @@
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pull/259",
       "title": "/pull/259",
-      "count": 11,
-      "uniques": 3
+      "count": 12,
+      "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pull/261/changes",
@@ -254,28 +264,28 @@
     }
   ],
   "totals": {
-    "clones": 633,
-    "uniqueClonerDays": 443,
-    "peakDailyClones": 75,
-    "peakDailyUniqueCloners": 54,
-    "views": 526,
-    "uniqueVisitorDays": 57,
+    "clones": 776,
+    "uniqueClonerDays": 573,
+    "peakDailyClones": 143,
+    "peakDailyUniqueCloners": 130,
+    "views": 529,
+    "uniqueVisitorDays": 60,
     "peakDailyViews": 171,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:03.092Z",
+  "lastUpdated": "2026-08-16T03:15:12.479Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:03.092Z",
+    "polled_at": "2026-08-16T03:15:12.479Z",
     "views": {
-      "count": 524,
-      "uniques": 34
+      "count": 525,
+      "uniques": 35
     },
     "clones": {
-      "count": 554,
-      "uniques": 328
+      "count": 622,
+      "uniques": 401
     }
   }
 }

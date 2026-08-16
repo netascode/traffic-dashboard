@@ -149,6 +149,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 177,
       "uniques": 39
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 74,
+      "uniques": 29
     }
   ],
   "views": [
@@ -301,28 +306,33 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 13,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 6,
+      "uniques": 2
     }
   ],
   "totals": {
-    "clones": 2790,
-    "uniqueClonerDays": 1087,
+    "clones": 2864,
+    "uniqueClonerDays": 1116,
     "peakDailyClones": 703,
     "peakDailyUniqueCloners": 131,
-    "views": 408,
-    "uniqueVisitorDays": 98,
+    "views": 414,
+    "uniqueVisitorDays": 100,
     "peakDailyViews": 105,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 30,
+    "daysTracked": 31,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:07:57.986Z",
+  "lastUpdated": "2026-08-16T03:15:07.087Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-meraki-nac-meraki",
       "title": "Overview",
-      "count": 48,
-      "uniques": 22
+      "count": 47,
+      "uniques": 21
     },
     {
       "path": "/netascode/terraform-meraki-nac-meraki/pulls",
@@ -345,13 +355,13 @@
     {
       "path": "/netascode/terraform-meraki-nac-meraki/pull/188/changes",
       "title": "/pull/188/changes",
-      "count": 10,
+      "count": 11,
       "uniques": 1
     },
     {
       "path": "/netascode/terraform-meraki-nac-meraki/pull/188",
       "title": "/pull/188",
-      "count": 8,
+      "count": 10,
       "uniques": 3
     },
     {
@@ -382,7 +392,7 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 19,
+      "count": 18,
       "uniques": 7
     },
     {
@@ -403,14 +413,14 @@
   ],
   "repo": "netascode/terraform-meraki-nac-meraki",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:07:57.986Z",
+    "polled_at": "2026-08-16T03:15:07.087Z",
     "views": {
-      "count": 172,
-      "uniques": 29
+      "count": 170,
+      "uniques": 28
     },
     "clones": {
-      "count": 2056,
-      "uniques": 518
+      "count": 2095,
+      "uniques": 521
     }
   }
 }

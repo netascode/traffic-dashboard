@@ -85,6 +85,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 13,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 15,
+      "uniques": 12
     }
   ],
   "views": [
@@ -172,26 +177,31 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 29,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 10,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-meraki",
       "title": "Overview",
-      "count": 56,
-      "uniques": 27
+      "count": 55,
+      "uniques": 28
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/pulls",
       "title": "/pulls",
-      "count": 40,
-      "uniques": 5
+      "count": 41,
+      "uniques": 6
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/issues",
       "title": "/issues",
-      "count": 21,
-      "uniques": 11
+      "count": 22,
+      "uniques": 12
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/actions/runs/30701807235",
@@ -200,16 +210,16 @@
       "uniques": 2
     },
     {
+      "path": "/CiscoDevNet/terraform-provider-meraki/pull/237",
+      "title": "/pull/237",
+      "count": 17,
+      "uniques": 4
+    },
+    {
       "path": "/CiscoDevNet/terraform-provider-meraki/actions",
       "title": "/actions",
       "count": 16,
       "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-meraki/pull/237",
-      "title": "/pull/237",
-      "count": 16,
-      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/pull/259",
@@ -226,8 +236,8 @@
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/tree/main/examples",
       "title": "/tree/main/examples",
-      "count": 5,
-      "uniques": 4
+      "count": 4,
+      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/actions/runs/30701807235/job/91778500444",
@@ -254,33 +264,33 @@
     },
     {
       "referrer": "powerpoint.officeapps.live.com",
-      "count": 3,
+      "count": 1,
       "uniques": 1
     }
   ],
   "totals": {
-    "clones": 588,
-    "uniqueClonerDays": 179,
+    "clones": 603,
+    "uniqueClonerDays": 191,
     "peakDailyClones": 284,
     "peakDailyUniqueCloners": 15,
-    "views": 370,
-    "uniqueVisitorDays": 81,
+    "views": 380,
+    "uniqueVisitorDays": 87,
     "peakDailyViews": 81,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:01.846Z",
+  "lastUpdated": "2026-08-16T03:15:11.247Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:01.846Z",
+    "polled_at": "2026-08-16T03:15:11.247Z",
     "views": {
-      "count": 335,
-      "uniques": 42
+      "count": 337,
+      "uniques": 45
     },
     "clones": {
-      "count": 242,
-      "uniques": 126
+      "count": 246,
+      "uniques": 131
     }
   }
 }

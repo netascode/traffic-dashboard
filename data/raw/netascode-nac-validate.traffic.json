@@ -80,6 +80,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 5,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 5,
+      "uniques": 4
     }
   ],
   "views": [
@@ -162,13 +167,18 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 3,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 5,
+      "uniques": 4
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-validate",
       "title": "Overview",
-      "count": 71,
+      "count": 73,
       "uniques": 49
     },
     {
@@ -208,16 +218,16 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-validate/tree/main/nac_validate/cli",
-      "title": "/tree/main/nac_validate/cli",
+      "path": "/netascode/nac-validate/actions",
+      "title": "/actions",
       "count": 2,
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-validate/actions",
-      "title": "/actions",
-      "count": 1,
-      "uniques": 1
+      "path": "/netascode/nac-validate/tree/main/nac_validate/cli",
+      "title": "/tree/main/nac_validate/cli",
+      "count": 2,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-validate/actions/workflows/dependabot/update-graph",
@@ -229,23 +239,28 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 27,
-      "uniques": 16
+      "count": 29,
+      "uniques": 17
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 15,
-      "uniques": 5
+      "count": 14,
+      "uniques": 4
     },
     {
       "referrer": "github.com",
-      "count": 12,
-      "uniques": 9
+      "count": 13,
+      "uniques": 10
     },
     {
       "referrer": "DuckDuckGo",
       "count": 8,
       "uniques": 2
+    },
+    {
+      "referrer": "wwwin-github.cisco.com",
+      "count": 5,
+      "uniques": 3
     },
     {
       "referrer": "cisco.com",
@@ -255,11 +270,6 @@
     {
       "referrer": "pypi.org",
       "count": 5,
-      "uniques": 2
-    },
-    {
-      "referrer": "wwwin-github.cisco.com",
-      "count": 3,
       "uniques": 2
     },
     {
@@ -274,23 +284,23 @@
     }
   ],
   "totals": {
-    "clones": 171,
-    "uniqueClonerDays": 80,
+    "clones": 176,
+    "uniqueClonerDays": 84,
     "peakDailyClones": 29,
     "peakDailyUniqueCloners": 10,
-    "views": 146,
-    "uniqueVisitorDays": 79,
+    "views": 151,
+    "uniqueVisitorDays": 83,
     "peakDailyViews": 36,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:00.613Z",
+  "lastUpdated": "2026-08-16T03:15:09.645Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:00.613Z",
+    "polled_at": "2026-08-16T03:15:09.645Z",
     "views": {
-      "count": 122,
+      "count": 125,
       "uniques": 56
     },
     "clones": {

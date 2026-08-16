@@ -85,6 +85,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 68,
       "uniques": 21
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 147,
+      "uniques": 128
     }
   ],
   "views": [
@@ -172,50 +177,55 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 68,
       "uniques": 12
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 100,
+      "uniques": 13
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe",
       "title": "Overview",
-      "count": 128,
-      "uniques": 60
+      "count": 136,
+      "uniques": 58
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/pulls",
       "title": "/pulls",
-      "count": 54,
-      "uniques": 8
+      "count": 63,
+      "uniques": 5
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/issues",
       "title": "/issues",
-      "count": 44,
-      "uniques": 15
+      "count": 53,
+      "uniques": 14
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main/examples",
       "title": "/tree/main/examples",
-      "count": 22,
-      "uniques": 13
+      "count": 20,
+      "uniques": 12
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
-      "count": 15,
-      "uniques": 12
+      "count": 14,
+      "uniques": 11
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main/examples/resources",
-      "title": "/tree/main/examples/resources",
-      "count": 11,
-      "uniques": 8
+      "path": "/CiscoDevNet/terraform-provider-iosxe/pull/623",
+      "title": "/pull/623",
+      "count": 14,
+      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/pull/620",
       "title": "/pull/620",
-      "count": 11,
-      "uniques": 4
+      "count": 13,
+      "uniques": 5
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/issues/619",
@@ -226,26 +236,26 @@
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main",
       "title": "/tree/main",
-      "count": 10,
+      "count": 11,
       "uniques": 3
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-iosxe/pull/624",
-      "title": "/pull/624",
-      "count": 10,
-      "uniques": 1
+      "path": "/CiscoDevNet/terraform-provider-iosxe/issues/new",
+      "title": "/issues/new",
+      "count": 11,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
-      "referrer": "Google",
-      "count": 71,
-      "uniques": 14
+      "referrer": "github.com",
+      "count": 78,
+      "uniques": 8
     },
     {
-      "referrer": "github.com",
-      "count": 68,
-      "uniques": 9
+      "referrer": "Google",
+      "count": 49,
+      "uniques": 15
     },
     {
       "referrer": "Bing",
@@ -265,7 +275,7 @@
     {
       "referrer": "wwwin-github.cisco.com",
       "count": 2,
-      "uniques": 2
+      "uniques": 1
     },
     {
       "referrer": "e.mail.ru",
@@ -284,28 +294,28 @@
     }
   ],
   "totals": {
-    "clones": 4463,
-    "uniqueClonerDays": 1055,
+    "clones": 4610,
+    "uniqueClonerDays": 1183,
     "peakDailyClones": 1884,
     "peakDailyUniqueCloners": 789,
-    "views": 675,
-    "uniqueVisitorDays": 154,
-    "peakDailyViews": 87,
+    "views": 775,
+    "uniqueVisitorDays": 167,
+    "peakDailyViews": 100,
     "peakDailyUniqueVisitors": 17,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:02.032Z",
+  "lastUpdated": "2026-08-16T03:15:11.505Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:02.031Z",
+    "polled_at": "2026-08-16T03:15:11.505Z",
     "views": {
-      "count": 601,
-      "uniques": 97
+      "count": 642,
+      "uniques": 96
     },
     "clones": {
-      "count": 2256,
-      "uniques": 940
+      "count": 2394,
+      "uniques": 1048
     }
   }
 }

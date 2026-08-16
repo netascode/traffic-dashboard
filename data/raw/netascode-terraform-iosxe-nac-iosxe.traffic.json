@@ -149,6 +149,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 82,
       "uniques": 25
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 60,
+      "uniques": 24
     }
   ],
   "views": [
@@ -301,32 +306,55 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 69,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 148,
+      "uniques": 16
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe",
       "title": "Overview",
-      "count": 138,
-      "uniques": 54
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
-      "title": "/blob/main/main.tf",
-      "count": 23,
-      "uniques": 12
+      "count": 177,
+      "uniques": 64
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
       "title": "/pulls",
-      "count": 23,
-      "uniques": 5
+      "count": 35,
+      "uniques": 6
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 25,
+      "uniques": 13
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/issues",
       "title": "/issues",
+      "count": 20,
+      "uniques": 6
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main",
+      "title": "/tree/main",
       "count": 12,
       "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/releases/tag/v1.0.0",
+      "title": "/releases/tag/v1.0.0",
+      "count": 11,
+      "uniques": 7
+    },
+    {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/variables.tf",
+      "title": "/blob/main/variables.tf",
+      "count": 11,
+      "uniques": 6
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/commit/4425f7f719386d39abd0c2ef4c868b81190494df",
@@ -335,46 +363,28 @@
       "uniques": 5
     },
     {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/releases/tag/v1.0.0",
-      "title": "/releases/tag/v1.0.0",
+      "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main/examples/system",
+      "title": "/tree/main/examples/system",
       "count": 10,
-      "uniques": 6
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/variables.tf",
-      "title": "/blob/main/variables.tf",
-      "count": 8,
       "uniques": 5
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/commits/main",
       "title": "/commits/main",
-      "count": 8,
+      "count": 9,
       "uniques": 4
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/pull/315",
-      "title": "/pull/315",
-      "count": 5,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main",
-      "title": "/tree/main",
-      "count": 5,
-      "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 77,
-      "uniques": 14
+      "count": 124,
+      "uniques": 18
     },
     {
       "referrer": "Google",
-      "count": 37,
-      "uniques": 10
+      "count": 40,
+      "uniques": 11
     },
     {
       "referrer": "netascode.cisco.com",
@@ -383,29 +393,29 @@
     }
   ],
   "totals": {
-    "clones": 1686,
-    "uniqueClonerDays": 464,
+    "clones": 1746,
+    "uniqueClonerDays": 488,
     "peakDailyClones": 149,
     "peakDailyUniqueCloners": 64,
-    "views": 718,
-    "uniqueVisitorDays": 188,
-    "peakDailyViews": 85,
+    "views": 866,
+    "uniqueVisitorDays": 204,
+    "peakDailyViews": 148,
     "peakDailyUniqueVisitors": 18,
-    "daysTracked": 30,
+    "daysTracked": 31,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:07:58.156Z",
+  "lastUpdated": "2026-08-16T03:15:07.267Z",
   "repo": "netascode/terraform-iosxe-nac-iosxe",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:07:58.156Z",
+    "polled_at": "2026-08-16T03:15:07.267Z",
     "views": {
-      "count": 374,
-      "uniques": 65
+      "count": 517,
+      "uniques": 74
     },
     "clones": {
-      "count": 593,
-      "uniques": 133
+      "count": 608,
+      "uniques": 141
     }
   }
 }

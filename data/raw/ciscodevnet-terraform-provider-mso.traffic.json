@@ -85,6 +85,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 5,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 4,
+      "uniques": 4
     }
   ],
   "views": [
@@ -172,38 +177,37 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 20,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 14,
+      "uniques": 4
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-mso",
       "title": "Overview",
-      "count": 27,
-      "uniques": 18
+      "count": 24,
+      "uniques": 17
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/pull/538",
       "title": "/pull/538",
-      "count": 19,
+      "count": 20,
       "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-mso/issues",
-      "title": "/issues",
-      "count": 18,
-      "uniques": 2
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/pull/539",
       "title": "/pull/539",
-      "count": 12,
-      "uniques": 2
+      "count": 14,
+      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/pulls",
       "title": "/pulls",
-      "count": 10,
-      "uniques": 4
+      "count": 12,
+      "uniques": 5
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/graphs/contributors",
@@ -212,26 +216,32 @@
       "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-mso/pull/537/changes",
-      "title": "/pull/537/changes",
-      "count": 5,
-      "uniques": 3
-    },
-    {
       "path": "/CiscoDevNet/terraform-provider-mso/pull/538/changes",
       "title": "/pull/538/changes",
       "count": 5,
       "uniques": 3
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-mso/blob/develop/examples/schema_template_external_epg_selector/main.tf",
-      "title": "/blob/develop/examples/schema_template_external_epg_selector/main.tf",
-      "count": 3,
+      "path": "/CiscoDevNet/terraform-provider-mso/pull/539/changes",
+      "title": "/pull/539/changes",
+      "count": 5,
       "uniques": 3
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-mso/issues/17",
-      "title": "/issues/17",
+      "path": "/CiscoDevNet/terraform-provider-mso/pull/537/changes",
+      "title": "/pull/537/changes",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-mso/tree/develop/mso",
+      "title": "/tree/develop/mso",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-mso/blob/develop/examples/schema_template_external_epg_selector/main.tf",
+      "title": "/blob/develop/examples/schema_template_external_epg_selector/main.tf",
       "count": 3,
       "uniques": 3
     }
@@ -239,7 +249,7 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 15,
+      "count": 14,
       "uniques": 2
     },
     {
@@ -264,27 +274,27 @@
     }
   ],
   "totals": {
-    "clones": 396,
-    "uniqueClonerDays": 175,
+    "clones": 400,
+    "uniqueClonerDays": 179,
     "peakDailyClones": 223,
     "peakDailyUniqueCloners": 36,
-    "views": 300,
-    "uniqueVisitorDays": 90,
+    "views": 314,
+    "uniqueVisitorDays": 94,
     "peakDailyViews": 55,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:02.719Z",
+  "lastUpdated": "2026-08-16T03:15:12.100Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:02.719Z",
+    "polled_at": "2026-08-16T03:15:12.100Z",
     "views": {
-      "count": 170,
-      "uniques": 53
+      "count": 157,
+      "uniques": 50
     },
     "clones": {
-      "count": 332,
+      "count": 329,
       "uniques": 117
     }
   }

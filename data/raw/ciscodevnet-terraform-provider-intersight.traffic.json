@@ -80,6 +80,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 12,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 11,
+      "uniques": 6
     }
   ],
   "views": [
@@ -162,20 +167,25 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 3,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 6,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-intersight",
       "title": "Overview",
-      "count": 23,
+      "count": 20,
       "uniques": 14
     },
     {
       "path": "/CiscoDevNet/terraform-provider-intersight/issues",
       "title": "/issues",
-      "count": 12,
-      "uniques": 4
+      "count": 16,
+      "uniques": 6
     },
     {
       "path": "/CiscoDevNet/terraform-provider-intersight/releases",
@@ -184,22 +194,10 @@
       "uniques": 2
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-intersight/pulls",
-      "title": "/pulls",
-      "count": 7,
-      "uniques": 3
-    },
-    {
       "path": "/CiscoDevNet/terraform-provider-intersight/pull/347",
       "title": "/pull/347",
       "count": 6,
       "uniques": 3
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-intersight/pull/345",
-      "title": "/pull/345",
-      "count": 6,
-      "uniques": 1
     },
     {
       "path": "/CiscoDevNet/terraform-provider-intersight/issues/254",
@@ -214,14 +212,26 @@
       "uniques": 3
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-intersight/actions",
-      "title": "/actions",
-      "count": 3,
+      "path": "/CiscoDevNet/terraform-provider-intersight/pulls",
+      "title": "/pulls",
+      "count": 4,
       "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-intersight/issues/107",
       "title": "/issues/107",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-intersight/issues/17",
+      "title": "/issues/17",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-intersight/issues/233",
+      "title": "/issues/233",
       "count": 3,
       "uniques": 3
     }
@@ -244,28 +254,28 @@
     }
   ],
   "totals": {
-    "clones": 286,
-    "uniqueClonerDays": 95,
+    "clones": 297,
+    "uniqueClonerDays": 101,
     "peakDailyClones": 150,
     "peakDailyUniqueCloners": 22,
-    "views": 204,
-    "uniqueVisitorDays": 93,
+    "views": 210,
+    "uniqueVisitorDays": 96,
     "peakDailyViews": 36,
     "peakDailyUniqueVisitors": 15,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:03.783Z",
+  "lastUpdated": "2026-08-16T03:15:13.087Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:03.783Z",
+    "polled_at": "2026-08-16T03:15:13.087Z",
     "views": {
-      "count": 191,
+      "count": 176,
       "uniques": 67
     },
     "clones": {
-      "count": 271,
-      "uniques": 77
+      "count": 269,
+      "uniques": 75
     }
   }
 }

@@ -90,6 +90,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 66,
       "uniques": 23
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 11,
+      "uniques": 5
     }
   ],
   "views": [
@@ -182,25 +187,30 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 39,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 4,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-ise-nac-ise/pulls",
       "title": "/pulls",
-      "count": 43,
+      "count": 45,
       "uniques": 4
     },
     {
       "path": "/netascode/terraform-ise-nac-ise",
       "title": "Overview",
-      "count": 34,
+      "count": 33,
       "uniques": 22
     },
     {
       "path": "/netascode/terraform-ise-nac-ise/issues",
       "title": "/issues",
-      "count": 8,
+      "count": 9,
       "uniques": 3
     },
     {
@@ -249,7 +259,7 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 10,
+      "count": 9,
       "uniques": 6
     },
     {
@@ -269,28 +279,28 @@
     }
   ],
   "totals": {
-    "clones": 552,
-    "uniqueClonerDays": 189,
+    "clones": 563,
+    "uniqueClonerDays": 194,
     "peakDailyClones": 131,
     "peakDailyUniqueCloners": 23,
-    "views": 171,
-    "uniqueVisitorDays": 58,
+    "views": 175,
+    "uniqueVisitorDays": 60,
     "peakDailyViews": 39,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 18,
+    "daysTracked": 19,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:07:59.382Z",
+  "lastUpdated": "2026-08-16T03:15:08.418Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:07:59.381Z",
+    "polled_at": "2026-08-16T03:15:08.418Z",
     "views": {
-      "count": 141,
+      "count": 143,
       "uniques": 30
     },
     "clones": {
-      "count": 435,
-      "uniques": 80
+      "count": 425,
+      "uniques": 77
     }
   }
 }

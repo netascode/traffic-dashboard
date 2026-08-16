@@ -80,6 +80,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 57,
       "uniques": 30
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 28,
+      "uniques": 18
     }
   ],
   "views": [
@@ -162,13 +167,18 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 54,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 6,
+      "uniques": 4
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-iosxr/pulls",
       "title": "/pulls",
-      "count": 197,
+      "count": 198,
       "uniques": 5
     },
     {
@@ -249,28 +259,28 @@
     }
   ],
   "totals": {
-    "clones": 462,
-    "uniqueClonerDays": 189,
+    "clones": 490,
+    "uniqueClonerDays": 207,
     "peakDailyClones": 85,
     "peakDailyUniqueCloners": 30,
-    "views": 724,
-    "uniqueVisitorDays": 71,
+    "views": 730,
+    "uniqueVisitorDays": 75,
     "peakDailyViews": 133,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:03.345Z",
+  "lastUpdated": "2026-08-16T03:15:12.652Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:03.345Z",
+    "polled_at": "2026-08-16T03:15:12.652Z",
     "views": {
-      "count": 697,
+      "count": 700,
       "uniques": 40
     },
     "clones": {
-      "count": 456,
-      "uniques": 143
+      "count": 482,
+      "uniques": 155
     }
   }
 }

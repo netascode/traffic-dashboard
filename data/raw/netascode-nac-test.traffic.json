@@ -80,6 +80,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 131,
       "uniques": 130
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 7,
+      "uniques": 5
     }
   ],
   "views": [
@@ -162,19 +167,30 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 13,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 15,
+      "uniques": 7
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-test",
       "title": "Overview",
-      "count": 64,
-      "uniques": 35
+      "count": 70,
+      "uniques": 37
     },
     {
       "path": "/netascode/nac-test/tree/main/nac_test",
       "title": "/tree/main/nac_test",
-      "count": 8,
+      "count": 10,
+      "uniques": 7
+    },
+    {
+      "path": "/netascode/nac-test/tree/main/tests",
+      "title": "/tree/main/tests",
+      "count": 9,
       "uniques": 6
     },
     {
@@ -184,34 +200,22 @@
       "uniques": 5
     },
     {
-      "path": "/netascode/nac-test/tree/main/tests",
-      "title": "/tree/main/tests",
-      "count": 7,
-      "uniques": 4
-    },
-    {
       "path": "/netascode/nac-test/tags",
       "title": "/tags",
       "count": 7,
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-test/pull/889",
-      "title": "/pull/889",
-      "count": 5,
-      "uniques": 3
+      "path": "/netascode/nac-test/tree/main/nac_test/robot",
+      "title": "/tree/main/nac_test/robot",
+      "count": 4,
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-test/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
       "count": 4,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-test/tree/main/nac_test/robot",
-      "title": "/tree/main/nac_test/robot",
-      "count": 3,
-      "uniques": 3
     },
     {
       "path": "/netascode/nac-test/commits/main",
@@ -224,17 +228,23 @@
       "title": "/pull/891",
       "count": 3,
       "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-test/pull/889",
+      "title": "/pull/889",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 42,
-      "uniques": 13
+      "count": 40,
+      "uniques": 12
     },
     {
       "referrer": "Google",
-      "count": 24,
+      "count": 26,
       "uniques": 12
     },
     {
@@ -259,28 +269,28 @@
     }
   ],
   "totals": {
-    "clones": 681,
-    "uniqueClonerDays": 262,
+    "clones": 688,
+    "uniqueClonerDays": 267,
     "peakDailyClones": 167,
     "peakDailyUniqueCloners": 130,
-    "views": 201,
-    "uniqueVisitorDays": 83,
+    "views": 216,
+    "uniqueVisitorDays": 90,
     "peakDailyViews": 38,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:00.399Z",
+  "lastUpdated": "2026-08-16T03:15:09.478Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:00.399Z",
+    "polled_at": "2026-08-16T03:15:09.478Z",
     "views": {
-      "count": 154,
-      "uniques": 44
+      "count": 164,
+      "uniques": 46
     },
     "clones": {
-      "count": 589,
-      "uniques": 216
+      "count": 569,
+      "uniques": 213
     }
   }
 }

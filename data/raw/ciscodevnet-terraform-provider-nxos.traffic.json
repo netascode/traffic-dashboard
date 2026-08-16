@@ -85,6 +85,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 74,
       "uniques": 71
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 8,
+      "uniques": 7
     }
   ],
   "views": [
@@ -172,20 +177,25 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 22,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 7,
+      "uniques": 5
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-nxos",
       "title": "Overview",
-      "count": 62,
-      "uniques": 41
+      "count": 50,
+      "uniques": 40
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nxos/issues",
       "title": "/issues",
-      "count": 24,
-      "uniques": 8
+      "count": 16,
+      "uniques": 7
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nxos/releases",
@@ -194,10 +204,10 @@
       "uniques": 5
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-nxos/pulls",
-      "title": "/pulls",
-      "count": 13,
-      "uniques": 4
+      "path": "/CiscoDevNet/terraform-provider-nxos/commit/33337e6190c5efebc632bd2652a28359cde9c3eb",
+      "title": "/commit/33337e6190c5efebc632bd2652a28359cde9c3eb",
+      "count": 8,
+      "uniques": 5
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nxos/blob/main/CHANGELOG.md",
@@ -206,33 +216,33 @@
       "uniques": 6
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-nxos/commit/33337e6190c5efebc632bd2652a28359cde9c3eb",
-      "title": "/commit/33337e6190c5efebc632bd2652a28359cde9c3eb",
-      "count": 7,
-      "uniques": 5
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-nxos/pull/514",
-      "title": "/pull/514",
-      "count": 6,
-      "uniques": 3
-    },
-    {
       "path": "/CiscoDevNet/terraform-provider-nxos/tree/main",
       "title": "/tree/main",
       "count": 6,
       "uniques": 3
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-nxos/commit/8457e3ecd71bbfb90d39d3f625c2159fbc72095e",
-      "title": "/commit/8457e3ecd71bbfb90d39d3f625c2159fbc72095e",
+      "path": "/CiscoDevNet/terraform-provider-nxos/tree/main/examples/resources/nxos_ipv4",
+      "title": "/tree/main/examples/resources/nxos_ipv4",
       "count": 5,
-      "uniques": 4
+      "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-nxos/issues/513",
-      "title": "/issues/513",
-      "count": 5,
+      "path": "/CiscoDevNet/terraform-provider-nxos/tree/main/internal/provider",
+      "title": "/tree/main/internal/provider",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-nxos/tree/main/examples/resources",
+      "title": "/tree/main/examples/resources",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-nxos/issues/298",
+      "title": "/issues/298",
+      "count": 3,
       "uniques": 2
     }
   ],
@@ -240,7 +250,7 @@
     {
       "referrer": "github.com",
       "count": 73,
-      "uniques": 10
+      "uniques": 9
     },
     {
       "referrer": "Google",
@@ -258,34 +268,39 @@
       "uniques": 1
     },
     {
+      "referrer": "chatgpt.com",
+      "count": 1,
+      "uniques": 1
+    },
+    {
       "referrer": "search.brave.com",
       "count": 1,
       "uniques": 1
     }
   ],
   "totals": {
-    "clones": 338,
-    "uniqueClonerDays": 189,
+    "clones": 346,
+    "uniqueClonerDays": 196,
     "peakDailyClones": 84,
     "peakDailyUniqueCloners": 71,
-    "views": 318,
-    "uniqueVisitorDays": 92,
+    "views": 325,
+    "uniqueVisitorDays": 97,
     "peakDailyViews": 82,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:02.523Z",
+  "lastUpdated": "2026-08-16T03:15:11.928Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:02.523Z",
+    "polled_at": "2026-08-16T03:15:11.928Z",
     "views": {
-      "count": 290,
-      "uniques": 56
+      "count": 215,
+      "uniques": 54
     },
     "clones": {
-      "count": 317,
-      "uniques": 149
+      "count": 241,
+      "uniques": 139
     }
   }
 }

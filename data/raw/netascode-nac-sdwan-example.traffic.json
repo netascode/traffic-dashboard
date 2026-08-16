@@ -80,6 +80,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "views": [
@@ -162,6 +167,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 15,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 13,
+      "uniques": 2
     }
   ],
   "popularPaths": [
@@ -169,7 +179,7 @@
       "path": "/netascode/nac-sdwan-example",
       "title": "Overview",
       "count": 35,
-      "uniques": 24
+      "uniques": 25
     },
     {
       "path": "/netascode/nac-sdwan-example/tree/main/data",
@@ -178,58 +188,58 @@
       "uniques": 6
     },
     {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config",
-      "title": "/tree/main/tests/templates/config",
+      "path": "/netascode/nac-sdwan-example/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
       "count": 7,
       "uniques": 4
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/.schema.yaml",
       "title": "/blob/main/.schema.yaml",
-      "count": 6,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates",
-      "title": "/tree/main/tests/templates",
-      "count": 5,
-      "uniques": 4
+      "count": 7,
+      "uniques": 3
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
       "title": "/blob/main/data/sites.nac.yaml",
-      "count": 4,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/blob/main/data/centralized_policies.nac.yaml",
-      "title": "/blob/main/data/centralized_policies.nac.yaml",
-      "count": 4,
+      "count": 3,
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
-      "title": "/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
-      "count": 4,
+      "path": "/netascode/nac-sdwan-example/tree/main/jinja_filters",
+      "title": "/tree/main/jinja_filters",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates",
+      "title": "/tree/main/tests/templates",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config",
+      "title": "/tree/main/tests/templates/config",
+      "count": 3,
       "uniques": 3
     },
     {
       "path": "/netascode/nac-sdwan-example/tree/main",
       "title": "/tree/main",
-      "count": 4,
+      "count": 3,
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-sdwan-example/blob/main/main.tf",
-      "title": "/blob/main/main.tf",
+      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
+      "title": "/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
       "count": 3,
-      "uniques": 3
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "netascode.cisco.com",
-      "count": 63,
+      "count": 46,
       "uniques": 6
     },
     {
@@ -239,28 +249,28 @@
     }
   ],
   "totals": {
-    "clones": 10,
-    "uniqueClonerDays": 9,
+    "clones": 11,
+    "uniqueClonerDays": 10,
     "peakDailyClones": 3,
     "peakDailyUniqueCloners": 3,
-    "views": 131,
-    "uniqueVisitorDays": 44,
+    "views": 144,
+    "uniqueVisitorDays": 46,
     "peakDailyViews": 33,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:08:00.774Z",
+  "lastUpdated": "2026-08-16T03:15:09.892Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:08:00.774Z",
+    "polled_at": "2026-08-16T03:15:09.892Z",
     "views": {
-      "count": 120,
-      "uniques": 27
+      "count": 105,
+      "uniques": 26
     },
     "clones": {
-      "count": 8,
-      "uniques": 7
+      "count": 6,
+      "uniques": 5
     }
   }
 }

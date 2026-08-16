@@ -80,6 +80,11 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 33,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 53,
+      "uniques": 10
     }
   ],
   "views": [
@@ -162,38 +167,37 @@
       "timestamp": "2026-08-13T00:00:00Z",
       "count": 69,
       "uniques": 15
+    },
+    {
+      "timestamp": "2026-08-14T00:00:00Z",
+      "count": 25,
+      "uniques": 5
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-collector",
       "title": "Overview",
-      "count": 150,
-      "uniques": 77
+      "count": 145,
+      "uniques": 75
     },
     {
       "path": "/netascode/nac-collector/pulls",
       "title": "/pulls",
-      "count": 35,
+      "count": 36,
       "uniques": 10
     },
     {
       "path": "/netascode/nac-collector/issues",
       "title": "/issues",
-      "count": 21,
-      "uniques": 6
+      "count": 20,
+      "uniques": 5
     },
     {
       "path": "/netascode/nac-collector/blob/main/README.md",
       "title": "/blob/main/README.md",
-      "count": 16,
-      "uniques": 13
-    },
-    {
-      "path": "/netascode/nac-collector/tree/main",
-      "title": "/tree/main",
       "count": 12,
-      "uniques": 9
+      "uniques": 11
     },
     {
       "path": "/netascode/nac-collector/pull/289",
@@ -202,9 +206,15 @@
       "uniques": 2
     },
     {
+      "path": "/netascode/nac-collector/tree/main",
+      "title": "/tree/main",
+      "count": 11,
+      "uniques": 8
+    },
+    {
       "path": "/netascode/nac-collector/tree/main/nac_collector",
       "title": "/tree/main/nac_collector",
-      "count": 10,
+      "count": 11,
       "uniques": 7
     },
     {
@@ -229,23 +239,23 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 86,
-      "uniques": 24
+      "count": 78,
+      "uniques": 22
     },
     {
       "referrer": "github.com",
-      "count": 54,
-      "uniques": 20
-    },
-    {
-      "referrer": "netascode.cisco.com",
-      "count": 13,
-      "uniques": 4
+      "count": 75,
+      "uniques": 21
     },
     {
       "referrer": "wwwin-github.cisco.com",
       "count": 7,
       "uniques": 2
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 6,
+      "uniques": 4
     },
     {
       "referrer": "cisco-cxe.atlassian.net",
@@ -254,28 +264,28 @@
     }
   ],
   "totals": {
-    "clones": 538,
-    "uniqueClonerDays": 162,
+    "clones": 591,
+    "uniqueClonerDays": 172,
     "peakDailyClones": 82,
     "peakDailyUniqueCloners": 17,
-    "views": 479,
-    "uniqueVisitorDays": 147,
+    "views": 504,
+    "uniqueVisitorDays": 152,
     "peakDailyViews": 69,
     "peakDailyUniqueVisitors": 16,
-    "daysTracked": 16,
+    "daysTracked": 17,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-13T00:00:00Z"
+    "lastDay": "2026-08-14T00:00:00Z"
   },
-  "lastUpdated": "2026-08-15T03:07:59.805Z",
+  "lastUpdated": "2026-08-16T03:15:08.833Z",
   "snapshot14d": {
-    "polled_at": "2026-08-15T03:07:59.805Z",
+    "polled_at": "2026-08-16T03:15:08.833Z",
     "views": {
-      "count": 416,
-      "uniques": 93
+      "count": 411,
+      "uniques": 91
     },
     "clones": {
-      "count": 496,
-      "uniques": 91
+      "count": 518,
+      "uniques": 87
     }
   }
 }
