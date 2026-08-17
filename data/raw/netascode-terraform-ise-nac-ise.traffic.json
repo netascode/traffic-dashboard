@@ -95,6 +95,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 11,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 9,
+      "uniques": 2
     }
   ],
   "views": [
@@ -192,6 +197,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 4,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "popularPaths": [
@@ -204,7 +214,7 @@
     {
       "path": "/netascode/terraform-ise-nac-ise",
       "title": "Overview",
-      "count": 33,
+      "count": 32,
       "uniques": 22
     },
     {
@@ -279,28 +289,28 @@
     }
   ],
   "totals": {
-    "clones": 563,
-    "uniqueClonerDays": 194,
+    "clones": 572,
+    "uniqueClonerDays": 196,
     "peakDailyClones": 131,
     "peakDailyUniqueCloners": 23,
-    "views": 175,
-    "uniqueVisitorDays": 60,
+    "views": 176,
+    "uniqueVisitorDays": 61,
     "peakDailyViews": 39,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 19,
+    "daysTracked": 20,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:08.418Z",
+  "lastUpdated": "2026-08-17T03:15:36.248Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:08.418Z",
+    "polled_at": "2026-08-17T03:15:36.248Z",
     "views": {
-      "count": 143,
+      "count": 142,
       "uniques": 30
     },
     "clones": {
-      "count": 425,
-      "uniques": 77
+      "count": 428,
+      "uniques": 76
     }
   }
 }

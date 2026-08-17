@@ -95,6 +95,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 47,
       "uniques": 18
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 13,
+      "uniques": 8
     }
   ],
   "views": [
@@ -192,14 +197,19 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 29,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan",
       "title": "Overview",
-      "count": 70,
-      "uniques": 48
+      "count": 67,
+      "uniques": 46
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/tree/main",
@@ -259,7 +269,7 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 58,
+      "count": 44,
       "uniques": 9
     },
     {
@@ -278,11 +288,6 @@
       "uniques": 2
     },
     {
-      "referrer": "ondemandelearning.cisco.com",
-      "count": 3,
-      "uniques": 2
-    },
-    {
       "referrer": "core-cisco.bravais.com",
       "count": 1,
       "uniques": 1
@@ -291,31 +296,36 @@
       "referrer": "developer.cisco.com",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "referrer": "ondemandelearning.cisco.com",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 1101,
-    "uniqueClonerDays": 430,
+    "clones": 1114,
+    "uniqueClonerDays": 438,
     "peakDailyClones": 158,
     "peakDailyUniqueCloners": 113,
     "views": 388,
     "uniqueVisitorDays": 107,
     "peakDailyViews": 67,
     "peakDailyUniqueVisitors": 13,
-    "daysTracked": 19,
+    "daysTracked": 20,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:08.211Z",
+  "lastUpdated": "2026-08-17T03:15:36.101Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:08.211Z",
+    "polled_at": "2026-08-17T03:15:36.100Z",
     "views": {
-      "count": 249,
-      "uniques": 53
+      "count": 232,
+      "uniques": 52
     },
     "clones": {
-      "count": 854,
-      "uniques": 207
+      "count": 857,
+      "uniques": 204
     }
   }
 }

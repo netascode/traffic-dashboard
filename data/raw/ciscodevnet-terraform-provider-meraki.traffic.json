@@ -90,6 +90,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 15,
       "uniques": 12
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 10,
+      "uniques": 8
     }
   ],
   "views": [
@@ -182,61 +187,60 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 10,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-meraki",
       "title": "Overview",
-      "count": 55,
-      "uniques": 28
+      "count": 46,
+      "uniques": 24
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/pulls",
       "title": "/pulls",
-      "count": 41,
+      "count": 27,
       "uniques": 6
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/issues",
       "title": "/issues",
-      "count": 22,
-      "uniques": 12
+      "count": 18,
+      "uniques": 10
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/actions/runs/30701807235",
       "title": "/actions/runs/30701807235",
-      "count": 18,
+      "count": 16,
       "uniques": 2
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-meraki/pull/259",
+      "title": "/pull/259",
+      "count": 13,
+      "uniques": 6
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/pull/237",
       "title": "/pull/237",
-      "count": 17,
+      "count": 13,
       "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/actions",
       "title": "/actions",
-      "count": 16,
+      "count": 11,
       "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-meraki/pull/259",
-      "title": "/pull/259",
-      "count": 14,
-      "uniques": 6
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/pull/261",
       "title": "/pull/261",
-      "count": 6,
-      "uniques": 3
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-meraki/tree/main/examples",
-      "title": "/tree/main/examples",
-      "count": 4,
+      "count": 5,
       "uniques": 3
     },
     {
@@ -244,13 +248,19 @@
       "title": "/actions/runs/30701807235/job/91778500444",
       "count": 4,
       "uniques": 2
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-meraki/releases/tag/v1.13.0",
+      "title": "/releases/tag/v1.13.0",
+      "count": 4,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 30,
-      "uniques": 8
+      "count": 19,
+      "uniques": 7
     },
     {
       "referrer": "Google",
@@ -261,36 +271,31 @@
       "referrer": "wwwin-github.cisco.com",
       "count": 8,
       "uniques": 2
-    },
-    {
-      "referrer": "powerpoint.officeapps.live.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 603,
-    "uniqueClonerDays": 191,
+    "clones": 613,
+    "uniqueClonerDays": 199,
     "peakDailyClones": 284,
     "peakDailyUniqueCloners": 15,
-    "views": 380,
-    "uniqueVisitorDays": 87,
+    "views": 381,
+    "uniqueVisitorDays": 88,
     "peakDailyViews": 81,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 18,
+    "daysTracked": 19,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:11.247Z",
+  "lastUpdated": "2026-08-17T03:15:38.031Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:11.247Z",
+    "polled_at": "2026-08-17T03:15:38.031Z",
     "views": {
-      "count": 337,
-      "uniques": 45
+      "count": 257,
+      "uniques": 43
     },
     "clones": {
-      "count": 246,
-      "uniques": 131
+      "count": 235,
+      "uniques": 134
     }
   }
 }

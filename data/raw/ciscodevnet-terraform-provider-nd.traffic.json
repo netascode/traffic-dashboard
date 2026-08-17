@@ -85,6 +85,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 6,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "views": [
@@ -172,6 +177,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 57,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 6,
+      "uniques": 1
     }
   ],
   "popularPaths": [
@@ -184,8 +194,8 @@
     {
       "path": "/CiscoDevNet/terraform-provider-nd",
       "title": "Overview",
-      "count": 48,
-      "uniques": 21
+      "count": 47,
+      "uniques": 20
     },
     {
       "path": "/CiscoDevNet/terraform-provider-nd/pull/40",
@@ -239,8 +249,8 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 31,
-      "uniques": 8
+      "count": 24,
+      "uniques": 7
     },
     {
       "referrer": "Google",
@@ -249,24 +259,24 @@
     }
   ],
   "totals": {
-    "clones": 171,
-    "uniqueClonerDays": 83,
+    "clones": 172,
+    "uniqueClonerDays": 84,
     "peakDailyClones": 34,
     "peakDailyUniqueCloners": 16,
-    "views": 529,
-    "uniqueVisitorDays": 65,
+    "views": 535,
+    "uniqueVisitorDays": 66,
     "peakDailyViews": 82,
     "peakDailyUniqueVisitors": 8,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:12.837Z",
+  "lastUpdated": "2026-08-17T03:15:39.225Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:12.837Z",
+    "polled_at": "2026-08-17T03:15:39.224Z",
     "views": {
-      "count": 385,
-      "uniques": 25
+      "count": 369,
+      "uniques": 24
     },
     "clones": {
       "count": 123,

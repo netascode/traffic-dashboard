@@ -95,6 +95,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 20,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 5,
+      "uniques": 3
     }
   ],
   "views": [
@@ -192,14 +197,19 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 5,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-nxos-nac-nxos",
       "title": "Overview",
-      "count": 57,
-      "uniques": 34
+      "count": 55,
+      "uniques": 32
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/issues/167",
@@ -259,18 +269,18 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 39,
-      "uniques": 9
+      "count": 37,
+      "uniques": 8
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 19,
-      "uniques": 7
+      "count": 20,
+      "uniques": 8
     },
     {
       "referrer": "Google",
-      "count": 9,
-      "uniques": 3
+      "count": 8,
+      "uniques": 2
     },
     {
       "referrer": "DuckDuckGo",
@@ -289,28 +299,28 @@
     }
   ],
   "totals": {
-    "clones": 575,
-    "uniqueClonerDays": 201,
+    "clones": 580,
+    "uniqueClonerDays": 204,
     "peakDailyClones": 105,
     "peakDailyUniqueCloners": 27,
-    "views": 254,
-    "uniqueVisitorDays": 91,
+    "views": 255,
+    "uniqueVisitorDays": 92,
     "peakDailyViews": 47,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 19,
+    "daysTracked": 20,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:07.756Z",
+  "lastUpdated": "2026-08-17T03:15:35.795Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:07.756Z",
+    "polled_at": "2026-08-17T03:15:35.794Z",
     "views": {
-      "count": 138,
-      "uniques": 43
+      "count": 135,
+      "uniques": 41
     },
     "clones": {
-      "count": 380,
-      "uniques": 91
+      "count": 348,
+      "uniques": 81
     }
   }
 }

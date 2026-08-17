@@ -90,6 +90,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 143,
       "uniques": 130
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 11,
+      "uniques": 9
     }
   ],
   "views": [
@@ -182,6 +187,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 3,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
@@ -194,8 +204,8 @@
     {
       "path": "/CiscoDevNet/terraform-provider-ise",
       "title": "Overview",
-      "count": 90,
-      "uniques": 27
+      "count": 85,
+      "uniques": 23
     },
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pull/252",
@@ -254,8 +264,8 @@
     },
     {
       "referrer": "github.com",
-      "count": 33,
-      "uniques": 8
+      "count": 17,
+      "uniques": 7
     },
     {
       "referrer": "blogs.cisco.com",
@@ -264,28 +274,28 @@
     }
   ],
   "totals": {
-    "clones": 776,
-    "uniqueClonerDays": 573,
+    "clones": 787,
+    "uniqueClonerDays": 582,
     "peakDailyClones": 143,
     "peakDailyUniqueCloners": 130,
     "views": 529,
     "uniqueVisitorDays": 60,
     "peakDailyViews": 171,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 18,
+    "daysTracked": 19,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:12.479Z",
+  "lastUpdated": "2026-08-17T03:15:38.929Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:12.479Z",
+    "polled_at": "2026-08-17T03:15:38.929Z",
     "views": {
-      "count": 525,
-      "uniques": 35
+      "count": 506,
+      "uniques": 33
     },
     "clones": {
-      "count": 622,
-      "uniques": 401
+      "count": 575,
+      "uniques": 363
     }
   }
 }

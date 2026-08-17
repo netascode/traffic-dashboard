@@ -85,6 +85,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 7,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 64,
+      "uniques": 7
     }
   ],
   "views": [
@@ -172,30 +177,29 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 15,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-test",
       "title": "Overview",
-      "count": 70,
-      "uniques": 37
-    },
-    {
-      "path": "/netascode/nac-test/tree/main/nac_test",
-      "title": "/tree/main/nac_test",
-      "count": 10,
-      "uniques": 7
-    },
-    {
-      "path": "/netascode/nac-test/tree/main/tests",
-      "title": "/tree/main/tests",
-      "count": 9,
-      "uniques": 6
+      "count": 67,
+      "uniques": 36
     },
     {
       "path": "/netascode/nac-test/pulls",
       "title": "/pulls",
+      "count": 8,
+      "uniques": 6
+    },
+    {
+      "path": "/netascode/nac-test/tree/main/nac_test",
+      "title": "/tree/main/nac_test",
       "count": 7,
       "uniques": 5
     },
@@ -206,16 +210,22 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-test/tree/main/nac_test/robot",
-      "title": "/tree/main/nac_test/robot",
-      "count": 4,
-      "uniques": 4
+      "path": "/netascode/nac-test/tree/main/tests",
+      "title": "/tree/main/tests",
+      "count": 6,
+      "uniques": 5
     },
     {
       "path": "/netascode/nac-test/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
       "count": 4,
       "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-test/tree/main/nac_test/robot",
+      "title": "/tree/main/nac_test/robot",
+      "count": 3,
+      "uniques": 3
     },
     {
       "path": "/netascode/nac-test/commits/main",
@@ -239,12 +249,12 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 40,
-      "uniques": 12
+      "count": 37,
+      "uniques": 11
     },
     {
       "referrer": "Google",
-      "count": 26,
+      "count": 23,
       "uniques": 12
     },
     {
@@ -269,28 +279,28 @@
     }
   ],
   "totals": {
-    "clones": 688,
-    "uniqueClonerDays": 267,
+    "clones": 752,
+    "uniqueClonerDays": 274,
     "peakDailyClones": 167,
     "peakDailyUniqueCloners": 130,
-    "views": 216,
-    "uniqueVisitorDays": 90,
+    "views": 217,
+    "uniqueVisitorDays": 91,
     "peakDailyViews": 38,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:09.478Z",
+  "lastUpdated": "2026-08-17T03:15:36.966Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:09.478Z",
+    "polled_at": "2026-08-17T03:15:36.966Z",
     "views": {
-      "count": 164,
+      "count": 152,
       "uniques": 46
     },
     "clones": {
-      "count": 569,
-      "uniques": 213
+      "count": 621,
+      "uniques": 217
     }
   }
 }

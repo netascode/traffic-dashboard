@@ -154,6 +154,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -311,6 +316,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 2,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "totals": {
@@ -322,17 +332,17 @@
     "uniqueVisitorDays": 77,
     "peakDailyViews": 43,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 31,
+    "daysTracked": 32,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:06.438Z",
+  "lastUpdated": "2026-08-17T03:15:34.698Z",
   "popularPaths": [
     {
       "path": "/netascode/nac-branch",
       "title": "Overview",
-      "count": 29,
-      "uniques": 22
+      "count": 28,
+      "uniques": 21
     },
     {
       "path": "/netascode/nac-branch/tree/main/data",
@@ -413,10 +423,10 @@
   ],
   "repo": "netascode/nac-branch",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:06.436Z",
+    "polled_at": "2026-08-17T03:15:34.697Z",
     "views": {
-      "count": 80,
-      "uniques": 30
+      "count": 79,
+      "uniques": 29
     },
     "clones": {
       "count": 16,

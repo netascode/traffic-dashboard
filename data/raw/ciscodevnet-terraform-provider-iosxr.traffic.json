@@ -85,6 +85,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 28,
       "uniques": 18
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 9,
+      "uniques": 5
     }
   ],
   "views": [
@@ -172,20 +177,25 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 6,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 4,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-iosxr/pulls",
       "title": "/pulls",
-      "count": 198,
+      "count": 201,
       "uniques": 5
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxr",
       "title": "Overview",
-      "count": 79,
-      "uniques": 29
+      "count": 76,
+      "uniques": 28
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxr/pull/329",
@@ -239,8 +249,8 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 61,
-      "uniques": 12
+      "count": 42,
+      "uniques": 11
     },
     {
       "referrer": "Google",
@@ -251,36 +261,31 @@
       "referrer": "Bing",
       "count": 1,
       "uniques": 1
-    },
-    {
-      "referrer": "search.brave.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 490,
-    "uniqueClonerDays": 207,
+    "clones": 499,
+    "uniqueClonerDays": 212,
     "peakDailyClones": 85,
     "peakDailyUniqueCloners": 30,
-    "views": 730,
-    "uniqueVisitorDays": 75,
+    "views": 734,
+    "uniqueVisitorDays": 76,
     "peakDailyViews": 133,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:12.652Z",
+  "lastUpdated": "2026-08-17T03:15:39.086Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:12.652Z",
+    "polled_at": "2026-08-17T03:15:39.086Z",
     "views": {
-      "count": 700,
-      "uniques": 40
+      "count": 680,
+      "uniques": 38
     },
     "clones": {
-      "count": 482,
-      "uniques": 155
+      "count": 490,
+      "uniques": 158
     }
   }
 }

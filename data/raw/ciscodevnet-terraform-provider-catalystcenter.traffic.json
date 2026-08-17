@@ -90,6 +90,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 1092,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 1198,
+      "uniques": 9
     }
   ],
   "views": [
@@ -182,20 +187,25 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 21,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 16,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-catalystcenter",
       "title": "Overview",
-      "count": 126,
-      "uniques": 32
+      "count": 128,
+      "uniques": 31
     },
     {
       "path": "/CiscoDevNet/terraform-provider-catalystcenter/pulls",
       "title": "/pulls",
-      "count": 124,
-      "uniques": 13
+      "count": 128,
+      "uniques": 14
     },
     {
       "path": "/CiscoDevNet/terraform-provider-catalystcenter/pull/463",
@@ -216,6 +226,12 @@
       "uniques": 3
     },
     {
+      "path": "/CiscoDevNet/terraform-provider-catalystcenter/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
+      "count": 16,
+      "uniques": 6
+    },
+    {
       "path": "/CiscoDevNet/terraform-provider-catalystcenter/pull/461/changes",
       "title": "/pull/461/changes",
       "count": 16,
@@ -226,12 +242,6 @@
       "title": "/issues",
       "count": 15,
       "uniques": 7
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-catalystcenter/blob/main/CHANGELOG.md",
-      "title": "/blob/main/CHANGELOG.md",
-      "count": 13,
-      "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-catalystcenter/pull/464",
@@ -259,7 +269,7 @@
     },
     {
       "referrer": "Google",
-      "count": 34,
+      "count": 38,
       "uniques": 7
     },
     {
@@ -268,13 +278,13 @@
       "uniques": 4
     },
     {
-      "referrer": "registry.terraform.io",
-      "count": 5,
-      "uniques": 2
-    },
-    {
       "referrer": "blogs.cisco.com",
       "count": 5,
+      "uniques": 1
+    },
+    {
+      "referrer": "registry.terraform.io",
+      "count": 2,
       "uniques": 1
     },
     {
@@ -284,28 +294,28 @@
     }
   ],
   "totals": {
-    "clones": 23545,
-    "uniqueClonerDays": 236,
+    "clones": 24743,
+    "uniqueClonerDays": 245,
     "peakDailyClones": 2396,
     "peakDailyUniqueCloners": 27,
-    "views": 776,
-    "uniqueVisitorDays": 78,
+    "views": 792,
+    "uniqueVisitorDays": 81,
     "peakDailyViews": 308,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 18,
+    "daysTracked": 19,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:11.765Z",
+  "lastUpdated": "2026-08-17T03:15:38.338Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:11.765Z",
+    "polled_at": "2026-08-17T03:15:38.338Z",
     "views": {
-      "count": 649,
-      "uniques": 42
+      "count": 660,
+      "uniques": 41
     },
     "clones": {
-      "count": 13983,
-      "uniques": 147
+      "count": 12798,
+      "uniques": 148
     }
   }
 }

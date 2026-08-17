@@ -154,6 +154,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 30,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 25,
+      "uniques": 7
     }
   ],
   "views": [
@@ -311,6 +316,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 3,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 3,
+      "uniques": 2
     }
   ],
   "popularPaths": [
@@ -318,7 +328,7 @@
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter",
       "title": "Overview",
       "count": 135,
-      "uniques": 39
+      "uniques": 38
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pulls",
@@ -347,8 +357,8 @@
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
-      "count": 13,
-      "uniques": 7
+      "count": 14,
+      "uniques": 8
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/issues",
@@ -398,29 +408,29 @@
     }
   ],
   "totals": {
-    "clones": 2629,
-    "uniqueClonerDays": 518,
+    "clones": 2654,
+    "uniqueClonerDays": 525,
     "peakDailyClones": 250,
     "peakDailyUniqueCloners": 47,
-    "views": 1151,
-    "uniqueVisitorDays": 200,
+    "views": 1154,
+    "uniqueVisitorDays": 202,
     "peakDailyViews": 127,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 31,
+    "daysTracked": 32,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:07.580Z",
+  "lastUpdated": "2026-08-17T03:15:35.640Z",
   "repo": "netascode/terraform-catalystcenter-nac-catalystcenter",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:07.580Z",
+    "polled_at": "2026-08-17T03:15:35.640Z",
     "views": {
       "count": 512,
-      "uniques": 49
+      "uniques": 47
     },
     "clones": {
-      "count": 907,
-      "uniques": 123
+      "count": 891,
+      "uniques": 124
     }
   }
 }

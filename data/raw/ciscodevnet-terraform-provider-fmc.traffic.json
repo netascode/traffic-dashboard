@@ -90,6 +90,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 3649,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 3856,
+      "uniques": 7
     }
   ],
   "views": [
@@ -182,14 +187,19 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 3,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-fmc",
       "title": "Overview",
-      "count": 65,
-      "uniques": 44
+      "count": 64,
+      "uniques": 43
     },
     {
       "path": "/CiscoDevNet/terraform-provider-fmc/pulls",
@@ -240,8 +250,8 @@
       "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-fmc/issues/432",
-      "title": "/issues/432",
+      "path": "/CiscoDevNet/terraform-provider-fmc/issues/14",
+      "title": "/issues/14",
       "count": 4,
       "uniques": 4
     }
@@ -279,28 +289,28 @@
     }
   ],
   "totals": {
-    "clones": 42824,
-    "uniqueClonerDays": 155,
+    "clones": 46680,
+    "uniqueClonerDays": 162,
     "peakDailyClones": 3856,
     "peakDailyUniqueCloners": 15,
-    "views": 343,
-    "uniqueVisitorDays": 122,
+    "views": 345,
+    "uniqueVisitorDays": 124,
     "peakDailyViews": 44,
     "peakDailyUniqueVisitors": 16,
-    "daysTracked": 18,
+    "daysTracked": 19,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:10.994Z",
+  "lastUpdated": "2026-08-17T03:15:37.886Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:10.994Z",
+    "polled_at": "2026-08-17T03:15:37.886Z",
     "views": {
-      "count": 241,
-      "uniques": 80
+      "count": 240,
+      "uniques": 79
     },
     "clones": {
-      "count": 35275,
-      "uniques": 64
+      "count": 37272,
+      "uniques": 65
     }
   }
 }

@@ -85,6 +85,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 53,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "views": [
@@ -172,13 +177,18 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 25,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-collector",
       "title": "Overview",
-      "count": 145,
+      "count": 144,
       "uniques": 75
     },
     {
@@ -194,16 +204,16 @@
       "uniques": 5
     },
     {
-      "path": "/netascode/nac-collector/blob/main/README.md",
-      "title": "/blob/main/README.md",
-      "count": 12,
-      "uniques": 11
-    },
-    {
       "path": "/netascode/nac-collector/pull/289",
       "title": "/pull/289",
       "count": 12,
       "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-collector/blob/main/README.md",
+      "title": "/blob/main/README.md",
+      "count": 11,
+      "uniques": 10
     },
     {
       "path": "/netascode/nac-collector/tree/main",
@@ -244,8 +254,8 @@
     },
     {
       "referrer": "github.com",
-      "count": 75,
-      "uniques": 21
+      "count": 74,
+      "uniques": 20
     },
     {
       "referrer": "wwwin-github.cisco.com",
@@ -264,28 +274,28 @@
     }
   ],
   "totals": {
-    "clones": 591,
-    "uniqueClonerDays": 172,
+    "clones": 593,
+    "uniqueClonerDays": 174,
     "peakDailyClones": 82,
     "peakDailyUniqueCloners": 17,
-    "views": 504,
-    "uniqueVisitorDays": 152,
+    "views": 505,
+    "uniqueVisitorDays": 153,
     "peakDailyViews": 69,
     "peakDailyUniqueVisitors": 16,
-    "daysTracked": 17,
+    "daysTracked": 18,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:08.833Z",
+  "lastUpdated": "2026-08-17T03:15:36.552Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:08.833Z",
+    "polled_at": "2026-08-17T03:15:36.552Z",
     "views": {
-      "count": 411,
-      "uniques": 91
+      "count": 409,
+      "uniques": 90
     },
     "clones": {
-      "count": 518,
-      "uniques": 87
+      "count": 506,
+      "uniques": 86
     }
   }
 }

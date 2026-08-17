@@ -90,6 +90,11 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 5602,
       "uniques": 936
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 4695,
+      "uniques": 13
     }
   ],
   "views": [
@@ -182,13 +187,18 @@
       "timestamp": "2026-08-14T00:00:00Z",
       "count": 20,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-15T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan",
       "title": "Overview",
-      "count": 66,
+      "count": 65,
       "uniques": 35
     },
     {
@@ -279,28 +289,28 @@
     }
   ],
   "totals": {
-    "clones": 55321,
-    "uniqueClonerDays": 1493,
+    "clones": 60016,
+    "uniqueClonerDays": 1506,
     "peakDailyClones": 5602,
     "peakDailyUniqueCloners": 936,
-    "views": 639,
-    "uniqueVisitorDays": 143,
+    "views": 641,
+    "uniqueVisitorDays": 145,
     "peakDailyViews": 156,
     "peakDailyUniqueVisitors": 18,
-    "daysTracked": 18,
+    "daysTracked": 19,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-14T00:00:00Z"
+    "lastDay": "2026-08-15T00:00:00Z"
   },
-  "lastUpdated": "2026-08-16T03:15:12.280Z",
+  "lastUpdated": "2026-08-17T03:15:38.772Z",
   "snapshot14d": {
-    "polled_at": "2026-08-16T03:15:12.280Z",
+    "polled_at": "2026-08-17T03:15:38.772Z",
     "views": {
-      "count": 392,
+      "count": 391,
       "uniques": 69
     },
     "clones": {
-      "count": 50136,
-      "uniques": 1184
+      "count": 53529,
+      "uniques": 1150
     }
   }
 }
