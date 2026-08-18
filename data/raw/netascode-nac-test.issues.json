@@ -8929,13 +8929,93 @@
       "created_at": "2026-08-15T23:20:33Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 896,
+      "type": "pr",
+      "state": "open",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-08-17T09:24:27Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 897,
+      "type": "issue",
+      "state": "open",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-08-17T18:10:05Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 898,
+      "type": "pr",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-08-17T20:28:54Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 899,
+      "type": "pr",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-08-17T20:29:14Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 900,
+      "type": "pr",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-08-17T20:29:32Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 901,
+      "type": "pr",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-08-17T20:29:49Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 902,
+      "type": "pr",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-08-17T20:30:06Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 903,
+      "type": "pr",
+      "state": "open",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-08-17T21:33:26Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 67,
-    "external_new_30d": 0,
+    "external_open": 68,
+    "external_new_30d": 1,
     "external_closed_30d": 0,
     "external_authors_all_time": 9
   },
-  "lastPolledAt": "2026-08-17T03:15:49.375Z"
+  "lastPolledAt": "2026-08-18T03:12:08.983Z"
 }

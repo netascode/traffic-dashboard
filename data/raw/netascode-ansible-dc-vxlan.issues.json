@@ -8719,13 +8719,33 @@
       "created_at": "2026-08-12T22:23:46Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 873,
+      "type": "issue",
+      "state": "open",
+      "author_login": "juarocha",
+      "is_org_member": false,
+      "created_at": "2026-08-18T00:23:03Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 874,
+      "type": "pr",
+      "state": "open",
+      "author_login": "juarocha",
+      "is_org_member": false,
+      "created_at": "2026-08-18T00:38:44Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 58,
-    "external_new_30d": 16,
+    "external_open": 59,
+    "external_new_30d": 17,
     "external_closed_30d": 15,
     "external_authors_all_time": 29
   },
-  "lastPolledAt": "2026-08-17T03:15:48.189Z"
+  "lastPolledAt": "2026-08-18T03:12:07.497Z"
 }

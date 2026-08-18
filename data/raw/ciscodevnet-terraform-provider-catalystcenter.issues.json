@@ -4663,10 +4663,20 @@
     {
       "number": 467,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "Pson123",
       "is_org_member": false,
       "created_at": "2026-08-13T13:23:49Z",
+      "closed_at": "2026-08-17T07:58:34Z",
+      "merged_at": "2026-08-17T07:58:34Z"
+    },
+    {
+      "number": 468,
+      "type": "pr",
+      "state": "open",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-08-17T19:38:25Z",
       "closed_at": null,
       "merged_at": null
     }
@@ -4677,5 +4687,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 19
   },
-  "lastPolledAt": "2026-08-17T03:15:51.078Z"
+  "lastPolledAt": "2026-08-18T03:12:13.366Z"
 }

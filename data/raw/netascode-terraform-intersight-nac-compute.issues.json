@@ -303,10 +303,40 @@
     {
       "number": 31,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "moskrive",
       "is_org_member": false,
       "created_at": "2026-08-07T11:42:39Z",
+      "closed_at": "2026-08-17T09:14:56Z",
+      "merged_at": null
+    },
+    {
+      "number": 32,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-17T09:15:39Z",
+      "closed_at": "2026-08-17T09:18:40Z",
+      "merged_at": "2026-08-17T09:18:40Z"
+    },
+    {
+      "number": 33,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-17T10:11:53Z",
+      "closed_at": "2026-08-17T10:13:13Z",
+      "merged_at": "2026-08-17T10:13:13Z"
+    },
+    {
+      "number": 34,
+      "type": "pr",
+      "state": "open",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-17T11:00:43Z",
       "closed_at": null,
       "merged_at": null
     }
@@ -317,5 +347,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 0
   },
-  "lastPolledAt": "2026-08-17T03:15:47.810Z"
+  "lastPolledAt": "2026-08-18T03:12:06.175Z"
 }
