@@ -95,6 +95,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 8,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 10,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 22,
+      "uniques": 9
     }
   ],
   "views": [
@@ -192,38 +202,42 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 3,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 12,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 25,
+      "uniques": 11
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe",
       "title": "Overview",
-      "count": 130,
-      "uniques": 56
+      "count": 124,
+      "uniques": 58
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/pulls",
       "title": "/pulls",
-      "count": 66,
+      "count": 59,
       "uniques": 5
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/issues",
       "title": "/issues",
-      "count": 53,
+      "count": 51,
       "uniques": 14
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main/examples",
       "title": "/tree/main/examples",
-      "count": 20,
-      "uniques": 12
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-iosxe/blob/main/CHANGELOG.md",
-      "title": "/blob/main/CHANGELOG.md",
-      "count": 14,
-      "uniques": 11
+      "count": 21,
+      "uniques": 13
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/pull/623",
@@ -232,39 +246,45 @@
       "uniques": 3
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-iosxe/pull/620",
-      "title": "/pull/620",
-      "count": 13,
-      "uniques": 5
+      "path": "/CiscoDevNet/terraform-provider-iosxe/pull/624",
+      "title": "/pull/624",
+      "count": 11,
+      "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-iosxe/issues/619",
-      "title": "/issues/619",
-      "count": 11,
-      "uniques": 3
+      "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main/examples/resources",
+      "title": "/tree/main/examples/resources",
+      "count": 10,
+      "uniques": 8
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main",
-      "title": "/tree/main",
-      "count": 11,
-      "uniques": 3
+      "path": "/CiscoDevNet/terraform-provider-iosxe/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
+      "count": 10,
+      "uniques": 7
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-iosxe/tree/main/examples/provider",
+      "title": "/tree/main/examples/provider",
+      "count": 10,
+      "uniques": 7
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxe/issues/new",
       "title": "/issues/new",
-      "count": 11,
-      "uniques": 2
+      "count": 10,
+      "uniques": 1
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 78,
-      "uniques": 8
+      "count": 81,
+      "uniques": 12
     },
     {
       "referrer": "Google",
-      "count": 45,
+      "count": 47,
       "uniques": 14
     },
     {
@@ -288,11 +308,6 @@
       "uniques": 1
     },
     {
-      "referrer": "e.mail.ru",
-      "count": 1,
-      "uniques": 1
-    },
-    {
       "referrer": "firstpasslab.com",
       "count": 1,
       "uniques": 1
@@ -304,28 +319,28 @@
     }
   ],
   "totals": {
-    "clones": 4618,
-    "uniqueClonerDays": 1188,
+    "clones": 4650,
+    "uniqueClonerDays": 1205,
     "peakDailyClones": 1884,
     "peakDailyUniqueCloners": 789,
-    "views": 778,
-    "uniqueVisitorDays": 168,
+    "views": 815,
+    "uniqueVisitorDays": 183,
     "peakDailyViews": 100,
     "peakDailyUniqueVisitors": 17,
-    "daysTracked": 19,
+    "daysTracked": 21,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:38.193Z",
+  "lastUpdated": "2026-08-19T03:13:45.304Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:38.193Z",
+    "polled_at": "2026-08-19T03:13:45.304Z",
     "views": {
-      "count": 638,
-      "uniques": 94
+      "count": 602,
+      "uniques": 91
     },
     "clones": {
-      "count": 1618,
-      "uniques": 273
+      "count": 1614,
+      "uniques": 271
     }
   }
 }

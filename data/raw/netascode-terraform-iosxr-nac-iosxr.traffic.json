@@ -90,6 +90,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 8,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 31,
+      "uniques": 16
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 14,
+      "uniques": 11
     }
   ],
   "views": [
@@ -182,19 +192,29 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 14,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 39,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 9,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr",
       "title": "Overview",
-      "count": 90,
+      "count": 94,
       "uniques": 34
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pulls",
       "title": "/pulls",
-      "count": 89,
+      "count": 93,
       "uniques": 4
     },
     {
@@ -204,16 +224,16 @@
       "uniques": 3
     },
     {
+      "path": "/netascode/terraform-iosxr-nac-iosxr/issues",
+      "title": "/issues",
+      "count": 18,
+      "uniques": 7
+    },
+    {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pull/201",
       "title": "/pull/201",
       "count": 17,
       "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-iosxr-nac-iosxr/issues",
-      "title": "/issues",
-      "count": 12,
-      "uniques": 5
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/issues/192",
@@ -230,8 +250,8 @@
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/issues/193",
       "title": "/issues/193",
-      "count": 9,
-      "uniques": 5
+      "count": 10,
+      "uniques": 6
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pull/202",
@@ -242,19 +262,19 @@
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pull/207",
       "title": "/pull/207",
-      "count": 7,
+      "count": 8,
       "uniques": 1
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 42,
+      "count": 45,
       "uniques": 11
     },
     {
       "referrer": "Google",
-      "count": 30,
+      "count": 20,
       "uniques": 10
     },
     {
@@ -264,28 +284,28 @@
     }
   ],
   "totals": {
-    "clones": 386,
-    "uniqueClonerDays": 242,
+    "clones": 431,
+    "uniqueClonerDays": 269,
     "peakDailyClones": 50,
     "peakDailyUniqueCloners": 39,
-    "views": 499,
-    "uniqueVisitorDays": 93,
+    "views": 547,
+    "uniqueVisitorDays": 104,
     "peakDailyViews": 95,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 18,
+    "daysTracked": 20,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:36.827Z",
+  "lastUpdated": "2026-08-19T03:13:43.446Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:36.827Z",
+    "polled_at": "2026-08-19T03:13:43.445Z",
     "views": {
-      "count": 429,
-      "uniques": 50
+      "count": 439,
+      "uniques": 49
     },
     "clones": {
-      "count": 341,
-      "uniques": 139
+      "count": 375,
+      "uniques": 151
     }
   }
 }

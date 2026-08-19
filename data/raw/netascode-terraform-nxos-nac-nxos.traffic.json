@@ -100,6 +100,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 5,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 36,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 7,
+      "uniques": 4
     }
   ],
   "views": [
@@ -202,19 +212,29 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 55,
+      "uniques": 8
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-nxos-nac-nxos",
       "title": "Overview",
-      "count": 55,
-      "uniques": 32
+      "count": 68,
+      "uniques": 38
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/issues/167",
       "title": "/issues/167",
-      "count": 13,
+      "count": 14,
       "uniques": 11
     },
     {
@@ -224,45 +244,45 @@
       "uniques": 8
     },
     {
-      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/main.tf",
-      "title": "/blob/main/main.tf",
-      "count": 7,
+      "path": "/netascode/terraform-nxos-nac-nxos/pulls",
+      "title": "/pulls",
+      "count": 10,
+      "uniques": 6
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/tree/main",
+      "title": "/tree/main",
+      "count": 9,
       "uniques": 4
     },
     {
-      "path": "/netascode/terraform-nxos-nac-nxos/pulls",
-      "title": "/pulls",
-      "count": 5,
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 8,
       "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/tree/main/examples/system",
+      "title": "/tree/main/examples/system",
+      "count": 6,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/blob/main/nxos_access_list.tf",
       "title": "/blob/main/nxos_access_list.tf",
-      "count": 4,
-      "uniques": 4
+      "count": 5,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/defaults/defaults.yaml",
+      "title": "/blob/main/defaults/defaults.yaml",
+      "count": 3,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/blob/main/.terraform-docs.yml",
       "title": "/blob/main/.terraform-docs.yml",
       "count": 3,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/nxos_bfd.tf",
-      "title": "/blob/main/nxos_bfd.tf",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/nxos_bgp.tf",
-      "title": "/blob/main/nxos_bgp.tf",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/nxos_port_channel_interface.tf",
-      "title": "/blob/main/nxos_port_channel_interface.tf",
-      "count": 2,
       "uniques": 2
     }
   ],
@@ -274,13 +294,13 @@
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 20,
-      "uniques": 8
+      "count": 28,
+      "uniques": 9
     },
     {
       "referrer": "Google",
-      "count": 8,
-      "uniques": 2
+      "count": 9,
+      "uniques": 3
     },
     {
       "referrer": "DuckDuckGo",
@@ -299,28 +319,28 @@
     }
   ],
   "totals": {
-    "clones": 580,
-    "uniqueClonerDays": 204,
+    "clones": 623,
+    "uniqueClonerDays": 212,
     "peakDailyClones": 105,
     "peakDailyUniqueCloners": 27,
-    "views": 255,
-    "uniqueVisitorDays": 92,
-    "peakDailyViews": 47,
+    "views": 311,
+    "uniqueVisitorDays": 101,
+    "peakDailyViews": 55,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 20,
+    "daysTracked": 22,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:35.795Z",
+  "lastUpdated": "2026-08-19T03:13:42.057Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:35.794Z",
+    "polled_at": "2026-08-19T03:13:42.057Z",
     "views": {
-      "count": 135,
-      "uniques": 41
+      "count": 191,
+      "uniques": 48
     },
     "clones": {
-      "count": 348,
-      "uniques": 81
+      "count": 361,
+      "uniques": 76
     }
   }
 }

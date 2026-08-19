@@ -159,6 +159,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -321,40 +331,44 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "totals": {
-    "clones": 33,
-    "uniqueClonerDays": 26,
+    "clones": 34,
+    "uniqueClonerDays": 27,
     "peakDailyClones": 8,
     "peakDailyUniqueCloners": 6,
-    "views": 220,
-    "uniqueVisitorDays": 77,
+    "views": 221,
+    "uniqueVisitorDays": 78,
     "peakDailyViews": 43,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 32,
+    "daysTracked": 34,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:34.698Z",
+  "lastUpdated": "2026-08-19T03:13:40.801Z",
   "popularPaths": [
     {
       "path": "/netascode/nac-branch",
       "title": "Overview",
-      "count": 28,
-      "uniques": 21
+      "count": 27,
+      "uniques": 20
     },
     {
       "path": "/netascode/nac-branch/tree/main/data",
       "title": "/tree/main/data",
-      "count": 8,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-branch/tree/main",
-      "title": "/tree/main",
-      "count": 5,
-      "uniques": 3
+      "count": 7,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-branch/tree/main/tests/templates/config",
@@ -375,9 +389,15 @@
       "uniques": 3
     },
     {
+      "path": "/netascode/nac-branch/tree/main",
+      "title": "/tree/main",
+      "count": 4,
+      "uniques": 2
+    },
+    {
       "path": "/netascode/nac-branch/tree/main/docs",
       "title": "/tree/main/docs",
-      "count": 4,
+      "count": 3,
       "uniques": 3
     },
     {
@@ -402,8 +422,8 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 4,
-      "uniques": 2
+      "count": 3,
+      "uniques": 1
     },
     {
       "referrer": "blogs.cisco.com",
@@ -414,19 +434,14 @@
       "referrer": "github.com",
       "count": 2,
       "uniques": 2
-    },
-    {
-      "referrer": "netascode.cisco.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "repo": "netascode/nac-branch",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:34.697Z",
+    "polled_at": "2026-08-19T03:13:40.800Z",
     "views": {
-      "count": 79,
-      "uniques": 29
+      "count": 74,
+      "uniques": 28
     },
     "clones": {
       "count": 16,

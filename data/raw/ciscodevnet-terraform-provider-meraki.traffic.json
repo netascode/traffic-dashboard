@@ -95,6 +95,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 10,
       "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 13,
+      "uniques": 11
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 22,
+      "uniques": 15
     }
   ],
   "views": [
@@ -192,110 +202,120 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 5,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 89,
+      "uniques": 9
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-meraki",
       "title": "Overview",
-      "count": 46,
-      "uniques": 24
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-meraki/pulls",
-      "title": "/pulls",
-      "count": 27,
-      "uniques": 6
+      "count": 52,
+      "uniques": 26
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/issues",
       "title": "/issues",
-      "count": 18,
-      "uniques": 10
+      "count": 32,
+      "uniques": 11
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-meraki/actions/runs/30701807235",
-      "title": "/actions/runs/30701807235",
-      "count": 16,
-      "uniques": 2
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-meraki/pull/259",
-      "title": "/pull/259",
-      "count": 13,
-      "uniques": 6
+      "path": "/CiscoDevNet/terraform-provider-meraki/pulls",
+      "title": "/pulls",
+      "count": 30,
+      "uniques": 9
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/pull/237",
       "title": "/pull/237",
-      "count": 13,
-      "uniques": 4
+      "count": 25,
+      "uniques": 5
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-meraki/actions/runs/30701807235",
+      "title": "/actions/runs/30701807235",
+      "count": 12,
+      "uniques": 1
     },
     {
       "path": "/CiscoDevNet/terraform-provider-meraki/actions",
       "title": "/actions",
-      "count": 11,
+      "count": 10,
       "uniques": 4
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-meraki/pull/261",
-      "title": "/pull/261",
-      "count": 5,
+      "path": "/CiscoDevNet/terraform-provider-meraki/pull/259",
+      "title": "/pull/259",
+      "count": 9,
       "uniques": 3
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-meraki/actions/runs/30701807235/job/91778500444",
-      "title": "/actions/runs/30701807235/job/91778500444",
-      "count": 4,
-      "uniques": 2
+      "path": "/CiscoDevNet/terraform-provider-meraki/issues/new",
+      "title": "/issues/new",
+      "count": 6,
+      "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-meraki/releases/tag/v1.13.0",
-      "title": "/releases/tag/v1.13.0",
+      "path": "/CiscoDevNet/terraform-provider-meraki/pull/264",
+      "title": "/pull/264",
+      "count": 6,
+      "uniques": 1
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-meraki/issues/258",
+      "title": "/issues/258",
       "count": 4,
-      "uniques": 2
+      "uniques": 3
     }
   ],
   "referrers": [
     {
-      "referrer": "github.com",
-      "count": 19,
-      "uniques": 7
+      "referrer": "Google",
+      "count": 13,
+      "uniques": 6
     },
     {
-      "referrer": "Google",
-      "count": 9,
-      "uniques": 5
+      "referrer": "github.com",
+      "count": 11,
+      "uniques": 6
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 8,
+      "count": 7,
       "uniques": 2
     }
   ],
   "totals": {
-    "clones": 613,
-    "uniqueClonerDays": 199,
+    "clones": 648,
+    "uniqueClonerDays": 225,
     "peakDailyClones": 284,
     "peakDailyUniqueCloners": 15,
-    "views": 381,
-    "uniqueVisitorDays": 88,
-    "peakDailyViews": 81,
+    "views": 475,
+    "uniqueVisitorDays": 99,
+    "peakDailyViews": 89,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 19,
+    "daysTracked": 21,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:38.031Z",
+  "lastUpdated": "2026-08-19T03:13:45.098Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:38.031Z",
+    "polled_at": "2026-08-19T03:13:45.098Z",
     "views": {
-      "count": 257,
+      "count": 296,
       "uniques": 43
     },
     "clones": {
-      "count": 235,
-      "uniques": 134
+      "count": 243,
+      "uniques": 137
     }
   }
 }

@@ -95,6 +95,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 4695,
       "uniques": 13
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 4699,
+      "uniques": 18
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 4599,
+      "uniques": 57
     }
   ],
   "views": [
@@ -192,80 +202,90 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 50,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan",
       "title": "Overview",
-      "count": 65,
-      "uniques": 35
+      "count": 69,
+      "uniques": 38
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/pulls",
       "title": "/pulls",
-      "count": 26,
-      "uniques": 7
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-sdwan/tree/main",
-      "title": "/tree/main",
-      "count": 20,
-      "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-sdwan/issues",
-      "title": "/issues",
-      "count": 11,
+      "count": 33,
       "uniques": 7
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/pull/723",
       "title": "/pull/723",
-      "count": 10,
+      "count": 19,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/tree/main",
+      "title": "/tree/main",
+      "count": 17,
+      "uniques": 4
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/issues",
+      "title": "/issues",
+      "count": 13,
+      "uniques": 8
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/745",
+      "title": "/pull/745",
+      "count": 9,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/723/changes",
+      "title": "/pull/723/changes",
+      "count": 9,
       "uniques": 2
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
-      "count": 8,
+      "count": 7,
       "uniques": 7
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/tree/main/templates",
       "title": "/tree/main/templates",
-      "count": 8,
+      "count": 6,
       "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/745",
-      "title": "/pull/745",
-      "count": 8,
-      "uniques": 2
     },
     {
       "path": "/CiscoDevNet/terraform-provider-sdwan/issues/744",
       "title": "/issues/744",
       "count": 6,
       "uniques": 3
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-sdwan/pull/709",
-      "title": "/pull/709",
-      "count": 6,
-      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 147,
-      "uniques": 12
+      "count": 132,
+      "uniques": 11
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 30,
-      "uniques": 4
+      "count": 32,
+      "uniques": 5
     },
     {
       "referrer": "Google",
@@ -289,28 +309,28 @@
     }
   ],
   "totals": {
-    "clones": 60016,
-    "uniqueClonerDays": 1506,
+    "clones": 69314,
+    "uniqueClonerDays": 1581,
     "peakDailyClones": 5602,
     "peakDailyUniqueCloners": 936,
-    "views": 641,
-    "uniqueVisitorDays": 145,
+    "views": 694,
+    "uniqueVisitorDays": 154,
     "peakDailyViews": 156,
     "peakDailyUniqueVisitors": 18,
-    "daysTracked": 19,
+    "daysTracked": 21,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:38.772Z",
+  "lastUpdated": "2026-08-19T03:13:46.132Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:38.772Z",
+    "polled_at": "2026-08-19T03:13:46.132Z",
     "views": {
-      "count": 391,
-      "uniques": 69
+      "count": 407,
+      "uniques": 58
     },
     "clones": {
-      "count": 53529,
-      "uniques": 1150
+      "count": 60386,
+      "uniques": 1193
     }
   }
 }

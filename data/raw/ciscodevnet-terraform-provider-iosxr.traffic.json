@@ -90,6 +90,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 9,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 8,
+      "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 15,
+      "uniques": 7
     }
   ],
   "views": [
@@ -182,25 +192,35 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 4,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 4,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 9,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-iosxr/pulls",
       "title": "/pulls",
-      "count": 201,
-      "uniques": 5
+      "count": 172,
+      "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxr",
       "title": "Overview",
-      "count": 76,
-      "uniques": 28
+      "count": 79,
+      "uniques": 27
     },
     {
       "path": "/CiscoDevNet/terraform-provider-iosxr/pull/329",
       "title": "/pull/329",
-      "count": 35,
+      "count": 34,
       "uniques": 2
     },
     {
@@ -222,12 +242,6 @@
       "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-iosxr/pull/322",
-      "title": "/pull/322",
-      "count": 14,
-      "uniques": 4
-    },
-    {
       "path": "/CiscoDevNet/terraform-provider-iosxr/pull/352",
       "title": "/pull/352",
       "count": 14,
@@ -244,6 +258,12 @@
       "title": "/pull/354/changes",
       "count": 11,
       "uniques": 2
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-iosxr/pull/350",
+      "title": "/pull/350",
+      "count": 10,
+      "uniques": 3
     }
   ],
   "referrers": [
@@ -264,28 +284,28 @@
     }
   ],
   "totals": {
-    "clones": 499,
-    "uniqueClonerDays": 212,
+    "clones": 522,
+    "uniqueClonerDays": 225,
     "peakDailyClones": 85,
     "peakDailyUniqueCloners": 30,
-    "views": 734,
-    "uniqueVisitorDays": 76,
+    "views": 747,
+    "uniqueVisitorDays": 81,
     "peakDailyViews": 133,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 18,
+    "daysTracked": 20,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:39.086Z",
+  "lastUpdated": "2026-08-19T03:13:46.566Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:39.086Z",
+    "polled_at": "2026-08-19T03:13:46.565Z",
     "views": {
-      "count": 680,
-      "uniques": 38
+      "count": 620,
+      "uniques": 36
     },
     "clones": {
-      "count": 490,
-      "uniques": 158
+      "count": 426,
+      "uniques": 144
     }
   }
 }

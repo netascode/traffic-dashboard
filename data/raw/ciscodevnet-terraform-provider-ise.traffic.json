@@ -95,6 +95,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 11,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 22,
+      "uniques": 18
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 65,
+      "uniques": 55
     }
   ],
   "views": [
@@ -192,20 +202,30 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 25,
+      "uniques": 4
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pulls",
       "title": "/pulls",
-      "count": 125,
+      "count": 128,
       "uniques": 4
     },
     {
       "path": "/CiscoDevNet/terraform-provider-ise",
       "title": "Overview",
-      "count": 85,
-      "uniques": 23
+      "count": 91,
+      "uniques": 22
     },
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pull/252",
@@ -222,7 +242,7 @@
     {
       "path": "/CiscoDevNet/terraform-provider-ise/pull/261",
       "title": "/pull/261",
-      "count": 19,
+      "count": 22,
       "uniques": 4
     },
     {
@@ -260,12 +280,17 @@
     {
       "referrer": "Google",
       "count": 73,
-      "uniques": 7
+      "uniques": 6
     },
     {
       "referrer": "github.com",
-      "count": 17,
-      "uniques": 7
+      "count": 14,
+      "uniques": 5
+    },
+    {
+      "referrer": "Bing",
+      "count": 3,
+      "uniques": 1
     },
     {
       "referrer": "blogs.cisco.com",
@@ -274,28 +299,28 @@
     }
   ],
   "totals": {
-    "clones": 787,
-    "uniqueClonerDays": 582,
+    "clones": 874,
+    "uniqueClonerDays": 655,
     "peakDailyClones": 143,
     "peakDailyUniqueCloners": 130,
-    "views": 529,
-    "uniqueVisitorDays": 60,
+    "views": 555,
+    "uniqueVisitorDays": 65,
     "peakDailyViews": 171,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 19,
+    "daysTracked": 21,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:38.929Z",
+  "lastUpdated": "2026-08-19T03:13:46.343Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:38.929Z",
+    "polled_at": "2026-08-19T03:13:46.343Z",
     "views": {
-      "count": 506,
-      "uniques": 33
+      "count": 527,
+      "uniques": 30
     },
     "clones": {
-      "count": 575,
-      "uniques": 363
+      "count": 620,
+      "uniques": 415
     }
   }
 }

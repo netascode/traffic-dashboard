@@ -77,12 +77,19 @@
       "year": null,
       "total": 123105,
       "polled_at": "2026-08-18T03:12:18.021Z"
+    },
+    {
+      "week": null,
+      "month": null,
+      "year": null,
+      "total": 123170,
+      "polled_at": "2026-08-19T03:14:08.244Z"
     }
   ],
   "totals": {
-    "current_total": 123105,
+    "current_total": 123170,
     "week_delta_avg": 0,
     "month_delta_avg": 0
   },
-  "lastUpdated": "2026-08-18T03:12:18.021Z"
+  "lastUpdated": "2026-08-19T03:14:08.244Z"
 }

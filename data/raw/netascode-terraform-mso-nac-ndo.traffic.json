@@ -100,6 +100,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 4,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 18,
+      "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 38,
+      "uniques": 6
     }
   ],
   "views": [
@@ -202,14 +212,24 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 23,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 5,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-mso-nac-ndo",
       "title": "Overview",
-      "count": 31,
-      "uniques": 19
+      "count": 32,
+      "uniques": 18
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/74",
@@ -230,8 +250,14 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-mso-nac-ndo/pull/89",
-      "title": "/pull/89",
+      "path": "/netascode/terraform-mso-nac-ndo/pull/91",
+      "title": "/pull/91",
+      "count": 5,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-mso-nac-ndo/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
       "count": 4,
       "uniques": 3
     },
@@ -248,20 +274,14 @@
       "uniques": 1
     },
     {
-      "path": "/netascode/terraform-mso-nac-ndo/pull/89/changes",
-      "title": "/pull/89/changes",
+      "path": "/netascode/terraform-mso-nac-ndo/pull/89",
+      "title": "/pull/89",
       "count": 3,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-mso-nac-ndo/blob/269c61169e1e52521e6d24af0e748b5f19702cb7/README.md",
-      "title": "/blob/269c61169e1e52521e6d24af0e748b5f19702cb7/README.md",
-      "count": 2,
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-mso-nac-ndo/blob/main/main.tf",
-      "title": "/blob/main/main.tf",
+      "path": "/netascode/terraform-mso-nac-ndo/pull/89/changes",
+      "title": "/pull/89/changes",
       "count": 2,
       "uniques": 2
     }
@@ -269,38 +289,38 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 10,
-      "uniques": 5
+      "count": 9,
+      "uniques": 4
     },
     {
       "referrer": "github.com",
-      "count": 6,
+      "count": 7,
       "uniques": 5
     }
   ],
   "totals": {
-    "clones": 1034,
-    "uniqueClonerDays": 191,
+    "clones": 1090,
+    "uniqueClonerDays": 204,
     "peakDailyClones": 156,
     "peakDailyUniqueCloners": 28,
-    "views": 191,
-    "uniqueVisitorDays": 58,
+    "views": 219,
+    "uniqueVisitorDays": 64,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 20,
+    "daysTracked": 22,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:35.939Z",
+  "lastUpdated": "2026-08-19T03:13:42.266Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:35.939Z",
+    "polled_at": "2026-08-19T03:13:42.266Z",
     "views": {
-      "count": 140,
-      "uniques": 34
+      "count": 146,
+      "uniques": 28
     },
     "clones": {
-      "count": 532,
-      "uniques": 68
+      "count": 524,
+      "uniques": 67
     }
   }
 }

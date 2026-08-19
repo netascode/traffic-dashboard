@@ -90,6 +90,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -182,14 +192,24 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-branch-example",
       "title": "Overview",
-      "count": 11,
-      "uniques": 11
+      "count": 12,
+      "uniques": 12
     },
     {
       "path": "/netascode/nac-branch-example/pulse",
@@ -259,24 +279,24 @@
     }
   ],
   "totals": {
-    "clones": 8,
-    "uniqueClonerDays": 8,
+    "clones": 9,
+    "uniqueClonerDays": 9,
     "peakDailyClones": 2,
     "peakDailyUniqueCloners": 2,
-    "views": 29,
-    "uniqueVisitorDays": 16,
+    "views": 30,
+    "uniqueVisitorDays": 17,
     "peakDailyViews": 15,
     "peakDailyUniqueVisitors": 3,
-    "daysTracked": 18,
+    "daysTracked": 20,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:37.578Z",
+  "lastUpdated": "2026-08-19T03:13:44.451Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:37.578Z",
+    "polled_at": "2026-08-19T03:13:44.451Z",
     "views": {
-      "count": 23,
-      "uniques": 11
+      "count": 24,
+      "uniques": 12
     },
     "clones": {
       "count": 5,

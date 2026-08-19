@@ -90,6 +90,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -182,20 +192,30 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-sdwan-example",
       "title": "Overview",
-      "count": 33,
+      "count": 35,
       "uniques": 25
     },
     {
       "path": "/netascode/nac-sdwan-example/tree/main/data",
       "title": "/tree/main/data",
-      "count": 9,
-      "uniques": 6
+      "count": 8,
+      "uniques": 5
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/main.tf",
@@ -206,8 +226,8 @@
     {
       "path": "/netascode/nac-sdwan-example/blob/main/.schema.yaml",
       "title": "/blob/main/.schema.yaml",
-      "count": 7,
-      "uniques": 3
+      "count": 5,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
@@ -249,7 +269,7 @@
   "referrers": [
     {
       "referrer": "netascode.cisco.com",
-      "count": 47,
+      "count": 46,
       "uniques": 7
     },
     {
@@ -263,20 +283,20 @@
     "uniqueClonerDays": 11,
     "peakDailyClones": 3,
     "peakDailyUniqueCloners": 3,
-    "views": 145,
-    "uniqueVisitorDays": 47,
+    "views": 148,
+    "uniqueVisitorDays": 50,
     "peakDailyViews": 33,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 18,
+    "daysTracked": 20,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:37.262Z",
+  "lastUpdated": "2026-08-19T03:13:44.059Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:37.262Z",
+    "polled_at": "2026-08-19T03:13:44.059Z",
     "views": {
-      "count": 103,
-      "uniques": 26
+      "count": 101,
+      "uniques": 25
     },
     "clones": {
       "count": 7,

@@ -90,6 +90,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 5,
+      "uniques": 3
     }
   ],
   "views": [
@@ -182,20 +192,30 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 14,
+      "uniques": 9
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-validate",
       "title": "Overview",
-      "count": 69,
-      "uniques": 48
+      "count": 74,
+      "uniques": 52
     },
     {
       "path": "/netascode/nac-validate/tree/main/nac_validate",
       "title": "/tree/main/nac_validate",
-      "count": 10,
-      "uniques": 7
+      "count": 13,
+      "uniques": 9
     },
     {
       "path": "/netascode/nac-validate/blob/main/README.md",
@@ -204,21 +224,15 @@
       "uniques": 5
     },
     {
+      "path": "/netascode/nac-validate/blob/main/pyproject.toml",
+      "title": "/blob/main/pyproject.toml",
+      "count": 4,
+      "uniques": 4
+    },
+    {
       "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
       "count": 4,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-validate/blob/main/pyproject.toml",
-      "title": "/blob/main/pyproject.toml",
-      "count": 3,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-validate/tags",
-      "title": "/tags",
-      "count": 3,
       "uniques": 3
     },
     {
@@ -234,28 +248,34 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-validate/tree/main/nac_validate/cli",
-      "title": "/tree/main/nac_validate/cli",
+      "path": "/netascode/nac-validate/blob/main/nac_validate/validator.py",
+      "title": "/blob/main/nac_validate/validator.py",
       "count": 2,
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-validate/actions/workflows/dependabot/update-graph",
-      "title": "/actions/workflows/dependabot/update-graph",
-      "count": 1,
-      "uniques": 1
+      "path": "/netascode/nac-validate/tags",
+      "title": "/tags",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-validate/tree/main/nac_validate/cli",
+      "title": "/tree/main/nac_validate/cli",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "Google",
-      "count": 29,
-      "uniques": 17
+      "count": 35,
+      "uniques": 18
     },
     {
       "referrer": "github.com",
-      "count": 12,
-      "uniques": 9
+      "count": 15,
+      "uniques": 11
     },
     {
       "referrer": "netascode.cisco.com",
@@ -269,16 +289,16 @@
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 5,
-      "uniques": 3
-    },
-    {
-      "referrer": "pypi.org",
-      "count": 5,
-      "uniques": 2
+      "count": 6,
+      "uniques": 4
     },
     {
       "referrer": "cisco.com",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "referrer": "pypi.org",
       "count": 2,
       "uniques": 1
     },
@@ -294,27 +314,27 @@
     }
   ],
   "totals": {
-    "clones": 176,
-    "uniqueClonerDays": 84,
+    "clones": 185,
+    "uniqueClonerDays": 90,
     "peakDailyClones": 29,
     "peakDailyUniqueCloners": 10,
-    "views": 151,
-    "uniqueVisitorDays": 83,
+    "views": 165,
+    "uniqueVisitorDays": 92,
     "peakDailyViews": 36,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 18,
+    "daysTracked": 20,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:37.116Z",
+  "lastUpdated": "2026-08-19T03:13:43.860Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:37.116Z",
+    "polled_at": "2026-08-19T03:13:43.860Z",
     "views": {
-      "count": 118,
-      "uniques": 54
+      "count": 126,
+      "uniques": 58
     },
     "clones": {
-      "count": 154,
+      "count": 139,
       "uniques": 44
     }
   }

@@ -100,6 +100,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 13,
       "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 27,
+      "uniques": 12
     }
   ],
   "views": [
@@ -202,14 +212,24 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 37,
+      "uniques": 9
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan",
       "title": "Overview",
-      "count": 67,
-      "uniques": 46
+      "count": 74,
+      "uniques": 49
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/tree/main",
@@ -218,10 +238,34 @@
       "uniques": 7
     },
     {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/pulls",
+      "title": "/pulls",
+      "count": 10,
+      "uniques": 5
+    },
+    {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pull/267",
       "title": "/pull/267",
-      "count": 8,
-      "uniques": 1
+      "count": 10,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 7,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/sdwan_centralized_policies.tf",
+      "title": "/blob/main/sdwan_centralized_policies.tf",
+      "count": 7,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
+      "title": "/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
+      "count": 7,
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/outputs.tf",
@@ -230,52 +274,28 @@
       "uniques": 5
     },
     {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/main.tf",
-      "title": "/blob/main/main.tf",
-      "count": 6,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/pulls",
-      "title": "/pulls",
+      "path": "/netascode/terraform-sdwan-nac-sdwan/pull/266",
+      "title": "/pull/266",
       "count": 6,
       "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
-      "title": "/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
-      "count": 6,
-      "uniques": 2
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/sdwan_features_system.tf",
       "title": "/blob/main/sdwan_features_system.tf",
       "count": 6,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/pull/268",
-      "title": "/pull/268",
-      "count": 6,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/sdwan_features_service.tf",
-      "title": "/blob/main/sdwan_features_service.tf",
-      "count": 5,
-      "uniques": 4
     }
   ],
   "referrers": [
     {
       "referrer": "Google",
-      "count": 44,
-      "uniques": 9
+      "count": 42,
+      "uniques": 7
     },
     {
       "referrer": "github.com",
-      "count": 34,
-      "uniques": 14
+      "count": 38,
+      "uniques": 13
     },
     {
       "referrer": "netascode.cisco.com",
@@ -284,7 +304,12 @@
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 8,
+      "count": 9,
+      "uniques": 2
+    },
+    {
+      "referrer": "ondemandelearning.cisco.com",
+      "count": 2,
       "uniques": 2
     },
     {
@@ -296,36 +321,31 @@
       "referrer": "developer.cisco.com",
       "count": 1,
       "uniques": 1
-    },
-    {
-      "referrer": "ondemandelearning.cisco.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 1114,
-    "uniqueClonerDays": 438,
+    "clones": 1143,
+    "uniqueClonerDays": 452,
     "peakDailyClones": 158,
     "peakDailyUniqueCloners": 113,
-    "views": 388,
-    "uniqueVisitorDays": 107,
+    "views": 428,
+    "uniqueVisitorDays": 119,
     "peakDailyViews": 67,
     "peakDailyUniqueVisitors": 13,
-    "daysTracked": 20,
+    "daysTracked": 22,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:36.101Z",
+  "lastUpdated": "2026-08-19T03:13:42.449Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:36.100Z",
+    "polled_at": "2026-08-19T03:13:42.449Z",
     "views": {
-      "count": 232,
-      "uniques": 52
+      "count": 266,
+      "uniques": 54
     },
     "clones": {
-      "count": 857,
-      "uniques": 204
+      "count": 791,
+      "uniques": 197
     }
   }
 }

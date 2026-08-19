@@ -95,6 +95,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 4,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 8,
+      "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 4,
+      "uniques": 4
     }
   ],
   "views": [
@@ -192,32 +202,48 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 12,
       "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 13,
+      "uniques": 4
     }
   ],
   "popularPaths": [
     {
       "path": "/CiscoDevNet/terraform-provider-mso",
       "title": "Overview",
-      "count": 23,
-      "uniques": 16
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-mso/pull/538",
-      "title": "/pull/538",
-      "count": 20,
-      "uniques": 4
+      "count": 24,
+      "uniques": 18
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/pull/539",
       "title": "/pull/539",
-      "count": 15,
+      "count": 17,
       "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/pulls",
       "title": "/pulls",
-      "count": 12,
+      "count": 15,
       "uniques": 5
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-mso/pull/538",
+      "title": "/pull/538",
+      "count": 15,
+      "uniques": 3
+    },
+    {
+      "path": "/CiscoDevNet/terraform-provider-mso/pull/539/changes",
+      "title": "/pull/539/changes",
+      "count": 6,
+      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/graphs/contributors",
@@ -226,40 +252,34 @@
       "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-mso/pull/538/changes",
-      "title": "/pull/538/changes",
+      "path": "/CiscoDevNet/terraform-provider-mso/tree/develop/mso",
+      "title": "/tree/develop/mso",
       "count": 5,
-      "uniques": 3
+      "uniques": 1
     },
     {
-      "path": "/CiscoDevNet/terraform-provider-mso/pull/539/changes",
-      "title": "/pull/539/changes",
-      "count": 5,
+      "path": "/CiscoDevNet/terraform-provider-mso/blob/develop/examples/schema_template_external_epg_selector/main.tf",
+      "title": "/blob/develop/examples/schema_template_external_epg_selector/main.tf",
+      "count": 3,
       "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/issues/17",
       "title": "/issues/17",
-      "count": 4,
-      "uniques": 4
+      "count": 3,
+      "uniques": 3
     },
     {
       "path": "/CiscoDevNet/terraform-provider-mso/issues/2",
       "title": "/issues/2",
-      "count": 4,
-      "uniques": 4
-    },
-    {
-      "path": "/CiscoDevNet/terraform-provider-mso/issues/39",
-      "title": "/issues/39",
-      "count": 4,
-      "uniques": 4
+      "count": 3,
+      "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 14,
+      "count": 11,
       "uniques": 2
     },
     {
@@ -279,33 +299,33 @@
     },
     {
       "referrer": "cisco-aci.atlassian.net",
-      "count": 2,
+      "count": 1,
       "uniques": 1
     }
   ],
   "totals": {
-    "clones": 404,
-    "uniqueClonerDays": 183,
+    "clones": 416,
+    "uniqueClonerDays": 195,
     "peakDailyClones": 223,
     "peakDailyUniqueCloners": 36,
-    "views": 326,
-    "uniqueVisitorDays": 102,
+    "views": 341,
+    "uniqueVisitorDays": 108,
     "peakDailyViews": 55,
     "peakDailyUniqueVisitors": 9,
-    "daysTracked": 19,
+    "daysTracked": 21,
     "firstDay": "2026-07-28T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:38.620Z",
+  "lastUpdated": "2026-08-19T03:13:45.939Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:38.620Z",
+    "polled_at": "2026-08-19T03:13:45.939Z",
     "views": {
-      "count": 167,
-      "uniques": 55
+      "count": 152,
+      "uniques": 45
     },
     "clones": {
-      "count": 328,
-      "uniques": 117
+      "count": 320,
+      "uniques": 112
     }
   }
 }

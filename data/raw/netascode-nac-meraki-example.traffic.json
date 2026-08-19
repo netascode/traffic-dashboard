@@ -90,6 +90,16 @@
       "timestamp": "2026-08-15T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -180,6 +190,16 @@
     },
     {
       "timestamp": "2026-08-15T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-16T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-17T00:00:00Z",
       "count": 0,
       "uniques": 0
     }
@@ -277,13 +297,13 @@
     "uniqueVisitorDays": 35,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 18,
+    "daysTracked": 20,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-15T00:00:00Z"
+    "lastDay": "2026-08-17T00:00:00Z"
   },
-  "lastUpdated": "2026-08-17T03:15:37.405Z",
+  "lastUpdated": "2026-08-19T03:13:44.246Z",
   "snapshot14d": {
-    "polled_at": "2026-08-17T03:15:37.405Z",
+    "polled_at": "2026-08-19T03:13:44.245Z",
     "views": {
       "count": 79,
       "uniques": 22
