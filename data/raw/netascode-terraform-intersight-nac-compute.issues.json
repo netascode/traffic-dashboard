@@ -379,6 +379,36 @@
       "created_at": "2026-08-18T12:39:03Z",
       "closed_at": "2026-08-18T12:52:30Z",
       "merged_at": "2026-08-18T12:52:30Z"
+    },
+    {
+      "number": 39,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-19T08:05:07Z",
+      "closed_at": "2026-08-19T12:41:16Z",
+      "merged_at": "2026-08-19T12:41:16Z"
+    },
+    {
+      "number": 40,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-19T08:53:46Z",
+      "closed_at": "2026-08-19T11:37:58Z",
+      "merged_at": "2026-08-19T11:37:58Z"
+    },
+    {
+      "number": 41,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-19T13:12:38Z",
+      "closed_at": "2026-08-19T13:15:17Z",
+      "merged_at": "2026-08-19T13:15:17Z"
     }
   ],
   "totals": {
@@ -387,5 +417,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 0
   },
-  "lastPolledAt": "2026-08-19T03:13:58.302Z"
+  "lastPolledAt": "2026-08-20T03:12:59.816Z"
 }

@@ -5373,12 +5373,12 @@
     {
       "number": 538,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "samiib",
       "is_org_member": false,
       "created_at": "2026-08-03T00:23:51Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-20T02:37:22Z",
+      "merged_at": "2026-08-20T02:37:22Z"
     },
     {
       "number": 539,
@@ -5389,13 +5389,23 @@
       "created_at": "2026-08-11T09:57:25Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 540,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "akinross",
+      "is_org_member": false,
+      "created_at": "2026-08-19T14:15:21Z",
+      "closed_at": "2026-08-20T02:36:10Z",
+      "merged_at": "2026-08-20T02:36:09Z"
     }
   ],
   "totals": {
     "external_open": 38,
-    "external_new_30d": 2,
+    "external_new_30d": 1,
     "external_closed_30d": 3,
     "external_authors_all_time": 54
   },
-  "lastPolledAt": "2026-08-19T03:14:03.819Z"
+  "lastPolledAt": "2026-08-20T03:13:03.828Z"
 }

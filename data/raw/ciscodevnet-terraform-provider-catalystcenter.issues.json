@@ -4683,10 +4683,30 @@
     {
       "number": 469,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "rafal-slominskii",
       "is_org_member": false,
       "created_at": "2026-08-18T13:23:27Z",
+      "closed_at": "2026-08-19T11:31:28Z",
+      "merged_at": "2026-08-19T11:31:28Z"
+    },
+    {
+      "number": 470,
+      "type": "pr",
+      "state": "open",
+      "author_login": "Pson123",
+      "is_org_member": false,
+      "created_at": "2026-08-19T12:03:27Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 471,
+      "type": "pr",
+      "state": "open",
+      "author_login": "kaymay",
+      "is_org_member": false,
+      "created_at": "2026-08-19T18:03:32Z",
       "closed_at": null,
       "merged_at": null
     }
@@ -4697,5 +4717,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 19
   },
-  "lastPolledAt": "2026-08-19T03:14:02.909Z"
+  "lastPolledAt": "2026-08-20T03:13:03.194Z"
 }

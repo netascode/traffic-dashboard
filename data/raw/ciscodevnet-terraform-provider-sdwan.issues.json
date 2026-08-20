@@ -7363,12 +7363,12 @@
     {
       "number": 737,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "wli6-dev",
       "is_org_member": false,
       "created_at": "2026-07-27T07:30:42Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-19T12:51:31Z",
+      "merged_at": "2026-08-19T12:51:31Z"
     },
     {
       "number": 738,
@@ -7473,9 +7473,9 @@
   ],
   "totals": {
     "external_open": 8,
-    "external_new_30d": 3,
+    "external_new_30d": 1,
     "external_closed_30d": 0,
     "external_authors_all_time": 33
   },
-  "lastPolledAt": "2026-08-19T03:14:04.817Z"
+  "lastPolledAt": "2026-08-20T03:13:04.301Z"
 }

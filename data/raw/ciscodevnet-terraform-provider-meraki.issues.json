@@ -2599,6 +2599,16 @@
       "created_at": "2026-08-17T23:46:23Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 269,
+      "type": "pr",
+      "state": "open",
+      "author_login": "vozhyk-",
+      "is_org_member": false,
+      "created_at": "2026-08-19T13:56:22Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
@@ -2607,5 +2617,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 32
   },
-  "lastPolledAt": "2026-08-19T03:14:01.908Z"
+  "lastPolledAt": "2026-08-20T03:13:02.576Z"
 }
