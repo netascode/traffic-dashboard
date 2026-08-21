@@ -110,6 +110,16 @@
       "timestamp": "2026-08-17T00:00:00Z",
       "count": 38,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00Z",
+      "count": 20,
+      "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 47,
+      "uniques": 11
     }
   ],
   "views": [
@@ -222,37 +232,47 @@
       "timestamp": "2026-08-17T00:00:00Z",
       "count": 5,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00Z",
+      "count": 12,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 4,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-mso-nac-ndo",
       "title": "Overview",
-      "count": 32,
-      "uniques": 18
+      "count": 30,
+      "uniques": 16
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/74",
       "title": "/pull/74",
-      "count": 19,
+      "count": 18,
       "uniques": 2
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pulls",
       "title": "/pulls",
-      "count": 16,
+      "count": 15,
       "uniques": 3
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/74/changes",
       "title": "/pull/74/changes",
-      "count": 13,
+      "count": 14,
       "uniques": 2
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/91",
       "title": "/pull/91",
-      "count": 5,
+      "count": 6,
       "uniques": 2
     },
     {
@@ -265,7 +285,13 @@
       "path": "/netascode/terraform-mso-nac-ndo/blob/main/ndo_schemas.tf",
       "title": "/blob/main/ndo_schemas.tf",
       "count": 4,
-      "uniques": 1
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-mso-nac-ndo/pull/91/changes/08bb4359e112df2859ccbaf92dbda4d21b6cfaf3",
+      "title": "/pull/91/changes/08bb4359e112df2859ccbaf92dbda4d21b6cfaf3",
+      "count": 4,
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/74/checks",
@@ -274,53 +300,47 @@
       "uniques": 1
     },
     {
-      "path": "/netascode/terraform-mso-nac-ndo/pull/89",
-      "title": "/pull/89",
-      "count": 3,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-mso-nac-ndo/pull/89/changes",
-      "title": "/pull/89/changes",
+      "path": "/netascode/terraform-mso-nac-ndo/actions/runs/31800360698/job/94766652460",
+      "title": "/actions/runs/31800360698/job/94766652460",
       "count": 2,
       "uniques": 2
     }
   ],
   "referrers": [
     {
-      "referrer": "Google",
-      "count": 9,
+      "referrer": "github.com",
+      "count": 6,
       "uniques": 4
     },
     {
-      "referrer": "github.com",
-      "count": 7,
-      "uniques": 5
+      "referrer": "Google",
+      "count": 5,
+      "uniques": 2
     }
   ],
   "totals": {
-    "clones": 1090,
-    "uniqueClonerDays": 204,
+    "clones": 1157,
+    "uniqueClonerDays": 221,
     "peakDailyClones": 156,
     "peakDailyUniqueCloners": 28,
-    "views": 219,
-    "uniqueVisitorDays": 64,
+    "views": 235,
+    "uniqueVisitorDays": 70,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 22,
+    "daysTracked": 24,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-17T00:00:00Z"
+    "lastDay": "2026-08-19T00:00:00Z"
   },
-  "lastUpdated": "2026-08-19T03:13:42.266Z",
+  "lastUpdated": "2026-08-21T03:25:35.056Z",
   "snapshot14d": {
-    "polled_at": "2026-08-19T03:13:42.266Z",
+    "polled_at": "2026-08-21T03:25:35.056Z",
     "views": {
-      "count": 146,
-      "uniques": 28
+      "count": 137,
+      "uniques": 26
     },
     "clones": {
-      "count": 524,
-      "uniques": 67
+      "count": 468,
+      "uniques": 64
     }
   }
 }

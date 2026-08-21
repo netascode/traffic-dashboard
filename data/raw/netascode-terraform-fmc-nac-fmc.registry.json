@@ -168,12 +168,19 @@
       "year": 3284,
       "total": 5121,
       "polled_at": "2026-08-20T03:13:06.065Z"
+    },
+    {
+      "week": 81,
+      "month": 148,
+      "year": 3283,
+      "total": 5120,
+      "polled_at": "2026-08-21T03:25:53.894Z"
     }
   ],
   "totals": {
-    "current_total": 5121,
+    "current_total": 5120,
     "week_delta_avg": 96,
-    "month_delta_avg": 207
+    "month_delta_avg": 204
   },
-  "lastUpdated": "2026-08-20T03:13:06.066Z"
+  "lastUpdated": "2026-08-21T03:25:53.894Z"
 }

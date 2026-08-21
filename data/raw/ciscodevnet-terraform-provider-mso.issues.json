@@ -5383,12 +5383,12 @@
     {
       "number": 539,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "samiib",
       "is_org_member": false,
       "created_at": "2026-08-11T09:57:25Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-20T08:59:04Z",
+      "merged_at": "2026-08-20T08:59:04Z"
     },
     {
       "number": 540,
@@ -5399,6 +5399,46 @@
       "created_at": "2026-08-19T14:15:21Z",
       "closed_at": "2026-08-20T02:36:10Z",
       "merged_at": "2026-08-20T02:36:09Z"
+    },
+    {
+      "number": 541,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "akinross",
+      "is_org_member": false,
+      "created_at": "2026-08-20T07:44:03Z",
+      "closed_at": "2026-08-20T09:35:48Z",
+      "merged_at": "2026-08-20T09:35:48Z"
+    },
+    {
+      "number": 542,
+      "type": "pr",
+      "state": "open",
+      "author_login": "akinross",
+      "is_org_member": false,
+      "created_at": "2026-08-20T09:13:48Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 543,
+      "type": "pr",
+      "state": "open",
+      "author_login": "samiib",
+      "is_org_member": false,
+      "created_at": "2026-08-21T00:36:42Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 544,
+      "type": "pr",
+      "state": "open",
+      "author_login": "samiib",
+      "is_org_member": false,
+      "created_at": "2026-08-21T02:57:22Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
@@ -5407,5 +5447,5 @@
     "external_closed_30d": 3,
     "external_authors_all_time": 54
   },
-  "lastPolledAt": "2026-08-20T03:13:03.828Z"
+  "lastPolledAt": "2026-08-21T03:25:51.964Z"
 }

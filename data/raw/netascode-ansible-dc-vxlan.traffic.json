@@ -100,6 +100,16 @@
       "timestamp": "2026-08-17T00:00:00Z",
       "count": 31,
       "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00Z",
+      "count": 145,
+      "uniques": 19
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 35,
+      "uniques": 17
     }
   ],
   "views": [
@@ -202,95 +212,105 @@
       "timestamp": "2026-08-17T00:00:00Z",
       "count": 152,
       "uniques": 26
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00Z",
+      "count": 162,
+      "uniques": 25
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 105,
+      "uniques": 31
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/ansible-dc-vxlan",
       "title": "Overview",
-      "count": 190,
-      "uniques": 85
+      "count": 189,
+      "uniques": 81
     },
     {
       "path": "/netascode/ansible-dc-vxlan/pulls",
       "title": "/pulls",
-      "count": 116,
+      "count": 134,
       "uniques": 14
-    },
-    {
-      "path": "/netascode/ansible-dc-vxlan/pull/855",
-      "title": "/pull/855",
-      "count": 52,
-      "uniques": 9
-    },
-    {
-      "path": "/netascode/ansible-dc-vxlan/pull/803",
-      "title": "/pull/803",
-      "count": 52,
-      "uniques": 8
     },
     {
       "path": "/netascode/ansible-dc-vxlan/pull/775",
       "title": "/pull/775",
-      "count": 46,
+      "count": 62,
       "uniques": 6
+    },
+    {
+      "path": "/netascode/ansible-dc-vxlan/pull/803",
+      "title": "/pull/803",
+      "count": 51,
+      "uniques": 8
     },
     {
       "path": "/netascode/ansible-dc-vxlan/pull/866",
       "title": "/pull/866",
-      "count": 43,
+      "count": 45,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/ansible-dc-vxlan/pull/856",
+      "title": "/pull/856",
+      "count": 44,
       "uniques": 5
     },
     {
       "path": "/netascode/ansible-dc-vxlan/issues",
       "title": "/issues",
-      "count": 41,
-      "uniques": 15
+      "count": 43,
+      "uniques": 16
     },
     {
-      "path": "/netascode/ansible-dc-vxlan/pull/856",
-      "title": "/pull/856",
-      "count": 40,
-      "uniques": 5
-    },
-    {
-      "path": "/netascode/ansible-dc-vxlan/pull/848",
-      "title": "/pull/848",
-      "count": 36,
-      "uniques": 9
+      "path": "/netascode/ansible-dc-vxlan/pull/855",
+      "title": "/pull/855",
+      "count": 37,
+      "uniques": 8
     },
     {
       "path": "/netascode/ansible-dc-vxlan/pull/860",
       "title": "/pull/860",
       "count": 31,
       "uniques": 5
+    },
+    {
+      "path": "/netascode/ansible-dc-vxlan/pull/848",
+      "title": "/pull/848",
+      "count": 24,
+      "uniques": 6
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 197,
-      "uniques": 39
+      "count": 223,
+      "uniques": 41
     },
     {
       "referrer": "Google",
-      "count": 119,
-      "uniques": 15
+      "count": 121,
+      "uniques": 18
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 68,
-      "uniques": 20
+      "count": 77,
+      "uniques": 22
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 16,
+      "count": 30,
       "uniques": 3
     },
     {
       "referrer": "developer.cisco.com",
-      "count": 14,
-      "uniques": 3
+      "count": 23,
+      "uniques": 5
     },
     {
       "referrer": "teams.public.onecdn.static.microsoft",
@@ -299,18 +319,8 @@
     },
     {
       "referrer": "Bing",
-      "count": 6,
+      "count": 7,
       "uniques": 3
-    },
-    {
-      "referrer": "app.gitbook.com",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "referrer": "confluence.intranet.db.com",
-      "count": 1,
-      "uniques": 1
     },
     {
       "referrer": "gss--c.vf.force.com",
@@ -319,27 +329,27 @@
     }
   ],
   "totals": {
-    "clones": 1339,
-    "uniqueClonerDays": 398,
+    "clones": 1519,
+    "uniqueClonerDays": 434,
     "peakDailyClones": 238,
     "peakDailyUniqueCloners": 142,
-    "views": 2182,
-    "uniqueVisitorDays": 390,
+    "views": 2449,
+    "uniqueVisitorDays": 446,
     "peakDailyViews": 233,
     "peakDailyUniqueVisitors": 40,
-    "daysTracked": 20,
+    "daysTracked": 22,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-17T00:00:00Z"
+    "lastDay": "2026-08-19T00:00:00Z"
   },
-  "lastUpdated": "2026-08-19T03:13:43.248Z",
+  "lastUpdated": "2026-08-21T03:25:35.980Z",
   "snapshot14d": {
-    "polled_at": "2026-08-19T03:13:43.248Z",
+    "polled_at": "2026-08-21T03:25:35.980Z",
     "views": {
-      "count": 1466,
-      "uniques": 200
+      "count": 1508,
+      "uniques": 173
     },
     "clones": {
-      "count": 918,
+      "count": 1006,
       "uniques": 227
     }
   }

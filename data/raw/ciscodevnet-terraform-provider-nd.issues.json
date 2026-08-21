@@ -953,19 +953,19 @@
     {
       "number": 96,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "mdmohan",
       "is_org_member": false,
       "created_at": "2026-08-18T11:53:09Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-20T11:56:50Z",
+      "merged_at": "2026-08-20T11:56:50Z"
     }
   ],
   "totals": {
     "external_open": 53,
-    "external_new_30d": 6,
+    "external_new_30d": 0,
     "external_closed_30d": 1,
     "external_authors_all_time": 4
   },
-  "lastPolledAt": "2026-08-20T03:13:05.275Z"
+  "lastPolledAt": "2026-08-21T03:25:52.960Z"
 }

@@ -100,6 +100,16 @@
       "timestamp": "2026-08-17T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "views": [
@@ -202,38 +212,24 @@
       "timestamp": "2026-08-17T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00Z",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-meraki-example",
       "title": "Overview",
-      "count": 23,
-      "uniques": 17
-    },
-    {
-      "path": "/netascode/nac-meraki-example/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/organizations_admin.robot",
-      "title": "/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/organizations_admin.robot",
-      "count": 11,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-meraki-example/tree/main/tests/templates/config",
-      "title": "/tree/main/tests/templates/config",
-      "count": 9,
-      "uniques": 6
-    },
-    {
-      "path": "/netascode/nac-meraki-example/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/networks_list.robot",
-      "title": "/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/networks_list.robot",
-      "count": 9,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-meraki-example/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/networks_wireless_ssid_list.robot",
-      "title": "/blob/20725ef68988d5aaceb3297c3be897745ab2e43c/tests/templates/config/networks_wireless_ssid_list.robot",
-      "count": 7,
-      "uniques": 3
+      "count": 18,
+      "uniques": 14
     },
     {
       "path": "/netascode/nac-meraki-example/tags",
@@ -242,21 +238,9 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-meraki-example/blob/main/tests/templates/config/networks_list.robot",
-      "title": "/blob/main/tests/templates/config/networks_list.robot",
-      "count": 3,
-      "uniques": 2
-    },
-    {
       "path": "/netascode/nac-meraki-example/blob/main/schema.yaml",
       "title": "/blob/main/schema.yaml",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-meraki-example/tree/main/tests/templates",
-      "title": "/tree/main/tests/templates",
-      "count": 2,
+      "count": 3,
       "uniques": 2
     },
     {
@@ -264,53 +248,66 @@
       "title": "/blob/main/.gitlab-ci.yml",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-meraki-example/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-meraki-example/tree/main/tests/templates",
+      "title": "/tree/main/tests/templates",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-meraki-example/tree/main/tests/templates/config",
+      "title": "/tree/main/tests/templates/config",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
-    {
-      "referrer": "github.com",
-      "count": 12,
-      "uniques": 4
-    },
-    {
-      "referrer": "teams.public.onecdn.static.microsoft",
-      "count": 12,
-      "uniques": 3
-    },
     {
       "referrer": "netascode.cisco.com",
       "count": 8,
       "uniques": 5
     },
     {
-      "referrer": "Google",
-      "count": 8,
+      "referrer": "github.com",
+      "count": 5,
       "uniques": 3
+    },
+    {
+      "referrer": "Google",
+      "count": 4,
+      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 12,
-    "uniqueClonerDays": 11,
+    "clones": 14,
+    "uniqueClonerDays": 13,
     "peakDailyClones": 5,
     "peakDailyUniqueCloners": 4,
-    "views": 91,
-    "uniqueVisitorDays": 35,
+    "views": 93,
+    "uniqueVisitorDays": 37,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 20,
+    "daysTracked": 22,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-17T00:00:00Z"
+    "lastDay": "2026-08-19T00:00:00Z"
   },
-  "lastUpdated": "2026-08-19T03:13:44.246Z",
+  "lastUpdated": "2026-08-21T03:25:36.831Z",
   "snapshot14d": {
-    "polled_at": "2026-08-19T03:13:44.245Z",
+    "polled_at": "2026-08-21T03:25:36.830Z",
     "views": {
-      "count": 79,
-      "uniques": 22
+      "count": 28,
+      "uniques": 14
     },
     "clones": {
-      "count": 5,
-      "uniques": 5
+      "count": 7,
+      "uniques": 6
     }
   }
 }

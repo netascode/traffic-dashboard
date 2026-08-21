@@ -6293,19 +6293,69 @@
     {
       "number": 631,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "dependabot[bot]",
       "is_org_member": false,
       "created_at": "2026-08-17T05:53:00Z",
+      "closed_at": "2026-08-20T13:02:00Z",
+      "merged_at": "2026-08-20T13:02:00Z"
+    },
+    {
+      "number": 632,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-20T13:02:58Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 633,
+      "type": "pr",
+      "state": "open",
+      "author_login": "protector-nalo99",
+      "is_org_member": false,
+      "created_at": "2026-08-20T13:30:40Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 634,
+      "type": "pr",
+      "state": "open",
+      "author_login": "durd",
+      "is_org_member": false,
+      "created_at": "2026-08-20T14:33:12Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 635,
+      "type": "issue",
+      "state": "open",
+      "author_login": "durd",
+      "is_org_member": false,
+      "created_at": "2026-08-20T15:05:24Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 636,
+      "type": "pr",
+      "state": "open",
+      "author_login": "durd",
+      "is_org_member": false,
+      "created_at": "2026-08-20T15:20:55Z",
       "closed_at": null,
       "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 26,
-    "external_new_30d": 10,
+    "external_open": 28,
+    "external_new_30d": 12,
     "external_closed_30d": 0,
     "external_authors_all_time": 59
   },
-  "lastPolledAt": "2026-08-20T03:13:02.739Z"
+  "lastPolledAt": "2026-08-21T03:25:51.437Z"
 }

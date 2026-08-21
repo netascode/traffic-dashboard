@@ -100,6 +100,16 @@
       "timestamp": "2026-08-17T00:00:00Z",
       "count": 7,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00Z",
+      "count": 21,
+      "uniques": 11
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 9,
+      "uniques": 8
     }
   ],
   "views": [
@@ -202,32 +212,42 @@
       "timestamp": "2026-08-17T00:00:00Z",
       "count": 13,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-18T00:00:00Z",
+      "count": 33,
+      "uniques": 11
+    },
+    {
+      "timestamp": "2026-08-19T00:00:00Z",
+      "count": 18,
+      "uniques": 9
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-collector",
       "title": "Overview",
-      "count": 136,
-      "uniques": 70
+      "count": 131,
+      "uniques": 65
     },
     {
       "path": "/netascode/nac-collector/pulls",
       "title": "/pulls",
       "count": 28,
-      "uniques": 6
+      "uniques": 5
     },
     {
       "path": "/netascode/nac-collector/issues",
       "title": "/issues",
-      "count": 18,
-      "uniques": 3
+      "count": 19,
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-collector/tree/main",
       "title": "/tree/main",
-      "count": 14,
-      "uniques": 9
+      "count": 12,
+      "uniques": 6
     },
     {
       "path": "/netascode/nac-collector/pull/289",
@@ -242,53 +262,53 @@
       "uniques": 7
     },
     {
-      "path": "/netascode/nac-collector/blob/main/README.md",
-      "title": "/blob/main/README.md",
+      "path": "/netascode/nac-collector/pull/291",
+      "title": "/pull/291",
       "count": 9,
-      "uniques": 8
-    },
-    {
-      "path": "/netascode/nac-collector/tree/main/nac_collector/controller",
-      "title": "/tree/main/nac_collector/controller",
-      "count": 6,
-      "uniques": 6
-    },
-    {
-      "path": "/netascode/nac-collector/tree/main/scripts",
-      "title": "/tree/main/scripts",
-      "count": 6,
-      "uniques": 6
-    },
-    {
-      "path": "/netascode/nac-collector/pull/283",
-      "title": "/pull/283",
-      "count": 6,
       "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-collector/tree/main/nac_collector/resources",
+      "title": "/tree/main/nac_collector/resources",
+      "count": 6,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/nac-collector/tree/main/nac_collector/resources/endpoints",
+      "title": "/tree/main/nac_collector/resources/endpoints",
+      "count": 6,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/nac-collector/pull/289/changes",
+      "title": "/pull/289/changes",
+      "count": 6,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "Google",
-      "count": 80,
-      "uniques": 23
-    },
-    {
-      "referrer": "github.com",
-      "count": 67,
+      "count": 65,
       "uniques": 19
     },
     {
-      "referrer": "netascode.cisco.com",
-      "count": 6,
-      "uniques": 4
+      "referrer": "github.com",
+      "count": 55,
+      "uniques": 16
     },
     {
-      "referrer": "wwwin-github.cisco.com",
-      "count": 4,
-      "uniques": 1
+      "referrer": "netascode.cisco.com",
+      "count": 7,
+      "uniques": 5
     },
     {
       "referrer": "cisco-cxe.atlassian.net",
+      "count": 2,
+      "uniques": 1
+    },
+    {
+      "referrer": "wwwin-github.cisco.com",
       "count": 2,
       "uniques": 1
     },
@@ -299,28 +319,28 @@
     }
   ],
   "totals": {
-    "clones": 601,
-    "uniqueClonerDays": 180,
+    "clones": 631,
+    "uniqueClonerDays": 199,
     "peakDailyClones": 82,
     "peakDailyUniqueCloners": 17,
-    "views": 527,
-    "uniqueVisitorDays": 164,
+    "views": 578,
+    "uniqueVisitorDays": 184,
     "peakDailyViews": 69,
     "peakDailyUniqueVisitors": 16,
-    "daysTracked": 20,
+    "daysTracked": 22,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-17T00:00:00Z"
+    "lastDay": "2026-08-19T00:00:00Z"
   },
-  "lastUpdated": "2026-08-19T03:13:43.056Z",
+  "lastUpdated": "2026-08-21T03:25:35.806Z",
   "snapshot14d": {
-    "polled_at": "2026-08-19T03:13:43.056Z",
+    "polled_at": "2026-08-21T03:25:35.806Z",
     "views": {
-      "count": 368,
-      "uniques": 86
+      "count": 352,
+      "uniques": 76
     },
     "clones": {
-      "count": 440,
-      "uniques": 78
+      "count": 371,
+      "uniques": 77
     }
   }
 }
