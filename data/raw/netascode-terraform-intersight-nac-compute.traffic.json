@@ -110,6 +110,11 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 81,
       "uniques": 24
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 66,
+      "uniques": 24
     }
   ],
   "views": [
@@ -222,19 +227,24 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 35,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 34,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-intersight-nac-compute",
       "title": "Overview",
-      "count": 82,
+      "count": 58,
       "uniques": 12
     },
     {
       "path": "/netascode/terraform-intersight-nac-compute/pulls",
       "title": "/pulls",
-      "count": 30,
+      "count": 28,
       "uniques": 4
     },
     {
@@ -250,20 +260,8 @@
       "uniques": 4
     },
     {
-      "path": "/netascode/terraform-intersight-nac-compute/actions",
-      "title": "/actions",
-      "count": 7,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-intersight-nac-compute/pull/23",
-      "title": "/pull/23",
-      "count": 6,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-compute-nac-compute",
-      "title": "Overview",
+      "path": "/netascode/terraform-intersight-nac-compute/branches",
+      "title": "/branches",
       "count": 5,
       "uniques": 2
     },
@@ -274,48 +272,60 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-intersight-nac-compute/pull/24",
-      "title": "/pull/24",
-      "count": 5,
-      "uniques": 1
-    },
-    {
       "path": "/netascode/terraform-intersight-nac-compute/compare",
       "title": "/compare",
       "count": 4,
       "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-intersight-nac-compute/actions/runs/32038737112",
+      "title": "/actions/runs/32038737112",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-intersight-nac-compute/pull/24",
+      "title": "/pull/24",
+      "count": 4,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-intersight-nac-compute/pull/25",
+      "title": "/pull/25",
+      "count": 4,
+      "uniques": 1
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 57,
-      "uniques": 6
+      "count": 21,
+      "uniques": 4
     }
   ],
   "totals": {
-    "clones": 379,
-    "uniqueClonerDays": 143,
+    "clones": 445,
+    "uniqueClonerDays": 167,
     "peakDailyClones": 104,
     "peakDailyUniqueCloners": 30,
-    "views": 387,
-    "uniqueVisitorDays": 22,
+    "views": 421,
+    "uniqueVisitorDays": 24,
     "peakDailyViews": 119,
     "peakDailyUniqueVisitors": 4,
-    "daysTracked": 22,
+    "daysTracked": 23,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-19T00:00:00Z"
+    "lastDay": "2026-08-20T00:00:00Z"
   },
-  "lastUpdated": "2026-08-21T03:25:35.637Z",
+  "lastUpdated": "2026-08-22T03:10:44.128Z",
   "snapshot14d": {
-    "polled_at": "2026-08-21T03:25:35.637Z",
+    "polled_at": "2026-08-22T03:10:44.128Z",
     "views": {
-      "count": 378,
+      "count": 293,
       "uniques": 12
     },
     "clones": {
-      "count": 368,
-      "uniques": 110
+      "count": 389,
+      "uniques": 106
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-21T03:25:54.869Z",
+  "generatedAt": "2026-08-22T03:11:02.822Z",
   "repos": [
     {
       "repo": "netascode/nac-branch",
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:33.823Z",
+      "lastUpdated": "2026-08-22T03:10:42.718Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -186,6 +186,11 @@
         {
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 2,
           "uniques": 1
         }
       ],
@@ -369,19 +374,24 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 6,
           "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/nac-branch",
           "title": "Overview",
-          "count": 24,
-          "uniques": 18
+          "count": 20,
+          "uniques": 16
         },
         {
           "path": "/netascode/nac-branch/tree/main/data",
           "title": "/tree/main/data",
-          "count": 8,
+          "count": 6,
           "uniques": 3
         },
         {
@@ -393,14 +403,8 @@
         {
           "path": "/netascode/nac-branch/tree/main/docs",
           "title": "/tree/main/docs",
-          "count": 4,
-          "uniques": 4
-        },
-        {
-          "path": "/netascode/nac-branch/tree/main",
-          "title": "/tree/main",
-          "count": 4,
-          "uniques": 2
+          "count": 3,
+          "uniques": 3
         },
         {
           "path": "/netascode/nac-branch/pulls",
@@ -431,6 +435,12 @@
           "title": "/blob/main/data/org_global.nac.yaml",
           "count": 1,
           "uniques": 1
+        },
+        {
+          "path": "/netascode/nac-branch/blob/v2.0.0/main.tf",
+          "title": "/blob/v2.0.0/main.tf",
+          "count": 1,
+          "uniques": 1
         }
       ],
       "referrers": [
@@ -446,26 +456,26 @@
         }
       ],
       "totals": {
-        "clones": 36,
-        "uniqueClonerDays": 29,
+        "clones": 38,
+        "uniqueClonerDays": 30,
         "peakDailyClones": 8,
         "peakDailyUniqueCloners": 6,
         "views": 229,
         "uniqueVisitorDays": 83,
         "peakDailyViews": 43,
         "peakDailyUniqueVisitors": 6,
-        "daysTracked": 36,
+        "daysTracked": 37,
         "firstDay": "2026-07-15T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:33.822Z",
+        "polled_at": "2026-08-22T03:10:42.717Z",
         "views": {
-          "count": 63,
-          "uniques": 20
+          "count": 50,
+          "uniques": 18
         },
         "clones": {
-          "count": 16,
+          "count": 17,
           "uniques": 15
         }
       }
@@ -475,7 +485,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:34.000Z",
+      "lastUpdated": "2026-08-22T03:10:42.872Z",
       "clones": [
         {
           "timestamp": "2026-07-14T00:00:00Z",
@@ -661,6 +671,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 320,
           "uniques": 62
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 770,
+          "uniques": 53
         }
       ],
       "views": [
@@ -848,38 +863,43 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 84,
           "uniques": 21
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 119,
+          "uniques": 29
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-aci-nac-aci",
           "title": "Overview",
-          "count": 159,
-          "uniques": 86
+          "count": 156,
+          "uniques": 83
         },
         {
           "path": "/netascode/terraform-aci-nac-aci/pulls",
           "title": "/pulls",
-          "count": 52,
+          "count": 49,
           "uniques": 7
         },
         {
-          "path": "/netascode/terraform-aci-nac-aci/issues",
-          "title": "/issues",
-          "count": 30,
-          "uniques": 10
-        },
-        {
-          "path": "/netascode/terraform-aci-nac-aci/pull/425",
-          "title": "/pull/425",
-          "count": 18,
-          "uniques": 3
+          "path": "/netascode/terraform-aci-nac-aci/tree/main/modules",
+          "title": "/tree/main/modules",
+          "count": 19,
+          "uniques": 15
         },
         {
           "path": "/netascode/terraform-aci-nac-aci/blob/main/defaults/defaults.yaml",
           "title": "/blob/main/defaults/defaults.yaml",
-          "count": 17,
-          "uniques": 10
+          "count": 18,
+          "uniques": 11
+        },
+        {
+          "path": "/netascode/terraform-aci-nac-aci/blob/main/main.tf",
+          "title": "/blob/main/main.tf",
+          "count": 15,
+          "uniques": 11
         },
         {
           "path": "/netascode/terraform-aci-nac-aci/pull/391",
@@ -888,50 +908,45 @@
           "uniques": 2
         },
         {
-          "path": "/netascode/terraform-aci-nac-aci/tree/main/modules",
-          "title": "/tree/main/modules",
+          "path": "/netascode/terraform-aci-nac-aci/issues",
+          "title": "/issues",
           "count": 14,
-          "uniques": 13
+          "uniques": 8
+        },
+        {
+          "path": "/netascode/terraform-aci-nac-aci/pull/425",
+          "title": "/pull/425",
+          "count": 14,
+          "uniques": 3
         },
         {
           "path": "/netascode/terraform-aci-nac-aci/tree/main/examples",
           "title": "/tree/main/examples",
+          "count": 13,
+          "uniques": 11
+        },
+        {
+          "path": "/netascode/terraform-aci-nac-aci/tree/main",
+          "title": "/tree/main",
           "count": 12,
           "uniques": 10
-        },
-        {
-          "path": "/netascode/terraform-aci-nac-aci/blob/main/aci_tenants.tf",
-          "title": "/blob/main/aci_tenants.tf",
-          "count": 11,
-          "uniques": 6
-        },
-        {
-          "path": "/netascode/terraform-aci-nac-aci/tags",
-          "title": "/tags",
-          "count": 10,
-          "uniques": 8
         }
       ],
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 211,
-          "uniques": 34
+          "count": 206,
+          "uniques": 33
         },
         {
           "referrer": "Google",
-          "count": 33,
-          "uniques": 11
+          "count": 34,
+          "uniques": 13
         },
         {
           "referrer": "netascode.cisco.com",
-          "count": 18,
-          "uniques": 7
-        },
-        {
-          "referrer": "wwwin-github.cisco.com",
-          "count": 13,
-          "uniques": 4
+          "count": 19,
+          "uniques": 8
         },
         {
           "referrer": "chatgpt.com",
@@ -939,9 +954,9 @@
           "uniques": 1
         },
         {
-          "referrer": "teams.public.onecdn.static.microsoft",
-          "count": 4,
-          "uniques": 3
+          "referrer": "wwwin-github.cisco.com",
+          "count": 6,
+          "uniques": 4
         },
         {
           "referrer": "Bing",
@@ -962,30 +977,35 @@
           "referrer": "partner.bdr.de",
           "count": 1,
           "uniques": 1
+        },
+        {
+          "referrer": "teams.public.onecdn.static.microsoft",
+          "count": 1,
+          "uniques": 1
         }
       ],
       "totals": {
-        "clones": 10244,
-        "uniqueClonerDays": 1590,
+        "clones": 11014,
+        "uniqueClonerDays": 1643,
         "peakDailyClones": 923,
         "peakDailyUniqueCloners": 155,
-        "views": 1833,
-        "uniqueVisitorDays": 453,
+        "views": 1952,
+        "uniqueVisitorDays": 482,
         "peakDailyViews": 160,
-        "peakDailyUniqueVisitors": 23,
-        "daysTracked": 37,
+        "peakDailyUniqueVisitors": 29,
+        "daysTracked": 38,
         "firstDay": "2026-07-14T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:34.000Z",
+        "polled_at": "2026-08-22T03:10:42.871Z",
         "views": {
-          "count": 653,
-          "uniques": 125
+          "count": 673,
+          "uniques": 131
         },
         "clones": {
-          "count": 3375,
-          "uniques": 365
+          "count": 3851,
+          "uniques": 373
         }
       }
     },
@@ -994,7 +1014,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:34.185Z",
+      "lastUpdated": "2026-08-22T03:10:43.015Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -1175,6 +1195,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 23,
           "uniques": 7
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 21,
+          "uniques": 5
         }
       ],
       "views": [
@@ -1357,6 +1382,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 3,
           "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ],
       "popularPaths": [
@@ -1439,26 +1469,26 @@
         }
       ],
       "totals": {
-        "clones": 1148,
-        "uniqueClonerDays": 220,
+        "clones": 1169,
+        "uniqueClonerDays": 225,
         "peakDailyClones": 124,
         "peakDailyUniqueCloners": 19,
         "views": 161,
         "uniqueVisitorDays": 63,
         "peakDailyViews": 24,
         "peakDailyUniqueVisitors": 6,
-        "daysTracked": 36,
+        "daysTracked": 37,
         "firstDay": "2026-07-15T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:34.185Z",
+        "polled_at": "2026-08-22T03:10:43.014Z",
         "views": {
           "count": 36,
           "uniques": 16
         },
         "clones": {
-          "count": 235,
+          "count": 236,
           "uniques": 22
         }
       }
@@ -1468,7 +1498,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:34.361Z",
+      "lastUpdated": "2026-08-22T03:10:43.147Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -1649,6 +1679,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 194,
           "uniques": 32
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 94,
+          "uniques": 15
         }
       ],
       "views": [
@@ -1831,6 +1866,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 24,
           "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 22,
+          "uniques": 5
         }
       ],
       "popularPaths": [
@@ -1838,12 +1878,18 @@
           "path": "/netascode/terraform-meraki-nac-meraki",
           "title": "Overview",
           "count": 45,
-          "uniques": 18
+          "uniques": 19
         },
         {
           "path": "/netascode/terraform-meraki-nac-meraki/pulls",
           "title": "/pulls",
-          "count": 24,
+          "count": 25,
+          "uniques": 3
+        },
+        {
+          "path": "/netascode/terraform-meraki-nac-meraki/pull/188",
+          "title": "/pull/188",
+          "count": 19,
           "uniques": 3
         },
         {
@@ -1856,12 +1902,6 @@
           "path": "/netascode/terraform-meraki-nac-meraki/issues",
           "title": "/issues",
           "count": 17,
-          "uniques": 3
-        },
-        {
-          "path": "/netascode/terraform-meraki-nac-meraki/pull/188",
-          "title": "/pull/188",
-          "count": 16,
           "uniques": 3
         },
         {
@@ -1898,47 +1938,47 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 20,
+          "count": 21,
           "uniques": 4
         },
         {
           "referrer": "wwwin-github.cisco.com",
-          "count": 4,
-          "uniques": 2
-        },
-        {
-          "referrer": "Google",
-          "count": 2,
+          "count": 10,
           "uniques": 2
         },
         {
           "referrer": "teams.public.onecdn.static.microsoft",
           "count": 2,
           "uniques": 1
+        },
+        {
+          "referrer": "Google",
+          "count": 1,
+          "uniques": 1
         }
       ],
       "totals": {
-        "clones": 5787,
-        "uniqueClonerDays": 1429,
+        "clones": 5881,
+        "uniqueClonerDays": 1444,
         "peakDailyClones": 1851,
         "peakDailyUniqueCloners": 150,
-        "views": 475,
-        "uniqueVisitorDays": 115,
+        "views": 497,
+        "uniqueVisitorDays": 120,
         "peakDailyViews": 105,
         "peakDailyUniqueVisitors": 6,
-        "daysTracked": 36,
+        "daysTracked": 37,
         "firstDay": "2026-07-15T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:34.361Z",
+        "polled_at": "2026-08-22T03:10:43.147Z",
         "views": {
-          "count": 198,
-          "uniques": 24
+          "count": 216,
+          "uniques": 26
         },
         "clones": {
-          "count": 4178,
-          "uniques": 579
+          "count": 3716,
+          "uniques": 553
         }
       }
     },
@@ -1947,7 +1987,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:34.534Z",
+      "lastUpdated": "2026-08-22T03:10:43.289Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -2128,6 +2168,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 106,
           "uniques": 30
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 63,
+          "uniques": 15
         }
       ],
       "views": [
@@ -2310,44 +2355,49 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 42,
           "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 67,
+          "uniques": 11
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-iosxe-nac-iosxe",
           "title": "Overview",
-          "count": 220,
-          "uniques": 64
+          "count": 217,
+          "uniques": 66
         },
         {
           "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
           "title": "/pulls",
-          "count": 68,
-          "uniques": 5
+          "count": 75,
+          "uniques": 6
         },
         {
           "path": "/netascode/terraform-iosxe-nac-iosxe/pull/361",
           "title": "/pull/361",
-          "count": 33,
-          "uniques": 2
+          "count": 36,
+          "uniques": 3
         },
         {
           "path": "/netascode/terraform-iosxe-nac-iosxe/issues",
           "title": "/issues",
-          "count": 25,
-          "uniques": 4
+          "count": 32,
+          "uniques": 3
         },
         {
           "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
           "title": "/blob/main/main.tf",
-          "count": 24,
-          "uniques": 13
+          "count": 22,
+          "uniques": 12
         },
         {
           "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main",
           "title": "/tree/main",
-          "count": 19,
-          "uniques": 8
+          "count": 22,
+          "uniques": 9
         },
         {
           "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main/examples/system",
@@ -2362,32 +2412,32 @@
           "uniques": 7
         },
         {
+          "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/variables.tf",
+          "title": "/blob/main/variables.tf",
+          "count": 11,
+          "uniques": 6
+        },
+        {
           "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/README.md",
           "title": "/blob/main/README.md",
           "count": 10,
           "uniques": 7
-        },
-        {
-          "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/examples/system/main.tf",
-          "title": "/blob/main/examples/system/main.tf",
-          "count": 10,
-          "uniques": 6
         }
       ],
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 195,
+          "count": 206,
           "uniques": 22
         },
         {
           "referrer": "Google",
-          "count": 54,
-          "uniques": 14
+          "count": 51,
+          "uniques": 13
         },
         {
           "referrer": "netascode.cisco.com",
-          "count": 13,
+          "count": 11,
           "uniques": 6
         },
         {
@@ -2402,27 +2452,27 @@
         }
       ],
       "totals": {
-        "clones": 2020,
-        "uniqueClonerDays": 576,
+        "clones": 2083,
+        "uniqueClonerDays": 591,
         "peakDailyClones": 149,
         "peakDailyUniqueCloners": 64,
-        "views": 1172,
-        "uniqueVisitorDays": 237,
+        "views": 1239,
+        "uniqueVisitorDays": 248,
         "peakDailyViews": 148,
         "peakDailyUniqueVisitors": 18,
-        "daysTracked": 36,
+        "daysTracked": 37,
         "firstDay": "2026-07-15T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:34.534Z",
+        "polled_at": "2026-08-22T03:10:43.289Z",
         "views": {
-          "count": 721,
-          "uniques": 72
+          "count": 741,
+          "uniques": 73
         },
         "clones": {
-          "count": 667,
-          "uniques": 182
+          "count": 683,
+          "uniques": 188
         }
       }
     },
@@ -2431,7 +2481,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:34.714Z",
+      "lastUpdated": "2026-08-22T03:10:43.422Z",
       "clones": [
         {
           "timestamp": "2026-07-15T00:00:00Z",
@@ -2612,6 +2662,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 48,
           "uniques": 16
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 185,
+          "uniques": 21
         }
       ],
       "views": [
@@ -2794,20 +2849,25 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 79,
           "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 56,
+          "uniques": 8
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-catalystcenter-nac-catalystcenter",
           "title": "Overview",
-          "count": 145,
-          "uniques": 40
+          "count": 133,
+          "uniques": 38
         },
         {
           "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pulls",
           "title": "/pulls",
-          "count": 68,
-          "uniques": 6
+          "count": 59,
+          "uniques": 7
         },
         {
           "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/154",
@@ -2818,14 +2878,8 @@
         {
           "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/blob/main/CHANGELOG.md",
           "title": "/blob/main/CHANGELOG.md",
-          "count": 27,
-          "uniques": 11
-        },
-        {
-          "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/153",
-          "title": "/pull/153",
-          "count": 17,
-          "uniques": 2
+          "count": 25,
+          "uniques": 12
         },
         {
           "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/157",
@@ -2836,7 +2890,7 @@
         {
           "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/issues",
           "title": "/issues",
-          "count": 14,
+          "count": 13,
           "uniques": 7
         },
         {
@@ -2846,33 +2900,39 @@
           "uniques": 3
         },
         {
-          "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/153/changes",
-          "title": "/pull/153/changes",
-          "count": 12,
-          "uniques": 2
+          "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/issues/136",
+          "title": "/issues/136",
+          "count": 9,
+          "uniques": 4
         },
         {
           "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/tree/main",
           "title": "/tree/main",
-          "count": 11,
+          "count": 9,
+          "uniques": 4
+        },
+        {
+          "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/tags",
+          "title": "/tags",
+          "count": 8,
           "uniques": 5
         }
       ],
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 58,
-          "uniques": 13
-        },
-        {
-          "referrer": "wwwin-github.cisco.com",
-          "count": 19,
-          "uniques": 3
+          "count": 42,
+          "uniques": 14
         },
         {
           "referrer": "netascode.cisco.com",
-          "count": 18,
-          "uniques": 4
+          "count": 14,
+          "uniques": 2
+        },
+        {
+          "referrer": "wwwin-github.cisco.com",
+          "count": 8,
+          "uniques": 3
         },
         {
           "referrer": "Google",
@@ -2881,27 +2941,27 @@
         }
       ],
       "totals": {
-        "clones": 2866,
-        "uniqueClonerDays": 574,
+        "clones": 3051,
+        "uniqueClonerDays": 595,
         "peakDailyClones": 250,
         "peakDailyUniqueCloners": 47,
-        "views": 1379,
-        "uniqueVisitorDays": 234,
+        "views": 1435,
+        "uniqueVisitorDays": 242,
         "peakDailyViews": 127,
         "peakDailyUniqueVisitors": 14,
-        "daysTracked": 36,
+        "daysTracked": 37,
         "firstDay": "2026-07-15T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:34.714Z",
+        "polled_at": "2026-08-22T03:10:43.422Z",
         "views": {
-          "count": 511,
-          "uniques": 48
+          "count": 476,
+          "uniques": 47
         },
         "clones": {
-          "count": 883,
-          "uniques": 129
+          "count": 1024,
+          "uniques": 134
         }
       }
     },
@@ -2910,7 +2970,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:34.882Z",
+      "lastUpdated": "2026-08-22T03:10:43.559Z",
       "clones": [
         {
           "timestamp": "2026-07-27T00:00:00Z",
@@ -3031,6 +3091,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 26,
           "uniques": 12
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 30,
+          "uniques": 11
         }
       ],
       "views": [
@@ -3153,38 +3218,31 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 3,
           "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 4,
+          "uniques": 2
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-nxos-nac-nxos",
           "title": "Overview",
-          "count": 62,
-          "uniques": 39
+          "count": 54,
+          "uniques": 33
         },
         {
           "path": "/netascode/terraform-nxos-nac-nxos/issues/167",
           "title": "/issues/167",
-          "count": 15,
-          "uniques": 11
+          "count": 13,
+          "uniques": 9
         },
         {
           "path": "/netascode/terraform-nxos-nac-nxos/tree/main",
           "title": "/tree/main",
           "count": 11,
           "uniques": 3
-        },
-        {
-          "path": "/netascode/terraform-nxos-nac-nxos/issues",
-          "title": "/issues",
-          "count": 10,
-          "uniques": 7
-        },
-        {
-          "path": "/netascode/terraform-nxos-nac-nxos/pulls",
-          "title": "/pulls",
-          "count": 10,
-          "uniques": 6
         },
         {
           "path": "/netascode/terraform-nxos-nac-nxos/blob/main/main.tf",
@@ -3199,10 +3257,16 @@
           "uniques": 4
         },
         {
-          "path": "/netascode/terraform-nxos-nac-nxos/blob/main/nxos_access_list.tf",
-          "title": "/blob/main/nxos_access_list.tf",
-          "count": 4,
-          "uniques": 4
+          "path": "/netascode/terraform-nxos-nac-nxos/pulls",
+          "title": "/pulls",
+          "count": 7,
+          "uniques": 3
+        },
+        {
+          "path": "/netascode/terraform-nxos-nac-nxos/issues",
+          "title": "/issues",
+          "count": 5,
+          "uniques": 5
         },
         {
           "path": "/netascode/terraform-nxos-nac-nxos/blob/main/README.md",
@@ -3215,6 +3279,12 @@
           "title": "/blob/main/defaults/defaults.yaml",
           "count": 4,
           "uniques": 3
+        },
+        {
+          "path": "/netascode/terraform-nxos-nac-nxos/blob/main/variables.tf",
+          "title": "/blob/main/variables.tf",
+          "count": 4,
+          "uniques": 3
         }
       ],
       "referrers": [
@@ -3225,8 +3295,8 @@
         },
         {
           "referrer": "Google",
-          "count": 31,
-          "uniques": 4
+          "count": 27,
+          "uniques": 3
         },
         {
           "referrer": "netascode.cisco.com",
@@ -3237,35 +3307,30 @@
           "referrer": "ecosia.org",
           "count": 1,
           "uniques": 1
-        },
-        {
-          "referrer": "teams.public.onecdn.static.microsoft",
-          "count": 1,
-          "uniques": 1
         }
       ],
       "totals": {
-        "clones": 683,
-        "uniqueClonerDays": 245,
+        "clones": 713,
+        "uniqueClonerDays": 256,
         "peakDailyClones": 105,
         "peakDailyUniqueCloners": 27,
-        "views": 354,
-        "uniqueVisitorDays": 110,
+        "views": 358,
+        "uniqueVisitorDays": 112,
         "peakDailyViews": 55,
         "peakDailyUniqueVisitors": 12,
-        "daysTracked": 24,
+        "daysTracked": 25,
         "firstDay": "2026-07-27T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:34.882Z",
+        "polled_at": "2026-08-22T03:10:43.559Z",
         "views": {
-          "count": 208,
-          "uniques": 48
+          "count": 180,
+          "uniques": 42
         },
         "clones": {
-          "count": 304,
-          "uniques": 75
+          "count": 311,
+          "uniques": 80
         }
       }
     },
@@ -3274,7 +3339,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:35.056Z",
+      "lastUpdated": "2026-08-22T03:10:43.703Z",
       "clones": [
         {
           "timestamp": "2026-07-27T00:00:00Z",
@@ -3395,6 +3460,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 47,
           "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 80,
+          "uniques": 14
         }
       ],
       "views": [
@@ -3517,14 +3587,19 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 4,
           "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 2,
+          "uniques": 1
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-mso-nac-ndo",
           "title": "Overview",
-          "count": 30,
-          "uniques": 16
+          "count": 26,
+          "uniques": 14
         },
         {
           "path": "/netascode/terraform-mso-nac-ndo/pull/74",
@@ -3551,12 +3626,6 @@
           "uniques": 2
         },
         {
-          "path": "/netascode/terraform-mso-nac-ndo/blob/main/main.tf",
-          "title": "/blob/main/main.tf",
-          "count": 4,
-          "uniques": 3
-        },
-        {
           "path": "/netascode/terraform-mso-nac-ndo/blob/main/ndo_schemas.tf",
           "title": "/blob/main/ndo_schemas.tf",
           "count": 4,
@@ -3579,42 +3648,48 @@
           "title": "/actions/runs/31800360698/job/94766652460",
           "count": 2,
           "uniques": 2
+        },
+        {
+          "path": "/netascode/terraform-mso-nac-ndo/blob/main/main.tf",
+          "title": "/blob/main/main.tf",
+          "count": 2,
+          "uniques": 2
         }
       ],
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 6,
+          "count": 4,
           "uniques": 4
         },
         {
           "referrer": "Google",
-          "count": 5,
-          "uniques": 2
+          "count": 2,
+          "uniques": 1
         }
       ],
       "totals": {
-        "clones": 1157,
-        "uniqueClonerDays": 221,
+        "clones": 1237,
+        "uniqueClonerDays": 235,
         "peakDailyClones": 156,
         "peakDailyUniqueCloners": 28,
-        "views": 235,
-        "uniqueVisitorDays": 70,
+        "views": 237,
+        "uniqueVisitorDays": 71,
         "peakDailyViews": 45,
         "peakDailyUniqueVisitors": 7,
-        "daysTracked": 24,
+        "daysTracked": 25,
         "firstDay": "2026-07-27T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:35.056Z",
+        "polled_at": "2026-08-22T03:10:43.703Z",
         "views": {
-          "count": 137,
-          "uniques": 26
+          "count": 131,
+          "uniques": 23
         },
         "clones": {
-          "count": 468,
-          "uniques": 64
+          "count": 502,
+          "uniques": 66
         }
       }
     },
@@ -3623,7 +3698,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:35.250Z",
+      "lastUpdated": "2026-08-22T03:10:43.844Z",
       "clones": [
         {
           "timestamp": "2026-07-27T00:00:00Z",
@@ -3744,6 +3819,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 97,
           "uniques": 33
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 193,
+          "uniques": 34
         }
       ],
       "views": [
@@ -3866,56 +3946,61 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 56,
           "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 52,
+          "uniques": 11
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-sdwan-nac-sdwan",
           "title": "Overview",
-          "count": 71,
-          "uniques": 46
+          "count": 81,
+          "uniques": 47
         },
         {
           "path": "/netascode/terraform-sdwan-nac-sdwan/pulls",
           "title": "/pulls",
-          "count": 16,
-          "uniques": 6
-        },
-        {
-          "path": "/netascode/terraform-sdwan-nac-sdwan/pull/267",
-          "title": "/pull/267",
-          "count": 16,
-          "uniques": 2
+          "count": 25,
+          "uniques": 7
         },
         {
           "path": "/netascode/terraform-sdwan-nac-sdwan/pull/266",
           "title": "/pull/266",
-          "count": 12,
-          "uniques": 3
+          "count": 20,
+          "uniques": 4
         },
         {
           "path": "/netascode/terraform-sdwan-nac-sdwan/pull/266/changes",
           "title": "/pull/266/changes",
-          "count": 12,
-          "uniques": 3
+          "count": 19,
+          "uniques": 4
         },
         {
           "path": "/netascode/terraform-sdwan-nac-sdwan/pull/268",
           "title": "/pull/268",
-          "count": 11,
+          "count": 12,
           "uniques": 4
+        },
+        {
+          "path": "/netascode/terraform-sdwan-nac-sdwan/pull/267",
+          "title": "/pull/267",
+          "count": 10,
+          "uniques": 2
         },
         {
           "path": "/netascode/terraform-sdwan-nac-sdwan/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
           "title": "/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
-          "count": 9,
-          "uniques": 2
+          "count": 8,
+          "uniques": 1
         },
         {
-          "path": "/netascode/terraform-sdwan-nac-sdwan/pull/267/changes",
-          "title": "/pull/267/changes",
-          "count": 7,
-          "uniques": 2
+          "path": "/netascode/terraform-sdwan-nac-sdwan/issues",
+          "title": "/issues",
+          "count": 6,
+          "uniques": 5
         },
         {
           "path": "/netascode/terraform-sdwan-nac-sdwan/tree/main",
@@ -3924,8 +4009,8 @@
           "uniques": 5
         },
         {
-          "path": "/netascode/terraform-sdwan-nac-sdwan/blob/main/main.tf",
-          "title": "/blob/main/main.tf",
+          "path": "/netascode/terraform-sdwan-nac-sdwan/commits/main",
+          "title": "/commits/main",
           "count": 5,
           "uniques": 4
         }
@@ -3933,22 +4018,22 @@
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 56,
-          "uniques": 17
+          "count": 55,
+          "uniques": 16
         },
         {
           "referrer": "netascode.cisco.com",
-          "count": 14,
-          "uniques": 4
+          "count": 13,
+          "uniques": 3
         },
         {
           "referrer": "Google",
-          "count": 11,
-          "uniques": 5
+          "count": 12,
+          "uniques": 6
         },
         {
           "referrer": "wwwin-github.cisco.com",
-          "count": 10,
+          "count": 9,
           "uniques": 2
         },
         {
@@ -3963,27 +4048,27 @@
         }
       ],
       "totals": {
-        "clones": 1297,
-        "uniqueClonerDays": 508,
-        "peakDailyClones": 158,
+        "clones": 1490,
+        "uniqueClonerDays": 542,
+        "peakDailyClones": 193,
         "peakDailyUniqueCloners": 113,
-        "views": 510,
-        "uniqueVisitorDays": 139,
+        "views": 562,
+        "uniqueVisitorDays": 150,
         "peakDailyViews": 67,
         "peakDailyUniqueVisitors": 13,
-        "daysTracked": 24,
+        "daysTracked": 25,
         "firstDay": "2026-07-27T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:35.250Z",
+        "polled_at": "2026-08-22T03:10:43.844Z",
         "views": {
-          "count": 273,
-          "uniques": 52
+          "count": 300,
+          "uniques": 54
         },
         "clones": {
-          "count": 796,
-          "uniques": 212
+          "count": 935,
+          "uniques": 218
         }
       }
     },
@@ -3992,7 +4077,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:35.451Z",
+      "lastUpdated": "2026-08-22T03:10:43.986Z",
       "clones": [
         {
           "timestamp": "2026-07-27T00:00:00Z",
@@ -4112,6 +4197,11 @@
         {
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 22,
+          "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 20,
           "uniques": 10
         }
       ],
@@ -4235,26 +4325,31 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 5,
           "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 9,
+          "uniques": 4
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-ise-nac-ise/pulls",
           "title": "/pulls",
-          "count": 42,
+          "count": 41,
           "uniques": 3
         },
         {
           "path": "/netascode/terraform-ise-nac-ise",
           "title": "Overview",
-          "count": 38,
-          "uniques": 26
+          "count": 40,
+          "uniques": 28
         },
         {
           "path": "/netascode/terraform-ise-nac-ise/issues",
           "title": "/issues",
-          "count": 7,
-          "uniques": 1
+          "count": 9,
+          "uniques": 2
         },
         {
           "path": "/netascode/terraform-ise-nac-ise/tags",
@@ -4301,14 +4396,14 @@
       ],
       "referrers": [
         {
+          "referrer": "Google",
+          "count": 10,
+          "uniques": 6
+        },
+        {
           "referrer": "github.com",
           "count": 7,
           "uniques": 3
-        },
-        {
-          "referrer": "Google",
-          "count": 5,
-          "uniques": 5
         },
         {
           "referrer": "netascode.cisco.com",
@@ -4319,35 +4414,30 @@
           "referrer": "Bing",
           "count": 1,
           "uniques": 1
-        },
-        {
-          "referrer": "teams.public.onecdn.static.microsoft",
-          "count": 1,
-          "uniques": 1
         }
       ],
       "totals": {
-        "clones": 691,
-        "uniqueClonerDays": 247,
+        "clones": 711,
+        "uniqueClonerDays": 257,
         "peakDailyClones": 131,
         "peakDailyUniqueCloners": 30,
-        "views": 210,
-        "uniqueVisitorDays": 77,
+        "views": 219,
+        "uniqueVisitorDays": 81,
         "peakDailyViews": 39,
         "peakDailyUniqueVisitors": 7,
-        "daysTracked": 24,
+        "daysTracked": 25,
         "firstDay": "2026-07-27T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:35.451Z",
+        "polled_at": "2026-08-22T03:10:43.986Z",
         "views": {
-          "count": 144,
-          "uniques": 31
+          "count": 150,
+          "uniques": 33
         },
         "clones": {
-          "count": 355,
-          "uniques": 93
+          "count": 331,
+          "uniques": 84
         }
       }
     },
@@ -4356,7 +4446,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:35.637Z",
+      "lastUpdated": "2026-08-22T03:10:44.128Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -4466,6 +4556,11 @@
         {
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 81,
+          "uniques": 24
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 66,
           "uniques": 24
         }
       ],
@@ -4579,19 +4674,24 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 35,
           "uniques": 2
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 34,
+          "uniques": 2
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-intersight-nac-compute",
           "title": "Overview",
-          "count": 82,
+          "count": 58,
           "uniques": 12
         },
         {
           "path": "/netascode/terraform-intersight-nac-compute/pulls",
           "title": "/pulls",
-          "count": 30,
+          "count": 28,
           "uniques": 4
         },
         {
@@ -4607,20 +4707,8 @@
           "uniques": 4
         },
         {
-          "path": "/netascode/terraform-intersight-nac-compute/actions",
-          "title": "/actions",
-          "count": 7,
-          "uniques": 2
-        },
-        {
-          "path": "/netascode/terraform-intersight-nac-compute/pull/23",
-          "title": "/pull/23",
-          "count": 6,
-          "uniques": 1
-        },
-        {
-          "path": "/netascode/terraform-compute-nac-compute",
-          "title": "Overview",
+          "path": "/netascode/terraform-intersight-nac-compute/branches",
+          "title": "/branches",
           "count": 5,
           "uniques": 2
         },
@@ -4631,47 +4719,59 @@
           "uniques": 2
         },
         {
-          "path": "/netascode/terraform-intersight-nac-compute/pull/24",
-          "title": "/pull/24",
-          "count": 5,
-          "uniques": 1
-        },
-        {
           "path": "/netascode/terraform-intersight-nac-compute/compare",
           "title": "/compare",
           "count": 4,
           "uniques": 2
+        },
+        {
+          "path": "/netascode/terraform-intersight-nac-compute/actions/runs/32038737112",
+          "title": "/actions/runs/32038737112",
+          "count": 4,
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/terraform-intersight-nac-compute/pull/24",
+          "title": "/pull/24",
+          "count": 4,
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/terraform-intersight-nac-compute/pull/25",
+          "title": "/pull/25",
+          "count": 4,
+          "uniques": 1
         }
       ],
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 57,
-          "uniques": 6
+          "count": 21,
+          "uniques": 4
         }
       ],
       "totals": {
-        "clones": 379,
-        "uniqueClonerDays": 143,
+        "clones": 445,
+        "uniqueClonerDays": 167,
         "peakDailyClones": 104,
         "peakDailyUniqueCloners": 30,
-        "views": 387,
-        "uniqueVisitorDays": 22,
+        "views": 421,
+        "uniqueVisitorDays": 24,
         "peakDailyViews": 119,
         "peakDailyUniqueVisitors": 4,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:35.637Z",
+        "polled_at": "2026-08-22T03:10:44.128Z",
         "views": {
-          "count": 378,
+          "count": 293,
           "uniques": 12
         },
         "clones": {
-          "count": 368,
-          "uniques": 110
+          "count": 389,
+          "uniques": 106
         }
       }
     },
@@ -4680,7 +4780,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:35.806Z",
+      "lastUpdated": "2026-08-22T03:10:44.261Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -4791,6 +4891,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 9,
           "uniques": 8
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 15,
+          "uniques": 9
         }
       ],
       "views": [
@@ -4903,32 +5008,37 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 18,
           "uniques": 9
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 34,
+          "uniques": 14
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/nac-collector",
           "title": "Overview",
-          "count": 131,
-          "uniques": 65
+          "count": 134,
+          "uniques": 63
         },
         {
           "path": "/netascode/nac-collector/pulls",
           "title": "/pulls",
-          "count": 28,
+          "count": 27,
           "uniques": 5
         },
         {
           "path": "/netascode/nac-collector/issues",
           "title": "/issues",
-          "count": 19,
+          "count": 15,
           "uniques": 4
         },
         {
-          "path": "/netascode/nac-collector/tree/main",
-          "title": "/tree/main",
+          "path": "/netascode/nac-collector/pull/291",
+          "title": "/pull/291",
           "count": 12,
-          "uniques": 6
+          "uniques": 3
         },
         {
           "path": "/netascode/nac-collector/pull/289",
@@ -4943,10 +5053,16 @@
           "uniques": 7
         },
         {
-          "path": "/netascode/nac-collector/pull/291",
-          "title": "/pull/291",
+          "path": "/netascode/nac-collector/tree/main",
+          "title": "/tree/main",
+          "count": 11,
+          "uniques": 5
+        },
+        {
+          "path": "/netascode/nac-collector/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
+          "title": "/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
           "count": 9,
-          "uniques": 3
+          "uniques": 2
         },
         {
           "path": "/netascode/nac-collector/tree/main/nac_collector/resources",
@@ -4959,29 +5075,23 @@
           "title": "/tree/main/nac_collector/resources/endpoints",
           "count": 6,
           "uniques": 4
-        },
-        {
-          "path": "/netascode/nac-collector/pull/289/changes",
-          "title": "/pull/289/changes",
-          "count": 6,
-          "uniques": 2
         }
       ],
       "referrers": [
         {
-          "referrer": "Google",
-          "count": 65,
+          "referrer": "github.com",
+          "count": 61,
           "uniques": 19
         },
         {
-          "referrer": "github.com",
-          "count": 55,
-          "uniques": 16
+          "referrer": "Google",
+          "count": 56,
+          "uniques": 18
         },
         {
           "referrer": "netascode.cisco.com",
-          "count": 7,
-          "uniques": 5
+          "count": 10,
+          "uniques": 6
         },
         {
           "referrer": "cisco-cxe.atlassian.net",
@@ -5000,27 +5110,27 @@
         }
       ],
       "totals": {
-        "clones": 631,
-        "uniqueClonerDays": 199,
+        "clones": 646,
+        "uniqueClonerDays": 208,
         "peakDailyClones": 82,
         "peakDailyUniqueCloners": 17,
-        "views": 578,
-        "uniqueVisitorDays": 184,
+        "views": 612,
+        "uniqueVisitorDays": 198,
         "peakDailyViews": 69,
         "peakDailyUniqueVisitors": 16,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:35.806Z",
+        "polled_at": "2026-08-22T03:10:44.261Z",
         "views": {
-          "count": 352,
-          "uniques": 76
+          "count": 354,
+          "uniques": 73
         },
         "clones": {
-          "count": 371,
-          "uniques": 77
+          "count": 355,
+          "uniques": 73
         }
       }
     },
@@ -5029,7 +5139,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:35.980Z",
+      "lastUpdated": "2026-08-22T03:10:44.419Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -5140,6 +5250,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 35,
           "uniques": 17
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 32,
+          "uniques": 14
         }
       ],
       "views": [
@@ -5252,37 +5367,36 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 105,
           "uniques": 31
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 106,
+          "uniques": 21
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/ansible-dc-vxlan",
           "title": "Overview",
-          "count": 189,
-          "uniques": 81
+          "count": 192,
+          "uniques": 80
         },
         {
           "path": "/netascode/ansible-dc-vxlan/pulls",
           "title": "/pulls",
-          "count": 134,
+          "count": 145,
           "uniques": 14
         },
         {
           "path": "/netascode/ansible-dc-vxlan/pull/775",
           "title": "/pull/775",
-          "count": 62,
-          "uniques": 6
-        },
-        {
-          "path": "/netascode/ansible-dc-vxlan/pull/803",
-          "title": "/pull/803",
-          "count": 51,
-          "uniques": 8
+          "count": 67,
+          "uniques": 7
         },
         {
           "path": "/netascode/ansible-dc-vxlan/pull/866",
           "title": "/pull/866",
-          "count": 45,
+          "count": 51,
           "uniques": 5
         },
         {
@@ -5292,45 +5406,51 @@
           "uniques": 5
         },
         {
-          "path": "/netascode/ansible-dc-vxlan/issues",
-          "title": "/issues",
-          "count": 43,
-          "uniques": 16
+          "path": "/netascode/ansible-dc-vxlan/pull/803",
+          "title": "/pull/803",
+          "count": 42,
+          "uniques": 8
         },
         {
-          "path": "/netascode/ansible-dc-vxlan/pull/855",
-          "title": "/pull/855",
-          "count": 37,
-          "uniques": 8
+          "path": "/netascode/ansible-dc-vxlan/issues",
+          "title": "/issues",
+          "count": 40,
+          "uniques": 13
         },
         {
           "path": "/netascode/ansible-dc-vxlan/pull/860",
           "title": "/pull/860",
-          "count": 31,
+          "count": 30,
           "uniques": 5
         },
         {
-          "path": "/netascode/ansible-dc-vxlan/pull/848",
-          "title": "/pull/848",
+          "path": "/netascode/ansible-dc-vxlan/pull/775/changes",
+          "title": "/pull/775/changes",
           "count": 24,
-          "uniques": 6
+          "uniques": 5
+        },
+        {
+          "path": "/netascode/ansible-dc-vxlan/tree/develop/roles",
+          "title": "/tree/develop/roles",
+          "count": 23,
+          "uniques": 19
         }
       ],
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 223,
-          "uniques": 41
+          "count": 221,
+          "uniques": 40
         },
         {
           "referrer": "Google",
-          "count": 121,
-          "uniques": 18
+          "count": 124,
+          "uniques": 19
         },
         {
           "referrer": "netascode.cisco.com",
-          "count": 77,
-          "uniques": 22
+          "count": 78,
+          "uniques": 24
         },
         {
           "referrer": "wwwin-github.cisco.com",
@@ -5359,27 +5479,27 @@
         }
       ],
       "totals": {
-        "clones": 1519,
-        "uniqueClonerDays": 434,
+        "clones": 1551,
+        "uniqueClonerDays": 448,
         "peakDailyClones": 238,
         "peakDailyUniqueCloners": 142,
-        "views": 2449,
-        "uniqueVisitorDays": 446,
+        "views": 2555,
+        "uniqueVisitorDays": 467,
         "peakDailyViews": 233,
         "peakDailyUniqueVisitors": 40,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:35.980Z",
+        "polled_at": "2026-08-22T03:10:44.419Z",
         "views": {
-          "count": 1508,
-          "uniques": 173
+          "count": 1487,
+          "uniques": 154
         },
         "clones": {
-          "count": 1006,
-          "uniques": 227
+          "count": 949,
+          "uniques": 230
         }
       }
     },
@@ -5388,7 +5508,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:36.139Z",
+      "lastUpdated": "2026-08-22T03:10:44.591Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -5499,6 +5619,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 38,
           "uniques": 22
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 15,
+          "uniques": 11
         }
       ],
       "views": [
@@ -5611,50 +5736,43 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 39,
           "uniques": 4
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 7,
+          "uniques": 1
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/terraform-iosxr-nac-iosxr/pulls",
           "title": "/pulls",
-          "count": 103,
+          "count": 85,
           "uniques": 4
         },
         {
           "path": "/netascode/terraform-iosxr-nac-iosxr",
           "title": "Overview",
-          "count": 84,
-          "uniques": 31
-        },
-        {
-          "path": "/netascode/terraform-iosxr-nac-iosxr/pull/200",
-          "title": "/pull/200",
-          "count": 23,
-          "uniques": 3
-        },
-        {
-          "path": "/netascode/terraform-iosxr-nac-iosxr/issues",
-          "title": "/issues",
-          "count": 19,
-          "uniques": 8
+          "count": 73,
+          "uniques": 30
         },
         {
           "path": "/netascode/terraform-iosxr-nac-iosxr/pull/211",
           "title": "/pull/211",
-          "count": 19,
+          "count": 26,
           "uniques": 1
+        },
+        {
+          "path": "/netascode/terraform-iosxr-nac-iosxr/issues",
+          "title": "/issues",
+          "count": 13,
+          "uniques": 7
         },
         {
           "path": "/netascode/terraform-iosxr-nac-iosxr/pull/201",
           "title": "/pull/201",
-          "count": 18,
+          "count": 12,
           "uniques": 1
-        },
-        {
-          "path": "/netascode/terraform-iosxr-nac-iosxr/issues/192",
-          "title": "/issues/192",
-          "count": 11,
-          "uniques": 5
         },
         {
           "path": "/netascode/terraform-iosxr-nac-iosxr/pull/189",
@@ -5663,23 +5781,35 @@
           "uniques": 3
         },
         {
-          "path": "/netascode/terraform-iosxr-nac-iosxr/issues/193",
-          "title": "/issues/193",
-          "count": 10,
-          "uniques": 6
+          "path": "/netascode/terraform-iosxr-nac-iosxr/pull/200",
+          "title": "/pull/200",
+          "count": 9,
+          "uniques": 2
         },
         {
-          "path": "/netascode/terraform-iosxr-nac-iosxr/pull/202",
-          "title": "/pull/202",
+          "path": "/netascode/terraform-iosxr-nac-iosxr/pull/207",
+          "title": "/pull/207",
           "count": 8,
-          "uniques": 3
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/terraform-iosxr-nac-iosxr/pull/187",
+          "title": "/pull/187",
+          "count": 7,
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/terraform-iosxr-nac-iosxr/issues/208",
+          "title": "/issues/208",
+          "count": 6,
+          "uniques": 4
         }
       ],
       "referrers": [
         {
           "referrer": "github.com",
-          "count": 45,
-          "uniques": 10
+          "count": 42,
+          "uniques": 9
         },
         {
           "referrer": "Google",
@@ -5688,27 +5818,27 @@
         }
       ],
       "totals": {
-        "clones": 503,
-        "uniqueClonerDays": 305,
+        "clones": 518,
+        "uniqueClonerDays": 316,
         "peakDailyClones": 50,
         "peakDailyUniqueCloners": 39,
-        "views": 624,
-        "uniqueVisitorDays": 113,
+        "views": 631,
+        "uniqueVisitorDays": 114,
         "peakDailyViews": 95,
         "peakDailyUniqueVisitors": 10,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:36.138Z",
+        "polled_at": "2026-08-22T03:10:44.591Z",
         "views": {
-          "count": 464,
-          "uniques": 45
+          "count": 376,
+          "uniques": 38
         },
         "clones": {
-          "count": 405,
-          "uniques": 159
+          "count": 381,
+          "uniques": 146
         }
       }
     },
@@ -5717,7 +5847,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:36.316Z",
+      "lastUpdated": "2026-08-22T03:10:44.726Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -5827,6 +5957,11 @@
         {
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 105,
+          "uniques": 13
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 68,
           "uniques": 13
         }
       ],
@@ -5940,32 +6075,37 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 59,
           "uniques": 10
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 34,
+          "uniques": 10
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/nac-test",
           "title": "Overview",
-          "count": 77,
-          "uniques": 40
+          "count": 76,
+          "uniques": 45
         },
         {
           "path": "/netascode/nac-test/pull/896",
           "title": "/pull/896",
-          "count": 31,
+          "count": 33,
           "uniques": 3
         },
         {
           "path": "/netascode/nac-test/pulls",
           "title": "/pulls",
-          "count": 17,
+          "count": 18,
           "uniques": 7
         },
         {
           "path": "/netascode/nac-test/tree/main/tests",
           "title": "/tree/main/tests",
-          "count": 11,
-          "uniques": 6
+          "count": 12,
+          "uniques": 7
         },
         {
           "path": "/netascode/nac-test/pull/896/changes",
@@ -5974,16 +6114,16 @@
           "uniques": 1
         },
         {
-          "path": "/netascode/nac-test/tags",
-          "title": "/tags",
-          "count": 8,
-          "uniques": 3
-        },
-        {
           "path": "/netascode/nac-test/tree/main/nac_test",
           "title": "/tree/main/nac_test",
-          "count": 6,
-          "uniques": 4
+          "count": 9,
+          "uniques": 6
+        },
+        {
+          "path": "/netascode/nac-test/tags",
+          "title": "/tags",
+          "count": 7,
+          "uniques": 2
         },
         {
           "path": "/netascode/nac-test/actions/runs/32273863333/job/96136477238",
@@ -6008,22 +6148,22 @@
         {
           "referrer": "github.com",
           "count": 68,
-          "uniques": 20
+          "uniques": 21
         },
         {
           "referrer": "Google",
-          "count": 31,
-          "uniques": 11
-        },
-        {
-          "referrer": "netascode.cisco.com",
-          "count": 6,
-          "uniques": 5
+          "count": 32,
+          "uniques": 12
         },
         {
           "referrer": "pypi.org",
-          "count": 6,
-          "uniques": 1
+          "count": 15,
+          "uniques": 2
+        },
+        {
+          "referrer": "netascode.cisco.com",
+          "count": 4,
+          "uniques": 4
         },
         {
           "referrer": "DuckDuckGo",
@@ -6032,27 +6172,27 @@
         }
       ],
       "totals": {
-        "clones": 1348,
-        "uniqueClonerDays": 341,
+        "clones": 1416,
+        "uniqueClonerDays": 354,
         "peakDailyClones": 369,
         "peakDailyUniqueCloners": 130,
-        "views": 377,
-        "uniqueVisitorDays": 121,
+        "views": 411,
+        "uniqueVisitorDays": 131,
         "peakDailyViews": 59,
         "peakDailyUniqueVisitors": 13,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:36.316Z",
+        "polled_at": "2026-08-22T03:10:44.725Z",
         "views": {
-          "count": 257,
-          "uniques": 50
+          "count": 279,
+          "uniques": 55
         },
         "clones": {
-          "count": 917,
-          "uniques": 228
+          "count": 977,
+          "uniques": 232
         }
       }
     },
@@ -6061,7 +6201,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:36.490Z",
+      "lastUpdated": "2026-08-22T03:10:44.868Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -6172,6 +6312,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 4,
           "uniques": 3
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 2,
+          "uniques": 1
         }
       ],
       "views": [
@@ -6284,20 +6429,25 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 20,
           "uniques": 11
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 47,
+          "uniques": 10
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/nac-validate",
           "title": "Overview",
-          "count": 66,
-          "uniques": 50
+          "count": 70,
+          "uniques": 54
         },
         {
           "path": "/netascode/nac-validate/tree/main/nac_validate",
           "title": "/tree/main/nac_validate",
-          "count": 10,
-          "uniques": 8
+          "count": 12,
+          "uniques": 9
         },
         {
           "path": "/netascode/nac-validate/blob/main/README.md",
@@ -6306,58 +6456,58 @@
           "uniques": 6
         },
         {
-          "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
-          "title": "/blob/main/CHANGELOG.md",
+          "path": "/netascode/nac-validate/blob/main/nac_validate/validator.py",
+          "title": "/blob/main/nac_validate/validator.py",
           "count": 4,
           "uniques": 4
         },
         {
-          "path": "/netascode/nac-validate/blob/main/nac_validate/validator.py",
-          "title": "/blob/main/nac_validate/validator.py",
+          "path": "/netascode/nac-validate/blob/main/pyproject.toml",
+          "title": "/blob/main/pyproject.toml",
+          "count": 4,
+          "uniques": 4
+        },
+        {
+          "path": "/netascode/nac-validate/tree/main/tests",
+          "title": "/tree/main/tests",
+          "count": 4,
+          "uniques": 2
+        },
+        {
+          "path": "/netascode/nac-validate/tree/main",
+          "title": "/tree/main",
+          "count": 4,
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
+          "title": "/blob/main/CHANGELOG.md",
           "count": 3,
           "uniques": 3
         },
         {
-          "path": "/netascode/nac-validate/blob/main/pyproject.toml",
-          "title": "/blob/main/pyproject.toml",
-          "count": 3,
-          "uniques": 3
+          "path": "/netascode/nac-validate/blob/main/.pre-commit-hooks.yaml",
+          "title": "/blob/main/.pre-commit-hooks.yaml",
+          "count": 2,
+          "uniques": 2
         },
         {
           "path": "/netascode/nac-validate/issues",
           "title": "/issues",
           "count": 2,
           "uniques": 2
-        },
-        {
-          "path": "/netascode/nac-validate/actions",
-          "title": "/actions",
-          "count": 1,
-          "uniques": 1
-        },
-        {
-          "path": "/netascode/nac-validate/blob/main/.pre-commit-config.yaml",
-          "title": "/blob/main/.pre-commit-config.yaml",
-          "count": 1,
-          "uniques": 1
-        },
-        {
-          "path": "/netascode/nac-validate/blob/main/LICENSE",
-          "title": "/blob/main/LICENSE",
-          "count": 1,
-          "uniques": 1
         }
       ],
       "referrers": [
         {
-          "referrer": "Google",
-          "count": 30,
-          "uniques": 14
+          "referrer": "github.com",
+          "count": 32,
+          "uniques": 19
         },
         {
-          "referrer": "github.com",
-          "count": 27,
-          "uniques": 17
+          "referrer": "Google",
+          "count": 23,
+          "uniques": 14
         },
         {
           "referrer": "DuckDuckGo",
@@ -6385,38 +6535,33 @@
           "uniques": 1
         },
         {
-          "referrer": "Bing",
-          "count": 1,
-          "uniques": 1
-        },
-        {
           "referrer": "teams.public.onecdn.static.microsoft",
           "count": 1,
           "uniques": 1
         }
       ],
       "totals": {
-        "clones": 196,
-        "uniqueClonerDays": 99,
+        "clones": 198,
+        "uniqueClonerDays": 100,
         "peakDailyClones": 29,
         "peakDailyUniqueCloners": 10,
-        "views": 193,
-        "uniqueVisitorDays": 109,
-        "peakDailyViews": 36,
+        "views": 240,
+        "uniqueVisitorDays": 119,
+        "peakDailyViews": 47,
         "peakDailyUniqueVisitors": 14,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:36.490Z",
+        "polled_at": "2026-08-22T03:10:44.868Z",
         "views": {
-          "count": 109,
-          "uniques": 57
+          "count": 143,
+          "uniques": 62
         },
         "clones": {
-          "count": 116,
-          "uniques": 39
+          "count": 115,
+          "uniques": 38
         }
       }
     },
@@ -6425,7 +6570,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:36.662Z",
+      "lastUpdated": "2026-08-22T03:10:45.033Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -6534,6 +6679,11 @@
         },
         {
           "timestamp": "2026-08-19T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
           "count": 1,
           "uniques": 1
         }
@@ -6648,32 +6798,31 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 15,
           "uniques": 5
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/nac-sdwan-example",
           "title": "Overview",
-          "count": 39,
-          "uniques": 30
+          "count": 35,
+          "uniques": 27
         },
         {
           "path": "/netascode/nac-sdwan-example/tree/main/data",
           "title": "/tree/main/data",
-          "count": 7,
-          "uniques": 5
+          "count": 6,
+          "uniques": 4
         },
         {
           "path": "/netascode/nac-sdwan-example/blob/main/main.tf",
           "title": "/blob/main/main.tf",
-          "count": 7,
-          "uniques": 4
-        },
-        {
-          "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
-          "title": "/blob/main/data/sites.nac.yaml",
-          "count": 4,
-          "uniques": 4
+          "count": 5,
+          "uniques": 2
         },
         {
           "path": "/netascode/nac-sdwan-example/blob/main/.schema.yaml",
@@ -6682,74 +6831,75 @@
           "uniques": 2
         },
         {
-          "path": "/netascode/nac-sdwan-example/blob/main/.ci/gitlab-comment.py",
-          "title": "/blob/main/.ci/gitlab-comment.py",
+          "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
+          "title": "/blob/main/data/sites.nac.yaml",
           "count": 3,
           "uniques": 3
+        },
+        {
+          "path": "/netascode/nac-sdwan-example/blob/main/.ci/gitlab-comment.py",
+          "title": "/blob/main/.ci/gitlab-comment.py",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "path": "/netascode/nac-sdwan-example/blob/main/data/edge_device_templates.nac.yaml",
+          "title": "/blob/main/data/edge_device_templates.nac.yaml",
+          "count": 2,
+          "uniques": 2
         },
         {
           "path": "/netascode/nac-sdwan-example/blob/main/jinja_filters/normalize_special_string.py",
           "title": "/blob/main/jinja_filters/normalize_special_string.py",
-          "count": 3,
-          "uniques": 3
+          "count": 2,
+          "uniques": 2
         },
         {
           "path": "/netascode/nac-sdwan-example/tree/main/tests/templates",
           "title": "/tree/main/tests/templates",
-          "count": 3,
-          "uniques": 3
+          "count": 2,
+          "uniques": 2
         },
         {
           "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config",
           "title": "/tree/main/tests/templates/config",
-          "count": 3,
-          "uniques": 3
-        },
-        {
-          "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
-          "title": "/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
-          "count": 3,
+          "count": 2,
           "uniques": 2
         }
       ],
       "referrers": [
         {
           "referrer": "netascode.cisco.com",
-          "count": 61,
+          "count": 32,
           "uniques": 12
         },
         {
           "referrer": "Google",
           "count": 1,
           "uniques": 1
-        },
-        {
-          "referrer": "github.com",
-          "count": 1,
-          "uniques": 1
         }
       ],
       "totals": {
-        "clones": 13,
-        "uniqueClonerDays": 12,
+        "clones": 14,
+        "uniqueClonerDays": 13,
         "peakDailyClones": 3,
         "peakDailyUniqueCloners": 3,
         "views": 165,
         "uniqueVisitorDays": 57,
         "peakDailyViews": 33,
         "peakDailyUniqueVisitors": 5,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:36.662Z",
+        "polled_at": "2026-08-22T03:10:45.033Z",
         "views": {
-          "count": 107,
-          "uniques": 30
+          "count": 74,
+          "uniques": 27
         },
         "clones": {
-          "count": 6,
+          "count": 7,
           "uniques": 5
         }
       }
@@ -6759,7 +6909,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:36.831Z",
+      "lastUpdated": "2026-08-22T03:10:45.174Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -6870,6 +7020,11 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 1,
           "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ],
       "views": [
@@ -6982,14 +7137,19 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 1,
           "uniques": 1
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 0,
+          "uniques": 0
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/nac-meraki-example",
           "title": "Overview",
-          "count": 18,
-          "uniques": 14
+          "count": 17,
+          "uniques": 13
         },
         {
           "path": "/netascode/nac-meraki-example/tags",
@@ -7031,8 +7191,8 @@
       "referrers": [
         {
           "referrer": "netascode.cisco.com",
-          "count": 8,
-          "uniques": 5
+          "count": 7,
+          "uniques": 4
         },
         {
           "referrer": "github.com",
@@ -7054,15 +7214,15 @@
         "uniqueVisitorDays": 37,
         "peakDailyViews": 45,
         "peakDailyUniqueVisitors": 7,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:36.830Z",
+        "polled_at": "2026-08-22T03:10:45.174Z",
         "views": {
-          "count": 28,
-          "uniques": 14
+          "count": 27,
+          "uniques": 13
         },
         "clones": {
           "count": 7,
@@ -7075,7 +7235,7 @@
       "group": "modules",
       "owner": null,
       "name": null,
-      "lastUpdated": "2026-08-21T03:25:37.026Z",
+      "lastUpdated": "2026-08-22T03:10:45.322Z",
       "clones": [
         {
           "timestamp": "2026-07-29T00:00:00Z",
@@ -7184,6 +7344,11 @@
         },
         {
           "timestamp": "2026-08-19T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
           "count": 0,
           "uniques": 0
         }
@@ -7298,14 +7463,19 @@
           "timestamp": "2026-08-19T00:00:00Z",
           "count": 0,
           "uniques": 0
+        },
+        {
+          "timestamp": "2026-08-20T00:00:00Z",
+          "count": 5,
+          "uniques": 2
         }
       ],
       "popularPaths": [
         {
           "path": "/netascode/nac-branch-example",
           "title": "Overview",
-          "count": 12,
-          "uniques": 12
+          "count": 11,
+          "uniques": 11
         },
         {
           "path": "/netascode/nac-branch-example/pulse",
@@ -7326,38 +7496,38 @@
           "uniques": 1
         },
         {
+          "path": "/netascode/nac-branch-example/blob/main/.gitlab-ci.yml",
+          "title": "/blob/main/.gitlab-ci.yml",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/nac-branch-example/blob/main/data/templates-network-related.nac.yaml",
+          "title": "/blob/main/data/templates-network-related.nac.yaml",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/nac-branch-example/blob/main/data/templates-switch.nac.yaml",
+          "title": "/blob/main/data/templates-switch.nac.yaml",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/nac-branch-example/blob/main/main.tf",
+          "title": "/blob/main/main.tf",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "path": "/netascode/nac-branch-example/blob/main/schema.yaml",
+          "title": "/blob/main/schema.yaml",
+          "count": 1,
+          "uniques": 1
+        },
+        {
           "path": "/netascode/nac-branch-example/branches",
           "title": "/branches",
-          "count": 1,
-          "uniques": 1
-        },
-        {
-          "path": "/netascode/nac-branch-example/branches/active",
-          "title": "/branches/active",
-          "count": 1,
-          "uniques": 1
-        },
-        {
-          "path": "/netascode/nac-branch-example/branches/all",
-          "title": "/branches/all",
-          "count": 1,
-          "uniques": 1
-        },
-        {
-          "path": "/netascode/nac-branch-example/branches/stale",
-          "title": "/branches/stale",
-          "count": 1,
-          "uniques": 1
-        },
-        {
-          "path": "/netascode/nac-branch-example/community",
-          "title": "/community",
-          "count": 1,
-          "uniques": 1
-        },
-        {
-          "path": "/netascode/nac-branch-example/forks",
-          "title": "/forks",
           "count": 1,
           "uniques": 1
         }
@@ -7365,8 +7535,8 @@
       "referrers": [
         {
           "referrer": "Google",
-          "count": 1,
-          "uniques": 1
+          "count": 5,
+          "uniques": 2
         },
         {
           "referrer": "netascode.cisco.com",
@@ -7379,19 +7549,19 @@
         "uniqueClonerDays": 9,
         "peakDailyClones": 2,
         "peakDailyUniqueCloners": 2,
-        "views": 31,
-        "uniqueVisitorDays": 18,
+        "views": 36,
+        "uniqueVisitorDays": 20,
         "peakDailyViews": 15,
         "peakDailyUniqueVisitors": 3,
-        "daysTracked": 22,
+        "daysTracked": 23,
         "firstDay": "2026-07-29T00:00:00Z",
-        "lastDay": "2026-08-19T00:00:00Z"
+        "lastDay": "2026-08-20T00:00:00Z"
       },
       "snapshot14d": {
-        "polled_at": "2026-08-21T03:25:37.026Z",
+        "polled_at": "2026-08-22T03:10:45.322Z",
         "views": {
-          "count": 24,
-          "uniques": 12
+          "count": 28,
+          "uniques": 13
         },
         "clones": {
           "count": 5,
@@ -11554,6 +11724,10 @@
             {
               "polled_at": "2026-08-21T03:25:39.165Z",
               "total": 7
+            },
+            {
+              "polled_at": "2026-08-22T03:10:46.744Z",
+              "total": 7
             }
           ],
           "totals": {
@@ -11562,7 +11736,7 @@
             "last90d": 2,
             "velocity30d": 0
           },
-          "lastUpdated": "2026-08-21T03:25:39.165Z"
+          "lastUpdated": "2026-08-22T03:10:46.744Z"
         },
         "issues": {
           "totals": {
@@ -11992,6 +12166,10 @@
             {
               "polled_at": "2026-08-21T03:25:39.458Z",
               "total": 51
+            },
+            {
+              "polled_at": "2026-08-22T03:10:46.982Z",
+              "total": 51
             }
           ],
           "totals": {
@@ -12000,7 +12178,7 @@
             "last90d": 4,
             "velocity30d": 0.033
           },
-          "lastUpdated": "2026-08-21T03:25:39.458Z"
+          "lastUpdated": "2026-08-22T03:10:46.982Z"
         },
         "issues": {
           "totals": {
@@ -12270,6 +12448,10 @@
             {
               "polled_at": "2026-08-21T03:25:39.709Z",
               "total": 4
+            },
+            {
+              "polled_at": "2026-08-22T03:10:47.204Z",
+              "total": 4
             }
           ],
           "totals": {
@@ -12278,7 +12460,7 @@
             "last90d": 0,
             "velocity30d": 0
           },
-          "lastUpdated": "2026-08-21T03:25:39.709Z"
+          "lastUpdated": "2026-08-22T03:10:47.204Z"
         },
         "issues": {
           "totals": {
@@ -12491,6 +12673,10 @@
             {
               "polled_at": "2026-08-21T03:25:39.970Z",
               "total": 8
+            },
+            {
+              "polled_at": "2026-08-22T03:10:47.456Z",
+              "total": 8
             }
           ],
           "totals": {
@@ -12499,7 +12685,7 @@
             "last90d": 1,
             "velocity30d": 0
           },
-          "lastUpdated": "2026-08-21T03:25:39.970Z"
+          "lastUpdated": "2026-08-22T03:10:47.456Z"
         },
         "issues": {
           "totals": {
@@ -12780,6 +12966,10 @@
             {
               "polled_at": "2026-08-21T03:25:40.227Z",
               "total": 9
+            },
+            {
+              "polled_at": "2026-08-22T03:10:47.699Z",
+              "total": 9
             }
           ],
           "totals": {
@@ -12788,7 +12978,7 @@
             "last90d": 1,
             "velocity30d": 0
           },
-          "lastUpdated": "2026-08-21T03:25:40.227Z"
+          "lastUpdated": "2026-08-22T03:10:47.699Z"
         },
         "issues": {
           "totals": {
@@ -13027,6 +13217,10 @@
             {
               "polled_at": "2026-08-21T03:25:40.521Z",
               "total": 9
+            },
+            {
+              "polled_at": "2026-08-22T03:10:47.946Z",
+              "total": 9
             }
           ],
           "totals": {
@@ -13035,7 +13229,7 @@
             "last90d": 3,
             "velocity30d": 0
           },
-          "lastUpdated": "2026-08-21T03:25:40.521Z"
+          "lastUpdated": "2026-08-22T03:10:47.946Z"
         },
         "issues": {
           "totals": {
@@ -13171,6 +13365,10 @@
             {
               "polled_at": "2026-08-21T03:25:40.779Z",
               "total": 7
+            },
+            {
+              "polled_at": "2026-08-22T03:10:48.175Z",
+              "total": 7
             }
           ],
           "totals": {
@@ -13179,7 +13377,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:40.779Z"
+          "lastUpdated": "2026-08-22T03:10:48.175Z"
         },
         "issues": {
           "totals": {
@@ -13308,6 +13506,10 @@
             {
               "polled_at": "2026-08-21T03:25:41.038Z",
               "total": 3
+            },
+            {
+              "polled_at": "2026-08-22T03:10:48.401Z",
+              "total": 3
             }
           ],
           "totals": {
@@ -13316,7 +13518,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:41.038Z"
+          "lastUpdated": "2026-08-22T03:10:48.401Z"
         },
         "issues": {
           "totals": {
@@ -13452,6 +13654,10 @@
             {
               "polled_at": "2026-08-21T03:25:41.312Z",
               "total": 9
+            },
+            {
+              "polled_at": "2026-08-22T03:10:48.664Z",
+              "total": 9
             }
           ],
           "totals": {
@@ -13460,7 +13666,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:41.312Z"
+          "lastUpdated": "2026-08-22T03:10:48.664Z"
         },
         "issues": {
           "totals": {
@@ -13666,6 +13872,10 @@
             {
               "polled_at": "2026-08-21T03:25:41.579Z",
               "total": 5
+            },
+            {
+              "polled_at": "2026-08-22T03:10:48.865Z",
+              "total": 5
             }
           ],
           "totals": {
@@ -13674,7 +13884,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:41.579Z"
+          "lastUpdated": "2026-08-22T03:10:48.865Z"
         },
         "issues": {
           "totals": {
@@ -13838,6 +14048,10 @@
             {
               "polled_at": "2026-08-21T03:25:41.844Z",
               "total": 1
+            },
+            {
+              "polled_at": "2026-08-22T03:10:49.121Z",
+              "total": 1
             }
           ],
           "totals": {
@@ -13846,7 +14060,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:41.844Z"
+          "lastUpdated": "2026-08-22T03:10:49.121Z"
         },
         "issues": {
           "totals": {
@@ -13856,7 +14070,7 @@
             "external_authors_all_time": 0
           },
           "recentExternal": [],
-          "lastPolledAt": "2026-08-21T03:25:47.694Z"
+          "lastPolledAt": "2026-08-22T03:10:54.300Z"
         }
       },
       {
@@ -13903,6 +14117,10 @@
             {
               "polled_at": "2026-08-21T03:25:42.096Z",
               "total": 8
+            },
+            {
+              "polled_at": "2026-08-22T03:10:49.359Z",
+              "total": 8
             }
           ],
           "totals": {
@@ -13911,13 +14129,13 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:42.096Z"
+          "lastUpdated": "2026-08-22T03:10:49.359Z"
         },
         "issues": {
           "totals": {
             "external_open": 15,
             "external_new_30d": 2,
-            "external_closed_30d": 3,
+            "external_closed_30d": 1,
             "external_authors_all_time": 19
           },
           "recentExternal": [
@@ -14062,7 +14280,7 @@
               "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:47.991Z"
+          "lastPolledAt": "2026-08-22T03:10:54.952Z"
         }
       },
       {
@@ -14109,6 +14327,10 @@
             {
               "polled_at": "2026-08-21T03:25:42.387Z",
               "total": 22
+            },
+            {
+              "polled_at": "2026-08-22T03:10:49.589Z",
+              "total": 22
             }
           ],
           "totals": {
@@ -14117,13 +14339,13 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:42.387Z"
+          "lastUpdated": "2026-08-22T03:10:49.589Z"
         },
         "issues": {
           "totals": {
             "external_open": 61,
-            "external_new_30d": 16,
-            "external_closed_30d": 14,
+            "external_new_30d": 15,
+            "external_closed_30d": 12,
             "external_authors_all_time": 30
           },
           "recentExternal": [
@@ -14268,7 +14490,7 @@
               "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:48.566Z"
+          "lastPolledAt": "2026-08-22T03:10:55.625Z"
         }
       },
       {
@@ -14315,6 +14537,10 @@
             {
               "polled_at": "2026-08-21T03:25:42.652Z",
               "total": 2
+            },
+            {
+              "polled_at": "2026-08-22T03:10:49.837Z",
+              "total": 2
             }
           ],
           "totals": {
@@ -14323,7 +14549,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:42.652Z"
+          "lastUpdated": "2026-08-22T03:10:49.837Z"
         },
         "issues": {
           "totals": {
@@ -14383,7 +14609,7 @@
               "closed_at": "2026-03-07T16:32:05Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:48.823Z"
+          "lastPolledAt": "2026-08-22T03:10:55.768Z"
         }
       },
       {
@@ -14430,6 +14656,10 @@
             {
               "polled_at": "2026-08-21T03:25:42.930Z",
               "total": 9
+            },
+            {
+              "polled_at": "2026-08-22T03:10:50.070Z",
+              "total": 9
             }
           ],
           "totals": {
@@ -14438,7 +14668,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:42.930Z"
+          "lastUpdated": "2026-08-22T03:10:50.070Z"
         },
         "issues": {
           "totals": {
@@ -14589,7 +14819,7 @@
               "closed_at": "2026-05-01T14:13:56Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:49.095Z"
+          "lastPolledAt": "2026-08-22T03:10:55.907Z"
         }
       },
       {
@@ -14636,6 +14866,10 @@
             {
               "polled_at": "2026-08-21T03:25:43.191Z",
               "total": 19
+            },
+            {
+              "polled_at": "2026-08-22T03:10:50.302Z",
+              "total": 19
             }
           ],
           "totals": {
@@ -14644,7 +14878,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:43.191Z"
+          "lastUpdated": "2026-08-22T03:10:50.302Z"
         },
         "issues": {
           "totals": {
@@ -14704,7 +14938,7 @@
               "closed_at": "2022-09-13T11:30:53Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:49.272Z"
+          "lastPolledAt": "2026-08-22T03:10:56.066Z"
         }
       },
       {
@@ -14751,6 +14985,10 @@
             {
               "polled_at": "2026-08-21T03:25:43.520Z",
               "total": 1
+            },
+            {
+              "polled_at": "2026-08-22T03:10:50.543Z",
+              "total": 1
             }
           ],
           "totals": {
@@ -14759,7 +14997,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:43.520Z"
+          "lastUpdated": "2026-08-22T03:10:50.543Z"
         },
         "issues": {
           "totals": {
@@ -14769,7 +15007,7 @@
             "external_authors_all_time": 0
           },
           "recentExternal": [],
-          "lastPolledAt": "2026-08-21T03:25:49.446Z"
+          "lastPolledAt": "2026-08-22T03:10:56.209Z"
         }
       },
       {
@@ -14816,6 +15054,10 @@
             {
               "polled_at": "2026-08-21T03:25:43.757Z",
               "total": 1
+            },
+            {
+              "polled_at": "2026-08-22T03:10:50.820Z",
+              "total": 1
             }
           ],
           "totals": {
@@ -14824,7 +15066,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:43.757Z"
+          "lastUpdated": "2026-08-22T03:10:50.820Z"
         },
         "issues": {
           "totals": {
@@ -14834,7 +15076,7 @@
             "external_authors_all_time": 0
           },
           "recentExternal": [],
-          "lastPolledAt": "2026-08-21T03:25:49.635Z"
+          "lastPolledAt": "2026-08-22T03:10:56.366Z"
         }
       },
       {
@@ -14881,6 +15123,10 @@
             {
               "polled_at": "2026-08-21T03:25:44.030Z",
               "total": 2
+            },
+            {
+              "polled_at": "2026-08-22T03:10:51.054Z",
+              "total": 2
             }
           ],
           "totals": {
@@ -14889,7 +15135,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:44.030Z"
+          "lastUpdated": "2026-08-22T03:10:51.054Z"
         },
         "issues": {
           "totals": {
@@ -14914,7 +15160,7 @@
               "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:49.787Z"
+          "lastPolledAt": "2026-08-22T03:10:56.516Z"
         }
       },
       {
@@ -15013,6 +15259,10 @@
             {
               "polled_at": "2026-08-21T03:25:44.287Z",
               "total": 113
+            },
+            {
+              "polled_at": "2026-08-22T03:10:51.243Z",
+              "total": 113
             }
           ],
           "totals": {
@@ -15021,7 +15271,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:44.287Z"
+          "lastUpdated": "2026-08-22T03:10:51.243Z"
         },
         "issues": {
           "totals": {
@@ -15172,7 +15422,7 @@
               "closed_at": "2025-11-15T01:11:24Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:50.231Z"
+          "lastPolledAt": "2026-08-22T03:10:56.928Z"
         }
       },
       {
@@ -15271,6 +15521,10 @@
             {
               "polled_at": "2026-08-21T03:25:44.502Z",
               "total": 23
+            },
+            {
+              "polled_at": "2026-08-22T03:10:51.454Z",
+              "total": 23
             }
           ],
           "totals": {
@@ -15279,7 +15533,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:44.502Z"
+          "lastUpdated": "2026-08-22T03:10:51.454Z"
         },
         "issues": {
           "totals": {
@@ -15430,7 +15684,7 @@
               "closed_at": "2026-02-06T10:37:20Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:50.392Z"
+          "lastPolledAt": "2026-08-22T03:10:57.057Z"
         }
       },
       {
@@ -15529,6 +15783,10 @@
             {
               "polled_at": "2026-08-21T03:25:44.708Z",
               "total": 12
+            },
+            {
+              "polled_at": "2026-08-22T03:10:51.647Z",
+              "total": 12
             }
           ],
           "totals": {
@@ -15537,7 +15795,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:44.708Z"
+          "lastUpdated": "2026-08-22T03:10:51.647Z"
         },
         "issues": {
           "totals": {
@@ -15688,7 +15946,7 @@
               "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:50.647Z"
+          "lastPolledAt": "2026-08-22T03:10:57.215Z"
         }
       },
       {
@@ -15787,6 +16045,10 @@
             {
               "polled_at": "2026-08-21T03:25:44.929Z",
               "total": 90
+            },
+            {
+              "polled_at": "2026-08-22T03:10:51.847Z",
+              "total": 90
             }
           ],
           "totals": {
@@ -15795,12 +16057,12 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:44.929Z"
+          "lastUpdated": "2026-08-22T03:10:51.847Z"
         },
         "issues": {
           "totals": {
             "external_open": 28,
-            "external_new_30d": 12,
+            "external_new_30d": 11,
             "external_closed_30d": 0,
             "external_authors_all_time": 59
           },
@@ -15946,7 +16208,7 @@
               "closed_at": "2026-06-29T08:36:08Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:51.437Z"
+          "lastPolledAt": "2026-08-22T03:10:57.669Z"
         }
       },
       {
@@ -16045,6 +16307,10 @@
             {
               "polled_at": "2026-08-21T03:25:45.186Z",
               "total": 14
+            },
+            {
+              "polled_at": "2026-08-22T03:10:52.033Z",
+              "total": 14
             }
           ],
           "totals": {
@@ -16053,7 +16319,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:45.186Z"
+          "lastUpdated": "2026-08-22T03:10:52.033Z"
         },
         "issues": {
           "totals": {
@@ -16204,7 +16470,7 @@
               "closed_at": "2025-06-29T18:06:42Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:51.591Z"
+          "lastPolledAt": "2026-08-22T03:10:58.099Z"
         }
       },
       {
@@ -16259,6 +16525,10 @@
             {
               "polled_at": "2026-08-21T03:25:45.412Z",
               "total": 17
+            },
+            {
+              "polled_at": "2026-08-22T03:10:52.206Z",
+              "total": 17
             }
           ],
           "totals": {
@@ -16267,7 +16537,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:45.412Z"
+          "lastUpdated": "2026-08-22T03:10:52.206Z"
         },
         "issues": {
           "totals": {
@@ -16418,7 +16688,7 @@
               "closed_at": "2024-11-27T07:16:37Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:51.734Z"
+          "lastPolledAt": "2026-08-22T03:10:58.506Z"
         }
       },
       {
@@ -16473,6 +16743,10 @@
             {
               "polled_at": "2026-08-21T03:25:45.618Z",
               "total": 12
+            },
+            {
+              "polled_at": "2026-08-22T03:10:52.396Z",
+              "total": 12
             }
           ],
           "totals": {
@@ -16481,7 +16755,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:45.618Z"
+          "lastUpdated": "2026-08-22T03:10:52.396Z"
         },
         "issues": {
           "totals": {
@@ -16632,7 +16906,7 @@
               "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:51.964Z"
+          "lastPolledAt": "2026-08-22T03:10:58.952Z"
         }
       },
       {
@@ -16687,6 +16961,10 @@
             {
               "polled_at": "2026-08-21T03:25:45.821Z",
               "total": 30
+            },
+            {
+              "polled_at": "2026-08-22T03:10:52.576Z",
+              "total": 30
             }
           ],
           "totals": {
@@ -16695,13 +16973,13 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:45.821Z"
+          "lastUpdated": "2026-08-22T03:10:52.576Z"
         },
         "issues": {
           "totals": {
-            "external_open": 8,
+            "external_open": 6,
             "external_new_30d": 1,
-            "external_closed_30d": 0,
+            "external_closed_30d": 2,
             "external_authors_all_time": 33
           },
           "recentExternal": [
@@ -16770,10 +17048,10 @@
             },
             {
               "number": 673,
-              "state": "open",
+              "state": "closed",
               "author": "stevenmc13",
               "created_at": "2026-04-03T08:53:37Z",
-              "closed_at": null
+              "closed_at": "2026-08-21T11:47:26Z"
             },
             {
               "number": 613,
@@ -16812,10 +17090,10 @@
             },
             {
               "number": 537,
-              "state": "open",
+              "state": "closed",
               "author": "Anush-Mangaluru",
               "created_at": "2025-10-07T05:03:04Z",
-              "closed_at": null
+              "closed_at": "2026-08-21T11:48:50Z"
             },
             {
               "number": 534,
@@ -16846,7 +17124,7 @@
               "closed_at": "2025-10-13T09:26:28Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:52.186Z"
+          "lastPolledAt": "2026-08-22T03:10:59.998Z"
         }
       },
       {
@@ -16901,6 +17179,10 @@
             {
               "polled_at": "2026-08-21T03:25:46.024Z",
               "total": 10
+            },
+            {
+              "polled_at": "2026-08-22T03:10:52.853Z",
+              "total": 10
             }
           ],
           "totals": {
@@ -16909,22 +17191,22 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:46.024Z"
+          "lastUpdated": "2026-08-22T03:10:52.853Z"
         },
         "issues": {
           "totals": {
-            "external_open": 4,
+            "external_open": 3,
             "external_new_30d": 5,
-            "external_closed_30d": 11,
+            "external_closed_30d": 12,
             "external_authors_all_time": 10
           },
           "recentExternal": [
             {
               "number": 263,
-              "state": "open",
+              "state": "closed",
               "author": "camschaecisco",
               "created_at": "2026-08-19T19:48:08Z",
-              "closed_at": null
+              "closed_at": "2026-08-21T08:07:52Z"
             },
             {
               "number": 260,
@@ -17060,7 +17342,7 @@
               "closed_at": "2026-06-26T00:42:26Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:52.452Z"
+          "lastPolledAt": "2026-08-22T03:11:00.406Z"
         }
       },
       {
@@ -17107,6 +17389,10 @@
             {
               "polled_at": "2026-08-21T03:25:46.237Z",
               "total": 11
+            },
+            {
+              "polled_at": "2026-08-22T03:10:53.029Z",
+              "total": 11
             }
           ],
           "totals": {
@@ -17115,7 +17401,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:46.237Z"
+          "lastUpdated": "2026-08-22T03:10:53.029Z"
         },
         "issues": {
           "totals": {
@@ -17266,7 +17552,7 @@
               "closed_at": "2025-04-15T08:20:14Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:52.706Z"
+          "lastPolledAt": "2026-08-22T03:11:00.556Z"
         }
       },
       {
@@ -17313,6 +17599,10 @@
             {
               "polled_at": "2026-08-21T03:25:46.466Z",
               "total": 2
+            },
+            {
+              "polled_at": "2026-08-22T03:10:53.203Z",
+              "total": 2
             }
           ],
           "totals": {
@@ -17321,7 +17611,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:46.466Z"
+          "lastUpdated": "2026-08-22T03:10:53.203Z"
         },
         "issues": {
           "totals": {
@@ -17472,7 +17762,7 @@
               "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:52.960Z"
+          "lastPolledAt": "2026-08-22T03:11:01.222Z"
         }
       },
       {
@@ -17519,6 +17809,10 @@
             {
               "polled_at": "2026-08-21T03:25:46.706Z",
               "total": 25
+            },
+            {
+              "polled_at": "2026-08-22T03:10:53.406Z",
+              "total": 25
             }
           ],
           "totals": {
@@ -17527,7 +17821,7 @@
             "last90d": null,
             "velocity30d": null
           },
-          "lastUpdated": "2026-08-21T03:25:46.706Z"
+          "lastUpdated": "2026-08-22T03:10:53.406Z"
         },
         "issues": {
           "totals": {
@@ -17678,7 +17972,7 @@
               "closed_at": "2024-10-09T16:17:05Z"
             }
           ],
-          "lastPolledAt": "2026-08-21T03:25:53.121Z"
+          "lastPolledAt": "2026-08-22T03:11:01.353Z"
         }
       }
     ]
@@ -17891,14 +18185,21 @@
             "year": 55128,
             "total": 136405,
             "polled_at": "2026-08-21T03:25:53.879Z"
+          },
+          {
+            "week": 1282,
+            "month": 2812,
+            "year": 56022,
+            "total": 137299,
+            "polled_at": "2026-08-22T03:11:01.978Z"
           }
         ],
         "totals": {
-          "current_total": 136405,
-          "week_delta_avg": 975,
-          "month_delta_avg": 2164
+          "current_total": 137299,
+          "week_delta_avg": 986,
+          "month_delta_avg": 2186
         },
-        "lastUpdated": "2026-08-21T03:25:53.880Z"
+        "lastUpdated": "2026-08-22T03:11:01.978Z"
       },
       {
         "repo": "netascode/terraform-fmc-nac-fmc",
@@ -18085,14 +18386,21 @@
             "year": 3283,
             "total": 5120,
             "polled_at": "2026-08-21T03:25:53.894Z"
+          },
+          {
+            "week": 60,
+            "month": 196,
+            "year": 3331,
+            "total": 5168,
+            "polled_at": "2026-08-22T03:11:01.985Z"
           }
         ],
         "totals": {
-          "current_total": 5120,
-          "week_delta_avg": 96,
+          "current_total": 5168,
+          "week_delta_avg": 94,
           "month_delta_avg": 204
         },
-        "lastUpdated": "2026-08-21T03:25:53.894Z"
+        "lastUpdated": "2026-08-22T03:11:01.986Z"
       },
       {
         "repo": "netascode/terraform-meraki-nac-meraki",
@@ -18300,14 +18608,21 @@
             "year": 4679,
             "total": 5720,
             "polled_at": "2026-08-21T03:25:53.906Z"
+          },
+          {
+            "week": 2892,
+            "month": 4123,
+            "year": 7455,
+            "total": 8496,
+            "polled_at": "2026-08-22T03:11:01.992Z"
           }
         ],
         "totals": {
-          "current_total": 5720,
-          "week_delta_avg": 549,
-          "month_delta_avg": 871
+          "current_total": 8496,
+          "week_delta_avg": 630,
+          "month_delta_avg": 984
         },
-        "lastUpdated": "2026-08-21T03:25:53.906Z"
+        "lastUpdated": "2026-08-22T03:11:01.992Z"
       },
       {
         "repo": "netascode/terraform-iosxe-nac-iosxe",
@@ -18508,14 +18823,21 @@
             "year": 4069,
             "total": 4069,
             "polled_at": "2026-08-21T03:25:53.918Z"
+          },
+          {
+            "week": 31,
+            "month": 82,
+            "year": 4086,
+            "total": 4086,
+            "polled_at": "2026-08-22T03:11:01.997Z"
           }
         ],
         "totals": {
-          "current_total": 4069,
-          "week_delta_avg": 47,
-          "month_delta_avg": 107
+          "current_total": 4086,
+          "week_delta_avg": 46,
+          "month_delta_avg": 106
         },
-        "lastUpdated": "2026-08-21T03:25:53.919Z"
+        "lastUpdated": "2026-08-22T03:11:01.997Z"
       },
       {
         "repo": "netascode/terraform-catalystcenter-nac-catalystcenter",
@@ -18737,14 +19059,21 @@
             "year": 9755,
             "total": 15415,
             "polled_at": "2026-08-21T03:25:53.932Z"
+          },
+          {
+            "week": 128,
+            "month": 365,
+            "year": 9819,
+            "total": 15479,
+            "polled_at": "2026-08-22T03:11:02.002Z"
           }
         ],
         "totals": {
-          "current_total": 15415,
-          "week_delta_avg": 162,
-          "month_delta_avg": 621
+          "current_total": 15479,
+          "week_delta_avg": 161,
+          "month_delta_avg": 613
         },
-        "lastUpdated": "2026-08-21T03:25:53.932Z"
+        "lastUpdated": "2026-08-22T03:11:02.003Z"
       },
       {
         "repo": "netascode/terraform-nxos-nac-nxos",
@@ -18819,14 +19148,21 @@
             "year": 1119,
             "total": 1119,
             "polled_at": "2026-08-21T03:25:53.944Z"
+          },
+          {
+            "week": 86,
+            "month": 187,
+            "year": 1188,
+            "total": 1188,
+            "polled_at": "2026-08-22T03:11:02.008Z"
           }
         ],
         "totals": {
-          "current_total": 1119,
+          "current_total": 1188,
           "week_delta_avg": 88,
-          "month_delta_avg": 109
+          "month_delta_avg": 117
         },
-        "lastUpdated": "2026-08-21T03:25:53.944Z"
+        "lastUpdated": "2026-08-22T03:11:02.008Z"
       },
       {
         "repo": "netascode/terraform-mso-nac-ndo",
@@ -18894,14 +19230,21 @@
             "year": 5022,
             "total": 10430,
             "polled_at": "2026-08-21T03:25:53.956Z"
+          },
+          {
+            "week": 152,
+            "month": 423,
+            "year": 5117,
+            "total": 10525,
+            "polled_at": "2026-08-22T03:11:02.013Z"
           }
         ],
         "totals": {
-          "current_total": 10430,
-          "week_delta_avg": 162,
-          "month_delta_avg": 265
+          "current_total": 10525,
+          "week_delta_avg": 160,
+          "month_delta_avg": 282
         },
-        "lastUpdated": "2026-08-21T03:25:53.956Z"
+        "lastUpdated": "2026-08-22T03:11:02.013Z"
       },
       {
         "repo": "netascode/terraform-sdwan-nac-sdwan",
@@ -18969,14 +19312,21 @@
             "year": 8817,
             "total": 22833,
             "polled_at": "2026-08-21T03:25:53.969Z"
+          },
+          {
+            "week": 155,
+            "month": 574,
+            "year": 8959,
+            "total": 22975,
+            "polled_at": "2026-08-22T03:11:02.018Z"
           }
         ],
         "totals": {
-          "current_total": 22833,
-          "week_delta_avg": 234,
-          "month_delta_avg": 386
+          "current_total": 22975,
+          "week_delta_avg": 225,
+          "month_delta_avg": 407
         },
-        "lastUpdated": "2026-08-21T03:25:53.969Z"
+        "lastUpdated": "2026-08-22T03:11:02.018Z"
       },
       {
         "repo": "netascode/terraform-ise-nac-ise",
@@ -19058,14 +19408,21 @@
             "year": 3942,
             "total": 8564,
             "polled_at": "2026-08-21T03:25:53.981Z"
+          },
+          {
+            "week": 54,
+            "month": 181,
+            "year": 3982,
+            "total": 8604,
+            "polled_at": "2026-08-22T03:11:02.025Z"
           }
         ],
         "totals": {
-          "current_total": 8564,
-          "week_delta_avg": 70,
-          "month_delta_avg": 124
+          "current_total": 8604,
+          "week_delta_avg": 68,
+          "month_delta_avg": 129
         },
-        "lastUpdated": "2026-08-21T03:25:53.981Z"
+        "lastUpdated": "2026-08-22T03:11:02.025Z"
       },
       {
         "repo": "netascode/terraform-intersight-nac-compute",
@@ -19145,14 +19502,21 @@
             "year": 468,
             "total": 468,
             "polled_at": "2026-08-21T03:25:54.034Z"
+          },
+          {
+            "week": 32,
+            "month": 70,
+            "year": 477,
+            "total": 477,
+            "polled_at": "2026-08-22T03:11:02.055Z"
           }
         ],
         "totals": {
-          "current_total": 468,
-          "week_delta_avg": 36,
-          "month_delta_avg": 54
+          "current_total": 477,
+          "week_delta_avg": 35,
+          "month_delta_avg": 57
         },
-        "lastUpdated": "2026-08-21T03:25:54.034Z"
+        "lastUpdated": "2026-08-22T03:11:02.056Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-aci",
@@ -19359,14 +19723,21 @@
             "year": null,
             "total": 9835662,
             "polled_at": "2026-08-21T03:25:54.116Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 9838256,
+            "polled_at": "2026-08-22T03:11:02.104Z"
           }
         ],
         "totals": {
-          "current_total": 9835662,
+          "current_total": 9838256,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.116Z"
+        "lastUpdated": "2026-08-22T03:11:02.104Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-fmc",
@@ -19573,14 +19944,21 @@
             "year": null,
             "total": 172704,
             "polled_at": "2026-08-21T03:25:54.173Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 172953,
+            "polled_at": "2026-08-22T03:11:02.140Z"
           }
         ],
         "totals": {
-          "current_total": 172704,
+          "current_total": 172953,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.173Z"
+        "lastUpdated": "2026-08-22T03:11:02.140Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-meraki",
@@ -19787,14 +20165,21 @@
             "year": null,
             "total": 656217,
             "polled_at": "2026-08-21T03:25:54.230Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 658282,
+            "polled_at": "2026-08-22T03:11:02.194Z"
           }
         ],
         "totals": {
-          "current_total": 656217,
+          "current_total": 658282,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.230Z"
+        "lastUpdated": "2026-08-22T03:11:02.194Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-iosxe",
@@ -20001,14 +20386,21 @@
             "year": null,
             "total": 1241292,
             "polled_at": "2026-08-21T03:25:54.289Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 1241448,
+            "polled_at": "2026-08-22T03:11:02.253Z"
           }
         ],
         "totals": {
-          "current_total": 1241292,
+          "current_total": 1241448,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.289Z"
+        "lastUpdated": "2026-08-22T03:11:02.253Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-catalystcenter",
@@ -20215,14 +20607,21 @@
             "year": null,
             "total": 160072,
             "polled_at": "2026-08-21T03:25:54.342Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 160255,
+            "polled_at": "2026-08-22T03:11:02.307Z"
           }
         ],
         "totals": {
-          "current_total": 160072,
+          "current_total": 160255,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.342Z"
+        "lastUpdated": "2026-08-22T03:11:02.307Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-nxos",
@@ -20331,14 +20730,21 @@
             "year": null,
             "total": 123327,
             "polled_at": "2026-08-21T03:25:54.402Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 123390,
+            "polled_at": "2026-08-22T03:11:02.430Z"
           }
         ],
         "totals": {
-          "current_total": 123327,
+          "current_total": 123390,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.403Z"
+        "lastUpdated": "2026-08-22T03:11:02.431Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-mso",
@@ -20447,14 +20853,21 @@
             "year": null,
             "total": 2925937,
             "polled_at": "2026-08-21T03:25:54.455Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 2926049,
+            "polled_at": "2026-08-22T03:11:02.455Z"
           }
         ],
         "totals": {
-          "current_total": 2925937,
+          "current_total": 2926049,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.455Z"
+        "lastUpdated": "2026-08-22T03:11:02.455Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-sdwan",
@@ -20563,14 +20976,21 @@
             "year": null,
             "total": 173410,
             "polled_at": "2026-08-21T03:25:54.531Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 173504,
+            "polled_at": "2026-08-22T03:11:02.537Z"
           }
         ],
         "totals": {
-          "current_total": 173410,
+          "current_total": 173504,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.531Z"
+        "lastUpdated": "2026-08-22T03:11:02.537Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-ise",
@@ -20679,14 +21099,21 @@
             "year": null,
             "total": 1503528,
             "polled_at": "2026-08-21T03:25:54.582Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 1504948,
+            "polled_at": "2026-08-22T03:11:02.580Z"
           }
         ],
         "totals": {
-          "current_total": 1503528,
+          "current_total": 1504948,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.582Z"
+        "lastUpdated": "2026-08-22T03:11:02.580Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-iosxr",
@@ -20767,14 +21194,21 @@
             "year": null,
             "total": 34528,
             "polled_at": "2026-08-21T03:25:54.652Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 34535,
+            "polled_at": "2026-08-22T03:11:02.631Z"
           }
         ],
         "totals": {
-          "current_total": 34528,
+          "current_total": 34535,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.653Z"
+        "lastUpdated": "2026-08-22T03:11:02.631Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-intersight",
@@ -20855,14 +21289,21 @@
             "year": null,
             "total": 2732739,
             "polled_at": "2026-08-21T03:25:54.807Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 2733090,
+            "polled_at": "2026-08-22T03:11:02.744Z"
           }
         ],
         "totals": {
-          "current_total": 2732739,
+          "current_total": 2733090,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-08-21T03:25:54.807Z"
+        "lastUpdated": "2026-08-22T03:11:02.744Z"
       }
     ]
   }

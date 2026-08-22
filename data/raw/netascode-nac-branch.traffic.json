@@ -179,6 +179,11 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 2,
+      "uniques": 1
     }
   ],
   "views": [
@@ -361,33 +366,38 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 6,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "totals": {
-    "clones": 36,
-    "uniqueClonerDays": 29,
+    "clones": 38,
+    "uniqueClonerDays": 30,
     "peakDailyClones": 8,
     "peakDailyUniqueCloners": 6,
     "views": 229,
     "uniqueVisitorDays": 83,
     "peakDailyViews": 43,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 36,
+    "daysTracked": 37,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-19T00:00:00Z"
+    "lastDay": "2026-08-20T00:00:00Z"
   },
-  "lastUpdated": "2026-08-21T03:25:33.823Z",
+  "lastUpdated": "2026-08-22T03:10:42.718Z",
   "popularPaths": [
     {
       "path": "/netascode/nac-branch",
       "title": "Overview",
-      "count": 24,
-      "uniques": 18
+      "count": 20,
+      "uniques": 16
     },
     {
       "path": "/netascode/nac-branch/tree/main/data",
       "title": "/tree/main/data",
-      "count": 8,
+      "count": 6,
       "uniques": 3
     },
     {
@@ -399,14 +409,8 @@
     {
       "path": "/netascode/nac-branch/tree/main/docs",
       "title": "/tree/main/docs",
-      "count": 4,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-branch/tree/main",
-      "title": "/tree/main",
-      "count": 4,
-      "uniques": 2
+      "count": 3,
+      "uniques": 3
     },
     {
       "path": "/netascode/nac-branch/pulls",
@@ -437,6 +441,12 @@
       "title": "/blob/main/data/org_global.nac.yaml",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-branch/blob/v2.0.0/main.tf",
+      "title": "/blob/v2.0.0/main.tf",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "referrers": [
@@ -453,13 +463,13 @@
   ],
   "repo": "netascode/nac-branch",
   "snapshot14d": {
-    "polled_at": "2026-08-21T03:25:33.822Z",
+    "polled_at": "2026-08-22T03:10:42.717Z",
     "views": {
-      "count": 63,
-      "uniques": 20
+      "count": 50,
+      "uniques": 18
     },
     "clones": {
-      "count": 16,
+      "count": 17,
       "uniques": 15
     }
   }

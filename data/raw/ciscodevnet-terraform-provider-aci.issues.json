@@ -14823,11 +14823,11 @@
     {
       "number": 1483,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "akinross",
       "is_org_member": false,
       "created_at": "2026-06-22T11:32:56Z",
-      "closed_at": null,
+      "closed_at": "2026-08-21T12:37:09Z",
       "merged_at": null
     },
     {
@@ -14877,5 +14877,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 158
   },
-  "lastPolledAt": "2026-08-21T03:25:50.231Z"
+  "lastPolledAt": "2026-08-22T03:10:56.928Z"
 }

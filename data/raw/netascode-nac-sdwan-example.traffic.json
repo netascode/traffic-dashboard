@@ -110,6 +110,11 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "views": [
@@ -222,32 +227,31 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 15,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-sdwan-example",
       "title": "Overview",
-      "count": 39,
-      "uniques": 30
+      "count": 35,
+      "uniques": 27
     },
     {
       "path": "/netascode/nac-sdwan-example/tree/main/data",
       "title": "/tree/main/data",
-      "count": 7,
-      "uniques": 5
+      "count": 6,
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/main.tf",
       "title": "/blob/main/main.tf",
-      "count": 7,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
-      "title": "/blob/main/data/sites.nac.yaml",
-      "count": 4,
-      "uniques": 4
+      "count": 5,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/.schema.yaml",
@@ -256,75 +260,76 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-sdwan-example/blob/main/.ci/gitlab-comment.py",
-      "title": "/blob/main/.ci/gitlab-comment.py",
+      "path": "/netascode/nac-sdwan-example/blob/main/data/sites.nac.yaml",
+      "title": "/blob/main/data/sites.nac.yaml",
       "count": 3,
       "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/blob/main/.ci/gitlab-comment.py",
+      "title": "/blob/main/.ci/gitlab-comment.py",
+      "count": 2,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/blob/main/data/edge_device_templates.nac.yaml",
+      "title": "/blob/main/data/edge_device_templates.nac.yaml",
+      "count": 2,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-sdwan-example/blob/main/jinja_filters/normalize_special_string.py",
       "title": "/blob/main/jinja_filters/normalize_special_string.py",
-      "count": 3,
-      "uniques": 3
+      "count": 2,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-sdwan-example/tree/main/tests/templates",
       "title": "/tree/main/tests/templates",
-      "count": 3,
-      "uniques": 3
+      "count": 2,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config",
       "title": "/tree/main/tests/templates/config",
-      "count": 3,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
-      "title": "/tree/main/tests/templates/config/centralized_policies/definitions/data_policy",
-      "count": 3,
+      "count": 2,
       "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "netascode.cisco.com",
-      "count": 61,
+      "count": 32,
       "uniques": 12
     },
     {
       "referrer": "Google",
       "count": 1,
       "uniques": 1
-    },
-    {
-      "referrer": "github.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 13,
-    "uniqueClonerDays": 12,
+    "clones": 14,
+    "uniqueClonerDays": 13,
     "peakDailyClones": 3,
     "peakDailyUniqueCloners": 3,
     "views": 165,
     "uniqueVisitorDays": 57,
     "peakDailyViews": 33,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 22,
+    "daysTracked": 23,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-19T00:00:00Z"
+    "lastDay": "2026-08-20T00:00:00Z"
   },
-  "lastUpdated": "2026-08-21T03:25:36.662Z",
+  "lastUpdated": "2026-08-22T03:10:45.033Z",
   "snapshot14d": {
-    "polled_at": "2026-08-21T03:25:36.662Z",
+    "polled_at": "2026-08-22T03:10:45.033Z",
     "views": {
-      "count": 107,
-      "uniques": 30
+      "count": 74,
+      "uniques": 27
     },
     "clones": {
-      "count": 6,
+      "count": 7,
       "uniques": 5
     }
   }

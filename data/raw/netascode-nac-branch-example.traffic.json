@@ -110,6 +110,11 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -222,14 +227,19 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 5,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-branch-example",
       "title": "Overview",
-      "count": 12,
-      "uniques": 12
+      "count": 11,
+      "uniques": 11
     },
     {
       "path": "/netascode/nac-branch-example/pulse",
@@ -250,38 +260,38 @@
       "uniques": 1
     },
     {
+      "path": "/netascode/nac-branch-example/blob/main/.gitlab-ci.yml",
+      "title": "/blob/main/.gitlab-ci.yml",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-branch-example/blob/main/data/templates-network-related.nac.yaml",
+      "title": "/blob/main/data/templates-network-related.nac.yaml",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-branch-example/blob/main/data/templates-switch.nac.yaml",
+      "title": "/blob/main/data/templates-switch.nac.yaml",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-branch-example/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-branch-example/blob/main/schema.yaml",
+      "title": "/blob/main/schema.yaml",
+      "count": 1,
+      "uniques": 1
+    },
+    {
       "path": "/netascode/nac-branch-example/branches",
       "title": "/branches",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-branch-example/branches/active",
-      "title": "/branches/active",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-branch-example/branches/all",
-      "title": "/branches/all",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-branch-example/branches/stale",
-      "title": "/branches/stale",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-branch-example/community",
-      "title": "/community",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-branch-example/forks",
-      "title": "/forks",
       "count": 1,
       "uniques": 1
     }
@@ -289,8 +299,8 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 1,
-      "uniques": 1
+      "count": 5,
+      "uniques": 2
     },
     {
       "referrer": "netascode.cisco.com",
@@ -303,20 +313,20 @@
     "uniqueClonerDays": 9,
     "peakDailyClones": 2,
     "peakDailyUniqueCloners": 2,
-    "views": 31,
-    "uniqueVisitorDays": 18,
+    "views": 36,
+    "uniqueVisitorDays": 20,
     "peakDailyViews": 15,
     "peakDailyUniqueVisitors": 3,
-    "daysTracked": 22,
+    "daysTracked": 23,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-19T00:00:00Z"
+    "lastDay": "2026-08-20T00:00:00Z"
   },
-  "lastUpdated": "2026-08-21T03:25:37.026Z",
+  "lastUpdated": "2026-08-22T03:10:45.322Z",
   "snapshot14d": {
-    "polled_at": "2026-08-21T03:25:37.026Z",
+    "polled_at": "2026-08-22T03:10:45.322Z",
     "views": {
-      "count": 24,
-      "uniques": 12
+      "count": 28,
+      "uniques": 13
     },
     "clones": {
       "count": 5,

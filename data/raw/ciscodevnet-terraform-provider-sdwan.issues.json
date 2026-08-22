@@ -5363,11 +5363,11 @@
     {
       "number": 537,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "Anush-Mangaluru",
       "is_org_member": false,
       "created_at": "2025-10-07T05:03:04Z",
-      "closed_at": null,
+      "closed_at": "2026-08-21T11:48:50Z",
       "merged_at": null
     },
     {
@@ -6723,11 +6723,11 @@
     {
       "number": 673,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "stevenmc13",
       "is_org_member": false,
       "created_at": "2026-04-03T08:53:37Z",
-      "closed_at": null,
+      "closed_at": "2026-08-21T11:47:26Z",
       "merged_at": null
     },
     {
@@ -7472,10 +7472,10 @@
     }
   ],
   "totals": {
-    "external_open": 8,
+    "external_open": 6,
     "external_new_30d": 1,
-    "external_closed_30d": 0,
+    "external_closed_30d": 2,
     "external_authors_all_time": 33
   },
-  "lastPolledAt": "2026-08-21T03:25:52.186Z"
+  "lastPolledAt": "2026-08-22T03:10:59.998Z"
 }

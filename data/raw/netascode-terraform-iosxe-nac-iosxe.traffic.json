@@ -179,6 +179,11 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 106,
       "uniques": 30
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 63,
+      "uniques": 15
     }
   ],
   "views": [
@@ -361,44 +366,49 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 42,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 67,
+      "uniques": 11
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe",
       "title": "Overview",
-      "count": 220,
-      "uniques": 64
+      "count": 217,
+      "uniques": 66
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/pulls",
       "title": "/pulls",
-      "count": 68,
-      "uniques": 5
+      "count": 75,
+      "uniques": 6
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/pull/361",
       "title": "/pull/361",
-      "count": 33,
-      "uniques": 2
+      "count": 36,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/issues",
       "title": "/issues",
-      "count": 25,
-      "uniques": 4
+      "count": 32,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/main.tf",
       "title": "/blob/main/main.tf",
-      "count": 24,
-      "uniques": 13
+      "count": 22,
+      "uniques": 12
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main",
       "title": "/tree/main",
-      "count": 19,
-      "uniques": 8
+      "count": 22,
+      "uniques": 9
     },
     {
       "path": "/netascode/terraform-iosxe-nac-iosxe/tree/main/examples/system",
@@ -413,32 +423,32 @@
       "uniques": 7
     },
     {
+      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/variables.tf",
+      "title": "/blob/main/variables.tf",
+      "count": 11,
+      "uniques": 6
+    },
+    {
       "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/README.md",
       "title": "/blob/main/README.md",
       "count": 10,
       "uniques": 7
-    },
-    {
-      "path": "/netascode/terraform-iosxe-nac-iosxe/blob/main/examples/system/main.tf",
-      "title": "/blob/main/examples/system/main.tf",
-      "count": 10,
-      "uniques": 6
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 195,
+      "count": 206,
       "uniques": 22
     },
     {
       "referrer": "Google",
-      "count": 54,
-      "uniques": 14
+      "count": 51,
+      "uniques": 13
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 13,
+      "count": 11,
       "uniques": 6
     },
     {
@@ -453,29 +463,29 @@
     }
   ],
   "totals": {
-    "clones": 2020,
-    "uniqueClonerDays": 576,
+    "clones": 2083,
+    "uniqueClonerDays": 591,
     "peakDailyClones": 149,
     "peakDailyUniqueCloners": 64,
-    "views": 1172,
-    "uniqueVisitorDays": 237,
+    "views": 1239,
+    "uniqueVisitorDays": 248,
     "peakDailyViews": 148,
     "peakDailyUniqueVisitors": 18,
-    "daysTracked": 36,
+    "daysTracked": 37,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-19T00:00:00Z"
+    "lastDay": "2026-08-20T00:00:00Z"
   },
-  "lastUpdated": "2026-08-21T03:25:34.534Z",
+  "lastUpdated": "2026-08-22T03:10:43.289Z",
   "repo": "netascode/terraform-iosxe-nac-iosxe",
   "snapshot14d": {
-    "polled_at": "2026-08-21T03:25:34.534Z",
+    "polled_at": "2026-08-22T03:10:43.289Z",
     "views": {
-      "count": 721,
-      "uniques": 72
+      "count": 741,
+      "uniques": 73
     },
     "clones": {
-      "count": 667,
-      "uniques": 182
+      "count": 683,
+      "uniques": 188
     }
   }
 }

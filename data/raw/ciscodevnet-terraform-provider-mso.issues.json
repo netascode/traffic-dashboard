@@ -5439,6 +5439,16 @@
       "created_at": "2026-08-21T02:57:22Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 545,
+      "type": "pr",
+      "state": "open",
+      "author_login": "samiib",
+      "is_org_member": false,
+      "created_at": "2026-08-21T10:55:05Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
@@ -5447,5 +5457,5 @@
     "external_closed_30d": 3,
     "external_authors_all_time": 54
   },
-  "lastPolledAt": "2026-08-21T03:25:51.964Z"
+  "lastPolledAt": "2026-08-22T03:10:58.952Z"
 }

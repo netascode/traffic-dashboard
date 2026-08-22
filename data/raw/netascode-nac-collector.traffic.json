@@ -110,6 +110,11 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 9,
       "uniques": 8
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 15,
+      "uniques": 9
     }
   ],
   "views": [
@@ -222,32 +227,37 @@
       "timestamp": "2026-08-19T00:00:00Z",
       "count": 18,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-20T00:00:00Z",
+      "count": 34,
+      "uniques": 14
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-collector",
       "title": "Overview",
-      "count": 131,
-      "uniques": 65
+      "count": 134,
+      "uniques": 63
     },
     {
       "path": "/netascode/nac-collector/pulls",
       "title": "/pulls",
-      "count": 28,
+      "count": 27,
       "uniques": 5
     },
     {
       "path": "/netascode/nac-collector/issues",
       "title": "/issues",
-      "count": 19,
+      "count": 15,
       "uniques": 4
     },
     {
-      "path": "/netascode/nac-collector/tree/main",
-      "title": "/tree/main",
+      "path": "/netascode/nac-collector/pull/291",
+      "title": "/pull/291",
       "count": 12,
-      "uniques": 6
+      "uniques": 3
     },
     {
       "path": "/netascode/nac-collector/pull/289",
@@ -262,10 +272,16 @@
       "uniques": 7
     },
     {
-      "path": "/netascode/nac-collector/pull/291",
-      "title": "/pull/291",
+      "path": "/netascode/nac-collector/tree/main",
+      "title": "/tree/main",
+      "count": 11,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/nac-collector/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
+      "title": "/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
       "count": 9,
-      "uniques": 3
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-collector/tree/main/nac_collector/resources",
@@ -278,29 +294,23 @@
       "title": "/tree/main/nac_collector/resources/endpoints",
       "count": 6,
       "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-collector/pull/289/changes",
-      "title": "/pull/289/changes",
-      "count": 6,
-      "uniques": 2
     }
   ],
   "referrers": [
     {
-      "referrer": "Google",
-      "count": 65,
+      "referrer": "github.com",
+      "count": 61,
       "uniques": 19
     },
     {
-      "referrer": "github.com",
-      "count": 55,
-      "uniques": 16
+      "referrer": "Google",
+      "count": 56,
+      "uniques": 18
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 7,
-      "uniques": 5
+      "count": 10,
+      "uniques": 6
     },
     {
       "referrer": "cisco-cxe.atlassian.net",
@@ -319,28 +329,28 @@
     }
   ],
   "totals": {
-    "clones": 631,
-    "uniqueClonerDays": 199,
+    "clones": 646,
+    "uniqueClonerDays": 208,
     "peakDailyClones": 82,
     "peakDailyUniqueCloners": 17,
-    "views": 578,
-    "uniqueVisitorDays": 184,
+    "views": 612,
+    "uniqueVisitorDays": 198,
     "peakDailyViews": 69,
     "peakDailyUniqueVisitors": 16,
-    "daysTracked": 22,
+    "daysTracked": 23,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-19T00:00:00Z"
+    "lastDay": "2026-08-20T00:00:00Z"
   },
-  "lastUpdated": "2026-08-21T03:25:35.806Z",
+  "lastUpdated": "2026-08-22T03:10:44.261Z",
   "snapshot14d": {
-    "polled_at": "2026-08-21T03:25:35.806Z",
+    "polled_at": "2026-08-22T03:10:44.261Z",
     "views": {
-      "count": 352,
-      "uniques": 76
+      "count": 354,
+      "uniques": 73
     },
     "clones": {
-      "count": 371,
-      "uniques": 77
+      "count": 355,
+      "uniques": 73
     }
   }
 }
