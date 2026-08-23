@@ -184,6 +184,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 21,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 10,
+      "uniques": 4
     }
   ],
   "views": [
@@ -371,28 +376,39 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 29,
+      "uniques": 3
     }
   ],
   "totals": {
-    "clones": 1169,
-    "uniqueClonerDays": 225,
+    "clones": 1179,
+    "uniqueClonerDays": 229,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
-    "views": 161,
-    "uniqueVisitorDays": 63,
-    "peakDailyViews": 24,
+    "views": 190,
+    "uniqueVisitorDays": 66,
+    "peakDailyViews": 29,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 37,
+    "daysTracked": 38,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:43.015Z",
+  "lastUpdated": "2026-08-23T03:19:04.548Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
       "title": "Overview",
-      "count": 18,
-      "uniques": 13
+      "count": 19,
+      "uniques": 14
+    },
+    {
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/merge.tf",
+      "title": "/blob/main/merge.tf",
+      "count": 4,
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_policies.tf",
@@ -407,75 +423,64 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/issues",
-      "title": "/issues",
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_objects.tf",
+      "title": "/blob/main/fmc_objects.tf",
       "count": 3,
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/pulls",
-      "title": "/pulls",
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/main.tf",
+      "title": "/blob/main/main.tf",
       "count": 3,
-      "uniques": 2
+      "uniques": 1
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/actions/workflows/test.yml",
-      "title": "/actions/workflows/test.yml",
-      "count": 1,
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/outputs.tf",
+      "title": "/blob/main/outputs.tf",
+      "count": 3,
       "uniques": 1
     },
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
-      "count": 1,
-      "uniques": 1
+      "count": 2,
+      "uniques": 2
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/fmc_objects.tf",
-      "title": "/blob/main/fmc_objects.tf",
-      "count": 1,
-      "uniques": 1
+      "path": "/netascode/terraform-fmc-nac-fmc/blob/main/examples/network_groups/fmc.nac.yaml",
+      "title": "/blob/main/examples/network_groups/fmc.nac.yaml",
+      "count": 2,
+      "uniques": 2
     },
     {
-      "path": "/netascode/terraform-fmc-nac-fmc/issues/27",
-      "title": "/issues/27",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/terraform-fmc-nac-fmc/pull/31",
-      "title": "/pull/31",
-      "count": 1,
-      "uniques": 1
+      "path": "/netascode/terraform-fmc-nac-fmc/tree/main/examples/network_groups",
+      "title": "/tree/main/examples/network_groups",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
+      "referrer": "Google",
+      "count": 8,
+      "uniques": 4
+    },
+    {
       "referrer": "DuckDuckGo",
       "count": 8,
       "uniques": 1
-    },
-    {
-      "referrer": "github.com",
-      "count": 4,
-      "uniques": 1
-    },
-    {
-      "referrer": "Google",
-      "count": 3,
-      "uniques": 2
     }
   ],
   "repo": "netascode/terraform-fmc-nac-fmc",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:43.014Z",
+    "polled_at": "2026-08-23T03:19:04.547Z",
     "views": {
-      "count": 36,
-      "uniques": 16
+      "count": 61,
+      "uniques": 18
     },
     "clones": {
-      "count": 236,
-      "uniques": 22
+      "count": 230,
+      "uniques": 23
     }
   }
 }

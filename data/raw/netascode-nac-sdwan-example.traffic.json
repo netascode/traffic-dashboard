@@ -115,6 +115,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 2,
+      "uniques": 1
     }
   ],
   "views": [
@@ -232,13 +237,18 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-sdwan-example",
       "title": "Overview",
-      "count": 35,
+      "count": 33,
       "uniques": 27
     },
     {
@@ -299,7 +309,7 @@
   "referrers": [
     {
       "referrer": "netascode.cisco.com",
-      "count": 32,
+      "count": 31,
       "uniques": 12
     },
     {
@@ -309,28 +319,28 @@
     }
   ],
   "totals": {
-    "clones": 14,
-    "uniqueClonerDays": 13,
+    "clones": 16,
+    "uniqueClonerDays": 14,
     "peakDailyClones": 3,
     "peakDailyUniqueCloners": 3,
     "views": 165,
     "uniqueVisitorDays": 57,
     "peakDailyViews": 33,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 23,
+    "daysTracked": 24,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:45.033Z",
+  "lastUpdated": "2026-08-23T03:19:08.186Z",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:45.033Z",
+    "polled_at": "2026-08-23T03:19:08.186Z",
     "views": {
-      "count": 74,
+      "count": 72,
       "uniques": 27
     },
     "clones": {
-      "count": 7,
-      "uniques": 5
+      "count": 9,
+      "uniques": 6
     }
   }
 }

@@ -115,6 +115,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -232,25 +237,30 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-meraki-example",
       "title": "Overview",
-      "count": 17,
-      "uniques": 13
-    },
-    {
-      "path": "/netascode/nac-meraki-example/tags",
-      "title": "/tags",
-      "count": 3,
-      "uniques": 3
+      "count": 15,
+      "uniques": 12
     },
     {
       "path": "/netascode/nac-meraki-example/blob/main/schema.yaml",
       "title": "/blob/main/schema.yaml",
       "count": 3,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-meraki-example/tags",
+      "title": "/tags",
+      "count": 2,
       "uniques": 2
     },
     {
@@ -280,13 +290,13 @@
   ],
   "referrers": [
     {
-      "referrer": "netascode.cisco.com",
-      "count": 7,
-      "uniques": 4
-    },
-    {
       "referrer": "github.com",
       "count": 5,
+      "uniques": 3
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 4,
       "uniques": 3
     },
     {
@@ -304,20 +314,20 @@
     "uniqueVisitorDays": 37,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 23,
+    "daysTracked": 24,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:45.174Z",
+  "lastUpdated": "2026-08-23T03:19:08.405Z",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:45.174Z",
+    "polled_at": "2026-08-23T03:19:08.404Z",
     "views": {
-      "count": 27,
-      "uniques": 13
+      "count": 24,
+      "uniques": 12
     },
     "clones": {
-      "count": 7,
-      "uniques": 6
+      "count": 6,
+      "uniques": 5
     }
   }
 }

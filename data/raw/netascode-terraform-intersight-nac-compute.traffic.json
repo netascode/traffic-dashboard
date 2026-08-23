@@ -115,6 +115,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 66,
       "uniques": 24
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 44,
+      "uniques": 16
     }
   ],
   "views": [
@@ -232,19 +237,24 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 34,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 15,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-intersight-nac-compute",
       "title": "Overview",
-      "count": 58,
-      "uniques": 12
+      "count": 50,
+      "uniques": 11
     },
     {
       "path": "/netascode/terraform-intersight-nac-compute/pulls",
       "title": "/pulls",
-      "count": 28,
+      "count": 22,
       "uniques": 4
     },
     {
@@ -256,7 +266,7 @@
     {
       "path": "/netascode/terraform-intersight-nac-compute/pull/31",
       "title": "/pull/31",
-      "count": 8,
+      "count": 7,
       "uniques": 4
     },
     {
@@ -284,48 +294,48 @@
       "uniques": 1
     },
     {
-      "path": "/netascode/terraform-intersight-nac-compute/pull/24",
-      "title": "/pull/24",
-      "count": 4,
-      "uniques": 1
+      "path": "/netascode/terraform-intersight-nac-compute/tree/link_control",
+      "title": "/tree/link_control",
+      "count": 3,
+      "uniques": 2
     },
     {
-      "path": "/netascode/terraform-intersight-nac-compute/pull/25",
-      "title": "/pull/25",
-      "count": 4,
-      "uniques": 1
+      "path": "/netascode/terraform-intersight-nac-compute/tree/main/examples/ip_pool_yaml",
+      "title": "/tree/main/examples/ip_pool_yaml",
+      "count": 3,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 21,
-      "uniques": 4
+      "count": 20,
+      "uniques": 3
     }
   ],
   "totals": {
-    "clones": 445,
-    "uniqueClonerDays": 167,
+    "clones": 489,
+    "uniqueClonerDays": 183,
     "peakDailyClones": 104,
     "peakDailyUniqueCloners": 30,
-    "views": 421,
-    "uniqueVisitorDays": 24,
+    "views": 436,
+    "uniqueVisitorDays": 25,
     "peakDailyViews": 119,
     "peakDailyUniqueVisitors": 4,
-    "daysTracked": 23,
+    "daysTracked": 24,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:44.128Z",
+  "lastUpdated": "2026-08-23T03:19:06.640Z",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:44.128Z",
+    "polled_at": "2026-08-23T03:19:06.640Z",
     "views": {
-      "count": 293,
-      "uniques": 12
+      "count": 247,
+      "uniques": 11
     },
     "clones": {
-      "count": 389,
-      "uniques": 106
+      "count": 329,
+      "uniques": 96
     }
   }
 }

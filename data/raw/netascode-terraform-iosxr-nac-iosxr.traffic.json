@@ -115,6 +115,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 15,
       "uniques": 11
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 5,
+      "uniques": 5
     }
   ],
   "views": [
@@ -232,6 +237,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 7,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
@@ -244,8 +254,8 @@
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr",
       "title": "Overview",
-      "count": 73,
-      "uniques": 30
+      "count": 71,
+      "uniques": 29
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pull/211",
@@ -299,8 +309,8 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 42,
-      "uniques": 9
+      "count": 39,
+      "uniques": 8
     },
     {
       "referrer": "Google",
@@ -309,27 +319,27 @@
     }
   ],
   "totals": {
-    "clones": 518,
-    "uniqueClonerDays": 316,
+    "clones": 523,
+    "uniqueClonerDays": 321,
     "peakDailyClones": 50,
     "peakDailyUniqueCloners": 39,
     "views": 631,
     "uniqueVisitorDays": 114,
     "peakDailyViews": 95,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 23,
+    "daysTracked": 24,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:44.591Z",
+  "lastUpdated": "2026-08-23T03:19:07.420Z",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:44.591Z",
+    "polled_at": "2026-08-23T03:19:07.420Z",
     "views": {
-      "count": 376,
-      "uniques": 38
+      "count": 372,
+      "uniques": 37
     },
     "clones": {
-      "count": 381,
+      "count": 373,
       "uniques": 146
     }
   }

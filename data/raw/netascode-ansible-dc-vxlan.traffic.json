@@ -115,6 +115,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 32,
       "uniques": 14
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 27,
+      "uniques": 13
     }
   ],
   "views": [
@@ -232,25 +237,30 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 106,
       "uniques": 21
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 88,
+      "uniques": 15
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/ansible-dc-vxlan",
       "title": "Overview",
-      "count": 192,
-      "uniques": 80
+      "count": 197,
+      "uniques": 81
     },
     {
       "path": "/netascode/ansible-dc-vxlan/pulls",
       "title": "/pulls",
-      "count": 145,
+      "count": 154,
       "uniques": 14
     },
     {
       "path": "/netascode/ansible-dc-vxlan/pull/775",
       "title": "/pull/775",
-      "count": 67,
+      "count": 68,
       "uniques": 7
     },
     {
@@ -260,9 +270,15 @@
       "uniques": 5
     },
     {
+      "path": "/netascode/ansible-dc-vxlan/issues",
+      "title": "/issues",
+      "count": 46,
+      "uniques": 14
+    },
+    {
       "path": "/netascode/ansible-dc-vxlan/pull/856",
       "title": "/pull/856",
-      "count": 44,
+      "count": 45,
       "uniques": 5
     },
     {
@@ -272,45 +288,39 @@
       "uniques": 8
     },
     {
-      "path": "/netascode/ansible-dc-vxlan/issues",
-      "title": "/issues",
-      "count": 40,
-      "uniques": 13
-    },
-    {
       "path": "/netascode/ansible-dc-vxlan/pull/860",
       "title": "/pull/860",
       "count": 30,
       "uniques": 5
     },
     {
+      "path": "/netascode/ansible-dc-vxlan/tree/develop/roles",
+      "title": "/tree/develop/roles",
+      "count": 26,
+      "uniques": 20
+    },
+    {
       "path": "/netascode/ansible-dc-vxlan/pull/775/changes",
       "title": "/pull/775/changes",
       "count": 24,
       "uniques": 5
-    },
-    {
-      "path": "/netascode/ansible-dc-vxlan/tree/develop/roles",
-      "title": "/tree/develop/roles",
-      "count": 23,
-      "uniques": 19
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 221,
-      "uniques": 40
+      "count": 224,
+      "uniques": 41
     },
     {
       "referrer": "Google",
-      "count": 124,
-      "uniques": 19
+      "count": 129,
+      "uniques": 20
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 78,
-      "uniques": 24
+      "count": 92,
+      "uniques": 22
     },
     {
       "referrer": "wwwin-github.cisco.com",
@@ -339,28 +349,28 @@
     }
   ],
   "totals": {
-    "clones": 1551,
-    "uniqueClonerDays": 448,
+    "clones": 1578,
+    "uniqueClonerDays": 461,
     "peakDailyClones": 238,
     "peakDailyUniqueCloners": 142,
-    "views": 2555,
-    "uniqueVisitorDays": 467,
+    "views": 2643,
+    "uniqueVisitorDays": 482,
     "peakDailyViews": 233,
     "peakDailyUniqueVisitors": 40,
-    "daysTracked": 23,
+    "daysTracked": 24,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:44.419Z",
+  "lastUpdated": "2026-08-23T03:19:07.173Z",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:44.419Z",
+    "polled_at": "2026-08-23T03:19:07.172Z",
     "views": {
-      "count": 1487,
-      "uniques": 154
+      "count": 1484,
+      "uniques": 153
     },
     "clones": {
-      "count": 949,
-      "uniques": 230
+      "count": 906,
+      "uniques": 221
     }
   }
 }

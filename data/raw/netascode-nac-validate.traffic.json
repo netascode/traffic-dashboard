@@ -115,6 +115,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 2,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 7,
+      "uniques": 5
     }
   ],
   "views": [
@@ -232,6 +237,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 47,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 7,
+      "uniques": 5
     }
   ],
   "popularPaths": [
@@ -239,29 +249,29 @@
       "path": "/netascode/nac-validate",
       "title": "Overview",
       "count": 70,
-      "uniques": 54
+      "uniques": 55
     },
     {
       "path": "/netascode/nac-validate/tree/main/nac_validate",
       "title": "/tree/main/nac_validate",
-      "count": 12,
-      "uniques": 9
+      "count": 13,
+      "uniques": 10
     },
     {
       "path": "/netascode/nac-validate/blob/main/README.md",
       "title": "/blob/main/README.md",
-      "count": 9,
-      "uniques": 6
+      "count": 10,
+      "uniques": 7
+    },
+    {
+      "path": "/netascode/nac-validate/tree/main",
+      "title": "/tree/main",
+      "count": 5,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-validate/blob/main/nac_validate/validator.py",
       "title": "/blob/main/nac_validate/validator.py",
-      "count": 4,
-      "uniques": 4
-    },
-    {
-      "path": "/netascode/nac-validate/blob/main/pyproject.toml",
-      "title": "/blob/main/pyproject.toml",
       "count": 4,
       "uniques": 4
     },
@@ -272,14 +282,14 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-validate/tree/main",
-      "title": "/tree/main",
-      "count": 4,
-      "uniques": 1
-    },
-    {
       "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
       "title": "/blob/main/CHANGELOG.md",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-validate/blob/main/pyproject.toml",
+      "title": "/blob/main/pyproject.toml",
       "count": 3,
       "uniques": 3
     },
@@ -299,12 +309,12 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 32,
+      "count": 31,
       "uniques": 19
     },
     {
       "referrer": "Google",
-      "count": 23,
+      "count": 25,
       "uniques": 14
     },
     {
@@ -339,28 +349,28 @@
     }
   ],
   "totals": {
-    "clones": 198,
-    "uniqueClonerDays": 100,
+    "clones": 205,
+    "uniqueClonerDays": 105,
     "peakDailyClones": 29,
     "peakDailyUniqueCloners": 10,
-    "views": 240,
-    "uniqueVisitorDays": 119,
+    "views": 247,
+    "uniqueVisitorDays": 124,
     "peakDailyViews": 47,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 23,
+    "daysTracked": 24,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:44.868Z",
+  "lastUpdated": "2026-08-23T03:19:07.892Z",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:44.868Z",
+    "polled_at": "2026-08-23T03:19:07.892Z",
     "views": {
-      "count": 143,
-      "uniques": 62
+      "count": 145,
+      "uniques": 64
     },
     "clones": {
-      "count": 115,
-      "uniques": 38
+      "count": 103,
+      "uniques": 39
     }
   }
 }

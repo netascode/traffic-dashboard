@@ -125,6 +125,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 20,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 22,
+      "uniques": 11
     }
   ],
   "views": [
@@ -252,9 +257,20 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 9,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 11,
+      "uniques": 3
     }
   ],
   "popularPaths": [
+    {
+      "path": "/netascode/terraform-ise-nac-ise",
+      "title": "Overview",
+      "count": 42,
+      "uniques": 29
+    },
     {
       "path": "/netascode/terraform-ise-nac-ise/pulls",
       "title": "/pulls",
@@ -262,15 +278,9 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-ise-nac-ise",
-      "title": "Overview",
-      "count": 40,
-      "uniques": 28
-    },
-    {
       "path": "/netascode/terraform-ise-nac-ise/issues",
       "title": "/issues",
-      "count": 9,
+      "count": 10,
       "uniques": 2
     },
     {
@@ -292,6 +302,12 @@
       "uniques": 2
     },
     {
+      "path": "/netascode/terraform-ise-nac-ise/issues/new",
+      "title": "/issues/new",
+      "count": 4,
+      "uniques": 1
+    },
+    {
       "path": "/netascode/terraform-ise-nac-ise/pull/79",
       "title": "/pull/79",
       "count": 4,
@@ -308,29 +324,23 @@
       "title": "/blob/main/CHANGELOG.md",
       "count": 3,
       "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-ise-nac-ise/issues/78",
-      "title": "/issues/78",
-      "count": 3,
-      "uniques": 2
     }
   ],
   "referrers": [
+    {
+      "referrer": "github.com",
+      "count": 11,
+      "uniques": 5
+    },
     {
       "referrer": "Google",
       "count": 10,
       "uniques": 6
     },
     {
-      "referrer": "github.com",
-      "count": 7,
-      "uniques": 3
-    },
-    {
       "referrer": "netascode.cisco.com",
-      "count": 2,
-      "uniques": 2
+      "count": 6,
+      "uniques": 3
     },
     {
       "referrer": "Bing",
@@ -339,28 +349,28 @@
     }
   ],
   "totals": {
-    "clones": 711,
-    "uniqueClonerDays": 257,
+    "clones": 733,
+    "uniqueClonerDays": 268,
     "peakDailyClones": 131,
     "peakDailyUniqueCloners": 30,
-    "views": 219,
-    "uniqueVisitorDays": 81,
+    "views": 230,
+    "uniqueVisitorDays": 84,
     "peakDailyViews": 39,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 25,
+    "daysTracked": 26,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:43.986Z",
+  "lastUpdated": "2026-08-23T03:19:06.366Z",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:43.986Z",
+    "polled_at": "2026-08-23T03:19:06.366Z",
     "views": {
-      "count": 150,
-      "uniques": 33
+      "count": 159,
+      "uniques": 34
     },
     "clones": {
-      "count": 331,
-      "uniques": 84
+      "count": 333,
+      "uniques": 88
     }
   }
 }

@@ -115,6 +115,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -232,6 +237,11 @@
       "timestamp": "2026-08-20T00:00:00Z",
       "count": 5,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-21T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
@@ -317,20 +327,20 @@
     "uniqueVisitorDays": 20,
     "peakDailyViews": 15,
     "peakDailyUniqueVisitors": 3,
-    "daysTracked": 23,
+    "daysTracked": 24,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-20T00:00:00Z"
+    "lastDay": "2026-08-21T00:00:00Z"
   },
-  "lastUpdated": "2026-08-22T03:10:45.322Z",
+  "lastUpdated": "2026-08-23T03:19:08.617Z",
   "snapshot14d": {
-    "polled_at": "2026-08-22T03:10:45.322Z",
+    "polled_at": "2026-08-23T03:19:08.617Z",
     "views": {
       "count": 28,
       "uniques": 13
     },
     "clones": {
-      "count": 5,
-      "uniques": 5
+      "count": 4,
+      "uniques": 4
     }
   }
 }
