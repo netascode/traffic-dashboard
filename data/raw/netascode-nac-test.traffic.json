@@ -120,6 +120,11 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 3,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "views": [
@@ -242,19 +247,24 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 11,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 3,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-test",
       "title": "Overview",
-      "count": 76,
-      "uniques": 47
+      "count": 74,
+      "uniques": 45
     },
     {
       "path": "/netascode/nac-test/pull/896",
       "title": "/pull/896",
-      "count": 33,
+      "count": 34,
       "uniques": 3
     },
     {
@@ -266,8 +276,8 @@
     {
       "path": "/netascode/nac-test/tree/main/tests",
       "title": "/tree/main/tests",
-      "count": 12,
-      "uniques": 7
+      "count": 11,
+      "uniques": 6
     },
     {
       "path": "/netascode/nac-test/pull/896/changes",
@@ -314,8 +324,8 @@
     },
     {
       "referrer": "Google",
-      "count": 31,
-      "uniques": 12
+      "count": 28,
+      "uniques": 10
     },
     {
       "referrer": "pypi.org",
@@ -334,28 +344,28 @@
     }
   ],
   "totals": {
-    "clones": 1419,
-    "uniqueClonerDays": 356,
+    "clones": 1420,
+    "uniqueClonerDays": 357,
     "peakDailyClones": 369,
     "peakDailyUniqueCloners": 130,
-    "views": 422,
-    "uniqueVisitorDays": 140,
+    "views": 425,
+    "uniqueVisitorDays": 141,
     "peakDailyViews": 59,
     "peakDailyUniqueVisitors": 13,
-    "daysTracked": 24,
+    "daysTracked": 25,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-21T00:00:00Z"
+    "lastDay": "2026-08-22T00:00:00Z"
   },
-  "lastUpdated": "2026-08-23T03:19:07.659Z",
+  "lastUpdated": "2026-08-24T03:26:56.775Z",
   "snapshot14d": {
-    "polled_at": "2026-08-23T03:19:07.659Z",
+    "polled_at": "2026-08-24T03:26:56.775Z",
     "views": {
       "count": 282,
-      "uniques": 60
+      "uniques": 58
     },
     "clones": {
-      "count": 960,
-      "uniques": 227
+      "count": 958,
+      "uniques": 225
     }
   }
 }

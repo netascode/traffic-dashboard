@@ -130,6 +130,11 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 54,
       "uniques": 18
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 5,
+      "uniques": 5
     }
   ],
   "views": [
@@ -262,14 +267,19 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 93,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan",
       "title": "Overview",
-      "count": 88,
-      "uniques": 44
+      "count": 86,
+      "uniques": 43
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pulls",
@@ -338,14 +348,14 @@
       "uniques": 2
     },
     {
-      "referrer": "netascode.cisco.com",
-      "count": 13,
-      "uniques": 3
-    },
-    {
       "referrer": "Google",
       "count": 12,
       "uniques": 6
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 12,
+      "uniques": 3
     },
     {
       "referrer": "ondemandelearning.cisco.com",
@@ -359,28 +369,28 @@
     }
   ],
   "totals": {
-    "clones": 1544,
-    "uniqueClonerDays": 560,
+    "clones": 1549,
+    "uniqueClonerDays": 565,
     "peakDailyClones": 193,
     "peakDailyUniqueCloners": 113,
     "views": 655,
     "uniqueVisitorDays": 155,
     "peakDailyViews": 93,
     "peakDailyUniqueVisitors": 13,
-    "daysTracked": 26,
+    "daysTracked": 27,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-21T00:00:00Z"
+    "lastDay": "2026-08-22T00:00:00Z"
   },
-  "lastUpdated": "2026-08-23T03:19:06.146Z",
+  "lastUpdated": "2026-08-24T03:26:55.603Z",
   "snapshot14d": {
-    "polled_at": "2026-08-23T03:19:06.146Z",
+    "polled_at": "2026-08-24T03:26:55.603Z",
     "views": {
-      "count": 379,
-      "uniques": 51
+      "count": 373,
+      "uniques": 50
     },
     "clones": {
-      "count": 937,
-      "uniques": 219
+      "count": 923,
+      "uniques": 220
     }
   }
 }

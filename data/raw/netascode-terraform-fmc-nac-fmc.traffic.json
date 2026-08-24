@@ -189,6 +189,11 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 10,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 5,
+      "uniques": 3
     }
   ],
   "views": [
@@ -381,28 +386,33 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 29,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "totals": {
-    "clones": 1179,
-    "uniqueClonerDays": 229,
+    "clones": 1184,
+    "uniqueClonerDays": 232,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
     "views": 190,
     "uniqueVisitorDays": 66,
     "peakDailyViews": 29,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 38,
+    "daysTracked": 39,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-21T00:00:00Z"
+    "lastDay": "2026-08-22T00:00:00Z"
   },
-  "lastUpdated": "2026-08-23T03:19:04.548Z",
+  "lastUpdated": "2026-08-24T03:26:54.426Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
       "title": "Overview",
-      "count": 19,
-      "uniques": 14
+      "count": 18,
+      "uniques": 13
     },
     {
       "path": "/netascode/terraform-fmc-nac-fmc/blob/main/merge.tf",
@@ -473,14 +483,14 @@
   ],
   "repo": "netascode/terraform-fmc-nac-fmc",
   "snapshot14d": {
-    "polled_at": "2026-08-23T03:19:04.547Z",
+    "polled_at": "2026-08-24T03:26:54.426Z",
     "views": {
-      "count": 61,
-      "uniques": 18
+      "count": 60,
+      "uniques": 17
     },
     "clones": {
-      "count": 230,
-      "uniques": 23
+      "count": 231,
+      "uniques": 24
     }
   }
 }

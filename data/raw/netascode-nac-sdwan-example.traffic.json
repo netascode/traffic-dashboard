@@ -120,6 +120,11 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 2,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "views": [
@@ -242,6 +247,11 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 5,
+      "uniques": 1
     }
   ],
   "popularPaths": [
@@ -276,6 +286,18 @@
       "uniques": 3
     },
     {
+      "path": "/netascode/nac-sdwan-example/blob/main/jinja_filters/normalize_special_string.py",
+      "title": "/blob/main/jinja_filters/normalize_special_string.py",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates",
+      "title": "/tree/main/tests/templates",
+      "count": 3,
+      "uniques": 3
+    },
+    {
       "path": "/netascode/nac-sdwan-example/blob/main/.ci/gitlab-comment.py",
       "title": "/blob/main/.ci/gitlab-comment.py",
       "count": 2,
@@ -288,20 +310,8 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-sdwan-example/blob/main/jinja_filters/normalize_special_string.py",
-      "title": "/blob/main/jinja_filters/normalize_special_string.py",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates",
-      "title": "/tree/main/tests/templates",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-sdwan-example/tree/main/tests/templates/config",
-      "title": "/tree/main/tests/templates/config",
+      "path": "/netascode/nac-sdwan-example/tree/main/jinja_filters",
+      "title": "/tree/main/jinja_filters",
       "count": 2,
       "uniques": 2
     }
@@ -319,28 +329,28 @@
     }
   ],
   "totals": {
-    "clones": 16,
-    "uniqueClonerDays": 14,
+    "clones": 17,
+    "uniqueClonerDays": 15,
     "peakDailyClones": 3,
     "peakDailyUniqueCloners": 3,
-    "views": 165,
-    "uniqueVisitorDays": 57,
+    "views": 170,
+    "uniqueVisitorDays": 58,
     "peakDailyViews": 33,
     "peakDailyUniqueVisitors": 5,
-    "daysTracked": 24,
+    "daysTracked": 25,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-21T00:00:00Z"
+    "lastDay": "2026-08-22T00:00:00Z"
   },
-  "lastUpdated": "2026-08-23T03:19:08.186Z",
+  "lastUpdated": "2026-08-24T03:26:57.153Z",
   "snapshot14d": {
-    "polled_at": "2026-08-23T03:19:08.186Z",
+    "polled_at": "2026-08-24T03:26:57.153Z",
     "views": {
-      "count": 72,
+      "count": 76,
       "uniques": 27
     },
     "clones": {
-      "count": 9,
-      "uniques": 6
+      "count": 10,
+      "uniques": 7
     }
   }
 }

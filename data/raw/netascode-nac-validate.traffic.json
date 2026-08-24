@@ -120,6 +120,11 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 7,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 5,
+      "uniques": 3
     }
   ],
   "views": [
@@ -242,13 +247,18 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 7,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-validate",
       "title": "Overview",
-      "count": 70,
+      "count": 69,
       "uniques": 55
     },
     {
@@ -260,14 +270,20 @@
     {
       "path": "/netascode/nac-validate/blob/main/README.md",
       "title": "/blob/main/README.md",
-      "count": 10,
-      "uniques": 7
+      "count": 9,
+      "uniques": 6
     },
     {
       "path": "/netascode/nac-validate/tree/main",
       "title": "/tree/main",
       "count": 5,
       "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
+      "count": 4,
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-validate/blob/main/nac_validate/validator.py",
@@ -280,12 +296,6 @@
       "title": "/tree/main/tests",
       "count": 4,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
-      "title": "/blob/main/CHANGELOG.md",
-      "count": 3,
-      "uniques": 3
     },
     {
       "path": "/netascode/nac-validate/blob/main/pyproject.toml",
@@ -349,28 +359,28 @@
     }
   ],
   "totals": {
-    "clones": 205,
-    "uniqueClonerDays": 105,
+    "clones": 210,
+    "uniqueClonerDays": 108,
     "peakDailyClones": 29,
     "peakDailyUniqueCloners": 10,
-    "views": 247,
-    "uniqueVisitorDays": 124,
+    "views": 248,
+    "uniqueVisitorDays": 125,
     "peakDailyViews": 47,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 24,
+    "daysTracked": 25,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-21T00:00:00Z"
+    "lastDay": "2026-08-22T00:00:00Z"
   },
-  "lastUpdated": "2026-08-23T03:19:07.892Z",
+  "lastUpdated": "2026-08-24T03:26:56.962Z",
   "snapshot14d": {
-    "polled_at": "2026-08-23T03:19:07.892Z",
+    "polled_at": "2026-08-24T03:26:56.962Z",
     "views": {
-      "count": 145,
-      "uniques": 64
+      "count": 144,
+      "uniques": 65
     },
     "clones": {
-      "count": 103,
-      "uniques": 39
+      "count": 105,
+      "uniques": 40
     }
   }
 }

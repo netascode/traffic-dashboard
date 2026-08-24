@@ -130,6 +130,11 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 16,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 2,
+      "uniques": 1
     }
   ],
   "views": [
@@ -262,13 +267,18 @@
       "timestamp": "2026-08-21T00:00:00Z",
       "count": 35,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-nxos-nac-nxos",
       "title": "Overview",
-      "count": 56,
+      "count": 55,
       "uniques": 32
     },
     {
@@ -349,28 +359,28 @@
     }
   ],
   "totals": {
-    "clones": 729,
-    "uniqueClonerDays": 263,
+    "clones": 731,
+    "uniqueClonerDays": 264,
     "peakDailyClones": 105,
     "peakDailyUniqueCloners": 27,
     "views": 393,
     "uniqueVisitorDays": 118,
     "peakDailyViews": 55,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 26,
+    "daysTracked": 27,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-21T00:00:00Z"
+    "lastDay": "2026-08-22T00:00:00Z"
   },
-  "lastUpdated": "2026-08-23T03:19:05.524Z",
+  "lastUpdated": "2026-08-24T03:26:55.193Z",
   "snapshot14d": {
-    "polled_at": "2026-08-23T03:19:05.524Z",
+    "polled_at": "2026-08-24T03:26:55.193Z",
     "views": {
-      "count": 193,
+      "count": 192,
       "uniques": 43
     },
     "clones": {
-      "count": 315,
-      "uniques": 82
+      "count": 313,
+      "uniques": 81
     }
   }
 }
