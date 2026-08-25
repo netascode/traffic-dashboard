@@ -125,6 +125,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 5,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 4,
+      "uniques": 4
     }
   ],
   "views": [
@@ -252,14 +257,19 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 1,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 3,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-validate",
       "title": "Overview",
-      "count": 69,
-      "uniques": 55
+      "count": 68,
+      "uniques": 53
     },
     {
       "path": "/netascode/nac-validate/tree/main/nac_validate",
@@ -270,7 +280,7 @@
     {
       "path": "/netascode/nac-validate/blob/main/README.md",
       "title": "/blob/main/README.md",
-      "count": 9,
+      "count": 8,
       "uniques": 6
     },
     {
@@ -310,22 +320,22 @@
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-validate/issues",
-      "title": "/issues",
+      "path": "/netascode/nac-validate/tree/main/.github",
+      "title": "/tree/main/.github",
       "count": 2,
-      "uniques": 2
+      "uniques": 1
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 31,
-      "uniques": 19
+      "count": 30,
+      "uniques": 18
     },
     {
       "referrer": "Google",
-      "count": 25,
-      "uniques": 14
+      "count": 27,
+      "uniques": 15
     },
     {
       "referrer": "DuckDuckGo",
@@ -334,7 +344,7 @@
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 7,
+      "count": 6,
       "uniques": 5
     },
     {
@@ -344,7 +354,7 @@
     },
     {
       "referrer": "cisco.com",
-      "count": 3,
+      "count": 2,
       "uniques": 2
     },
     {
@@ -359,28 +369,28 @@
     }
   ],
   "totals": {
-    "clones": 210,
-    "uniqueClonerDays": 108,
+    "clones": 214,
+    "uniqueClonerDays": 112,
     "peakDailyClones": 29,
     "peakDailyUniqueCloners": 10,
-    "views": 248,
-    "uniqueVisitorDays": 125,
+    "views": 251,
+    "uniqueVisitorDays": 128,
     "peakDailyViews": 47,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 25,
+    "daysTracked": 26,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:56.962Z",
+  "lastUpdated": "2026-08-25T03:15:00.458Z",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:56.962Z",
+    "polled_at": "2026-08-25T03:15:00.458Z",
     "views": {
-      "count": 144,
-      "uniques": 65
+      "count": 142,
+      "uniques": 63
     },
     "clones": {
-      "count": 105,
-      "uniques": 40
+      "count": 106,
+      "uniques": 42
     }
   }
 }

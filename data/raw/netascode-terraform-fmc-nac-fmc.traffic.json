@@ -194,6 +194,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 5,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 7,
+      "uniques": 4
     }
   ],
   "views": [
@@ -391,22 +396,27 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "totals": {
-    "clones": 1184,
-    "uniqueClonerDays": 232,
+    "clones": 1191,
+    "uniqueClonerDays": 236,
     "peakDailyClones": 124,
     "peakDailyUniqueCloners": 19,
     "views": 190,
     "uniqueVisitorDays": 66,
     "peakDailyViews": 29,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 39,
+    "daysTracked": 40,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:54.426Z",
+  "lastUpdated": "2026-08-25T03:14:58.580Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-fmc-nac-fmc",
@@ -483,14 +493,14 @@
   ],
   "repo": "netascode/terraform-fmc-nac-fmc",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:54.426Z",
+    "polled_at": "2026-08-25T03:14:58.580Z",
     "views": {
       "count": 60,
       "uniques": 17
     },
     "clones": {
-      "count": 231,
-      "uniques": 24
+      "count": 233,
+      "uniques": 25
     }
   }
 }

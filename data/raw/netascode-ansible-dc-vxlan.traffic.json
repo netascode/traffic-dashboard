@@ -125,6 +125,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 23,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 14,
+      "uniques": 8
     }
   ],
   "views": [
@@ -252,14 +257,19 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 5,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 7,
+      "uniques": 6
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/ansible-dc-vxlan",
       "title": "Overview",
-      "count": 198,
-      "uniques": 85
+      "count": 195,
+      "uniques": 84
     },
     {
       "path": "/netascode/ansible-dc-vxlan/pulls",
@@ -294,7 +304,7 @@
     {
       "path": "/netascode/ansible-dc-vxlan/pull/803",
       "title": "/pull/803",
-      "count": 40,
+      "count": 39,
       "uniques": 8
     },
     {
@@ -306,8 +316,8 @@
     {
       "path": "/netascode/ansible-dc-vxlan/tree/develop/roles",
       "title": "/tree/develop/roles",
-      "count": 26,
-      "uniques": 20
+      "count": 25,
+      "uniques": 19
     },
     {
       "path": "/netascode/ansible-dc-vxlan/pull/775/changes",
@@ -319,17 +329,17 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 223,
-      "uniques": 41
+      "count": 217,
+      "uniques": 40
     },
     {
       "referrer": "Google",
-      "count": 130,
-      "uniques": 21
+      "count": 132,
+      "uniques": 22
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 94,
+      "count": 95,
       "uniques": 24
     },
     {
@@ -359,28 +369,28 @@
     }
   ],
   "totals": {
-    "clones": 1601,
-    "uniqueClonerDays": 468,
+    "clones": 1615,
+    "uniqueClonerDays": 476,
     "peakDailyClones": 238,
     "peakDailyUniqueCloners": 142,
-    "views": 2648,
-    "uniqueVisitorDays": 487,
+    "views": 2655,
+    "uniqueVisitorDays": 493,
     "peakDailyViews": 233,
     "peakDailyUniqueVisitors": 40,
-    "daysTracked": 25,
+    "daysTracked": 26,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:56.383Z",
+  "lastUpdated": "2026-08-25T03:14:59.991Z",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:56.382Z",
+    "polled_at": "2026-08-25T03:14:59.991Z",
     "views": {
-      "count": 1432,
-      "uniques": 158
+      "count": 1421,
+      "uniques": 152
     },
     "clones": {
-      "count": 914,
-      "uniques": 221
+      "count": 915,
+      "uniques": 224
     }
   }
 }

@@ -125,6 +125,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 3,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "views": [
@@ -252,20 +257,25 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
-      "path": "/netascode/terraform-iosxr-nac-iosxr/pulls",
-      "title": "/pulls",
-      "count": 78,
-      "uniques": 4
-    },
-    {
       "path": "/netascode/terraform-iosxr-nac-iosxr",
       "title": "Overview",
-      "count": 68,
-      "uniques": 28
+      "count": 61,
+      "uniques": 24
+    },
+    {
+      "path": "/netascode/terraform-iosxr-nac-iosxr/pulls",
+      "title": "/pulls",
+      "count": 57,
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pull/211",
@@ -276,20 +286,8 @@
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/issues",
       "title": "/issues",
-      "count": 13,
-      "uniques": 7
-    },
-    {
-      "path": "/netascode/terraform-iosxr-nac-iosxr/pull/189",
-      "title": "/pull/189",
-      "count": 11,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-iosxr-nac-iosxr/pull/201",
-      "title": "/pull/201",
-      "count": 8,
-      "uniques": 1
+      "count": 12,
+      "uniques": 6
     },
     {
       "path": "/netascode/terraform-iosxr-nac-iosxr/pull/207",
@@ -310,47 +308,59 @@
       "uniques": 1
     },
     {
-      "path": "/netascode/terraform-iosxr-nac-iosxr/pull/189/changes",
-      "title": "/pull/189/changes",
+      "path": "/netascode/terraform-iosxr-nac-iosxr/pull/188",
+      "title": "/pull/188",
       "count": 5,
-      "uniques": 2
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/terraform-iosxr-nac-iosxr/blob/main/examples/system/system.nac.yaml",
+      "title": "/blob/main/examples/system/system.nac.yaml",
+      "count": 4,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-iosxr-nac-iosxr/issues/191",
+      "title": "/issues/191",
+      "count": 4,
+      "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 39,
-      "uniques": 8
+      "count": 22,
+      "uniques": 7
     },
     {
       "referrer": "Google",
-      "count": 22,
-      "uniques": 9
+      "count": 21,
+      "uniques": 8
     }
   ],
   "totals": {
-    "clones": 526,
-    "uniqueClonerDays": 323,
+    "clones": 528,
+    "uniqueClonerDays": 325,
     "peakDailyClones": 50,
     "peakDailyUniqueCloners": 39,
     "views": 631,
     "uniqueVisitorDays": 114,
     "peakDailyViews": 95,
     "peakDailyUniqueVisitors": 10,
-    "daysTracked": 25,
+    "daysTracked": 26,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:56.588Z",
+  "lastUpdated": "2026-08-25T03:15:00.157Z",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:56.587Z",
+    "polled_at": "2026-08-25T03:15:00.157Z",
     "views": {
-      "count": 336,
-      "uniques": 36
+      "count": 269,
+      "uniques": 33
     },
     "clones": {
-      "count": 367,
-      "uniques": 146
+      "count": 326,
+      "uniques": 130
     }
   }
 }

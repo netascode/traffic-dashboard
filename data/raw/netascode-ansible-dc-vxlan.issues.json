@@ -8553,12 +8553,12 @@
     {
       "number": 856,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ccoueffe",
       "is_org_member": false,
       "created_at": "2026-07-27T12:58:22Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-24T19:45:21Z",
+      "merged_at": "2026-08-24T19:45:21Z"
     },
     {
       "number": 857,
@@ -8593,21 +8593,21 @@
     {
       "number": 860,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ccoueffe",
       "is_org_member": false,
       "created_at": "2026-07-31T17:09:58Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-24T14:23:09Z",
+      "merged_at": "2026-08-24T14:23:09Z"
     },
     {
       "number": 861,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "ccoueffe",
       "is_org_member": false,
       "created_at": "2026-07-31T17:12:36Z",
-      "closed_at": null,
+      "closed_at": "2026-08-24T14:23:10Z",
       "merged_at": null
     },
     {
@@ -8762,10 +8762,10 @@
     }
   ],
   "totals": {
-    "external_open": 61,
+    "external_open": 60,
     "external_new_30d": 13,
-    "external_closed_30d": 10,
+    "external_closed_30d": 11,
     "external_authors_all_time": 30
   },
-  "lastPolledAt": "2026-08-24T03:27:10.136Z"
+  "lastPolledAt": "2026-08-25T03:15:10.982Z"
 }

@@ -3603,32 +3603,32 @@
     {
       "number": 361,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "rwcrowe",
       "is_org_member": false,
       "created_at": "2026-08-14T20:19:31Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-24T15:07:29Z",
+      "merged_at": "2026-08-24T15:07:29Z"
     },
     {
       "number": 362,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "dependabot[bot]",
       "is_org_member": false,
       "created_at": "2026-08-17T04:35:42Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-24T15:22:49Z",
+      "merged_at": "2026-08-24T15:22:49Z"
     },
     {
       "number": 363,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "rwcrowe",
       "is_org_member": false,
       "created_at": "2026-08-19T16:40:40Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-24T15:22:07Z",
+      "merged_at": "2026-08-24T15:22:07Z"
     }
   ],
   "totals": {
@@ -3637,5 +3637,5 @@
     "external_closed_30d": 2,
     "external_authors_all_time": 12
   },
-  "lastPolledAt": "2026-08-24T03:27:14.226Z"
+  "lastPolledAt": "2026-08-25T03:15:16.131Z"
 }

@@ -135,6 +135,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 5,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 30,
+      "uniques": 6
     }
   ],
   "views": [
@@ -272,19 +277,24 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 9,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan",
       "title": "Overview",
-      "count": 86,
-      "uniques": 43
+      "count": 85,
+      "uniques": 41
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pulls",
       "title": "/pulls",
-      "count": 41,
+      "count": 42,
       "uniques": 7
     },
     {
@@ -308,7 +318,7 @@
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/issues",
       "title": "/issues",
-      "count": 13,
+      "count": 14,
       "uniques": 5
     },
     {
@@ -324,23 +334,23 @@
       "uniques": 2
     },
     {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
+      "title": "/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
+      "count": 8,
+      "uniques": 1
+    },
+    {
       "path": "/netascode/terraform-sdwan-nac-sdwan/tree/main",
       "title": "/tree/main",
       "count": 7,
       "uniques": 5
-    },
-    {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
-      "title": "/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
-      "count": 7,
-      "uniques": 1
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 57,
-      "uniques": 16
+      "count": 55,
+      "uniques": 15
     },
     {
       "referrer": "wwwin-github.cisco.com",
@@ -369,28 +379,28 @@
     }
   ],
   "totals": {
-    "clones": 1549,
-    "uniqueClonerDays": 565,
+    "clones": 1579,
+    "uniqueClonerDays": 571,
     "peakDailyClones": 193,
     "peakDailyUniqueCloners": 113,
-    "views": 655,
-    "uniqueVisitorDays": 155,
+    "views": 664,
+    "uniqueVisitorDays": 157,
     "peakDailyViews": 93,
     "peakDailyUniqueVisitors": 13,
-    "daysTracked": 27,
+    "daysTracked": 28,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:55.603Z",
+  "lastUpdated": "2026-08-25T03:14:59.421Z",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:55.603Z",
+    "polled_at": "2026-08-25T03:14:59.421Z",
     "views": {
-      "count": 373,
-      "uniques": 50
+      "count": 379,
+      "uniques": 48
     },
     "clones": {
-      "count": 923,
-      "uniques": 220
+      "count": 927,
+      "uniques": 218
     }
   }
 }

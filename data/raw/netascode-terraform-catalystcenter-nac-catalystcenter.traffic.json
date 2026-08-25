@@ -194,6 +194,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 21,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 29,
+      "uniques": 2
     }
   ],
   "views": [
@@ -391,20 +396,25 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 4,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter",
       "title": "Overview",
-      "count": 132,
-      "uniques": 37
+      "count": 123,
+      "uniques": 36
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pulls",
       "title": "/pulls",
-      "count": 62,
-      "uniques": 7
+      "count": 58,
+      "uniques": 6
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/blob/main/CHANGELOG.md",
@@ -419,16 +429,16 @@
       "uniques": 4
     },
     {
-      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/154",
-      "title": "/pull/154",
-      "count": 15,
-      "uniques": 3
-    },
-    {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/issues",
       "title": "/issues",
       "count": 13,
       "uniques": 7
+    },
+    {
+      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/issues/136",
+      "title": "/issues/136",
+      "count": 12,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/156",
@@ -437,16 +447,16 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/issues/136",
-      "title": "/issues/136",
-      "count": 11,
-      "uniques": 4
-    },
-    {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/160",
       "title": "/pull/160",
       "count": 10,
       "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/pull/154",
+      "title": "/pull/154",
+      "count": 9,
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-catalystcenter-nac-catalystcenter/tags",
@@ -478,29 +488,29 @@
     }
   ],
   "totals": {
-    "clones": 3135,
-    "uniqueClonerDays": 610,
+    "clones": 3164,
+    "uniqueClonerDays": 612,
     "peakDailyClones": 250,
     "peakDailyUniqueCloners": 47,
-    "views": 1489,
-    "uniqueVisitorDays": 254,
+    "views": 1490,
+    "uniqueVisitorDays": 255,
     "peakDailyViews": 127,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 39,
+    "daysTracked": 40,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:55.002Z",
+  "lastUpdated": "2026-08-25T03:14:59.005Z",
   "repo": "netascode/terraform-catalystcenter-nac-catalystcenter",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:55.002Z",
+    "polled_at": "2026-08-25T03:14:59.005Z",
     "views": {
-      "count": 478,
-      "uniques": 50
+      "count": 456,
+      "uniques": 49
     },
     "clones": {
-      "count": 1018,
-      "uniques": 130
+      "count": 1031,
+      "uniques": 129
     }
   }
 }

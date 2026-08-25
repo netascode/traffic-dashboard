@@ -843,11 +843,11 @@
     {
       "number": 85,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "akinross",
       "is_org_member": false,
       "created_at": "2026-07-08T05:37:57Z",
-      "closed_at": null,
+      "closed_at": "2026-08-24T05:28:43Z",
       "merged_at": null
     },
     {
@@ -943,12 +943,12 @@
     {
       "number": 95,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "tamilselvan085",
       "is_org_member": false,
       "created_at": "2026-08-12T04:55:02Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-24T05:28:42Z",
+      "merged_at": "2026-08-24T05:28:42Z"
     },
     {
       "number": 96,
@@ -962,10 +962,10 @@
     }
   ],
   "totals": {
-    "external_open": 53,
+    "external_open": 52,
     "external_new_30d": 0,
-    "external_closed_30d": 1,
+    "external_closed_30d": 2,
     "external_authors_all_time": 4
   },
-  "lastPolledAt": "2026-08-24T03:27:14.487Z"
+  "lastPolledAt": "2026-08-25T03:15:16.380Z"
 }

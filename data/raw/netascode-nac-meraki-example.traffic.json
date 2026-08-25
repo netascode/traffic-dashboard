@@ -125,6 +125,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -252,14 +257,19 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-meraki-example",
       "title": "Overview",
-      "count": 15,
-      "uniques": 12
+      "count": 13,
+      "uniques": 11
     },
     {
       "path": "/netascode/nac-meraki-example/blob/main/schema.yaml",
@@ -305,14 +315,14 @@
       "uniques": 3
     },
     {
-      "referrer": "netascode.cisco.com",
-      "count": 4,
-      "uniques": 3
-    },
-    {
       "referrer": "Google",
       "count": 4,
       "uniques": 1
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 3,
+      "uniques": 3
     }
   ],
   "totals": {
@@ -324,16 +334,16 @@
     "uniqueVisitorDays": 37,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 25,
+    "daysTracked": 26,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:57.337Z",
+  "lastUpdated": "2026-08-25T03:15:00.758Z",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:57.337Z",
+    "polled_at": "2026-08-25T03:15:00.758Z",
     "views": {
-      "count": 24,
-      "uniques": 12
+      "count": 22,
+      "uniques": 11
     },
     "clones": {
       "count": 6,

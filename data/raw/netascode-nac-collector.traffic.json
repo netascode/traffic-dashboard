@@ -125,6 +125,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 2,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 5,
+      "uniques": 4
     }
   ],
   "views": [
@@ -252,31 +257,36 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 14,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 10,
+      "uniques": 5
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-collector",
       "title": "Overview",
-      "count": 152,
+      "count": 153,
       "uniques": 66
     },
     {
       "path": "/netascode/nac-collector/pulls",
       "title": "/pulls",
-      "count": 31,
+      "count": 32,
       "uniques": 7
     },
     {
       "path": "/netascode/nac-collector/pull/294",
       "title": "/pull/294",
-      "count": 22,
+      "count": 23,
       "uniques": 4
     },
     {
       "path": "/netascode/nac-collector/pull/294/changes",
       "title": "/pull/294/changes",
-      "count": 22,
+      "count": 23,
       "uniques": 4
     },
     {
@@ -300,13 +310,13 @@
     {
       "path": "/netascode/nac-collector/tree/main",
       "title": "/tree/main",
-      "count": 12,
+      "count": 13,
       "uniques": 5
     },
     {
       "path": "/netascode/nac-collector/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
       "title": "/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
-      "count": 12,
+      "count": 13,
       "uniques": 2
     },
     {
@@ -324,7 +334,7 @@
     },
     {
       "referrer": "Google",
-      "count": 59,
+      "count": 60,
       "uniques": 19
     },
     {
@@ -349,28 +359,28 @@
     }
   ],
   "totals": {
-    "clones": 692,
-    "uniqueClonerDays": 221,
+    "clones": 697,
+    "uniqueClonerDays": 225,
     "peakDailyClones": 82,
     "peakDailyUniqueCloners": 17,
-    "views": 750,
-    "uniqueVisitorDays": 216,
+    "views": 760,
+    "uniqueVisitorDays": 221,
     "peakDailyViews": 124,
     "peakDailyUniqueVisitors": 16,
-    "daysTracked": 25,
+    "daysTracked": 26,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:56.183Z",
+  "lastUpdated": "2026-08-25T03:14:59.842Z",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:56.183Z",
+    "polled_at": "2026-08-25T03:14:59.842Z",
     "views": {
-      "count": 469,
-      "uniques": 77
+      "count": 477,
+      "uniques": 78
     },
     "clones": {
-      "count": 307,
-      "uniques": 65
+      "count": 298,
+      "uniques": 66
     }
   }
 }

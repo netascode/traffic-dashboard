@@ -194,6 +194,11 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 19,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 7,
+      "uniques": 6
     }
   ],
   "views": [
@@ -391,28 +396,33 @@
       "timestamp": "2026-08-22T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-23T00:00:00Z",
+      "count": 4,
+      "uniques": 3
     }
   ],
   "totals": {
-    "clones": 5993,
-    "uniqueClonerDays": 1475,
+    "clones": 6000,
+    "uniqueClonerDays": 1481,
     "peakDailyClones": 1851,
     "peakDailyUniqueCloners": 150,
-    "views": 524,
-    "uniqueVisitorDays": 126,
+    "views": 528,
+    "uniqueVisitorDays": 129,
     "peakDailyViews": 105,
     "peakDailyUniqueVisitors": 6,
-    "daysTracked": 39,
+    "daysTracked": 40,
     "firstDay": "2026-07-15T00:00:00Z",
-    "lastDay": "2026-08-22T00:00:00Z"
+    "lastDay": "2026-08-23T00:00:00Z"
   },
-  "lastUpdated": "2026-08-24T03:26:54.623Z",
+  "lastUpdated": "2026-08-25T03:14:58.718Z",
   "popularPaths": [
     {
       "path": "/netascode/terraform-meraki-nac-meraki",
       "title": "Overview",
-      "count": 48,
-      "uniques": 18
+      "count": 49,
+      "uniques": 17
     },
     {
       "path": "/netascode/terraform-meraki-nac-meraki/pulls",
@@ -472,12 +482,17 @@
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 23,
+      "count": 24,
       "uniques": 4
     },
     {
       "referrer": "wwwin-github.cisco.com",
       "count": 10,
+      "uniques": 2
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 2,
       "uniques": 2
     },
     {
@@ -489,23 +504,18 @@
       "referrer": "Google",
       "count": 1,
       "uniques": 1
-    },
-    {
-      "referrer": "netascode.cisco.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "repo": "netascode/terraform-meraki-nac-meraki",
   "snapshot14d": {
-    "polled_at": "2026-08-24T03:26:54.623Z",
+    "polled_at": "2026-08-25T03:14:58.718Z",
     "views": {
-      "count": 237,
+      "count": 239,
       "uniques": 26
     },
     "clones": {
-      "count": 3712,
-      "uniques": 511
+      "count": 3682,
+      "uniques": 492
     }
   }
 }

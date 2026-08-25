@@ -489,6 +489,86 @@
       "created_at": "2026-08-21T11:02:45Z",
       "closed_at": "2026-08-21T11:03:50Z",
       "merged_at": "2026-08-21T11:03:50Z"
+    },
+    {
+      "number": 50,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-24T08:33:32Z",
+      "closed_at": "2026-08-24T08:38:46Z",
+      "merged_at": "2026-08-24T08:38:46Z"
+    },
+    {
+      "number": 51,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-24T09:01:18Z",
+      "closed_at": "2026-08-24T09:05:04Z",
+      "merged_at": "2026-08-24T09:05:04Z"
+    },
+    {
+      "number": 52,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-24T09:28:26Z",
+      "closed_at": "2026-08-24T09:32:40Z",
+      "merged_at": "2026-08-24T09:32:40Z"
+    },
+    {
+      "number": 53,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-24T10:18:52Z",
+      "closed_at": "2026-08-24T10:27:08Z",
+      "merged_at": "2026-08-24T10:27:08Z"
+    },
+    {
+      "number": 54,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-24T11:01:58Z",
+      "closed_at": "2026-08-24T11:05:50Z",
+      "merged_at": "2026-08-24T11:05:50Z"
+    },
+    {
+      "number": 55,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-24T11:23:01Z",
+      "closed_at": "2026-08-24T11:27:13Z",
+      "merged_at": "2026-08-24T11:27:13Z"
+    },
+    {
+      "number": 56,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-24T11:48:05Z",
+      "closed_at": "2026-08-24T11:52:47Z",
+      "merged_at": "2026-08-24T11:52:47Z"
+    },
+    {
+      "number": 57,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-24T14:03:29Z",
+      "closed_at": "2026-08-24T14:09:36Z",
+      "merged_at": "2026-08-24T14:09:36Z"
     }
   ],
   "totals": {
@@ -497,5 +577,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 0
   },
-  "lastPolledAt": "2026-08-24T03:27:09.598Z"
+  "lastPolledAt": "2026-08-25T03:15:10.201Z"
 }
