@@ -7469,13 +7469,23 @@
       "created_at": "2026-08-18T14:22:56Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 748,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "ctvedt",
+      "is_org_member": false,
+      "created_at": "2026-08-25T12:28:59Z",
+      "closed_at": "2026-08-25T12:29:47Z",
+      "merged_at": null
     }
   ],
   "totals": {
     "external_open": 6,
-    "external_new_30d": 1,
-    "external_closed_30d": 2,
+    "external_new_30d": 2,
+    "external_closed_30d": 3,
     "external_authors_all_time": 33
   },
-  "lastPolledAt": "2026-08-25T03:15:15.534Z"
+  "lastPolledAt": "2026-08-26T03:28:24.330Z"
 }

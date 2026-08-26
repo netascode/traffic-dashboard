@@ -130,6 +130,11 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 4,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 9,
+      "uniques": 6
     }
   ],
   "views": [
@@ -262,20 +267,25 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 3,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 20,
+      "uniques": 7
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-validate",
       "title": "Overview",
-      "count": 68,
-      "uniques": 53
+      "count": 71,
+      "uniques": 52
     },
     {
       "path": "/netascode/nac-validate/tree/main/nac_validate",
       "title": "/tree/main/nac_validate",
-      "count": 13,
-      "uniques": 10
+      "count": 14,
+      "uniques": 11
     },
     {
       "path": "/netascode/nac-validate/blob/main/README.md",
@@ -284,16 +294,22 @@
       "uniques": 6
     },
     {
+      "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
+      "title": "/blob/main/CHANGELOG.md",
+      "count": 5,
+      "uniques": 5
+    },
+    {
+      "path": "/netascode/nac-validate/tree/main/tests",
+      "title": "/tree/main/tests",
+      "count": 5,
+      "uniques": 3
+    },
+    {
       "path": "/netascode/nac-validate/tree/main",
       "title": "/tree/main",
       "count": 5,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-validate/blob/main/CHANGELOG.md",
-      "title": "/blob/main/CHANGELOG.md",
-      "count": 4,
-      "uniques": 4
     },
     {
       "path": "/netascode/nac-validate/blob/main/nac_validate/validator.py",
@@ -302,10 +318,10 @@
       "uniques": 4
     },
     {
-      "path": "/netascode/nac-validate/tree/main/tests",
-      "title": "/tree/main/tests",
-      "count": 4,
-      "uniques": 2
+      "path": "/netascode/nac-validate/blob/main/.pre-commit-hooks.yaml",
+      "title": "/blob/main/.pre-commit-hooks.yaml",
+      "count": 3,
+      "uniques": 3
     },
     {
       "path": "/netascode/nac-validate/blob/main/pyproject.toml",
@@ -314,52 +330,46 @@
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-validate/blob/main/.pre-commit-hooks.yaml",
-      "title": "/blob/main/.pre-commit-hooks.yaml",
-      "count": 2,
+      "path": "/netascode/nac-validate/issues",
+      "title": "/issues",
+      "count": 3,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-validate/tree/main/.github",
-      "title": "/tree/main/.github",
-      "count": 2,
-      "uniques": 1
     }
   ],
   "referrers": [
     {
+      "referrer": "Google",
+      "count": 32,
+      "uniques": 17
+    },
+    {
       "referrer": "github.com",
-      "count": 30,
+      "count": 31,
       "uniques": 18
     },
     {
-      "referrer": "Google",
-      "count": 27,
-      "uniques": 15
-    },
-    {
       "referrer": "DuckDuckGo",
-      "count": 8,
-      "uniques": 2
+      "count": 7,
+      "uniques": 1
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 6,
-      "uniques": 5
-    },
-    {
-      "referrer": "wwwin-github.cisco.com",
-      "count": 5,
+      "count": 4,
       "uniques": 3
     },
     {
-      "referrer": "cisco.com",
-      "count": 2,
+      "referrer": "wwwin-github.cisco.com",
+      "count": 3,
       "uniques": 2
     },
     {
       "referrer": "pypi.org",
       "count": 2,
+      "uniques": 1
+    },
+    {
+      "referrer": "cisco.com",
+      "count": 1,
       "uniques": 1
     },
     {
@@ -369,28 +379,28 @@
     }
   ],
   "totals": {
-    "clones": 214,
-    "uniqueClonerDays": 112,
+    "clones": 223,
+    "uniqueClonerDays": 118,
     "peakDailyClones": 29,
     "peakDailyUniqueCloners": 10,
-    "views": 251,
-    "uniqueVisitorDays": 128,
+    "views": 271,
+    "uniqueVisitorDays": 135,
     "peakDailyViews": 47,
     "peakDailyUniqueVisitors": 14,
-    "daysTracked": 26,
+    "daysTracked": 27,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-23T00:00:00Z"
+    "lastDay": "2026-08-24T00:00:00Z"
   },
-  "lastUpdated": "2026-08-25T03:15:00.458Z",
+  "lastUpdated": "2026-08-26T03:28:08.036Z",
   "snapshot14d": {
-    "polled_at": "2026-08-25T03:15:00.458Z",
+    "polled_at": "2026-08-26T03:28:08.036Z",
     "views": {
-      "count": 142,
-      "uniques": 63
+      "count": 153,
+      "uniques": 61
     },
     "clones": {
-      "count": 106,
-      "uniques": 42
+      "count": 109,
+      "uniques": 44
     }
   }
 }

@@ -130,6 +130,11 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -262,14 +267,19 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-branch-example",
       "title": "Overview",
-      "count": 9,
-      "uniques": 9
+      "count": 8,
+      "uniques": 8
     },
     {
       "path": "/netascode/nac-branch-example/pulse",
@@ -347,20 +357,20 @@
     "uniqueVisitorDays": 20,
     "peakDailyViews": 15,
     "peakDailyUniqueVisitors": 3,
-    "daysTracked": 26,
+    "daysTracked": 27,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-23T00:00:00Z"
+    "lastDay": "2026-08-24T00:00:00Z"
   },
-  "lastUpdated": "2026-08-25T03:15:00.898Z",
+  "lastUpdated": "2026-08-26T03:28:08.582Z",
   "snapshot14d": {
-    "polled_at": "2026-08-25T03:15:00.898Z",
+    "polled_at": "2026-08-26T03:28:08.582Z",
     "views": {
-      "count": 26,
-      "uniques": 11
+      "count": 25,
+      "uniques": 10
     },
     "clones": {
-      "count": 5,
-      "uniques": 5
+      "count": 4,
+      "uniques": 4
     }
   }
 }

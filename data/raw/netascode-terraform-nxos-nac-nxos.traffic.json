@@ -140,6 +140,11 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 2,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 14,
+      "uniques": 10
     }
   ],
   "views": [
@@ -282,20 +287,31 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 45,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-nxos-nac-nxos",
       "title": "Overview",
-      "count": 55,
-      "uniques": 32
+      "count": 60,
+      "uniques": 30
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/tree/main",
       "title": "/tree/main",
-      "count": 15,
-      "uniques": 3
+      "count": 19,
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/issues",
+      "title": "/issues",
+      "count": 13,
+      "uniques": 5
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/issues/167",
@@ -304,93 +320,82 @@
       "uniques": 8
     },
     {
-      "path": "/netascode/terraform-nxos-nac-nxos/issues",
-      "title": "/issues",
-      "count": 11,
-      "uniques": 5
-    },
-    {
       "path": "/netascode/terraform-nxos-nac-nxos/tree/main/examples/system",
       "title": "/tree/main/examples/system",
+      "count": 9,
+      "uniques": 6
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/README.md",
+      "title": "/blob/main/README.md",
       "count": 8,
-      "uniques": 5
+      "uniques": 4
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/examples/system/system.nac.yaml",
+      "title": "/blob/main/examples/system/system.nac.yaml",
+      "count": 6,
+      "uniques": 4
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/blob/main/main.tf",
       "title": "/blob/main/main.tf",
       "count": 6,
-      "uniques": 5
+      "uniques": 4
     },
     {
-      "path": "/netascode/terraform-nxos-nac-nxos/pulls",
-      "title": "/pulls",
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/variables.tf",
+      "title": "/blob/main/variables.tf",
       "count": 6,
-      "uniques": 2
+      "uniques": 4
     },
     {
-      "path": "/netascode/terraform-nxos-nac-nxos/tree/main/defaults",
-      "title": "/tree/main/defaults",
-      "count": 5,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/README.md",
-      "title": "/blob/main/README.md",
-      "count": 4,
-      "uniques": 3
-    },
-    {
-      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/defaults/defaults.yaml",
-      "title": "/blob/main/defaults/defaults.yaml",
-      "count": 4,
+      "path": "/netascode/terraform-nxos-nac-nxos/blob/main/examples/system/README.md",
+      "title": "/blob/main/examples/system/README.md",
+      "count": 6,
       "uniques": 3
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 49,
+      "count": 67,
       "uniques": 9
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 26,
+      "count": 25,
       "uniques": 9
     },
     {
       "referrer": "Google",
       "count": 23,
       "uniques": 2
-    },
-    {
-      "referrer": "ecosia.org",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 733,
-    "uniqueClonerDays": 265,
+    "clones": 747,
+    "uniqueClonerDays": 275,
     "peakDailyClones": 105,
     "peakDailyUniqueCloners": 27,
-    "views": 393,
-    "uniqueVisitorDays": 118,
+    "views": 438,
+    "uniqueVisitorDays": 121,
     "peakDailyViews": 55,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 28,
+    "daysTracked": 29,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-23T00:00:00Z"
+    "lastDay": "2026-08-24T00:00:00Z"
   },
-  "lastUpdated": "2026-08-25T03:14:59.135Z",
+  "lastUpdated": "2026-08-26T03:28:06.486Z",
   "snapshot14d": {
-    "polled_at": "2026-08-25T03:14:59.134Z",
+    "polled_at": "2026-08-26T03:28:06.486Z",
     "views": {
-      "count": 192,
-      "uniques": 43
+      "count": 227,
+      "uniques": 40
     },
     "clones": {
-      "count": 310,
-      "uniques": 79
+      "count": 259,
+      "uniques": 66
     }
   }
 }

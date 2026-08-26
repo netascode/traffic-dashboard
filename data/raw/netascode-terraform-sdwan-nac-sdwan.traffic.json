@@ -140,6 +140,11 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 30,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 82,
+      "uniques": 27
     }
   ],
   "views": [
@@ -282,31 +287,42 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 9,
       "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 85,
+      "uniques": 14
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan",
       "title": "Overview",
-      "count": 85,
-      "uniques": 41
+      "count": 99,
+      "uniques": 44
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pulls",
       "title": "/pulls",
-      "count": 42,
-      "uniques": 7
+      "count": 52,
+      "uniques": 8
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pull/267",
       "title": "/pull/267",
-      "count": 25,
+      "count": 26,
       "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-sdwan-nac-sdwan/issues",
+      "title": "/issues",
+      "count": 22,
+      "uniques": 6
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pull/266",
       "title": "/pull/266",
-      "count": 20,
+      "count": 22,
       "uniques": 4
     },
     {
@@ -316,56 +332,50 @@
       "uniques": 4
     },
     {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/issues",
-      "title": "/issues",
-      "count": 14,
-      "uniques": 5
-    },
-    {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pull/268",
       "title": "/pull/268",
-      "count": 13,
+      "count": 15,
       "uniques": 4
     },
     {
       "path": "/netascode/terraform-sdwan-nac-sdwan/pull/267/changes",
       "title": "/pull/267/changes",
-      "count": 12,
+      "count": 13,
       "uniques": 2
     },
     {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
-      "title": "/blob/9ef7e2c3ed555b5e7d3309b86f632dfea3d91554/sdwan_features_system.tf",
+      "path": "/netascode/terraform-sdwan-nac-sdwan/issues/249",
+      "title": "/issues/249",
       "count": 8,
-      "uniques": 1
+      "uniques": 5
     },
     {
-      "path": "/netascode/terraform-sdwan-nac-sdwan/tree/main",
-      "title": "/tree/main",
+      "path": "/netascode/terraform-sdwan-nac-sdwan/pull/269",
+      "title": "/pull/269",
       "count": 7,
-      "uniques": 5
+      "uniques": 4
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 55,
-      "uniques": 15
+      "count": 51,
+      "uniques": 14
     },
     {
       "referrer": "wwwin-github.cisco.com",
-      "count": 23,
-      "uniques": 2
-    },
-    {
-      "referrer": "Google",
-      "count": 12,
+      "count": 42,
       "uniques": 6
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 12,
+      "count": 13,
       "uniques": 3
+    },
+    {
+      "referrer": "Google",
+      "count": 10,
+      "uniques": 5
     },
     {
       "referrer": "ondemandelearning.cisco.com",
@@ -379,28 +389,28 @@
     }
   ],
   "totals": {
-    "clones": 1579,
-    "uniqueClonerDays": 571,
+    "clones": 1661,
+    "uniqueClonerDays": 598,
     "peakDailyClones": 193,
     "peakDailyUniqueCloners": 113,
-    "views": 664,
-    "uniqueVisitorDays": 157,
+    "views": 749,
+    "uniqueVisitorDays": 171,
     "peakDailyViews": 93,
-    "peakDailyUniqueVisitors": 13,
-    "daysTracked": 28,
+    "peakDailyUniqueVisitors": 14,
+    "daysTracked": 29,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-23T00:00:00Z"
+    "lastDay": "2026-08-24T00:00:00Z"
   },
-  "lastUpdated": "2026-08-25T03:14:59.421Z",
+  "lastUpdated": "2026-08-26T03:28:06.858Z",
   "snapshot14d": {
-    "polled_at": "2026-08-25T03:14:59.421Z",
+    "polled_at": "2026-08-26T03:28:06.858Z",
     "views": {
-      "count": 379,
-      "uniques": 48
+      "count": 426,
+      "uniques": 50
     },
     "clones": {
-      "count": 927,
-      "uniques": 218
+      "count": 851,
+      "uniques": 126
     }
   }
 }

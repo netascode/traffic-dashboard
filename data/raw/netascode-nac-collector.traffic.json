@@ -130,6 +130,11 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 5,
       "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 25,
+      "uniques": 7
     }
   ],
   "views": [
@@ -262,38 +267,55 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 10,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 82,
+      "uniques": 11
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-collector",
       "title": "Overview",
-      "count": 153,
-      "uniques": 66
+      "count": 157,
+      "uniques": 62
     },
     {
       "path": "/netascode/nac-collector/pulls",
       "title": "/pulls",
-      "count": 32,
+      "count": 44,
       "uniques": 7
     },
     {
       "path": "/netascode/nac-collector/pull/294",
       "title": "/pull/294",
-      "count": 23,
+      "count": 33,
       "uniques": 4
     },
     {
       "path": "/netascode/nac-collector/pull/294/changes",
       "title": "/pull/294/changes",
-      "count": 23,
+      "count": 27,
       "uniques": 4
     },
     {
       "path": "/netascode/nac-collector/tree/main/nac_collector",
       "title": "/tree/main/nac_collector",
-      "count": 18,
+      "count": 21,
       "uniques": 10
+    },
+    {
+      "path": "/netascode/nac-collector/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
+      "title": "/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
+      "count": 17,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/nac-collector/pull/268",
+      "title": "/pull/268",
+      "count": 17,
+      "uniques": 2
     },
     {
       "path": "/netascode/nac-collector/issues",
@@ -310,37 +332,25 @@
     {
       "path": "/netascode/nac-collector/tree/main",
       "title": "/tree/main",
-      "count": 13,
-      "uniques": 5
-    },
-    {
-      "path": "/netascode/nac-collector/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
-      "title": "/blob/main/nac_collector/resources/endpoints/catalystcenter.yaml",
-      "count": 13,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-collector/pull/289",
-      "title": "/pull/289",
-      "count": 11,
-      "uniques": 2
+      "count": 14,
+      "uniques": 6
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 73,
-      "uniques": 21
+      "count": 77,
+      "uniques": 19
     },
     {
       "referrer": "Google",
-      "count": 60,
+      "count": 50,
       "uniques": 19
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 11,
-      "uniques": 5
+      "count": 10,
+      "uniques": 4
     },
     {
       "referrer": "wwwin-github.cisco.com",
@@ -359,28 +369,28 @@
     }
   ],
   "totals": {
-    "clones": 697,
-    "uniqueClonerDays": 225,
+    "clones": 722,
+    "uniqueClonerDays": 232,
     "peakDailyClones": 82,
     "peakDailyUniqueCloners": 17,
-    "views": 760,
-    "uniqueVisitorDays": 221,
+    "views": 842,
+    "uniqueVisitorDays": 232,
     "peakDailyViews": 124,
     "peakDailyUniqueVisitors": 16,
-    "daysTracked": 26,
+    "daysTracked": 27,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-23T00:00:00Z"
+    "lastDay": "2026-08-24T00:00:00Z"
   },
-  "lastUpdated": "2026-08-25T03:14:59.842Z",
+  "lastUpdated": "2026-08-26T03:28:07.364Z",
   "snapshot14d": {
-    "polled_at": "2026-08-25T03:14:59.842Z",
+    "polled_at": "2026-08-26T03:28:07.364Z",
     "views": {
-      "count": 477,
-      "uniques": 78
+      "count": 531,
+      "uniques": 72
     },
     "clones": {
-      "count": 298,
-      "uniques": 66
+      "count": 310,
+      "uniques": 68
     }
   }
 }

@@ -140,6 +140,11 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 24,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 41,
+      "uniques": 13
     }
   ],
   "views": [
@@ -282,13 +287,18 @@
       "timestamp": "2026-08-23T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-24T00:00:00Z",
+      "count": 10,
+      "uniques": 3
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-mso-nac-ndo",
       "title": "Overview",
-      "count": 24,
+      "count": 26,
       "uniques": 12
     },
     {
@@ -319,7 +329,7 @@
       "path": "/netascode/terraform-mso-nac-ndo/blob/main/ndo_schemas.tf",
       "title": "/blob/main/ndo_schemas.tf",
       "count": 4,
-      "uniques": 2
+      "uniques": 3
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/91/changes/08bb4359e112df2859ccbaf92dbda4d21b6cfaf3",
@@ -334,53 +344,53 @@
       "uniques": 1
     },
     {
-      "path": "/netascode/terraform-mso-nac-ndo/actions/runs/31800360698/job/94766652460",
-      "title": "/actions/runs/31800360698/job/94766652460",
-      "count": 2,
-      "uniques": 2
-    },
-    {
       "path": "/netascode/terraform-mso-nac-ndo/blob/main/main.tf",
       "title": "/blob/main/main.tf",
+      "count": 3,
+      "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-mso-nac-ndo/actions/runs/31800360698/job/94766652460",
+      "title": "/actions/runs/31800360698/job/94766652460",
       "count": 2,
       "uniques": 2
     }
   ],
   "referrers": [
     {
+      "referrer": "Google",
+      "count": 6,
+      "uniques": 2
+    },
+    {
       "referrer": "github.com",
       "count": 3,
       "uniques": 3
-    },
-    {
-      "referrer": "Google",
-      "count": 2,
-      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 1286,
-    "uniqueClonerDays": 247,
+    "clones": 1327,
+    "uniqueClonerDays": 260,
     "peakDailyClones": 156,
     "peakDailyUniqueCloners": 28,
-    "views": 237,
-    "uniqueVisitorDays": 71,
+    "views": 247,
+    "uniqueVisitorDays": 74,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 28,
+    "daysTracked": 29,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-23T00:00:00Z"
+    "lastDay": "2026-08-24T00:00:00Z"
   },
-  "lastUpdated": "2026-08-25T03:14:59.278Z",
+  "lastUpdated": "2026-08-26T03:28:06.673Z",
   "snapshot14d": {
-    "polled_at": "2026-08-25T03:14:59.278Z",
+    "polled_at": "2026-08-26T03:28:06.673Z",
     "views": {
-      "count": 129,
-      "uniques": 21
+      "count": 134,
+      "uniques": 20
     },
     "clones": {
-      "count": 503,
-      "uniques": 63
+      "count": 504,
+      "uniques": 42
     }
   }
 }
