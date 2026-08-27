@@ -145,6 +145,16 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 41,
       "uniques": 13
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 27,
+      "uniques": 5
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 63,
+      "uniques": 7
     }
   ],
   "views": [
@@ -292,31 +302,41 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 10,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 2,
+      "uniques": 2
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-mso-nac-ndo",
       "title": "Overview",
-      "count": 26,
+      "count": 24,
       "uniques": 12
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/74",
       "title": "/pull/74",
-      "count": 18,
+      "count": 15,
       "uniques": 2
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pulls",
       "title": "/pulls",
-      "count": 15,
+      "count": 12,
       "uniques": 3
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/74/changes",
       "title": "/pull/74/changes",
-      "count": 14,
+      "count": 12,
       "uniques": 2
     },
     {
@@ -324,12 +344,6 @@
       "title": "/pull/91",
       "count": 6,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/terraform-mso-nac-ndo/blob/main/ndo_schemas.tf",
-      "title": "/blob/main/ndo_schemas.tf",
-      "count": 4,
-      "uniques": 3
     },
     {
       "path": "/netascode/terraform-mso-nac-ndo/pull/91/changes/08bb4359e112df2859ccbaf92dbda4d21b6cfaf3",
@@ -350,6 +364,12 @@
       "uniques": 3
     },
     {
+      "path": "/netascode/terraform-mso-nac-ndo/blob/main/ndo_schemas.tf",
+      "title": "/blob/main/ndo_schemas.tf",
+      "count": 3,
+      "uniques": 3
+    },
+    {
       "path": "/netascode/terraform-mso-nac-ndo/actions/runs/31800360698/job/94766652460",
       "title": "/actions/runs/31800360698/job/94766652460",
       "count": 2,
@@ -359,38 +379,43 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 6,
-      "uniques": 2
+      "count": 7,
+      "uniques": 3
     },
     {
       "referrer": "github.com",
-      "count": 3,
-      "uniques": 3
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "referrer": "netascode.cisco.com",
+      "count": 1,
+      "uniques": 1
     }
   ],
   "totals": {
-    "clones": 1327,
-    "uniqueClonerDays": 260,
+    "clones": 1417,
+    "uniqueClonerDays": 272,
     "peakDailyClones": 156,
     "peakDailyUniqueCloners": 28,
-    "views": 247,
-    "uniqueVisitorDays": 74,
+    "views": 249,
+    "uniqueVisitorDays": 76,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 29,
+    "daysTracked": 31,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-24T00:00:00Z"
+    "lastDay": "2026-08-26T00:00:00Z"
   },
-  "lastUpdated": "2026-08-26T03:28:06.673Z",
+  "lastUpdated": "2026-08-27T12:52:58.041Z",
   "snapshot14d": {
-    "polled_at": "2026-08-26T03:28:06.673Z",
+    "polled_at": "2026-08-27T12:52:58.041Z",
     "views": {
-      "count": 134,
-      "uniques": 20
+      "count": 119,
+      "uniques": 18
     },
     "clones": {
-      "count": 504,
-      "uniques": 42
+      "count": 487,
+      "uniques": 43
     }
   }
 }

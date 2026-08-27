@@ -135,6 +135,16 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -272,32 +282,24 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-branch-example",
       "title": "Overview",
-      "count": 8,
-      "uniques": 8
-    },
-    {
-      "path": "/netascode/nac-branch-example/pulse",
-      "title": "/pulse",
-      "count": 3,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-branch-example/actions/metrics/performance",
-      "title": "/actions/metrics/performance",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-branch-example/actions/metrics/usage",
-      "title": "/actions/metrics/usage",
-      "count": 1,
-      "uniques": 1
+      "count": 4,
+      "uniques": 4
     },
     {
       "path": "/netascode/nac-branch-example/blob/main/.gitlab-ci.yml",
@@ -328,12 +330,6 @@
       "title": "/blob/main/schema.yaml",
       "count": 1,
       "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-branch-example/branches",
-      "title": "/branches",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "referrers": [
@@ -341,11 +337,6 @@
       "referrer": "Google",
       "count": 5,
       "uniques": 2
-    },
-    {
-      "referrer": "netascode.cisco.com",
-      "count": 1,
-      "uniques": 1
     }
   ],
   "totals": {
@@ -357,16 +348,16 @@
     "uniqueVisitorDays": 20,
     "peakDailyViews": 15,
     "peakDailyUniqueVisitors": 3,
-    "daysTracked": 27,
+    "daysTracked": 29,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-24T00:00:00Z"
+    "lastDay": "2026-08-26T00:00:00Z"
   },
-  "lastUpdated": "2026-08-26T03:28:08.582Z",
+  "lastUpdated": "2026-08-27T12:53:00.518Z",
   "snapshot14d": {
-    "polled_at": "2026-08-26T03:28:08.582Z",
+    "polled_at": "2026-08-27T12:53:00.518Z",
     "views": {
-      "count": 25,
-      "uniques": 10
+      "count": 9,
+      "uniques": 6
     },
     "clones": {
       "count": 4,

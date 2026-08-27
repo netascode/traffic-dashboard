@@ -145,6 +145,16 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 14,
       "uniques": 10
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 9,
+      "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 58,
+      "uniques": 21
     }
   ],
   "views": [
@@ -292,6 +302,16 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 45,
       "uniques": 3
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 6,
+      "uniques": 4
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 17,
+      "uniques": 5
     }
   ],
   "popularPaths": [
@@ -299,7 +319,7 @@
       "path": "/netascode/terraform-nxos-nac-nxos",
       "title": "Overview",
       "count": 60,
-      "uniques": 30
+      "uniques": 29
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/tree/main",
@@ -310,14 +330,8 @@
     {
       "path": "/netascode/terraform-nxos-nac-nxos/issues",
       "title": "/issues",
-      "count": 13,
-      "uniques": 5
-    },
-    {
-      "path": "/netascode/terraform-nxos-nac-nxos/issues/167",
-      "title": "/issues/167",
-      "count": 12,
-      "uniques": 8
+      "count": 15,
+      "uniques": 6
     },
     {
       "path": "/netascode/terraform-nxos-nac-nxos/tree/main/examples/system",
@@ -354,6 +368,12 @@
       "title": "/blob/main/examples/system/README.md",
       "count": 6,
       "uniques": 3
+    },
+    {
+      "path": "/netascode/terraform-nxos-nac-nxos/issues/167",
+      "title": "/issues/167",
+      "count": 6,
+      "uniques": 3
     }
   ],
   "referrers": [
@@ -364,7 +384,7 @@
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 25,
+      "count": 27,
       "uniques": 9
     },
     {
@@ -374,28 +394,28 @@
     }
   ],
   "totals": {
-    "clones": 747,
-    "uniqueClonerDays": 275,
+    "clones": 814,
+    "uniqueClonerDays": 302,
     "peakDailyClones": 105,
     "peakDailyUniqueCloners": 27,
-    "views": 438,
-    "uniqueVisitorDays": 121,
+    "views": 461,
+    "uniqueVisitorDays": 130,
     "peakDailyViews": 55,
     "peakDailyUniqueVisitors": 12,
-    "daysTracked": 29,
+    "daysTracked": 31,
     "firstDay": "2026-07-27T00:00:00Z",
-    "lastDay": "2026-08-24T00:00:00Z"
+    "lastDay": "2026-08-26T00:00:00Z"
   },
-  "lastUpdated": "2026-08-26T03:28:06.486Z",
+  "lastUpdated": "2026-08-27T12:52:57.835Z",
   "snapshot14d": {
-    "polled_at": "2026-08-26T03:28:06.486Z",
+    "polled_at": "2026-08-27T12:52:57.835Z",
     "views": {
-      "count": 227,
-      "uniques": 40
+      "count": 228,
+      "uniques": 36
     },
     "clones": {
-      "count": 259,
-      "uniques": 66
+      "count": 288,
+      "uniques": 76
     }
   }
 }

@@ -135,6 +135,16 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 115,
       "uniques": 34
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 90,
+      "uniques": 15
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 130,
+      "uniques": 21
     }
   ],
   "views": [
@@ -272,120 +282,125 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 27,
       "uniques": 6
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 85,
+      "uniques": 7
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 45,
+      "uniques": 8
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-test",
       "title": "Overview",
-      "count": 75,
+      "count": 69,
       "uniques": 44
     },
     {
       "path": "/netascode/nac-test/pull/896",
       "title": "/pull/896",
-      "count": 39,
-      "uniques": 3
+      "count": 49,
+      "uniques": 7
     },
     {
       "path": "/netascode/nac-test/pulls",
       "title": "/pulls",
-      "count": 20,
-      "uniques": 5
+      "count": 41,
+      "uniques": 6
     },
     {
       "path": "/netascode/nac-test/pull/896/changes",
       "title": "/pull/896/changes",
-      "count": 13,
+      "count": 15,
       "uniques": 1
     },
     {
       "path": "/netascode/nac-test/tree/main/tests",
       "title": "/tree/main/tests",
-      "count": 11,
+      "count": 12,
       "uniques": 6
     },
     {
       "path": "/netascode/nac-test/tree/main/nac_test",
       "title": "/tree/main/nac_test",
-      "count": 9,
-      "uniques": 6
+      "count": 10,
+      "uniques": 8
     },
     {
-      "path": "/netascode/nac-test/tags",
-      "title": "/tags",
-      "count": 7,
+      "path": "/netascode/nac-test/pull/902",
+      "title": "/pull/902",
+      "count": 8,
       "uniques": 2
     },
     {
-      "path": "/netascode/nac-test/actions/runs/32273863333/job/96136477238",
-      "title": "/actions/runs/32273863333/job/96136477238",
-      "count": 5,
-      "uniques": 1
+      "path": "/netascode/nac-test/issues",
+      "title": "/issues",
+      "count": 6,
+      "uniques": 2
     },
     {
-      "path": "/netascode/nac-test/blob/main/README.md",
-      "title": "/blob/main/README.md",
-      "count": 4,
-      "uniques": 3
+      "path": "/netascode/nac-test/pull/894",
+      "title": "/pull/894",
+      "count": 6,
+      "uniques": 2
     },
     {
-      "path": "/netascode/nac-test/issues/856",
-      "title": "/issues/856",
-      "count": 4,
-      "uniques": 3
+      "path": "/netascode/nac-test/pull/899",
+      "title": "/pull/899",
+      "count": 6,
+      "uniques": 2
     }
   ],
   "referrers": [
     {
       "referrer": "github.com",
-      "count": 65,
-      "uniques": 18
+      "count": 83,
+      "uniques": 21
     },
     {
       "referrer": "Google",
-      "count": 25,
-      "uniques": 11
+      "count": 27,
+      "uniques": 9
     },
     {
       "referrer": "pypi.org",
-      "count": 15,
-      "uniques": 2
-    },
-    {
-      "referrer": "DuckDuckGo",
-      "count": 4,
+      "count": 9,
       "uniques": 1
     },
     {
       "referrer": "netascode.cisco.com",
-      "count": 3,
-      "uniques": 3
+      "count": 2,
+      "uniques": 2
     }
   ],
   "totals": {
-    "clones": 1572,
-    "uniqueClonerDays": 404,
+    "clones": 1792,
+    "uniqueClonerDays": 440,
     "peakDailyClones": 369,
     "peakDailyUniqueCloners": 130,
-    "views": 460,
-    "uniqueVisitorDays": 149,
-    "peakDailyViews": 59,
+    "views": 590,
+    "uniqueVisitorDays": 164,
+    "peakDailyViews": 85,
     "peakDailyUniqueVisitors": 13,
-    "daysTracked": 27,
+    "daysTracked": 29,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-24T00:00:00Z"
+    "lastDay": "2026-08-26T00:00:00Z"
   },
-  "lastUpdated": "2026-08-26T03:28:07.861Z",
+  "lastUpdated": "2026-08-27T12:52:59.552Z",
   "snapshot14d": {
-    "polled_at": "2026-08-26T03:28:07.860Z",
+    "polled_at": "2026-08-27T12:52:59.552Z",
     "views": {
-      "count": 303,
-      "uniques": 58
+      "count": 402,
+      "uniques": 60
     },
     "clones": {
-      "count": 1069,
-      "uniques": 263
+      "count": 1242,
+      "uniques": 279
     }
   }
 }

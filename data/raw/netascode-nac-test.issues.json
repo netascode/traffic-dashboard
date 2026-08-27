@@ -9169,13 +9169,93 @@
       "created_at": "2026-08-25T23:14:14Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 920,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-26T16:45:50Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 921,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-26T16:46:15Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 922,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-26T16:46:40Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 923,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-26T16:47:01Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 924,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-26T16:47:24Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 925,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-26T16:47:40Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 926,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-26T16:47:56Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 927,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-08-26T16:48:15Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 81,
-    "external_new_30d": 15,
+    "external_open": 89,
+    "external_new_30d": 23,
     "external_closed_30d": 1,
     "external_authors_all_time": 9
   },
-  "lastPolledAt": "2026-08-26T03:28:21.423Z"
+  "lastPolledAt": "2026-08-27T12:53:13.434Z"
 }

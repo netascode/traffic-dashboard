@@ -135,6 +135,16 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 0,
       "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "views": [
@@ -272,48 +282,46 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 5,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/nac-meraki-example",
       "title": "Overview",
-      "count": 10,
-      "uniques": 9
-    },
-    {
-      "path": "/netascode/nac-meraki-example/blob/main/schema.yaml",
-      "title": "/blob/main/schema.yaml",
       "count": 4,
       "uniques": 3
     },
     {
-      "path": "/netascode/nac-meraki-example/tree/main/tests/templates",
-      "title": "/tree/main/tests/templates",
-      "count": 2,
+      "path": "/netascode/nac-meraki-example/blob/main/schema.yaml",
+      "title": "/blob/main/schema.yaml",
+      "count": 3,
       "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-meraki-example/tree/main/tests/templates/config",
-      "title": "/tree/main/tests/templates/config",
-      "count": 2,
-      "uniques": 2
-    },
-    {
-      "path": "/netascode/nac-meraki-example/blob/main/.gitlab-ci.yml",
-      "title": "/blob/main/.gitlab-ci.yml",
-      "count": 1,
-      "uniques": 1
-    },
-    {
-      "path": "/netascode/nac-meraki-example/blob/main/main.tf",
-      "title": "/blob/main/main.tf",
-      "count": 1,
-      "uniques": 1
     },
     {
       "path": "/netascode/nac-meraki-example/tree/main",
       "title": "/tree/main",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-meraki-example/tree/main/tests/templates",
+      "title": "/tree/main/tests/templates",
+      "count": 1,
+      "uniques": 1
+    },
+    {
+      "path": "/netascode/nac-meraki-example/tree/main/tests/templates/config",
+      "title": "/tree/main/tests/templates/config",
       "count": 1,
       "uniques": 1
     }
@@ -321,18 +329,13 @@
   "referrers": [
     {
       "referrer": "Google",
-      "count": 9,
-      "uniques": 2
+      "count": 5,
+      "uniques": 1
     },
     {
       "referrer": "github.com",
-      "count": 4,
-      "uniques": 2
-    },
-    {
-      "referrer": "netascode.cisco.com",
-      "count": 2,
-      "uniques": 2
+      "count": 1,
+      "uniques": 1
     }
   ],
   "totals": {
@@ -344,20 +347,20 @@
     "uniqueVisitorDays": 38,
     "peakDailyViews": 45,
     "peakDailyUniqueVisitors": 7,
-    "daysTracked": 27,
+    "daysTracked": 29,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-24T00:00:00Z"
+    "lastDay": "2026-08-26T00:00:00Z"
   },
-  "lastUpdated": "2026-08-26T03:28:08.406Z",
+  "lastUpdated": "2026-08-27T12:53:00.306Z",
   "snapshot14d": {
-    "polled_at": "2026-08-26T03:28:08.406Z",
+    "polled_at": "2026-08-27T12:53:00.306Z",
     "views": {
-      "count": 21,
-      "uniques": 9
+      "count": 10,
+      "uniques": 3
     },
     "clones": {
-      "count": 5,
-      "uniques": 4
+      "count": 3,
+      "uniques": 2
     }
   }
 }

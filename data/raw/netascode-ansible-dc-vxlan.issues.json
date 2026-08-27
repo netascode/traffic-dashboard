@@ -7193,11 +7193,11 @@
     {
       "number": 720,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "marehler",
       "is_org_member": false,
       "created_at": "2026-02-18T09:09:32Z",
-      "closed_at": null,
+      "closed_at": "2026-08-26T16:29:03Z",
       "merged_at": null
     },
     {
@@ -7743,12 +7743,12 @@
     {
       "number": 775,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "marehler",
       "is_org_member": false,
       "created_at": "2026-04-17T07:39:34Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-26T16:29:01Z",
+      "merged_at": "2026-08-26T16:29:01Z"
     },
     {
       "number": 776,
@@ -8683,22 +8683,22 @@
     {
       "number": 869,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "ccoueffe",
       "is_org_member": false,
       "created_at": "2026-08-12T09:12:45Z",
-      "closed_at": null,
+      "closed_at": "2026-08-26T17:24:35Z",
       "merged_at": null
     },
     {
       "number": 870,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ccoueffe",
       "is_org_member": false,
       "created_at": "2026-08-12T09:22:18Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-26T17:24:34Z",
+      "merged_at": "2026-08-26T17:24:34Z"
     },
     {
       "number": 871,
@@ -8723,22 +8723,22 @@
     {
       "number": 873,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "juarocha",
       "is_org_member": false,
       "created_at": "2026-08-18T00:23:03Z",
-      "closed_at": null,
+      "closed_at": "2026-08-26T17:24:14Z",
       "merged_at": null
     },
     {
       "number": 874,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "juarocha",
       "is_org_member": false,
       "created_at": "2026-08-18T00:38:44Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-08-26T17:24:13Z",
+      "merged_at": "2026-08-26T17:24:13Z"
     },
     {
       "number": 875,
@@ -8759,13 +8759,53 @@
       "created_at": "2026-08-19T16:05:23Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 877,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "juburnet",
+      "is_org_member": false,
+      "created_at": "2026-08-26T19:28:15Z",
+      "closed_at": "2026-08-26T19:46:27Z",
+      "merged_at": null
+    },
+    {
+      "number": 878,
+      "type": "pr",
+      "state": "open",
+      "author_login": "juburnet",
+      "is_org_member": false,
+      "created_at": "2026-08-26T19:40:32Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 879,
+      "type": "pr",
+      "state": "open",
+      "author_login": "juburnet",
+      "is_org_member": false,
+      "created_at": "2026-08-27T02:11:34Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 880,
+      "type": "pr",
+      "state": "open",
+      "author_login": "juburnet",
+      "is_org_member": false,
+      "created_at": "2026-08-27T02:24:45Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
-    "external_open": 60,
+    "external_open": 57,
     "external_new_30d": 13,
-    "external_closed_30d": 11,
+    "external_closed_30d": 14,
     "external_authors_all_time": 30
   },
-  "lastPolledAt": "2026-08-26T03:28:20.158Z"
+  "lastPolledAt": "2026-08-27T12:53:12.429Z"
 }

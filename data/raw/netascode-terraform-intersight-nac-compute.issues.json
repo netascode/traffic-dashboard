@@ -579,6 +579,16 @@
       "created_at": "2026-08-25T07:20:22Z",
       "closed_at": "2026-08-25T07:25:13Z",
       "merged_at": "2026-08-25T07:25:13Z"
+    },
+    {
+      "number": 59,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "moskrive",
+      "is_org_member": false,
+      "created_at": "2026-08-27T07:14:05Z",
+      "closed_at": "2026-08-27T07:22:22Z",
+      "merged_at": "2026-08-27T07:22:22Z"
     }
   ],
   "totals": {
@@ -587,5 +597,5 @@
     "external_closed_30d": 0,
     "external_authors_all_time": 0
   },
-  "lastPolledAt": "2026-08-26T03:28:19.079Z"
+  "lastPolledAt": "2026-08-27T12:53:10.246Z"
 }

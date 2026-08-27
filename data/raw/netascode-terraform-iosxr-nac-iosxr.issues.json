@@ -2119,6 +2119,16 @@
       "created_at": "2026-08-24T16:43:10Z",
       "closed_at": "2026-08-25T15:51:51Z",
       "merged_at": "2026-08-25T15:51:51Z"
+    },
+    {
+      "number": 213,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "rwcrowe",
+      "is_org_member": false,
+      "created_at": "2026-08-26T17:28:23Z",
+      "closed_at": "2026-08-26T17:32:05Z",
+      "merged_at": "2026-08-26T17:32:05Z"
     }
   ],
   "totals": {
@@ -2127,5 +2137,5 @@
     "external_closed_30d": 1,
     "external_authors_all_time": 5
   },
-  "lastPolledAt": "2026-08-26T03:28:20.444Z"
+  "lastPolledAt": "2026-08-27T12:53:13.144Z"
 }

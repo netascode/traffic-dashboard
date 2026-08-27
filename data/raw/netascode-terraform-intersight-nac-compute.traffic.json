@@ -135,6 +135,16 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 90,
       "uniques": 34
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 49,
+      "uniques": 23
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 22,
+      "uniques": 9
     }
   ],
   "views": [
@@ -272,20 +282,30 @@
       "timestamp": "2026-08-24T00:00:00Z",
       "count": 39,
       "uniques": 1
+    },
+    {
+      "timestamp": "2026-08-25T00:00:00Z",
+      "count": 16,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2026-08-26T00:00:00Z",
+      "count": 4,
+      "uniques": 1
     }
   ],
   "popularPaths": [
     {
       "path": "/netascode/terraform-intersight-nac-compute",
       "title": "Overview",
-      "count": 53,
-      "uniques": 8
+      "count": 56,
+      "uniques": 7
     },
     {
       "path": "/netascode/terraform-intersight-nac-compute/pulls",
       "title": "/pulls",
-      "count": 21,
-      "uniques": 3
+      "count": 17,
+      "uniques": 2
     },
     {
       "path": "/netascode/terraform-intersight-nac-compute/pull/34",
@@ -294,15 +314,9 @@
       "uniques": 1
     },
     {
-      "path": "/netascode/terraform-intersight-nac-compute/pull/31",
-      "title": "/pull/31",
-      "count": 6,
-      "uniques": 3
-    },
-    {
       "path": "/netascode/terraform-intersight-nac-compute/branches",
       "title": "/branches",
-      "count": 5,
+      "count": 6,
       "uniques": 2
     },
     {
@@ -314,6 +328,12 @@
     {
       "path": "/netascode/terraform-intersight-nac-compute/compare",
       "title": "/compare",
+      "count": 4,
+      "uniques": 2
+    },
+    {
+      "path": "/netascode/terraform-intersight-nac-compute/pull/31",
+      "title": "/pull/31",
       "count": 4,
       "uniques": 2
     },
@@ -344,28 +364,28 @@
     }
   ],
   "totals": {
-    "clones": 585,
-    "uniqueClonerDays": 223,
+    "clones": 656,
+    "uniqueClonerDays": 255,
     "peakDailyClones": 104,
     "peakDailyUniqueCloners": 34,
-    "views": 475,
-    "uniqueVisitorDays": 26,
+    "views": 495,
+    "uniqueVisitorDays": 29,
     "peakDailyViews": 119,
     "peakDailyUniqueVisitors": 4,
-    "daysTracked": 27,
+    "daysTracked": 29,
     "firstDay": "2026-07-29T00:00:00Z",
-    "lastDay": "2026-08-24T00:00:00Z"
+    "lastDay": "2026-08-26T00:00:00Z"
   },
-  "lastUpdated": "2026-08-26T03:28:07.204Z",
+  "lastUpdated": "2026-08-27T12:52:58.666Z",
   "snapshot14d": {
-    "polled_at": "2026-08-26T03:28:07.204Z",
+    "polled_at": "2026-08-27T12:52:58.666Z",
     "views": {
-      "count": 278,
-      "uniques": 8
+      "count": 279,
+      "uniques": 7
     },
     "clones": {
-      "count": 420,
-      "uniques": 121
+      "count": 488,
+      "uniques": 138
     }
   }
 }
