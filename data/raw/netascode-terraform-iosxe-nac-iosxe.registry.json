@@ -273,12 +273,19 @@
       "year": 4433,
       "total": 4433,
       "polled_at": "2026-09-02T07:10:10.031Z"
+    },
+    {
+      "week": 269,
+      "month": 361,
+      "year": 4365,
+      "total": 4365,
+      "polled_at": "2026-09-03T07:14:42.750Z"
     }
   ],
   "totals": {
-    "current_total": 4433,
-    "week_delta_avg": 60,
-    "month_delta_avg": 121
+    "current_total": 4365,
+    "week_delta_avg": 65,
+    "month_delta_avg": 127
   },
-  "lastUpdated": "2026-09-02T07:10:10.032Z"
+  "lastUpdated": "2026-09-03T07:14:42.751Z"
 }
