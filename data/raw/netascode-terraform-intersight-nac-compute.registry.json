@@ -84,12 +84,19 @@
       "year": 5,
       "total": 5,
       "polled_at": "2026-09-07T07:24:22.834Z"
+    },
+    {
+      "week": 0,
+      "month": 0,
+      "year": 3,
+      "total": 3,
+      "polled_at": "2026-09-09T07:26:53.640Z"
     }
   ],
   "totals": {
-    "current_total": 5,
+    "current_total": 3,
     "week_delta_avg": 1,
     "month_delta_avg": 2
   },
-  "lastUpdated": "2026-09-07T07:24:22.834Z"
+  "lastUpdated": "2026-09-09T07:26:53.641Z"
 }
