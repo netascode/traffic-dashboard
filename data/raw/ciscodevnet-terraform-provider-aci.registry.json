@@ -469,12 +469,19 @@
       "year": null,
       "total": 10000006,
       "polled_at": "2026-09-29T08:40:44.826Z"
+    },
+    {
+      "week": null,
+      "month": null,
+      "year": null,
+      "total": 10005553,
+      "polled_at": "2026-09-30T08:41:30.818Z"
     }
   ],
   "totals": {
-    "current_total": 10000006,
+    "current_total": 10005553,
     "week_delta_avg": 0,
     "month_delta_avg": 0
   },
-  "lastUpdated": "2026-09-29T08:40:44.826Z"
+  "lastUpdated": "2026-09-30T08:41:30.819Z"
 }
