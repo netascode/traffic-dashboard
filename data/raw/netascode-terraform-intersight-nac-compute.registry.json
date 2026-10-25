@@ -210,12 +210,19 @@
       "year": 10,
       "total": 10,
       "polled_at": "2026-10-09T09:14:25.887Z"
+    },
+    {
+      "week": 3,
+      "month": 3,
+      "year": 13,
+      "total": 13,
+      "polled_at": "2026-10-25T07:40:09.294Z"
     }
   ],
   "totals": {
-    "current_total": 10,
+    "current_total": 13,
     "week_delta_avg": 1,
     "month_delta_avg": 3
   },
-  "lastUpdated": "2026-10-09T09:14:25.887Z"
+  "lastUpdated": "2026-10-25T07:40:09.294Z"
 }
