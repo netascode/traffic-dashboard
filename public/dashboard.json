@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T08:00:04.095Z",
+  "generatedAt": "2026-10-28T08:42:38.048Z",
   "repos": [
     {
       "repo": "netascode/nac-branch",
@@ -20222,14 +20222,21 @@
             "year": 72640,
             "total": 153917,
             "polled_at": "2026-10-27T08:00:01.624Z"
+          },
+          {
+            "week": 2008,
+            "month": 7484,
+            "year": 73107,
+            "total": 154384,
+            "polled_at": "2026-10-28T08:42:35.656Z"
           }
         ],
         "totals": {
-          "current_total": 153917,
-          "week_delta_avg": 1325,
-          "month_delta_avg": 2829
+          "current_total": 154384,
+          "week_delta_avg": 1323,
+          "month_delta_avg": 2840
         },
-        "lastUpdated": "2026-10-27T08:00:01.624Z"
+        "lastUpdated": "2026-10-28T08:42:35.656Z"
       },
       {
         "repo": "netascode/terraform-fmc-nac-fmc",
@@ -20808,14 +20815,21 @@
             "year": 4424,
             "total": 6261,
             "polled_at": "2026-10-27T08:00:01.631Z"
+          },
+          {
+            "week": 140,
+            "month": 401,
+            "year": 4496,
+            "total": 6333,
+            "polled_at": "2026-10-28T08:42:35.742Z"
           }
         ],
         "totals": {
-          "current_total": 6261,
-          "week_delta_avg": 105,
-          "month_delta_avg": 231
+          "current_total": 6333,
+          "week_delta_avg": 104,
+          "month_delta_avg": 229
         },
-        "lastUpdated": "2026-10-27T08:00:01.631Z"
+        "lastUpdated": "2026-10-28T08:42:35.742Z"
       },
       {
         "repo": "netascode/terraform-meraki-nac-meraki",
@@ -21429,14 +21443,21 @@
             "year": 10600,
             "total": 11641,
             "polled_at": "2026-10-27T08:00:01.636Z"
+          },
+          {
+            "week": 965,
+            "month": 2591,
+            "year": 10967,
+            "total": 12008,
+            "polled_at": "2026-10-28T08:42:35.828Z"
           }
         ],
         "totals": {
-          "current_total": 11641,
-          "week_delta_avg": 529,
-          "month_delta_avg": 1149
+          "current_total": 12008,
+          "week_delta_avg": 539,
+          "month_delta_avg": 1175
         },
-        "lastUpdated": "2026-10-27T08:00:01.637Z"
+        "lastUpdated": "2026-10-28T08:42:35.828Z"
       },
       {
         "repo": "netascode/terraform-iosxe-nac-iosxe",
@@ -22057,14 +22078,21 @@
             "year": 6490,
             "total": 6490,
             "polled_at": "2026-10-27T08:00:01.642Z"
+          },
+          {
+            "week": 284,
+            "month": 1007,
+            "year": 6659,
+            "total": 6659,
+            "polled_at": "2026-10-28T08:42:35.915Z"
           }
         ],
         "totals": {
-          "current_total": 6490,
-          "week_delta_avg": 169,
-          "month_delta_avg": 382
+          "current_total": 6659,
+          "week_delta_avg": 170,
+          "month_delta_avg": 389
         },
-        "lastUpdated": "2026-10-27T08:00:01.642Z"
+        "lastUpdated": "2026-10-28T08:42:35.916Z"
       },
       {
         "repo": "netascode/terraform-catalystcenter-nac-catalystcenter",
@@ -22699,14 +22727,21 @@
             "year": 11638,
             "total": 17298,
             "polled_at": "2026-10-27T08:00:01.647Z"
+          },
+          {
+            "week": 194,
+            "month": 902,
+            "year": 11678,
+            "total": 17338,
+            "polled_at": "2026-10-28T08:42:36.003Z"
           }
         ],
         "totals": {
-          "current_total": 17298,
-          "week_delta_avg": 176,
-          "month_delta_avg": 489
+          "current_total": 17338,
+          "week_delta_avg": 174,
+          "month_delta_avg": 475
         },
-        "lastUpdated": "2026-10-27T08:00:01.647Z"
+        "lastUpdated": "2026-10-28T08:42:36.004Z"
       },
       {
         "repo": "netascode/terraform-nxos-nac-nxos",
@@ -23208,14 +23243,21 @@
             "year": 1790,
             "total": 1790,
             "polled_at": "2026-10-27T08:00:01.652Z"
+          },
+          {
+            "week": 82,
+            "month": 265,
+            "year": 1807,
+            "total": 1807,
+            "polled_at": "2026-10-28T08:42:36.090Z"
           }
         ],
         "totals": {
-          "current_total": 1790,
-          "week_delta_avg": 66,
-          "month_delta_avg": 159
+          "current_total": 1807,
+          "week_delta_avg": 67,
+          "month_delta_avg": 160
         },
-        "lastUpdated": "2026-10-27T08:00:01.652Z"
+        "lastUpdated": "2026-10-28T08:42:36.090Z"
       },
       {
         "repo": "netascode/terraform-mso-nac-ndo",
@@ -23689,14 +23731,21 @@
             "year": 6959,
             "total": 12367,
             "polled_at": "2026-10-27T08:00:01.657Z"
+          },
+          {
+            "week": 151,
+            "month": 856,
+            "year": 7022,
+            "total": 12430,
+            "polled_at": "2026-10-28T08:42:36.177Z"
           }
         ],
         "totals": {
-          "current_total": 12367,
+          "current_total": 12430,
           "week_delta_avg": 184,
-          "month_delta_avg": 429
+          "month_delta_avg": 435
         },
-        "lastUpdated": "2026-10-27T08:00:01.657Z"
+        "lastUpdated": "2026-10-28T08:42:36.177Z"
       },
       {
         "repo": "netascode/terraform-sdwan-nac-sdwan",
@@ -24170,14 +24219,21 @@
             "year": 13009,
             "total": 27025,
             "polled_at": "2026-10-27T08:00:01.662Z"
+          },
+          {
+            "week": 531,
+            "month": 1974,
+            "year": 13163,
+            "total": 27179,
+            "polled_at": "2026-10-28T08:42:36.265Z"
           }
         ],
         "totals": {
-          "current_total": 27025,
-          "week_delta_avg": 348,
-          "month_delta_avg": 753
+          "current_total": 27179,
+          "week_delta_avg": 351,
+          "month_delta_avg": 771
         },
-        "lastUpdated": "2026-10-27T08:00:01.662Z"
+        "lastUpdated": "2026-10-28T08:42:36.266Z"
       },
       {
         "repo": "netascode/terraform-ise-nac-ise",
@@ -24665,14 +24721,21 @@
             "year": 5473,
             "total": 10095,
             "polled_at": "2026-10-27T08:00:01.667Z"
+          },
+          {
+            "week": 165,
+            "month": 446,
+            "year": 5509,
+            "total": 10131,
+            "polled_at": "2026-10-28T08:42:36.354Z"
           }
         ],
         "totals": {
-          "current_total": 10095,
+          "current_total": 10131,
           "week_delta_avg": 139,
-          "month_delta_avg": 367
+          "month_delta_avg": 368
         },
-        "lastUpdated": "2026-10-27T08:00:01.667Z"
+        "lastUpdated": "2026-10-28T08:42:36.355Z"
       },
       {
         "repo": "netascode/terraform-intersight-nac-compute",
@@ -25333,14 +25396,21 @@
             "year": 724,
             "total": 724,
             "polled_at": "2026-10-27T08:00:01.678Z"
+          },
+          {
+            "week": 84,
+            "month": 125,
+            "year": 760,
+            "total": 760,
+            "polled_at": "2026-10-28T08:42:36.528Z"
           }
         ],
         "totals": {
-          "current_total": 724,
-          "week_delta_avg": 22,
-          "month_delta_avg": 49
+          "current_total": 760,
+          "week_delta_avg": 24,
+          "month_delta_avg": 51
         },
-        "lastUpdated": "2026-10-27T08:00:01.678Z"
+        "lastUpdated": "2026-10-28T08:42:36.528Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-aci",
@@ -26016,14 +26086,21 @@
             "year": null,
             "total": 10225896,
             "polled_at": "2026-10-27T08:00:02.118Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 10228541,
+            "polled_at": "2026-10-28T08:42:36.652Z"
           }
         ],
         "totals": {
-          "current_total": 10225896,
+          "current_total": 10228541,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:02.119Z"
+        "lastUpdated": "2026-10-28T08:42:36.652Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-fmc",
@@ -26699,14 +26776,21 @@
             "year": null,
             "total": 201115,
             "polled_at": "2026-10-27T08:00:02.380Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 201314,
+            "polled_at": "2026-10-28T08:42:36.782Z"
           }
         ],
         "totals": {
-          "current_total": 201115,
+          "current_total": 201314,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:02.380Z"
+        "lastUpdated": "2026-10-28T08:42:36.782Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-meraki",
@@ -27382,14 +27466,21 @@
             "year": null,
             "total": 934301,
             "polled_at": "2026-10-27T08:00:02.904Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 936155,
+            "polled_at": "2026-10-28T08:42:36.922Z"
           }
         ],
         "totals": {
-          "current_total": 934301,
+          "current_total": 936155,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:02.904Z"
+        "lastUpdated": "2026-10-28T08:42:36.922Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-iosxe",
@@ -28065,14 +28156,21 @@
             "year": null,
             "total": 1276304,
             "polled_at": "2026-10-27T08:00:02.934Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 1276698,
+            "polled_at": "2026-10-28T08:42:37.027Z"
           }
         ],
         "totals": {
-          "current_total": 1276304,
+          "current_total": 1276698,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:02.935Z"
+        "lastUpdated": "2026-10-28T08:42:37.027Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-catalystcenter",
@@ -28748,14 +28846,21 @@
             "year": null,
             "total": 190467,
             "polled_at": "2026-10-27T08:00:02.976Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 190659,
+            "polled_at": "2026-10-28T08:42:37.136Z"
           }
         ],
         "totals": {
-          "current_total": 190467,
+          "current_total": 190659,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:02.976Z"
+        "lastUpdated": "2026-10-28T08:42:37.136Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-nxos",
@@ -29333,14 +29438,21 @@
             "year": null,
             "total": 152731,
             "polled_at": "2026-10-27T08:00:03.059Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 152811,
+            "polled_at": "2026-10-28T08:42:37.243Z"
           }
         ],
         "totals": {
-          "current_total": 152731,
+          "current_total": 152811,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:03.060Z"
+        "lastUpdated": "2026-10-28T08:42:37.243Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-mso",
@@ -29918,14 +30030,21 @@
             "year": null,
             "total": 2939086,
             "polled_at": "2026-10-27T08:00:03.467Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 2939211,
+            "polled_at": "2026-10-28T08:42:37.346Z"
           }
         ],
         "totals": {
-          "current_total": 2939086,
+          "current_total": 2939211,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:03.468Z"
+        "lastUpdated": "2026-10-28T08:42:37.346Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-sdwan",
@@ -30503,14 +30622,21 @@
             "year": null,
             "total": 193555,
             "polled_at": "2026-10-27T08:00:03.544Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 193894,
+            "polled_at": "2026-10-28T08:42:37.458Z"
           }
         ],
         "totals": {
-          "current_total": 193555,
+          "current_total": 193894,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:03.544Z"
+        "lastUpdated": "2026-10-28T08:42:37.458Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-ise",
@@ -31088,14 +31214,21 @@
             "year": null,
             "total": 1553116,
             "polled_at": "2026-10-27T08:00:03.601Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 1553239,
+            "polled_at": "2026-10-28T08:42:37.567Z"
           }
         ],
         "totals": {
-          "current_total": 1553116,
+          "current_total": 1553239,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:03.601Z"
+        "lastUpdated": "2026-10-28T08:42:37.567Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-iosxr",
@@ -31645,14 +31778,21 @@
             "year": null,
             "total": 38659,
             "polled_at": "2026-10-27T08:00:03.843Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 38684,
+            "polled_at": "2026-10-28T08:42:37.690Z"
           }
         ],
         "totals": {
-          "current_total": 38659,
+          "current_total": 38684,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:03.843Z"
+        "lastUpdated": "2026-10-28T08:42:37.690Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-intersight",
@@ -32202,14 +32342,21 @@
             "year": null,
             "total": 2765095,
             "polled_at": "2026-10-27T08:00:04.015Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 2765254,
+            "polled_at": "2026-10-28T08:42:37.965Z"
           }
         ],
         "totals": {
-          "current_total": 2765095,
+          "current_total": 2765254,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-10-27T08:00:04.015Z"
+        "lastUpdated": "2026-10-28T08:42:37.965Z"
       }
     ]
   }
