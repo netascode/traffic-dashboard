@@ -672,12 +672,19 @@
       "year": null,
       "total": 201314,
       "polled_at": "2026-10-28T08:42:36.782Z"
+    },
+    {
+      "week": null,
+      "month": null,
+      "year": null,
+      "total": 201552,
+      "polled_at": "2026-10-29T08:38:33.255Z"
     }
   ],
   "totals": {
-    "current_total": 201314,
+    "current_total": 201552,
     "week_delta_avg": 0,
     "month_delta_avg": 0
   },
-  "lastUpdated": "2026-10-28T08:42:36.782Z"
+  "lastUpdated": "2026-10-29T08:38:33.255Z"
 }
