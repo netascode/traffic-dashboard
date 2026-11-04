@@ -259,12 +259,19 @@
       "year": 13,
       "total": 13,
       "polled_at": "2026-11-03T09:41:30.530Z"
+    },
+    {
+      "week": 1,
+      "month": 1,
+      "year": 15,
+      "total": 15,
+      "polled_at": "2026-11-04T09:27:45.144Z"
     }
   ],
   "totals": {
-    "current_total": 13,
+    "current_total": 15,
     "week_delta_avg": 1,
     "month_delta_avg": 3
   },
-  "lastUpdated": "2026-11-03T09:41:30.531Z"
+  "lastUpdated": "2026-11-04T09:27:45.144Z"
 }
