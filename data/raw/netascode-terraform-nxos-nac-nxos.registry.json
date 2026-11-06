@@ -546,12 +546,19 @@
       "year": 1991,
       "total": 1991,
       "polled_at": "2026-11-05T09:37:37.897Z"
+    },
+    {
+      "week": 151,
+      "month": 151,
+      "year": 1999,
+      "total": 1999,
+      "polled_at": "2026-11-06T09:30:15.065Z"
     }
   ],
   "totals": {
-    "current_total": 1991,
-    "week_delta_avg": 67,
+    "current_total": 1999,
+    "week_delta_avg": 68,
     "month_delta_avg": 162
   },
-  "lastUpdated": "2026-11-05T09:37:37.897Z"
+  "lastUpdated": "2026-11-06T09:30:15.066Z"
 }
