@@ -588,12 +588,19 @@
       "year": 2023,
       "total": 2023,
       "polled_at": "2026-11-12T09:56:25.773Z"
+    },
+    {
+      "week": 171,
+      "month": 171,
+      "year": 2019,
+      "total": 2019,
+      "polled_at": "2026-11-13T09:42:45.553Z"
     }
   ],
   "totals": {
-    "current_total": 2023,
-    "week_delta_avg": 71,
+    "current_total": 2019,
+    "week_delta_avg": 72,
     "month_delta_avg": 164
   },
-  "lastUpdated": "2026-11-12T09:56:25.773Z"
+  "lastUpdated": "2026-11-13T09:42:45.553Z"
 }
