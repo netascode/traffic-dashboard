@@ -595,12 +595,19 @@
       "year": 2019,
       "total": 2019,
       "polled_at": "2026-11-13T09:42:45.553Z"
+    },
+    {
+      "week": 53,
+      "month": 203,
+      "year": 2051,
+      "total": 2051,
+      "polled_at": "2026-11-14T09:05:08.240Z"
     }
   ],
   "totals": {
-    "current_total": 2019,
+    "current_total": 2051,
     "week_delta_avg": 72,
-    "month_delta_avg": 164
+    "month_delta_avg": 166
   },
-  "lastUpdated": "2026-11-13T09:42:45.553Z"
+  "lastUpdated": "2026-11-14T09:05:08.240Z"
 }
