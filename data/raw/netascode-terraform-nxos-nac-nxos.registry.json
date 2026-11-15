@@ -602,12 +602,19 @@
       "year": 2051,
       "total": 2051,
       "polled_at": "2026-11-14T09:05:08.240Z"
+    },
+    {
+      "week": 46,
+      "month": 180,
+      "year": 2028,
+      "total": 2028,
+      "polled_at": "2026-11-15T09:35:31.518Z"
     }
   ],
   "totals": {
-    "current_total": 2051,
-    "week_delta_avg": 72,
-    "month_delta_avg": 166
+    "current_total": 2028,
+    "week_delta_avg": 71,
+    "month_delta_avg": 167
   },
-  "lastUpdated": "2026-11-14T09:05:08.240Z"
+  "lastUpdated": "2026-11-15T09:35:31.518Z"
 }
