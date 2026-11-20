@@ -637,12 +637,19 @@
       "year": 2062,
       "total": 2062,
       "polled_at": "2026-11-19T10:29:13.281Z"
+    },
+    {
+      "week": 46,
+      "month": 219,
+      "year": 2067,
+      "total": 2067,
+      "polled_at": "2026-11-20T10:09:36.659Z"
     }
   ],
   "totals": {
-    "current_total": 2062,
+    "current_total": 2067,
     "week_delta_avg": 70,
-    "month_delta_avg": 171
+    "month_delta_avg": 172
   },
-  "lastUpdated": "2026-11-19T10:29:13.281Z"
+  "lastUpdated": "2026-11-20T10:09:36.659Z"
 }
