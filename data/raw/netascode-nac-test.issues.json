@@ -6603,11 +6603,11 @@
     {
       "number": 663,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "koval4ukav",
       "is_org_member": false,
       "created_at": "2026-03-19T16:13:04Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T15:00:36Z",
       "merged_at": null
     },
     {
@@ -8533,11 +8533,11 @@
     {
       "number": 856,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-06-03T06:44:55Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T15:42:30Z",
       "merged_at": null
     },
     {
@@ -8603,12 +8603,12 @@
     {
       "number": 863,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-06-09T11:51:09Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-02T15:00:34Z",
+      "merged_at": "2026-09-02T15:00:34Z"
     },
     {
       "number": 864,
@@ -8763,11 +8763,11 @@
     {
       "number": 879,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-07-13T19:42:10Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T07:15:31Z",
       "merged_at": null
     },
     {
@@ -8783,11 +8783,11 @@
     {
       "number": 881,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-07-13T19:42:26Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T07:05:06Z",
       "merged_at": null
     },
     {
@@ -8893,12 +8893,12 @@
     {
       "number": 892,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "dependabot[bot]",
       "is_org_member": false,
       "created_at": "2026-08-05T08:05:14Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-02T08:27:22Z",
+      "merged_at": "2026-09-02T08:27:22Z"
     },
     {
       "number": 893,
@@ -8923,82 +8923,82 @@
     {
       "number": 895,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ChristopherJHart",
       "is_org_member": false,
       "created_at": "2026-08-15T23:20:33Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-09T15:31:29Z",
+      "merged_at": "2026-09-09T15:31:29Z"
     },
     {
       "number": 896,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-08-17T09:24:27Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-02T15:42:29Z",
+      "merged_at": "2026-09-02T15:42:29Z"
     },
     {
       "number": 897,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-08-17T18:10:05Z",
-      "closed_at": null,
+      "closed_at": "2026-11-01T06:43:38Z",
       "merged_at": null
     },
     {
       "number": 898,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ChristopherJHart",
       "is_org_member": false,
       "created_at": "2026-08-17T20:28:54Z",
-      "closed_at": null,
+      "closed_at": "2026-09-03T04:15:07Z",
       "merged_at": null
     },
     {
       "number": 899,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ChristopherJHart",
       "is_org_member": false,
       "created_at": "2026-08-17T20:29:14Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-04T05:17:04Z",
+      "merged_at": "2026-09-04T05:17:04Z"
     },
     {
       "number": 900,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ChristopherJHart",
       "is_org_member": false,
       "created_at": "2026-08-17T20:29:32Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-04T14:36:04Z",
+      "merged_at": "2026-09-04T14:36:04Z"
     },
     {
       "number": 901,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ChristopherJHart",
       "is_org_member": false,
       "created_at": "2026-08-17T20:29:49Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-04T16:50:47Z",
+      "merged_at": "2026-09-04T16:50:47Z"
     },
     {
       "number": 902,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "ChristopherJHart",
       "is_org_member": false,
       "created_at": "2026-08-17T20:30:06Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-09T20:18:52Z",
+      "merged_at": "2026-09-09T20:18:52Z"
     },
     {
       "number": 903,
@@ -9013,61 +9013,61 @@
     {
       "number": 904,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-08-23T08:21:41Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T15:42:31Z",
       "merged_at": null
     },
     {
       "number": 905,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-08-25T11:23:51Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-02T07:15:30Z",
+      "merged_at": "2026-09-02T07:15:30Z"
     },
     {
       "number": 906,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-08-25T12:54:40Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-09-02T07:05:05Z",
+      "merged_at": "2026-09-02T07:05:05Z"
     },
     {
       "number": 907,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-08-25T13:18:32Z",
-      "closed_at": null,
+      "closed_at": "2026-09-04T16:50:48Z",
       "merged_at": null
     },
     {
       "number": 908,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-08-25T13:37:58Z",
-      "closed_at": null,
+      "closed_at": "2026-09-04T14:36:05Z",
       "merged_at": null
     },
     {
       "number": 909,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "oboehmer",
       "is_org_member": false,
       "created_at": "2026-08-25T16:19:56Z",
-      "closed_at": null,
+      "closed_at": "2026-09-04T05:17:06Z",
       "merged_at": null
     },
     {
@@ -9083,91 +9083,91 @@
     {
       "number": 911,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:12:17Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T15:42:31Z",
       "merged_at": null
     },
     {
       "number": 912,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:12:29Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T15:42:32Z",
       "merged_at": null
     },
     {
       "number": 913,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:12:48Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T15:42:32Z",
       "merged_at": null
     },
     {
       "number": 914,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:13:02Z",
-      "closed_at": null,
+      "closed_at": "2026-11-01T06:43:39Z",
       "merged_at": null
     },
     {
       "number": 915,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:13:18Z",
-      "closed_at": null,
+      "closed_at": "2026-11-01T06:41:27Z",
       "merged_at": null
     },
     {
       "number": 916,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:13:30Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T15:42:33Z",
       "merged_at": null
     },
     {
       "number": 917,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:13:47Z",
-      "closed_at": null,
+      "closed_at": "2026-11-01T06:43:40Z",
       "merged_at": null
     },
     {
       "number": 918,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:13:59Z",
-      "closed_at": null,
+      "closed_at": "2026-11-01T06:43:42Z",
       "merged_at": null
     },
     {
       "number": 919,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "aitestino",
       "is_org_member": false,
       "created_at": "2026-08-25T23:14:14Z",
-      "closed_at": null,
+      "closed_at": "2026-09-02T15:42:33Z",
       "merged_at": null
     },
     {
@@ -9249,13 +9249,743 @@
       "created_at": "2026-08-26T16:48:15Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 928,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-08-27T14:29:27Z",
+      "closed_at": "2026-08-27T14:37:47Z",
+      "merged_at": null
+    },
+    {
+      "number": 929,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-08-27T16:29:15Z",
+      "closed_at": "2026-11-04T06:55:05Z",
+      "merged_at": null
+    },
+    {
+      "number": 930,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-08-27T17:13:17Z",
+      "closed_at": "2026-08-30T18:53:54Z",
+      "merged_at": "2026-08-30T18:53:54Z"
+    },
+    {
+      "number": 931,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-08-31T12:25:08Z",
+      "closed_at": "2026-10-01T13:10:06Z",
+      "merged_at": null
+    },
+    {
+      "number": 932,
+      "type": "issue",
+      "state": "open",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-08-31T18:08:31Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 933,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-01T07:04:45Z",
+      "closed_at": "2026-10-01T13:10:05Z",
+      "merged_at": "2026-10-01T13:10:04Z"
+    },
+    {
+      "number": 934,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-09-02T08:29:45Z",
+      "closed_at": "2026-09-02T15:45:41Z",
+      "merged_at": "2026-09-02T15:45:41Z"
+    },
+    {
+      "number": 935,
+      "type": "issue",
+      "state": "open",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-02T19:27:41Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 936,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-03T04:08:56Z",
+      "closed_at": "2026-09-03T05:56:56Z",
+      "merged_at": "2026-09-03T05:56:56Z"
+    },
+    {
+      "number": 937,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-03T04:14:32Z",
+      "closed_at": "2026-09-03T05:54:29Z",
+      "merged_at": "2026-09-03T05:54:29Z"
+    },
+    {
+      "number": 938,
+      "type": "issue",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-03T21:55:30Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 939,
+      "type": "issue",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-03T21:55:34Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 940,
+      "type": "issue",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-03T21:55:39Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 941,
+      "type": "issue",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-03T21:55:47Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 942,
+      "type": "issue",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-03T21:55:50Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 943,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-04T12:39:45Z",
+      "closed_at": "2026-10-01T13:02:17Z",
+      "merged_at": null
+    },
+    {
+      "number": 944,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-04T13:15:01Z",
+      "closed_at": "2026-10-01T13:02:16Z",
+      "merged_at": "2026-10-01T13:02:16Z"
+    },
+    {
+      "number": 945,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-09T11:43:53Z",
+      "closed_at": "2026-09-11T11:32:03Z",
+      "merged_at": null
+    },
+    {
+      "number": 946,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-09T15:47:03Z",
+      "closed_at": "2026-09-11T11:32:02Z",
+      "merged_at": "2026-09-11T11:32:02Z"
+    },
+    {
+      "number": 947,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-10T17:10:39Z",
+      "closed_at": "2026-10-04T08:43:29Z",
+      "merged_at": "2026-10-04T08:43:29Z"
+    },
+    {
+      "number": 948,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-09-10T17:10:57Z",
+      "closed_at": "2026-09-11T10:59:37Z",
+      "merged_at": "2026-09-11T10:59:37Z"
+    },
+    {
+      "number": 949,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-11T07:23:15Z",
+      "closed_at": "2026-10-04T08:43:31Z",
+      "merged_at": null
+    },
+    {
+      "number": 950,
+      "type": "pr",
+      "state": "open",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-11T13:41:42Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 951,
+      "type": "pr",
+      "state": "open",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-12T17:28:11Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 952,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-13T07:49:21Z",
+      "closed_at": "2026-11-01T06:41:26Z",
+      "merged_at": "2026-11-01T06:41:26Z"
+    },
+    {
+      "number": 953,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-13T09:01:00Z",
+      "closed_at": "2026-11-01T06:43:37Z",
+      "merged_at": "2026-11-01T06:43:37Z"
+    },
+    {
+      "number": 954,
+      "type": "issue",
+      "state": "open",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-14T09:23:41Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 955,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-09-14T21:32:47Z",
+      "closed_at": "2026-09-17T12:03:12Z",
+      "merged_at": "2026-09-17T12:03:12Z"
+    },
+    {
+      "number": 956,
+      "type": "issue",
+      "state": "open",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-09-15T14:23:57Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 957,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-09-24T21:33:01Z",
+      "closed_at": "2026-10-01T13:15:29Z",
+      "merged_at": "2026-10-01T13:15:29Z"
+    },
+    {
+      "number": 958,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-01T13:04:56Z",
+      "closed_at": "2026-10-01T13:16:11Z",
+      "merged_at": "2026-10-01T13:16:11Z"
+    },
+    {
+      "number": 959,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-01T13:04:57Z",
+      "closed_at": "2026-10-02T11:03:58Z",
+      "merged_at": "2026-10-02T11:03:58Z"
+    },
+    {
+      "number": 960,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-01T13:05:00Z",
+      "closed_at": "2026-10-02T11:04:27Z",
+      "merged_at": "2026-10-02T11:04:27Z"
+    },
+    {
+      "number": 961,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-02T11:06:31Z",
+      "closed_at": "2026-10-02T15:45:18Z",
+      "merged_at": "2026-10-02T15:45:18Z"
+    },
+    {
+      "number": 962,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-04T09:02:18Z",
+      "closed_at": "2026-10-04T14:52:26Z",
+      "merged_at": null
+    },
+    {
+      "number": 963,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-04T09:05:14Z",
+      "closed_at": "2026-10-04T14:52:24Z",
+      "merged_at": "2026-10-04T14:52:24Z"
+    },
+    {
+      "number": 964,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-07T11:27:22Z",
+      "closed_at": "2026-10-07T12:14:55Z",
+      "merged_at": null
+    },
+    {
+      "number": 965,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-07T11:34:17Z",
+      "closed_at": "2026-10-07T14:43:43Z",
+      "merged_at": null
+    },
+    {
+      "number": 966,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-07T11:34:22Z",
+      "closed_at": "2026-10-08T07:03:02Z",
+      "merged_at": null
+    },
+    {
+      "number": 967,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-07T11:39:03Z",
+      "closed_at": "2026-10-07T14:43:42Z",
+      "merged_at": "2026-10-07T14:43:41Z"
+    },
+    {
+      "number": 968,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-07T11:39:12Z",
+      "closed_at": "2026-10-08T07:02:11Z",
+      "merged_at": null
+    },
+    {
+      "number": 969,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-07T14:46:26Z",
+      "closed_at": "2026-10-07T14:58:43Z",
+      "merged_at": "2026-10-07T14:58:43Z"
+    },
+    {
+      "number": 970,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-07T14:47:00Z",
+      "closed_at": "2026-10-07T14:58:18Z",
+      "merged_at": "2026-10-07T14:58:18Z"
+    },
+    {
+      "number": 971,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-07T21:33:09Z",
+      "closed_at": "2026-10-08T07:50:21Z",
+      "merged_at": null
+    },
+    {
+      "number": 972,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-08T08:34:01Z",
+      "closed_at": "2026-11-04T14:49:31Z",
+      "merged_at": null
+    },
+    {
+      "number": 973,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-10-08T14:07:29Z",
+      "closed_at": "2026-11-04T14:49:29Z",
+      "merged_at": "2026-11-04T14:49:29Z"
+    },
+    {
+      "number": 974,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-14T05:32:55Z",
+      "closed_at": "2026-10-24T14:24:53Z",
+      "merged_at": "2026-10-24T14:24:53Z"
+    },
+    {
+      "number": 975,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-14T05:33:03Z",
+      "closed_at": "2026-10-24T14:25:11Z",
+      "merged_at": "2026-10-24T14:25:11Z"
+    },
+    {
+      "number": 976,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-20T10:08:24Z",
+      "closed_at": "2026-10-24T14:25:40Z",
+      "merged_at": "2026-10-24T14:25:40Z"
+    },
+    {
+      "number": 977,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-10-20T14:34:51Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 978,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-10-20T14:34:53Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 979,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-10-20T14:34:54Z",
+      "closed_at": "2026-11-01T06:41:29Z",
+      "merged_at": null
+    },
+    {
+      "number": 980,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-10-20T14:34:55Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 981,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-10-20T14:34:56Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 982,
+      "type": "issue",
+      "state": "open",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-10-20T14:34:58Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 983,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-23T00:05:09Z",
+      "closed_at": "2026-10-24T14:26:04Z",
+      "merged_at": "2026-10-24T14:26:04Z"
+    },
+    {
+      "number": 984,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-23T00:05:11Z",
+      "closed_at": "2026-10-24T14:26:44Z",
+      "merged_at": "2026-10-24T14:26:44Z"
+    },
+    {
+      "number": 985,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-10-24T14:17:50Z",
+      "closed_at": "2026-11-04T12:12:34Z",
+      "merged_at": "2026-11-04T12:12:34Z"
+    },
+    {
+      "number": 986,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-10-24T19:02:57Z",
+      "closed_at": "2026-11-01T21:49:36Z",
+      "merged_at": "2026-11-01T21:49:36Z"
+    },
+    {
+      "number": 987,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-24T21:47:43Z",
+      "closed_at": "2026-10-24T21:57:35Z",
+      "merged_at": "2026-10-24T21:57:35Z"
+    },
+    {
+      "number": 988,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-26T21:32:54Z",
+      "closed_at": "2026-10-29T17:44:49Z",
+      "merged_at": "2026-10-29T17:44:49Z"
+    },
+    {
+      "number": 989,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-29T17:46:08Z",
+      "closed_at": "2026-10-30T07:36:18Z",
+      "merged_at": "2026-10-30T07:36:18Z"
+    },
+    {
+      "number": 990,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-10-30T07:36:14Z",
+      "closed_at": "2026-11-01T09:59:03Z",
+      "merged_at": "2026-11-01T09:59:03Z"
+    },
+    {
+      "number": 991,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-10-30T08:00:39Z",
+      "closed_at": "2026-11-02T07:52:20Z",
+      "merged_at": "2026-11-02T07:52:20Z"
+    },
+    {
+      "number": 992,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-01T10:01:18Z",
+      "closed_at": "2026-11-01T12:40:57Z",
+      "merged_at": "2026-11-01T12:40:57Z"
+    },
+    {
+      "number": 993,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-01T10:01:21Z",
+      "closed_at": "2026-11-01T13:14:52Z",
+      "merged_at": "2026-11-01T13:14:52Z"
+    },
+    {
+      "number": 994,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-01T13:15:14Z",
+      "closed_at": "2026-11-02T08:16:16Z",
+      "merged_at": null
+    },
+    {
+      "number": 995,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-11-01T21:37:33Z",
+      "closed_at": "2026-11-04T08:07:35Z",
+      "merged_at": "2026-11-04T08:07:35Z"
+    },
+    {
+      "number": 996,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-02T21:32:51Z",
+      "closed_at": "2026-11-04T06:39:33Z",
+      "merged_at": "2026-11-04T06:39:33Z"
+    },
+    {
+      "number": 997,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "oboehmer",
+      "is_org_member": false,
+      "created_at": "2026-11-04T12:54:09Z",
+      "closed_at": "2026-11-04T13:14:05Z",
+      "merged_at": "2026-11-04T13:14:05Z"
+    },
+    {
+      "number": 998,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-04T13:05:45Z",
+      "closed_at": "2026-11-04T13:14:33Z",
+      "merged_at": "2026-11-04T13:14:33Z"
+    },
+    {
+      "number": 999,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-04T13:14:13Z",
+      "closed_at": "2026-11-04T14:55:32Z",
+      "merged_at": "2026-11-04T14:55:32Z"
+    },
+    {
+      "number": 1000,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-05T10:36:21Z",
+      "closed_at": "2026-11-05T12:51:50Z",
+      "merged_at": "2026-11-05T12:51:50Z"
     }
   ],
   "totals": {
-    "external_open": 89,
-    "external_new_30d": 23,
-    "external_closed_30d": 1,
-    "external_authors_all_time": 9
+    "external_open": 85,
+    "external_new_30d": 0,
+    "external_closed_30d": 7,
+    "external_authors_all_time": 10
   },
-  "lastPolledAt": "2026-08-27T12:53:13.434Z"
+  "lastPolledAt": "2026-11-23T10:54:51.082Z"
 }

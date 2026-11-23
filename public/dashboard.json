@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T09:54:26.909Z",
+  "generatedAt": "2026-11-23T10:54:58.499Z",
   "repos": [
     {
       "repo": "netascode/nac-branch",
@@ -12800,15 +12800,19 @@
             {
               "polled_at": "2026-08-27T12:53:02.673Z",
               "total": 7
+            },
+            {
+              "polled_at": "2026-11-23T10:54:26.540Z",
+              "total": 7
             }
           ],
           "totals": {
             "total": 7,
             "last30d": 0,
-            "last90d": 2,
+            "last90d": 0,
             "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:02.673Z"
+          "lastUpdated": "2026-11-23T10:54:26.540Z"
         },
         "issues": {
           "totals": {
@@ -13262,15 +13266,19 @@
             {
               "polled_at": "2026-08-27T12:53:02.969Z",
               "total": 51
+            },
+            {
+              "polled_at": "2026-11-23T10:54:26.840Z",
+              "total": 51
             }
           ],
           "totals": {
             "total": 51,
-            "last30d": 1,
-            "last90d": 4,
-            "velocity30d": 0.033
+            "last30d": 0,
+            "last90d": 0,
+            "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:02.969Z"
+          "lastUpdated": "2026-11-23T10:54:26.840Z"
         },
         "issues": {
           "totals": {
@@ -13564,6 +13572,10 @@
             {
               "polled_at": "2026-08-27T12:53:03.256Z",
               "total": 4
+            },
+            {
+              "polled_at": "2026-11-23T10:54:27.105Z",
+              "total": 4
             }
           ],
           "totals": {
@@ -13572,7 +13584,7 @@
             "last90d": 0,
             "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:03.256Z"
+          "lastUpdated": "2026-11-23T10:54:27.105Z"
         },
         "issues": {
           "totals": {
@@ -13809,15 +13821,19 @@
             {
               "polled_at": "2026-08-27T12:53:03.508Z",
               "total": 8
+            },
+            {
+              "polled_at": "2026-11-23T10:54:27.386Z",
+              "total": 9
             }
           ],
           "totals": {
-            "total": 8,
-            "last30d": 0,
+            "total": 9,
+            "last30d": 1,
             "last90d": 1,
-            "velocity30d": 0
+            "velocity30d": 0.033
           },
-          "lastUpdated": "2026-08-27T12:53:03.508Z"
+          "lastUpdated": "2026-11-23T10:54:27.386Z"
         },
         "issues": {
           "totals": {
@@ -14122,15 +14138,19 @@
             {
               "polled_at": "2026-08-27T12:53:03.772Z",
               "total": 9
+            },
+            {
+              "polled_at": "2026-11-23T10:54:27.734Z",
+              "total": 11
             }
           ],
           "totals": {
-            "total": 9,
-            "last30d": 0,
-            "last90d": 1,
-            "velocity30d": 0
+            "total": 11,
+            "last30d": 2,
+            "last90d": 2,
+            "velocity30d": 0.067
           },
-          "lastUpdated": "2026-08-27T12:53:03.772Z"
+          "lastUpdated": "2026-11-23T10:54:27.734Z"
         },
         "issues": {
           "totals": {
@@ -14393,15 +14413,19 @@
             {
               "polled_at": "2026-08-27T12:53:04.087Z",
               "total": 9
+            },
+            {
+              "polled_at": "2026-11-23T10:54:28.077Z",
+              "total": 9
             }
           ],
           "totals": {
             "total": 9,
             "last30d": 0,
-            "last90d": 3,
+            "last90d": 0,
             "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:04.087Z"
+          "lastUpdated": "2026-11-23T10:54:28.077Z"
         },
         "issues": {
           "totals": {
@@ -14561,15 +14585,19 @@
             {
               "polled_at": "2026-08-27T12:53:04.359Z",
               "total": 7
+            },
+            {
+              "polled_at": "2026-11-23T10:54:28.376Z",
+              "total": 9
             }
           ],
           "totals": {
-            "total": 7,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "total": 9,
+            "last30d": 2,
+            "last90d": 2,
+            "velocity30d": 0.067
           },
-          "lastUpdated": "2026-08-27T12:53:04.359Z"
+          "lastUpdated": "2026-11-23T10:54:28.376Z"
         },
         "issues": {
           "totals": {
@@ -14722,15 +14750,19 @@
             {
               "polled_at": "2026-08-27T12:53:04.601Z",
               "total": 3
+            },
+            {
+              "polled_at": "2026-11-23T10:54:28.651Z",
+              "total": 3
             }
           ],
           "totals": {
             "total": 3,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "last30d": 0,
+            "last90d": 0,
+            "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:04.601Z"
+          "lastUpdated": "2026-11-23T10:54:28.651Z"
         },
         "issues": {
           "totals": {
@@ -14890,15 +14922,19 @@
             {
               "polled_at": "2026-08-27T12:53:04.870Z",
               "total": 9
+            },
+            {
+              "polled_at": "2026-11-23T10:54:28.947Z",
+              "total": 9
             }
           ],
           "totals": {
             "total": 9,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "last30d": 0,
+            "last90d": 0,
+            "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:04.870Z"
+          "lastUpdated": "2026-11-23T10:54:28.947Z"
         },
         "issues": {
           "totals": {
@@ -15128,15 +15164,19 @@
             {
               "polled_at": "2026-08-27T12:53:05.137Z",
               "total": 5
+            },
+            {
+              "polled_at": "2026-11-23T10:54:29.207Z",
+              "total": 6
             }
           ],
           "totals": {
-            "total": 5,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "total": 6,
+            "last30d": 1,
+            "last90d": 1,
+            "velocity30d": 0.033
           },
-          "lastUpdated": "2026-08-27T12:53:05.137Z"
+          "lastUpdated": "2026-11-23T10:54:29.207Z"
         },
         "issues": {
           "totals": {
@@ -15324,25 +15364,37 @@
             {
               "polled_at": "2026-08-27T12:53:05.441Z",
               "total": 1
+            },
+            {
+              "polled_at": "2026-11-23T10:54:29.455Z",
+              "total": 2
             }
           ],
           "totals": {
-            "total": 1,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "total": 2,
+            "last30d": 1,
+            "last90d": 1,
+            "velocity30d": 0.033
           },
-          "lastUpdated": "2026-08-27T12:53:05.441Z"
+          "lastUpdated": "2026-11-23T10:54:29.455Z"
         },
         "issues": {
           "totals": {
             "external_open": 0,
             "external_new_30d": 0,
-            "external_closed_30d": 0,
-            "external_authors_all_time": 0
+            "external_closed_30d": 1,
+            "external_authors_all_time": 1
           },
-          "recentExternal": [],
-          "lastPolledAt": "2026-08-27T12:53:10.246Z"
+          "recentExternal": [
+            {
+              "number": 66,
+              "state": "closed",
+              "author": "MartinRDJensen",
+              "created_at": "2026-09-17T17:08:10Z",
+              "closed_at": "2026-11-19T11:08:21Z"
+            }
+          ],
+          "lastPolledAt": "2026-11-23T10:54:35.758Z"
         }
       },
       {
@@ -15413,24 +15465,70 @@
             {
               "polled_at": "2026-08-27T12:53:05.708Z",
               "total": 8
+            },
+            {
+              "polled_at": "2026-11-23T10:54:29.740Z",
+              "total": 9
             }
           ],
           "totals": {
-            "total": 8,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "total": 9,
+            "last30d": 1,
+            "last90d": 1,
+            "velocity30d": 0.033
           },
-          "lastUpdated": "2026-08-27T12:53:05.708Z"
+          "lastUpdated": "2026-11-23T10:54:29.740Z"
         },
         "issues": {
           "totals": {
-            "external_open": 15,
+            "external_open": 16,
             "external_new_30d": 1,
-            "external_closed_30d": 1,
-            "external_authors_all_time": 19
+            "external_closed_30d": 5,
+            "external_authors_all_time": 20
           },
           "recentExternal": [
+            {
+              "number": 332,
+              "state": "closed",
+              "author": "camschaecisco",
+              "created_at": "2026-11-05T14:08:33Z",
+              "closed_at": "2026-11-19T13:44:37Z"
+            },
+            {
+              "number": 320,
+              "state": "open",
+              "author": "JamesJo3",
+              "created_at": "2026-10-19T14:50:16Z",
+              "closed_at": null
+            },
+            {
+              "number": 310,
+              "state": "closed",
+              "author": "ChristopherJHart",
+              "created_at": "2026-10-01T22:45:02Z",
+              "closed_at": "2026-10-28T09:58:23Z"
+            },
+            {
+              "number": 309,
+              "state": "closed",
+              "author": "ChristopherJHart",
+              "created_at": "2026-10-01T22:44:56Z",
+              "closed_at": "2026-11-06T11:01:05Z"
+            },
+            {
+              "number": 308,
+              "state": "closed",
+              "author": "ChristopherJHart",
+              "created_at": "2026-10-01T22:44:55Z",
+              "closed_at": "2026-10-28T08:33:46Z"
+            },
+            {
+              "number": 307,
+              "state": "closed",
+              "author": "ChristopherJHart",
+              "created_at": "2026-10-01T22:44:35Z",
+              "closed_at": "2026-11-09T08:47:53Z"
+            },
             {
               "number": 288,
               "state": "closed",
@@ -15528,51 +15626,9 @@
               "author": "mike-krau",
               "created_at": "2026-03-30T18:38:58Z",
               "closed_at": null
-            },
-            {
-              "number": 206,
-              "state": "open",
-              "author": "seojumper",
-              "created_at": "2026-03-20T18:41:30Z",
-              "closed_at": null
-            },
-            {
-              "number": 204,
-              "state": "open",
-              "author": "WhippingBoy01",
-              "created_at": "2026-03-17T09:23:13Z",
-              "closed_at": null
-            },
-            {
-              "number": 197,
-              "state": "closed",
-              "author": "ChristopherJHart",
-              "created_at": "2026-03-09T22:06:11Z",
-              "closed_at": "2026-03-17T08:24:38Z"
-            },
-            {
-              "number": 154,
-              "state": "open",
-              "author": "jrouliez",
-              "created_at": "2025-09-19T18:28:40Z",
-              "closed_at": null
-            },
-            {
-              "number": 149,
-              "state": "closed",
-              "author": "Monkey-Bytes",
-              "created_at": "2025-09-10T13:16:06Z",
-              "closed_at": "2025-09-10T16:03:16Z"
-            },
-            {
-              "number": 148,
-              "state": "open",
-              "author": "Monkey-Bytes",
-              "created_at": "2025-09-10T13:09:28Z",
-              "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-27T12:53:10.801Z"
+          "lastPolledAt": "2026-11-23T10:54:40.308Z"
         }
       },
       {
@@ -15643,24 +15699,105 @@
             {
               "polled_at": "2026-08-27T12:53:05.948Z",
               "total": 22
+            },
+            {
+              "polled_at": "2026-11-23T10:54:30.036Z",
+              "total": 23
             }
           ],
           "totals": {
-            "total": 22,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "total": 23,
+            "last30d": 1,
+            "last90d": 1,
+            "velocity30d": 0.033
           },
-          "lastUpdated": "2026-08-27T12:53:05.948Z"
+          "lastUpdated": "2026-11-23T10:54:30.036Z"
         },
         "issues": {
           "totals": {
-            "external_open": 57,
-            "external_new_30d": 13,
-            "external_closed_30d": 14,
-            "external_authors_all_time": 30
+            "external_open": 42,
+            "external_new_30d": 2,
+            "external_closed_30d": 16,
+            "external_authors_all_time": 32
           },
           "recentExternal": [
+            {
+              "number": 914,
+              "state": "open",
+              "author": "skaszlik",
+              "created_at": "2026-10-27T14:39:57Z",
+              "closed_at": null
+            },
+            {
+              "number": 913,
+              "state": "closed",
+              "author": "skaszlik",
+              "created_at": "2026-10-27T14:27:37Z",
+              "closed_at": "2026-11-12T14:09:54Z"
+            },
+            {
+              "number": 909,
+              "state": "open",
+              "author": "skaszlik",
+              "created_at": "2026-10-20T10:16:04Z",
+              "closed_at": null
+            },
+            {
+              "number": 906,
+              "state": "open",
+              "author": "fniele",
+              "created_at": "2026-10-13T06:28:55Z",
+              "closed_at": null
+            },
+            {
+              "number": 903,
+              "state": "open",
+              "author": "mthurstocisco",
+              "created_at": "2026-10-05T09:51:58Z",
+              "closed_at": null
+            },
+            {
+              "number": 900,
+              "state": "open",
+              "author": "dkokshar",
+              "created_at": "2026-09-29T08:58:03Z",
+              "closed_at": null
+            },
+            {
+              "number": 894,
+              "state": "closed",
+              "author": "juarocha",
+              "created_at": "2026-09-15T23:03:35Z",
+              "closed_at": "2026-11-09T15:31:38Z"
+            },
+            {
+              "number": 892,
+              "state": "open",
+              "author": "harvinder-kaur55",
+              "created_at": "2026-09-15T11:27:58Z",
+              "closed_at": null
+            },
+            {
+              "number": 888,
+              "state": "open",
+              "author": "harvinder-kaur55",
+              "created_at": "2026-09-15T07:01:09Z",
+              "closed_at": null
+            },
+            {
+              "number": 884,
+              "state": "closed",
+              "author": "marehler",
+              "created_at": "2026-09-04T08:54:39Z",
+              "closed_at": "2026-11-12T14:11:04Z"
+            },
+            {
+              "number": 881,
+              "state": "open",
+              "author": "juarocha",
+              "created_at": "2026-08-27T15:28:20Z",
+              "closed_at": null
+            },
             {
               "number": 876,
               "state": "open",
@@ -15684,10 +15821,10 @@
             },
             {
               "number": 871,
-              "state": "open",
+              "state": "closed",
               "author": "dacasti2mx",
               "created_at": "2026-08-12T21:47:56Z",
-              "closed_at": null
+              "closed_at": "2026-08-31T15:11:16Z"
             },
             {
               "number": 869,
@@ -15705,10 +15842,10 @@
             },
             {
               "number": 867,
-              "state": "open",
+              "state": "closed",
               "author": "ccoueffe",
               "created_at": "2026-08-10T15:09:04Z",
-              "closed_at": null
+              "closed_at": "2026-10-13T22:38:30Z"
             },
             {
               "number": 864,
@@ -15723,86 +15860,9 @@
               "author": "juarocha",
               "created_at": "2026-08-03T17:25:52Z",
               "closed_at": "2026-08-07T15:37:24Z"
-            },
-            {
-              "number": 862,
-              "state": "open",
-              "author": "Anders-Marius",
-              "created_at": "2026-08-01T07:26:27Z",
-              "closed_at": null
-            },
-            {
-              "number": 861,
-              "state": "closed",
-              "author": "ccoueffe",
-              "created_at": "2026-07-31T17:12:36Z",
-              "closed_at": "2026-08-24T14:23:10Z"
-            },
-            {
-              "number": 859,
-              "state": "closed",
-              "author": "ccoueffe",
-              "created_at": "2026-07-31T13:24:41Z",
-              "closed_at": "2026-07-31T13:55:34Z"
-            },
-            {
-              "number": 857,
-              "state": "closed",
-              "author": "juarocha",
-              "created_at": "2026-07-30T21:50:11Z",
-              "closed_at": "2026-08-07T19:03:34Z"
-            },
-            {
-              "number": 854,
-              "state": "closed",
-              "author": "juarocha",
-              "created_at": "2026-07-24T14:29:56Z",
-              "closed_at": "2026-08-07T19:03:40Z"
-            },
-            {
-              "number": 853,
-              "state": "closed",
-              "author": "juarocha",
-              "created_at": "2026-07-24T14:24:22Z",
-              "closed_at": "2026-08-07T19:03:48Z"
-            },
-            {
-              "number": 850,
-              "state": "closed",
-              "author": "juarocha",
-              "created_at": "2026-07-22T19:39:12Z",
-              "closed_at": "2026-07-28T16:48:36Z"
-            },
-            {
-              "number": 846,
-              "state": "open",
-              "author": "dacasti2mx",
-              "created_at": "2026-07-21T06:35:51Z",
-              "closed_at": null
-            },
-            {
-              "number": 841,
-              "state": "closed",
-              "author": "dacasti2mx",
-              "created_at": "2026-07-20T04:08:53Z",
-              "closed_at": "2026-07-23T02:12:16Z"
-            },
-            {
-              "number": 840,
-              "state": "closed",
-              "author": "dacasti2mx",
-              "created_at": "2026-07-20T04:08:35Z",
-              "closed_at": "2026-07-23T02:12:14Z"
-            },
-            {
-              "number": 838,
-              "state": "open",
-              "author": "dacasti2mx",
-              "created_at": "2026-07-16T00:49:17Z",
-              "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-27T12:53:12.429Z"
+          "lastPolledAt": "2026-11-23T10:54:45.912Z"
         }
       },
       {
@@ -15873,21 +15933,25 @@
             {
               "polled_at": "2026-08-27T12:53:06.221Z",
               "total": 2
+            },
+            {
+              "polled_at": "2026-11-23T10:54:30.311Z",
+              "total": 2
             }
           ],
           "totals": {
             "total": 2,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "last30d": 0,
+            "last90d": 0,
+            "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:06.221Z"
+          "lastUpdated": "2026-11-23T10:54:30.311Z"
         },
         "issues": {
           "totals": {
             "external_open": 3,
-            "external_new_30d": 1,
-            "external_closed_30d": 1,
+            "external_new_30d": 0,
+            "external_closed_30d": 0,
             "external_authors_all_time": 5
           },
           "recentExternal": [
@@ -15941,7 +16005,7 @@
               "closed_at": "2026-03-07T16:32:05Z"
             }
           ],
-          "lastPolledAt": "2026-08-27T12:53:13.144Z"
+          "lastPolledAt": "2026-11-23T10:54:48.287Z"
         }
       },
       {
@@ -16012,166 +16076,170 @@
             {
               "polled_at": "2026-08-27T12:53:06.558Z",
               "total": 9
+            },
+            {
+              "polled_at": "2026-11-23T10:54:30.558Z",
+              "total": 10
             }
           ],
           "totals": {
-            "total": 9,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "total": 10,
+            "last30d": 1,
+            "last90d": 1,
+            "velocity30d": 0.033
           },
-          "lastUpdated": "2026-08-27T12:53:06.558Z"
+          "lastUpdated": "2026-11-23T10:54:30.558Z"
         },
         "issues": {
           "totals": {
-            "external_open": 89,
-            "external_new_30d": 23,
-            "external_closed_30d": 1,
-            "external_authors_all_time": 9
+            "external_open": 85,
+            "external_new_30d": 0,
+            "external_closed_30d": 7,
+            "external_authors_all_time": 10
           },
           "recentExternal": [
             {
-              "number": 927,
+              "number": 982,
               "state": "open",
               "author": "aitestino",
-              "created_at": "2026-08-26T16:48:15Z",
+              "created_at": "2026-10-20T14:34:58Z",
               "closed_at": null
             },
             {
-              "number": 926,
+              "number": 981,
               "state": "open",
               "author": "aitestino",
-              "created_at": "2026-08-26T16:47:56Z",
+              "created_at": "2026-10-20T14:34:56Z",
               "closed_at": null
             },
             {
-              "number": 925,
+              "number": 980,
               "state": "open",
               "author": "aitestino",
-              "created_at": "2026-08-26T16:47:40Z",
+              "created_at": "2026-10-20T14:34:55Z",
               "closed_at": null
             },
             {
-              "number": 924,
+              "number": 979,
+              "state": "closed",
+              "author": "aitestino",
+              "created_at": "2026-10-20T14:34:54Z",
+              "closed_at": "2026-11-01T06:41:29Z"
+            },
+            {
+              "number": 978,
               "state": "open",
               "author": "aitestino",
-              "created_at": "2026-08-26T16:47:24Z",
+              "created_at": "2026-10-20T14:34:53Z",
               "closed_at": null
             },
             {
-              "number": 923,
+              "number": 977,
               "state": "open",
               "author": "aitestino",
-              "created_at": "2026-08-26T16:47:01Z",
+              "created_at": "2026-10-20T14:34:51Z",
               "closed_at": null
             },
             {
-              "number": 922,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-26T16:46:40Z",
-              "closed_at": null
+              "number": 972,
+              "state": "closed",
+              "author": "oboehmer",
+              "created_at": "2026-10-08T08:34:01Z",
+              "closed_at": "2026-11-04T14:49:31Z"
             },
             {
-              "number": 921,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-26T16:46:15Z",
-              "closed_at": null
+              "number": 966,
+              "state": "closed",
+              "author": "oboehmer",
+              "created_at": "2026-10-07T11:34:22Z",
+              "closed_at": "2026-10-08T07:03:02Z"
             },
             {
-              "number": 920,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-26T16:45:50Z",
-              "closed_at": null
+              "number": 965,
+              "state": "closed",
+              "author": "oboehmer",
+              "created_at": "2026-10-07T11:34:17Z",
+              "closed_at": "2026-10-07T14:43:43Z"
             },
             {
-              "number": 919,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:14:14Z",
-              "closed_at": null
+              "number": 962,
+              "state": "closed",
+              "author": "oboehmer",
+              "created_at": "2026-10-04T09:02:18Z",
+              "closed_at": "2026-10-04T14:52:26Z"
             },
             {
-              "number": 918,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:13:59Z",
-              "closed_at": null
-            },
-            {
-              "number": 917,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:13:47Z",
-              "closed_at": null
-            },
-            {
-              "number": 916,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:13:30Z",
-              "closed_at": null
-            },
-            {
-              "number": 915,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:13:18Z",
-              "closed_at": null
-            },
-            {
-              "number": 914,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:13:02Z",
-              "closed_at": null
-            },
-            {
-              "number": 913,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:12:48Z",
-              "closed_at": null
-            },
-            {
-              "number": 912,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:12:29Z",
-              "closed_at": null
-            },
-            {
-              "number": 911,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:12:17Z",
-              "closed_at": null
-            },
-            {
-              "number": 910,
-              "state": "open",
-              "author": "aitestino",
-              "created_at": "2026-08-25T23:11:59Z",
-              "closed_at": null
-            },
-            {
-              "number": 909,
+              "number": 956,
               "state": "open",
               "author": "oboehmer",
-              "created_at": "2026-08-25T16:19:56Z",
+              "created_at": "2026-09-15T14:23:57Z",
               "closed_at": null
             },
             {
-              "number": 908,
+              "number": 954,
               "state": "open",
               "author": "oboehmer",
-              "created_at": "2026-08-25T13:37:58Z",
+              "created_at": "2026-09-14T09:23:41Z",
+              "closed_at": null
+            },
+            {
+              "number": 949,
+              "state": "closed",
+              "author": "oboehmer",
+              "created_at": "2026-09-11T07:23:15Z",
+              "closed_at": "2026-10-04T08:43:31Z"
+            },
+            {
+              "number": 945,
+              "state": "closed",
+              "author": "oboehmer",
+              "created_at": "2026-09-09T11:43:53Z",
+              "closed_at": "2026-09-11T11:32:03Z"
+            },
+            {
+              "number": 943,
+              "state": "closed",
+              "author": "oboehmer",
+              "created_at": "2026-09-04T12:39:45Z",
+              "closed_at": "2026-10-01T13:02:17Z"
+            },
+            {
+              "number": 942,
+              "state": "open",
+              "author": "ChristopherJHart",
+              "created_at": "2026-09-03T21:55:50Z",
+              "closed_at": null
+            },
+            {
+              "number": 941,
+              "state": "open",
+              "author": "ChristopherJHart",
+              "created_at": "2026-09-03T21:55:47Z",
+              "closed_at": null
+            },
+            {
+              "number": 940,
+              "state": "open",
+              "author": "ChristopherJHart",
+              "created_at": "2026-09-03T21:55:39Z",
+              "closed_at": null
+            },
+            {
+              "number": 939,
+              "state": "open",
+              "author": "ChristopherJHart",
+              "created_at": "2026-09-03T21:55:34Z",
+              "closed_at": null
+            },
+            {
+              "number": 938,
+              "state": "open",
+              "author": "ChristopherJHart",
+              "created_at": "2026-09-03T21:55:30Z",
               "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-27T12:53:13.434Z"
+          "lastPolledAt": "2026-11-23T10:54:51.082Z"
         }
       },
       {
@@ -16242,30 +16310,55 @@
             {
               "polled_at": "2026-08-27T12:53:06.821Z",
               "total": 19
+            },
+            {
+              "polled_at": "2026-11-23T10:54:30.795Z",
+              "total": 20
             }
           ],
           "totals": {
-            "total": 19,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "total": 20,
+            "last30d": 1,
+            "last90d": 1,
+            "velocity30d": 0.033
           },
-          "lastUpdated": "2026-08-27T12:53:06.821Z"
+          "lastUpdated": "2026-11-23T10:54:30.795Z"
         },
         "issues": {
           "totals": {
-            "external_open": 2,
-            "external_new_30d": 0,
-            "external_closed_30d": 0,
-            "external_authors_all_time": 7
+            "external_open": 1,
+            "external_new_30d": 2,
+            "external_closed_30d": 3,
+            "external_authors_all_time": 10
           },
           "recentExternal": [
             {
-              "number": 371,
+              "number": 408,
               "state": "open",
+              "author": "ChristopherJHart",
+              "created_at": "2026-11-05T15:23:50Z",
+              "closed_at": null
+            },
+            {
+              "number": 389,
+              "state": "closed",
+              "author": "aitestino",
+              "created_at": "2026-10-29T14:38:18Z",
+              "closed_at": "2026-10-29T18:11:08Z"
+            },
+            {
+              "number": 375,
+              "state": "closed",
+              "author": "QB4DEVOPS",
+              "created_at": "2026-08-31T23:43:56Z",
+              "closed_at": "2026-09-01T12:11:30Z"
+            },
+            {
+              "number": 371,
+              "state": "closed",
               "author": "null0route",
               "created_at": "2026-04-29T11:32:27Z",
-              "closed_at": null
+              "closed_at": "2026-11-04T19:52:32Z"
             },
             {
               "number": 362,
@@ -16290,10 +16383,10 @@
             },
             {
               "number": 280,
-              "state": "open",
+              "state": "closed",
               "author": "tzarski0",
               "created_at": "2024-10-15T12:37:42Z",
-              "closed_at": null
+              "closed_at": "2026-11-20T14:49:10Z"
             },
             {
               "number": 270,
@@ -16310,7 +16403,7 @@
               "closed_at": "2022-09-13T11:30:53Z"
             }
           ],
-          "lastPolledAt": "2026-08-27T12:53:13.586Z"
+          "lastPolledAt": "2026-11-23T10:54:52.763Z"
         }
       },
       {
@@ -16381,25 +16474,37 @@
             {
               "polled_at": "2026-08-27T12:53:07.076Z",
               "total": 1
+            },
+            {
+              "polled_at": "2026-11-23T10:54:31.088Z",
+              "total": 1
             }
           ],
           "totals": {
             "total": 1,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "last30d": 0,
+            "last90d": 0,
+            "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:07.076Z"
+          "lastUpdated": "2026-11-23T10:54:31.088Z"
         },
         "issues": {
           "totals": {
-            "external_open": 0,
+            "external_open": 1,
             "external_new_30d": 0,
             "external_closed_30d": 0,
-            "external_authors_all_time": 0
+            "external_authors_all_time": 1
           },
-          "recentExternal": [],
-          "lastPolledAt": "2026-08-27T12:53:13.768Z"
+          "recentExternal": [
+            {
+              "number": 4,
+              "state": "open",
+              "author": "awilson176",
+              "created_at": "2026-10-01T05:03:52Z",
+              "closed_at": null
+            }
+          ],
+          "lastPolledAt": "2026-11-23T10:54:53.362Z"
         }
       },
       {
@@ -16470,15 +16575,19 @@
             {
               "polled_at": "2026-08-27T12:53:07.359Z",
               "total": 1
+            },
+            {
+              "polled_at": "2026-11-23T10:54:31.471Z",
+              "total": 1
             }
           ],
           "totals": {
             "total": 1,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "last30d": 0,
+            "last90d": 0,
+            "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:07.359Z"
+          "lastUpdated": "2026-11-23T10:54:31.471Z"
         },
         "issues": {
           "totals": {
@@ -16488,7 +16597,7 @@
             "external_authors_all_time": 0
           },
           "recentExternal": [],
-          "lastPolledAt": "2026-08-27T12:53:13.923Z"
+          "lastPolledAt": "2026-11-23T10:54:53.586Z"
         }
       },
       {
@@ -16559,15 +16668,19 @@
             {
               "polled_at": "2026-08-27T12:53:07.603Z",
               "total": 2
+            },
+            {
+              "polled_at": "2026-11-23T10:54:31.743Z",
+              "total": 2
             }
           ],
           "totals": {
             "total": 2,
-            "last30d": null,
-            "last90d": null,
-            "velocity30d": null
+            "last30d": 0,
+            "last90d": 0,
+            "velocity30d": 0
           },
-          "lastUpdated": "2026-08-27T12:53:07.603Z"
+          "lastUpdated": "2026-11-23T10:54:31.743Z"
         },
         "issues": {
           "totals": {
@@ -16592,7 +16705,7 @@
               "closed_at": null
             }
           ],
-          "lastPolledAt": "2026-08-27T12:53:14.090Z"
+          "lastPolledAt": "2026-11-23T10:54:53.830Z"
         }
       },
       {
@@ -21123,14 +21236,21 @@
             "year": 4802,
             "total": 6639,
             "polled_at": "2026-11-22T09:54:26.410Z"
+          },
+          {
+            "week": 99,
+            "month": 246,
+            "year": 4812,
+            "total": 6649,
+            "polled_at": "2026-11-23T10:54:56.991Z"
           }
         ],
         "totals": {
-          "current_total": 6639,
-          "week_delta_avg": 99,
+          "current_total": 6649,
+          "week_delta_avg": 100,
           "month_delta_avg": 216
         },
-        "lastUpdated": "2026-11-22T09:54:26.410Z"
+        "lastUpdated": "2026-11-23T10:54:56.991Z"
       },
       {
         "repo": "netascode/terraform-meraki-nac-meraki",
@@ -22659,14 +22779,21 @@
             "year": 7980,
             "total": 7980,
             "polled_at": "2026-11-22T09:54:26.419Z"
+          },
+          {
+            "week": 209,
+            "month": 801,
+            "year": 7983,
+            "total": 7983,
+            "polled_at": "2026-11-23T10:54:57.016Z"
           }
         ],
         "totals": {
-          "current_total": 7980,
-          "week_delta_avg": 240,
-          "month_delta_avg": 549
+          "current_total": 7983,
+          "week_delta_avg": 242,
+          "month_delta_avg": 558
         },
-        "lastUpdated": "2026-11-22T09:54:26.420Z"
+        "lastUpdated": "2026-11-23T10:54:57.016Z"
       },
       {
         "repo": "netascode/terraform-catalystcenter-nac-catalystcenter",
@@ -24753,14 +24880,21 @@
             "year": 7452,
             "total": 12860,
             "polled_at": "2026-11-22T09:54:26.432Z"
+          },
+          {
+            "week": 147,
+            "month": 369,
+            "year": 7453,
+            "total": 12861,
+            "polled_at": "2026-11-23T10:54:57.053Z"
           }
         ],
         "totals": {
-          "current_total": 12860,
+          "current_total": 12861,
           "week_delta_avg": 167,
-          "month_delta_avg": 419
+          "month_delta_avg": 417
         },
-        "lastUpdated": "2026-11-22T09:54:26.433Z"
+        "lastUpdated": "2026-11-23T10:54:57.053Z"
       },
       {
         "repo": "netascode/terraform-sdwan-nac-sdwan",
@@ -26016,14 +26150,21 @@
             "year": 6310,
             "total": 10932,
             "polled_at": "2026-11-22T09:54:26.442Z"
+          },
+          {
+            "week": 116,
+            "month": 599,
+            "year": 6314,
+            "total": 10936,
+            "polled_at": "2026-11-23T10:54:57.077Z"
           }
         ],
         "totals": {
-          "current_total": 10932,
-          "week_delta_avg": 159,
-          "month_delta_avg": 404
+          "current_total": 10936,
+          "week_delta_avg": 160,
+          "month_delta_avg": 409
         },
-        "lastUpdated": "2026-11-22T09:54:26.442Z"
+        "lastUpdated": "2026-11-23T10:54:57.078Z"
       },
       {
         "repo": "netascode/terraform-intersight-nac-compute",
@@ -26950,14 +27091,21 @@
             "year": 979,
             "total": 979,
             "polled_at": "2026-11-22T09:54:26.451Z"
+          },
+          {
+            "week": 59,
+            "month": 171,
+            "year": 979,
+            "total": 979,
+            "polled_at": "2026-11-23T10:54:57.103Z"
           }
         ],
         "totals": {
           "current_total": 979,
-          "week_delta_avg": 30,
-          "month_delta_avg": 57
+          "week_delta_avg": 31,
+          "month_delta_avg": 58
         },
-        "lastUpdated": "2026-11-22T09:54:26.451Z"
+        "lastUpdated": "2026-11-23T10:54:57.103Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-aci",
@@ -27815,14 +27963,21 @@
             "year": null,
             "total": 10473620,
             "polled_at": "2026-11-22T09:54:26.482Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 10475583,
+            "polled_at": "2026-11-23T10:54:57.244Z"
           }
         ],
         "totals": {
-          "current_total": 10473620,
+          "current_total": 10475583,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.482Z"
+        "lastUpdated": "2026-11-23T10:54:57.245Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-fmc",
@@ -28680,14 +28835,21 @@
             "year": null,
             "total": 212953,
             "polled_at": "2026-11-22T09:54:26.514Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 213068,
+            "polled_at": "2026-11-23T10:54:57.363Z"
           }
         ],
         "totals": {
-          "current_total": 212953,
+          "current_total": 213068,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.514Z"
+        "lastUpdated": "2026-11-23T10:54:57.363Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-meraki",
@@ -29545,14 +29707,21 @@
             "year": null,
             "total": 1094017,
             "polled_at": "2026-11-22T09:54:26.538Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 1095541,
+            "polled_at": "2026-11-23T10:54:57.463Z"
           }
         ],
         "totals": {
-          "current_total": 1094017,
+          "current_total": 1095541,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.538Z"
+        "lastUpdated": "2026-11-23T10:54:57.463Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-iosxe",
@@ -30410,14 +30579,21 @@
             "year": null,
             "total": 1295885,
             "polled_at": "2026-11-22T09:54:26.565Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 1296028,
+            "polled_at": "2026-11-23T10:54:57.563Z"
           }
         ],
         "totals": {
-          "current_total": 1295885,
+          "current_total": 1296028,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.566Z"
+        "lastUpdated": "2026-11-23T10:54:57.563Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-catalystcenter",
@@ -31275,14 +31451,21 @@
             "year": null,
             "total": 258351,
             "polled_at": "2026-11-22T09:54:26.585Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 258493,
+            "polled_at": "2026-11-23T10:54:57.663Z"
           }
         ],
         "totals": {
-          "current_total": 258351,
+          "current_total": 258493,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.585Z"
+        "lastUpdated": "2026-11-23T10:54:57.663Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-nxos",
@@ -32042,14 +32225,21 @@
             "year": null,
             "total": 167843,
             "polled_at": "2026-11-22T09:54:26.614Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 167997,
+            "polled_at": "2026-11-23T10:54:57.768Z"
           }
         ],
         "totals": {
-          "current_total": 167843,
+          "current_total": 167997,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.614Z"
+        "lastUpdated": "2026-11-23T10:54:57.768Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-mso",
@@ -32809,14 +32999,21 @@
             "year": null,
             "total": 2946846,
             "polled_at": "2026-11-22T09:54:26.643Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 2946926,
+            "polled_at": "2026-11-23T10:54:57.864Z"
           }
         ],
         "totals": {
-          "current_total": 2946846,
+          "current_total": 2946926,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.643Z"
+        "lastUpdated": "2026-11-23T10:54:57.864Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-sdwan",
@@ -33576,14 +33773,21 @@
             "year": null,
             "total": 206437,
             "polled_at": "2026-11-22T09:54:26.675Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 206552,
+            "polled_at": "2026-11-23T10:54:57.972Z"
           }
         ],
         "totals": {
-          "current_total": 206437,
+          "current_total": 206552,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.675Z"
+        "lastUpdated": "2026-11-23T10:54:57.972Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-ise",
@@ -34343,14 +34547,21 @@
             "year": null,
             "total": 1570824,
             "polled_at": "2026-11-22T09:54:26.697Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 1570889,
+            "polled_at": "2026-11-23T10:54:58.070Z"
           }
         ],
         "totals": {
-          "current_total": 1570824,
+          "current_total": 1570889,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.698Z"
+        "lastUpdated": "2026-11-23T10:54:58.070Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-iosxr",
@@ -35082,14 +35293,21 @@
             "year": null,
             "total": 40931,
             "polled_at": "2026-11-22T09:54:26.734Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 40934,
+            "polled_at": "2026-11-23T10:54:58.179Z"
           }
         ],
         "totals": {
-          "current_total": 40931,
+          "current_total": 40934,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.734Z"
+        "lastUpdated": "2026-11-23T10:54:58.179Z"
       },
       {
         "repo": "CiscoDevNet/terraform-provider-intersight",
@@ -35821,14 +36039,21 @@
             "year": null,
             "total": 2779677,
             "polled_at": "2026-11-22T09:54:26.828Z"
+          },
+          {
+            "week": null,
+            "month": null,
+            "year": null,
+            "total": 2779989,
+            "polled_at": "2026-11-23T10:54:58.416Z"
           }
         ],
         "totals": {
-          "current_total": 2779677,
+          "current_total": 2779989,
           "week_delta_avg": 0,
           "month_delta_avg": 0
         },
-        "lastUpdated": "2026-11-22T09:54:26.829Z"
+        "lastUpdated": "2026-11-23T10:54:58.417Z"
       }
     ]
   }

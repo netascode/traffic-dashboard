@@ -72,13 +72,17 @@
     {
       "polled_at": "2026-08-27T12:53:05.137Z",
       "total": 5
+    },
+    {
+      "polled_at": "2026-11-23T10:54:29.207Z",
+      "total": 6
     }
   ],
   "totals": {
-    "total": 5,
-    "last30d": null,
-    "last90d": null,
-    "velocity30d": null
+    "total": 6,
+    "last30d": 1,
+    "last90d": 1,
+    "velocity30d": 0.033
   },
-  "lastUpdated": "2026-08-27T12:53:05.137Z"
+  "lastUpdated": "2026-11-23T10:54:29.207Z"
 }

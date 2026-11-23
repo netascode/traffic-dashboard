@@ -198,13 +198,17 @@
     {
       "polled_at": "2026-08-27T12:53:04.087Z",
       "total": 9
+    },
+    {
+      "polled_at": "2026-11-23T10:54:28.077Z",
+      "total": 9
     }
   ],
   "totals": {
     "total": 9,
     "last30d": 0,
-    "last90d": 3,
+    "last90d": 0,
     "velocity30d": 0
   },
-  "lastUpdated": "2026-08-27T12:53:04.087Z"
+  "lastUpdated": "2026-11-23T10:54:28.077Z"
 }

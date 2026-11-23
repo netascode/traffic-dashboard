@@ -2793,11 +2793,11 @@
     {
       "number": 280,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "tzarski0",
       "is_org_member": false,
       "created_at": "2024-10-15T12:37:42Z",
-      "closed_at": null,
+      "closed_at": "2026-11-20T14:49:10Z",
       "merged_at": null
     },
     {
@@ -3703,11 +3703,11 @@
     {
       "number": 371,
       "type": "issue",
-      "state": "open",
+      "state": "closed",
       "author_login": "null0route",
       "is_org_member": false,
       "created_at": "2026-04-29T11:32:27Z",
-      "closed_at": null,
+      "closed_at": "2026-11-04T19:52:32Z",
       "merged_at": null
     },
     {
@@ -3723,29 +3723,629 @@
     {
       "number": 373,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "dependabot[bot]",
       "is_org_member": false,
       "created_at": "2026-06-19T12:42:22Z",
-      "closed_at": null,
-      "merged_at": null
+      "closed_at": "2026-10-05T11:12:26Z",
+      "merged_at": "2026-10-05T11:12:26Z"
     },
     {
       "number": 374,
       "type": "pr",
-      "state": "open",
+      "state": "closed",
       "author_login": "dependabot[bot]",
       "is_org_member": false,
       "created_at": "2026-07-20T12:42:45Z",
+      "closed_at": "2026-10-05T11:12:38Z",
+      "merged_at": "2026-10-05T11:12:38Z"
+    },
+    {
+      "number": 375,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "QB4DEVOPS",
+      "is_org_member": false,
+      "created_at": "2026-08-31T23:43:56Z",
+      "closed_at": "2026-09-01T12:11:30Z",
+      "merged_at": null
+    },
+    {
+      "number": 376,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-05T12:22:21Z",
+      "closed_at": "2026-10-05T14:48:20Z",
+      "merged_at": "2026-10-05T14:48:20Z"
+    },
+    {
+      "number": 377,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-06T08:42:26Z",
+      "closed_at": "2026-10-06T08:55:20Z",
+      "merged_at": "2026-10-06T08:55:20Z"
+    },
+    {
+      "number": 378,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-10-24T13:55:25Z",
+      "closed_at": "2026-10-24T14:41:22Z",
+      "merged_at": "2026-10-24T14:41:22Z"
+    },
+    {
+      "number": 379,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-24T14:42:16Z",
+      "closed_at": "2026-10-24T14:56:27Z",
+      "merged_at": "2026-10-24T14:56:26Z"
+    },
+    {
+      "number": 380,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-24T14:42:25Z",
+      "closed_at": "2026-10-24T14:57:05Z",
+      "merged_at": "2026-10-24T14:57:05Z"
+    },
+    {
+      "number": 381,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-24T14:42:36Z",
+      "closed_at": "2026-10-24T14:53:49Z",
+      "merged_at": null
+    },
+    {
+      "number": 382,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-24T14:42:48Z",
+      "closed_at": "2026-10-24T14:58:40Z",
+      "merged_at": null
+    },
+    {
+      "number": 383,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-24T14:43:02Z",
+      "closed_at": "2026-10-24T18:42:12Z",
+      "merged_at": "2026-10-24T18:42:12Z"
+    },
+    {
+      "number": 384,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-24T14:43:16Z",
+      "closed_at": "2026-10-24T14:54:04Z",
+      "merged_at": null
+    },
+    {
+      "number": 385,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-24T14:43:29Z",
+      "closed_at": "2026-10-24T14:57:51Z",
+      "merged_at": "2026-10-24T14:57:51Z"
+    },
+    {
+      "number": 386,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-10-24T15:04:38Z",
+      "closed_at": "2026-10-24T18:38:20Z",
+      "merged_at": "2026-10-24T18:38:20Z"
+    },
+    {
+      "number": 387,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-26T12:42:48Z",
+      "closed_at": "2026-10-29T07:33:47Z",
+      "merged_at": "2026-10-29T07:33:47Z"
+    },
+    {
+      "number": 388,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-29T12:45:41Z",
+      "closed_at": "2026-10-29T17:39:42Z",
+      "merged_at": "2026-10-29T17:39:42Z"
+    },
+    {
+      "number": 389,
+      "type": "issue",
+      "state": "closed",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-10-29T14:38:18Z",
+      "closed_at": "2026-10-29T18:11:08Z",
+      "merged_at": null
+    },
+    {
+      "number": 390,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "aitestino",
+      "is_org_member": false,
+      "created_at": "2026-10-29T14:38:41Z",
+      "closed_at": "2026-10-29T18:11:06Z",
+      "merged_at": "2026-10-29T18:11:06Z"
+    },
+    {
+      "number": 391,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-30T12:45:29Z",
+      "closed_at": "2026-11-02T12:47:58Z",
+      "merged_at": null
+    },
+    {
+      "number": 392,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-30T12:45:52Z",
+      "closed_at": "2026-11-04T08:06:51Z",
+      "merged_at": "2026-11-04T08:06:51Z"
+    },
+    {
+      "number": 393,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-30T12:46:05Z",
+      "closed_at": "2026-11-02T12:47:45Z",
+      "merged_at": null
+    },
+    {
+      "number": 394,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-10-30T12:46:23Z",
+      "closed_at": "2026-11-02T12:47:32Z",
+      "merged_at": null
+    },
+    {
+      "number": 395,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-02T12:43:09Z",
+      "closed_at": "2026-11-04T08:07:09Z",
+      "merged_at": "2026-11-04T08:07:09Z"
+    },
+    {
+      "number": 396,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-02T12:47:06Z",
+      "closed_at": "2026-11-04T08:07:20Z",
+      "merged_at": "2026-11-04T08:07:20Z"
+    },
+    {
+      "number": 397,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-02T12:47:24Z",
+      "closed_at": "2026-11-04T08:07:34Z",
+      "merged_at": "2026-11-04T08:07:34Z"
+    },
+    {
+      "number": 398,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-02T12:47:36Z",
+      "closed_at": "2026-11-04T08:07:45Z",
+      "merged_at": "2026-11-04T08:07:45Z"
+    },
+    {
+      "number": 399,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-02T12:47:49Z",
+      "closed_at": "2026-11-04T08:07:59Z",
+      "merged_at": "2026-11-04T08:07:58Z"
+    },
+    {
+      "number": 400,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-04T10:43:07Z",
+      "closed_at": "2026-11-04T17:38:43Z",
+      "merged_at": "2026-11-04T17:38:43Z"
+    },
+    {
+      "number": 401,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-04T12:45:21Z",
+      "closed_at": "2026-11-04T16:54:33Z",
+      "merged_at": "2026-11-04T16:54:33Z"
+    },
+    {
+      "number": 402,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-04T12:45:35Z",
+      "closed_at": "2026-11-04T16:54:50Z",
+      "merged_at": "2026-11-04T16:54:50Z"
+    },
+    {
+      "number": 403,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-04T12:45:49Z",
+      "closed_at": "2026-11-04T16:55:04Z",
+      "merged_at": "2026-11-04T16:55:04Z"
+    },
+    {
+      "number": 404,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-04T12:46:01Z",
+      "closed_at": "2026-11-04T16:55:31Z",
+      "merged_at": "2026-11-04T16:55:31Z"
+    },
+    {
+      "number": 405,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-04T12:46:14Z",
+      "closed_at": "2026-11-04T16:55:18Z",
+      "merged_at": "2026-11-04T16:55:18Z"
+    },
+    {
+      "number": 406,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-05T12:45:28Z",
+      "closed_at": "2026-11-05T15:47:03Z",
+      "merged_at": "2026-11-05T15:47:03Z"
+    },
+    {
+      "number": 407,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-05T12:45:40Z",
+      "closed_at": "2026-11-05T15:47:17Z",
+      "merged_at": "2026-11-05T15:47:17Z"
+    },
+    {
+      "number": 408,
+      "type": "issue",
+      "state": "open",
+      "author_login": "ChristopherJHart",
+      "is_org_member": false,
+      "created_at": "2026-11-05T15:23:50Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 409,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-06T12:45:09Z",
+      "closed_at": "2026-11-09T12:48:19Z",
+      "merged_at": null
+    },
+    {
+      "number": 410,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-06T12:45:21Z",
+      "closed_at": "2026-11-09T12:47:21Z",
+      "merged_at": null
+    },
+    {
+      "number": 411,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-06T12:45:33Z",
+      "closed_at": "2026-11-09T12:47:35Z",
+      "merged_at": null
+    },
+    {
+      "number": 412,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-06T12:45:49Z",
+      "closed_at": "2026-11-09T12:48:45Z",
+      "merged_at": null
+    },
+    {
+      "number": 413,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-09T12:47:13Z",
+      "closed_at": "2026-11-15T01:54:24Z",
+      "merged_at": "2026-11-15T01:54:24Z"
+    },
+    {
+      "number": 414,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-09T12:47:26Z",
+      "closed_at": "2026-11-15T01:54:39Z",
+      "merged_at": "2026-11-15T01:54:39Z"
+    },
+    {
+      "number": 415,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-09T12:48:00Z",
+      "closed_at": "2026-11-15T01:55:11Z",
+      "merged_at": "2026-11-15T01:55:11Z"
+    },
+    {
+      "number": 416,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-09T12:48:10Z",
+      "closed_at": "2026-11-15T01:55:27Z",
+      "merged_at": "2026-11-15T01:55:27Z"
+    },
+    {
+      "number": 417,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-09T12:48:37Z",
+      "closed_at": "2026-11-15T01:55:44Z",
+      "merged_at": "2026-11-15T01:55:44Z"
+    },
+    {
+      "number": 419,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-15T01:53:07Z",
+      "closed_at": "2026-11-20T14:45:29Z",
+      "merged_at": "2026-11-20T14:45:29Z"
+    },
+    {
+      "number": 420,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-16T12:47:08Z",
+      "closed_at": "2026-11-18T18:50:40Z",
+      "merged_at": "2026-11-18T18:50:40Z"
+    },
+    {
+      "number": 421,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-16T12:47:23Z",
+      "closed_at": "2026-11-18T18:50:57Z",
+      "merged_at": "2026-11-18T18:50:57Z"
+    },
+    {
+      "number": 422,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-16T12:47:38Z",
+      "closed_at": "2026-11-18T18:51:17Z",
+      "merged_at": "2026-11-18T18:51:17Z"
+    },
+    {
+      "number": 423,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-16T12:47:50Z",
+      "closed_at": "2026-11-18T18:51:50Z",
+      "merged_at": "2026-11-18T18:51:50Z"
+    },
+    {
+      "number": 424,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-16T12:47:59Z",
+      "closed_at": "2026-11-18T18:52:06Z",
+      "merged_at": "2026-11-18T18:52:06Z"
+    },
+    {
+      "number": 425,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-18T18:50:50Z",
+      "closed_at": "2026-11-20T14:47:51Z",
+      "merged_at": "2026-11-20T14:47:51Z"
+    },
+    {
+      "number": 426,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-19T12:45:33Z",
+      "closed_at": "2026-11-19T15:21:37Z",
+      "merged_at": "2026-11-19T15:21:37Z"
+    },
+    {
+      "number": 427,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-19T12:45:44Z",
+      "closed_at": "2026-11-19T15:21:51Z",
+      "merged_at": "2026-11-19T15:21:51Z"
+    },
+    {
+      "number": 428,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-19T12:45:56Z",
+      "closed_at": "2026-11-19T15:22:05Z",
+      "merged_at": "2026-11-19T15:22:05Z"
+    },
+    {
+      "number": 429,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-19T12:46:11Z",
+      "closed_at": "2026-11-19T15:22:18Z",
+      "merged_at": "2026-11-19T15:22:18Z"
+    },
+    {
+      "number": 430,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-19T12:46:24Z",
+      "closed_at": "2026-11-19T15:22:31Z",
+      "merged_at": "2026-11-19T15:22:31Z"
+    },
+    {
+      "number": 432,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-19T16:27:12Z",
+      "closed_at": "2026-11-20T14:49:08Z",
+      "merged_at": "2026-11-20T14:49:08Z"
+    },
+    {
+      "number": 433,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-20T12:45:18Z",
+      "closed_at": "2026-11-20T14:49:23Z",
+      "merged_at": "2026-11-20T14:49:23Z"
+    },
+    {
+      "number": 434,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-20T12:45:30Z",
+      "closed_at": "2026-11-20T14:49:37Z",
+      "merged_at": "2026-11-20T14:49:37Z"
+    },
+    {
+      "number": 435,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-20T12:45:52Z",
+      "closed_at": "2026-11-20T14:49:50Z",
+      "merged_at": "2026-11-20T14:49:50Z"
+    },
+    {
+      "number": 436,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-20T15:30:58Z",
+      "closed_at": "2026-11-20T15:39:25Z",
+      "merged_at": "2026-11-20T15:39:25Z"
     }
   ],
   "totals": {
-    "external_open": 2,
-    "external_new_30d": 0,
-    "external_closed_30d": 0,
-    "external_authors_all_time": 7
+    "external_open": 1,
+    "external_new_30d": 2,
+    "external_closed_30d": 3,
+    "external_authors_all_time": 10
   },
-  "lastPolledAt": "2026-08-27T12:53:13.586Z"
+  "lastPolledAt": "2026-11-23T10:54:52.763Z"
 }
