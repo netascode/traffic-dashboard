@@ -4339,6 +4339,76 @@
       "created_at": "2026-11-20T15:30:58Z",
       "closed_at": "2026-11-20T15:39:25Z",
       "merged_at": "2026-11-20T15:39:25Z"
+    },
+    {
+      "number": 437,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-23T12:42:51Z",
+      "closed_at": "2026-11-24T11:08:02Z",
+      "merged_at": "2026-11-24T11:08:02Z"
+    },
+    {
+      "number": 438,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-23T12:47:27Z",
+      "closed_at": "2026-11-24T11:08:29Z",
+      "merged_at": "2026-11-24T11:08:29Z"
+    },
+    {
+      "number": 439,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-23T12:47:36Z",
+      "closed_at": "2026-11-24T11:08:44Z",
+      "merged_at": "2026-11-24T11:08:44Z"
+    },
+    {
+      "number": 440,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-23T12:47:53Z",
+      "closed_at": "2026-11-24T11:09:21Z",
+      "merged_at": "2026-11-24T11:09:21Z"
+    },
+    {
+      "number": 441,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-23T12:48:14Z",
+      "closed_at": "2026-11-24T11:08:58Z",
+      "merged_at": "2026-11-24T11:08:58Z"
+    },
+    {
+      "number": 442,
+      "type": "pr",
+      "state": "closed",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-23T12:48:35Z",
+      "closed_at": "2026-11-24T11:09:10Z",
+      "merged_at": "2026-11-24T11:09:10Z"
+    },
+    {
+      "number": 443,
+      "type": "pr",
+      "state": "open",
+      "author_login": "danischm",
+      "is_org_member": true,
+      "created_at": "2026-11-24T11:08:44Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
@@ -4347,5 +4417,5 @@
     "external_closed_30d": 3,
     "external_authors_all_time": 10
   },
-  "lastPolledAt": "2026-11-23T10:54:52.763Z"
+  "lastPolledAt": "2026-11-24T12:37:32.131Z"
 }
