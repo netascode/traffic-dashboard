@@ -4479,6 +4479,36 @@
       "created_at": "2026-11-24T22:25:35Z",
       "closed_at": null,
       "merged_at": null
+    },
+    {
+      "number": 451,
+      "type": "pr",
+      "state": "open",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-25T12:45:21Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 452,
+      "type": "pr",
+      "state": "open",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-25T12:45:35Z",
+      "closed_at": null,
+      "merged_at": null
+    },
+    {
+      "number": 453,
+      "type": "pr",
+      "state": "open",
+      "author_login": "dependabot[bot]",
+      "is_org_member": false,
+      "created_at": "2026-11-25T12:45:49Z",
+      "closed_at": null,
+      "merged_at": null
     }
   ],
   "totals": {
@@ -4487,5 +4517,5 @@
     "external_closed_30d": 4,
     "external_authors_all_time": 10
   },
-  "lastPolledAt": "2026-11-25T11:27:47.952Z"
+  "lastPolledAt": "2026-11-26T11:03:18.296Z"
 }
